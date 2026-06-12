@@ -10232,9 +10232,11 @@
             325671501,
             325676460
         ],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            1331210224
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "EveryDayMusic123": {
         "score": 100,
@@ -11879,9 +11881,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            1331209747
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "cakeed123": {
         "score": 100,
@@ -18453,8 +18457,8 @@
     "CookiedDeveloper": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "2026-06-11",
-        "active_days_count": 2,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 3,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -18475,7 +18479,8 @@
             325681001,
             325680971,
             325672561,
-            325672466
+            325672466,
+            325749070
         ],
         "processed_projects": [],
         "projects_today": 0,
@@ -33056,8 +33061,8 @@
     "teamDANV": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "2026-06-11",
-        "active_days_count": 2,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 3,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -33070,7 +33075,8 @@
             325689890,
             325689258,
             325682001,
-            325678790
+            325678790,
+            325748054
         ],
         "processed_projects": [],
         "projects_today": 0,
@@ -33287,8 +33293,8 @@
     "Hung_gg": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "2026-06-11",
-        "active_days_count": 2,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 3,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -33301,7 +33307,8 @@
             325689939,
             325681278,
             325678867,
-            325678403
+            325678403,
+            325748489
         ],
         "processed_projects": [
             1331184688
@@ -36650,9 +36657,10 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            1331085814
+            1331085814,
+            1331142702
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-06-12"
     },
     "maykocanbiet": {
@@ -37713,9 +37721,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            1330933926
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "Vietnam333333338": {
         "score": 100,
@@ -38300,9 +38310,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            1330920225
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "BurnedToast5": {
         "score": 100,
@@ -38511,9 +38523,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            1330747245
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "imprettychill": {
         "score": 100,
@@ -39941,14 +39955,15 @@
     "CanhThienNek": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "2026-06-11",
-        "active_days_count": 1,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 2,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
             325671603,
-            325677071
+            325677071,
+            325750513
         ],
         "processed_projects": [],
         "projects_today": 0,
@@ -40118,5 +40133,40 @@
         ],
         "projects_today": 1,
         "last_project_date": "2026-06-12"
+    },
+    "nghiemduykhoa": {
+        "score": 85,
+        "tier": "Tốt",
+        "last_active_date": "",
+        "active_days_count": 0,
+        "total_deducted": 15,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            1328114173,
+            1320600083,
+            1330694073,
+            1330125104,
+            1330702384,
+            1331160758
+        ],
+        "projects_today": 6,
+        "last_project_date": "2026-06-12"
+    },
+    "24y1192": {
+        "score": 100,
+        "tier": "XS",
+        "last_active_date": "2026-06-12",
+        "active_days_count": 1,
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            325750769
+        ],
+        "processed_projects": [],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
