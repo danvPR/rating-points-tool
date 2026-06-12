@@ -8,7 +8,13 @@ from google.oauth2.service_account import Credentials
 
 STUDIO_ID = "33509364"
 API_BASE = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments"
+PROJECTS_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/projects"
 DB_FILE = "database.json"
+
+# ================= TÙY CHỈNH TỪ CẤM Ở ĐÂY =================
+# Bạn có thể thêm bao nhiêu từ tùy ý, cách nhau bằng dấu phẩy
+BANNED_WORDS = ["chửi bậy", "ngu", "18+", "scam"] 
+# =========================================================
 
 def load_db():
     if os.path.exists(DB_FILE):
@@ -21,122 +27,170 @@ def save_db(db):
     with open(DB_FILE, 'w', encoding='utf-8') as f:
         json.dump(db, f, indent=4, ensure_ascii=False)
 
+def update_tier(score):
+    if score >= 90: return "XS"
+    elif score >= 30: return "Tốt"
+    else: return "Kém"
+
 def init_user(username):
     return {
         "score": 100,
-        "tier": "Danh tiếng xuất sắc",
+        "tier": "XS",
         "last_active_date": "",
         "active_days_count": 0,
         "total_deducted": 0,
-        "recent_comment": "",
-        "processed_comments": []
+        "new_comments": [],
+        "new_logs": [], # Dùng để ghi cảnh báo vào cột Log
+        "processed_comments": [],
+        "processed_projects": [],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 
-def update_tier(score):
-    if score >= 90: return "Danh tiếng xuất sắc"
-    elif score >= 30: return "Danh tiếng tốt"
-    else: return "Danh tiếng kém"
-
+# 1. API LẤY DỮ LIỆU
 def fetch_comments():
     try:
-        response = requests.get(f"{API_BASE}?offset=0&limit=40", timeout=10)
-        return response.json()
-    except Exception as e:
-        print(f"Lỗi lấy comments: {e}")
-        return []
+        return requests.get(f"{API_BASE}?offset=0&limit=40", timeout=10).json()
+    except: return []
 
 def fetch_replies(comment_id):
     try:
-        response = requests.get(f"{API_BASE}/{comment_id}/replies", timeout=10)
-        return response.json()
+        return requests.get(f"{API_BASE}/{comment_id}/replies", timeout=10).json()
+    except: return []
+
+def fetch_projects():
+    try:
+        return requests.get(f"{PROJECTS_API}?offset=0&limit=40", timeout=10).json()
     except Exception as e:
-        print(f"Lỗi lấy replies cho {comment_id}: {e}")
+        print(f"Lỗi lấy dự án: {e}")
         return []
 
-# 1. KẾT NỐI GOOGLE SHEETS
+# 2. XÓA DỰ ÁN (Chỉ chạy nếu có cấp quyền Session trong GitHub Secrets)
+def remove_project(project_id):
+    session_id = os.environ.get("SCRATCH_SESSION_ID")
+    csrf_token = os.environ.get("SCRATCH_CSRF_TOKEN")
+    
+    if not session_id or not csrf_token:
+        print(f"Cảnh báo: Không thể tự xóa dự án {project_id} vì chưa cài đặt SCRATCH_SESSION_ID trên GitHub.")
+        return False
+        
+    url = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/project/{project_id}"
+    headers = {
+        "x-csrftoken": csrf_token,
+        "X-Requested-With": "XMLHttpRequest",
+        "Cookie": f"scratchsessionsid={session_id}; scratchcsrftoken={csrf_token};",
+        "referer": f"https://scratch.mit.edu/studios/{STUDIO_ID}/"
+    }
+    try:
+        res = requests.delete(url, headers=headers)
+        if res.status_code == 200:
+            print(f"Đã xóa thành công dự án {project_id} khỏi Studio.")
+            return True
+    except Exception as e:
+        print(f"Lỗi khi xóa dự án: {e}")
+    return False
+
+# 3. KẾT NỐI SHEETS VÀ ĐỒNG BỘ
 def get_google_sheet():
     creds_json = os.environ.get('GOOGLE_CREDENTIALS')
     sheet_url = os.environ.get('SHEET_URL')
-    if not creds_json or not sheet_url:
-        return None
+    if not creds_json or not sheet_url: return None
     creds_dict = json.loads(creds_json)
     scopes = ['https://www.googleapis.com/auth/spreadsheets']
     creds = Credentials.from_service_account_info(creds_dict, scopes=scopes)
     client = gspread.authorize(creds)
     return client.open_by_url(sheet_url).sheet1
 
-# 2. ĐỌC DỮ LIỆU TỪ SHEETS VÀO DATABASE (Ưu tiên điểm số từ Sheets)
 def sync_from_sheet(db, sheet):
     all_values = sheet.get_all_values()
-    # Nếu sheet chưa có đủ 3 hàng (Banner + Tiêu đề), bỏ qua
-    if len(all_values) <= 3:
-        return all_values 
+    if len(all_values) <= 3: return all_values 
     
-    data_rows = all_values[3:] # Dữ liệu bắt đầu từ hàng 4 (index 3)
+    data_rows = all_values[3:]
     for row in data_rows:
         if not row or not row[0].strip(): continue
         username = row[0].strip()
-        
-        # Bù thêm cột trống nếu mảng ngắn hơn 7 cột (A đến G)
         while len(row) < 7: row.append("")
         
-        if username not in db:
-            db[username] = init_user(username)
+        if username not in db: db[username] = init_user(username)
         
-        # Luôn lấy Điểm và Điểm Trừ trên Sheets làm gốc
         score_str = row[1].strip()
         db[username]["score"] = int(score_str) if score_str.isdigit() else 100
         
         deducted_str = row[2].strip()
         db[username]["total_deducted"] = int(deducted_str) if deducted_str.isdigit() else 0
-        
-        # Cập nhật thứ hạng
         db[username]["tier"] = update_tier(db[username]["score"])
-
     return all_values
 
+# 4. XỬ LÝ BÌNH LUẬN & DỰ ÁN
 def process_comment(comment, db):
     comment_id = comment["id"]
     author = comment["author"]["username"]
     content = comment["content"]
     date_str = comment["datetime_created"][:10] 
 
-    if author not in db:
-        db[author] = init_user(author)
+    if author not in db: db[author] = init_user(author)
+    if comment_id in db[author].get("processed_comments", []): return
 
-    # Nếu bình luận đã xử lý rồi -> Bỏ qua ngay lập tức để không cập nhật lại nội dung
-    if comment_id in db[author].get("processed_comments", []):
-        return
-
-    # Tính ngày hoạt động để cộng điểm
     if db[author].get("last_active_date") != date_str:
         db[author]["last_active_date"] = date_str
         db[author]["active_days_count"] = db[author].get("active_days_count", 0) + 1
-        
         if db[author]["active_days_count"] >= 7:
             db[author]["score"] = min(100, db[author]["score"] + 10)
             db[author]["active_days_count"] = 0
-            print(f"Tăng 10 điểm cho {author} vì hoạt động đủ 7 ngày.")
+            
+    # Bộ lọc từ cấm
+    content_lower = content.lower()
+    is_banned = any(word.lower() in content_lower for word in BANNED_WORDS)
+    tag = "[⚠️ TỪ CẤM] " if is_banned else ""
     
-    # Ghi nhận bình luận mới (sẽ đẩy lên Sheets)
-    db[author]["recent_comment"] = content
+    formatted_comment = f"{tag}https://scratch.mit.edu/studios/{STUDIO_ID}/comments/#comments-{comment_id} ({content})"
+    db[author].setdefault("new_comments", []).append(formatted_comment)
     db[author]["tier"] = update_tier(db[author]["score"])
     
-    # Đánh dấu đã quét
     db[author].setdefault("processed_comments", []).append(comment_id)
     db[author]["processed_comments"] = db[author]["processed_comments"][-100:]
 
-# 3. GHI NGƯỢC LẠI LÊN SHEETS (Giữ nguyên Cột Lịch Sử và Cột Log)
-def sync_to_sheet(db, sheet, all_values):
-    if len(all_values) > 3:
-        data_rows = all_values[3:]
-    else:
-        data_rows = []
+def process_project(project, db):
+    author = project.get("username", project.get("creator"))
+    if not author: return
+    author = str(author)
+    proj_id = project["id"]
+    
+    if author not in db: db[author] = init_user(author)
+    if proj_id in db[author].get("processed_projects", []): return
+
+    # Check giới hạn dự án / ngày
+    today_str = datetime.utcnow().strftime("%Y-%m-%d")
+    if db[author].get("last_project_date") != today_str:
+        db[author]["last_project_date"] = today_str
+        db[author]["projects_today"] = 0
         
+    db[author]["projects_today"] += 1
+    
+    # Nếu đăng quá 5 dự án trong 1 ngày
+    if db[author]["projects_today"] > 5:
+        print(f"Phát hiện {author} đăng quá 5 dự án/ngày!")
+        # Trừ 5 điểm
+        db[author]["score"] -= 5
+        db[author]["total_deducted"] += 5
+        db[author]["tier"] = update_tier(db[author]["score"])
+        
+        # Ghi vào log
+        log_msg = f"[{today_str}] ⚠️ Đăng quá 5 dự án (-5đ)"
+        db[author].setdefault("new_logs", []).append(log_msg)
+        
+        # Gọi hàm xóa dự án (Sẽ hoạt động nếu có Session ID)
+        remove_project(proj_id)
+
+    db[author].setdefault("processed_projects", []).append(proj_id)
+    db[author]["processed_projects"] = db[author]["processed_projects"][-100:]
+
+# 5. GHI LÊN SHEETS
+def sync_to_sheet(db, sheet, all_values):
+    data_rows = all_values[3:] if len(all_values) > 3 else []
     new_data_rows = []
     existing_usernames = set()
     
-    # Cập nhật danh sách cũ
     for row in data_rows:
         if not row or not row[0].strip(): continue
         username = row[0].strip()
@@ -147,72 +201,67 @@ def sync_to_sheet(db, sheet, all_values):
         if user_data:
             row[1] = str(user_data["score"])
             row[2] = str(user_data.get("total_deducted", 0))
-            # Cột 3 (Index 3 - Lịch sử) -> GIỮ NGUYÊN
             row[4] = user_data.get("last_active_date", "")
-            # Cột 5 (Index 5 - Log) -> GIỮ NGUYÊN
             
-            # Cột 6: Bình luận. Chỉ ghi nếu có bình luận mới. Nếu không có giữ nguyên bình luận cũ
-            if user_data.get("recent_comment"):
-                row[6] = user_data["recent_comment"]
-                user_data["recent_comment"] = "" # Xóa biến tạm sau khi đã ghi
+            # Cập nhật Cột Log (Cột F - Index 5)
+            if user_data.get("new_logs"):
+                added_log = "\n".join(user_data["new_logs"])
+                row[5] = row[5].strip() + "\n" + added_log if row[5].strip() else added_log
+                user_data["new_logs"] = []
+            
+            # Cập nhật Cột Bình luận (Cột G - Index 6)
+            if user_data.get("new_comments"):
+                added_text = "\n".join(user_data["new_comments"])
+                row[6] = row[6].strip() + "\n" + added_text if row[6].strip() else added_text
+                user_data["new_comments"] = [] 
 
         new_data_rows.append(row)
         
-    # Thêm người dùng mới tinh vào cuối danh sách
     for username, user_data in db.items():
         if username not in existing_usernames:
+            added_text = "\n".join(user_data.get("new_comments", []))
+            added_log = "\n".join(user_data.get("new_logs", []))
             new_row = [
-                username,
-                str(user_data["score"]),
-                str(user_data.get("total_deducted", 0)),
-                "", # Lịch sử (Trống)
-                user_data.get("last_active_date", ""),
-                "", # Log (Trống)
-                user_data.get("recent_comment", "")
+                username, str(user_data["score"]), str(user_data.get("total_deducted", 0)),
+                "", user_data.get("last_active_date", ""), added_log, added_text
             ]
-            user_data["recent_comment"] = ""
+            user_data["new_comments"] = []
+            user_data["new_logs"] = []
             new_data_rows.append(new_row)
             
-    # Đẩy lên Sheets bắt đầu từ hàng A4, giữ nguyên format màu sắc của bạn
     if new_data_rows:
         sheet.update(values=new_data_rows, range_name='A4', value_input_option='USER_ENTERED')
-        print("Đồng bộ Sheets thành công! Bảo toàn định dạng.")
+        print("Đồng bộ Sheets thành công!")
 
 def main():
     db = load_db()
     sheet = None
     all_values = []
 
-    # BƯỚC 1: Lấy dữ liệu từ Sheets
     try:
         sheet = get_google_sheet()
-        if sheet:
-            print("Đang đọc dữ liệu từ Google Sheets...")
-            all_values = sync_from_sheet(db, sheet)
-    except Exception as e:
-        print(f"Lỗi đọc Google Sheets: {e}")
+        if sheet: all_values = sync_from_sheet(db, sheet)
+    except Exception as e: print(f"Lỗi đọc Google Sheets: {e}")
 
-    # BƯỚC 2: Quét Scratch
+    # Quét Dự Án
+    projects = fetch_projects()
+    for proj in projects:
+        process_project(proj, db)
+
+    # Quét Bình Luận
     comments = fetch_comments()
-    print(f"Đã lấy {len(comments)} bình luận gốc.")
-
     for comment in comments:
         process_comment(comment, db)
         if comment.get("reply_count", 0) > 0:
             time.sleep(0.5)
-            replies = fetch_replies(comment["id"])
-            for reply in replies:
-                process_comment(reply, db)
+            for reply in fetch_replies(comment["id"]): process_comment(reply, db)
 
-    # BƯỚC 3: Ghi lại lên Sheets và lưu file JSON
     if sheet:
-        try:
-            sync_to_sheet(db, sheet, all_values)
-        except Exception as e:
-            print(f"Lỗi ghi Google Sheets: {e}")
+        try: sync_to_sheet(db, sheet, all_values)
+        except Exception as e: print(f"Lỗi ghi Google Sheets: {e}")
 
     save_db(db)
-    print("Hoàn tất quá trình.")
+    print("Hoàn tất.")
 
 if __name__ == "__main__":
     main()

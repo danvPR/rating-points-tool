@@ -1,5 +1,8 @@
 name: Scratch Reputation System Tracker
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   schedule:
     # Chạy vào các giờ UTC: 01:00, 03:00, 05:00... đến 15:00 (Tương đương 8h -> 22h giờ VN)
