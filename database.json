@@ -8086,8 +8086,8 @@
     "-Rusks-": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "2026-06-11",
-        "active_days_count": 4,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 5,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -8129,7 +8129,8 @@
             "325675955",
             "325677613",
             "325677773",
-            "325678969"
+            "325678969",
+            "325767505"
         ],
         "processed_projects": [],
         "projects_today": 0,
@@ -9338,9 +9339,11 @@
         ],
         "processed_projects": [
             1329652114,
-            1329352866
+            1329352866,
+            "1329652114",
+            "1329352866"
         ],
-        "projects_today": 2,
+        "projects_today": 4,
         "last_project_date": "2026-06-12"
     },
     "hoangminhngoc16": {
@@ -10260,8 +10263,8 @@
     "Thaihungdeptrai23": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "2026-06-11",
-        "active_days_count": 1,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 2,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -10269,7 +10272,9 @@
             325675494,
             325676403,
             325671501,
-            325676460
+            325676460,
+            "325767727",
+            "325767762"
         ],
         "processed_projects": [
             1331210224
@@ -11086,8 +11091,8 @@
     "hamylo6547": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "2026-06-11",
-        "active_days_count": 1,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 2,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -11104,7 +11109,12 @@
             "325690984",
             "325690348",
             "325692483",
-            "325692503"
+            "325692503",
+            "325768660",
+            "325766863",
+            "325766878",
+            "325766935",
+            "325766853"
         ],
         "processed_projects": [],
         "projects_today": 0,
@@ -11561,9 +11571,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1328536702"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "tiendat2014": {
         "score": 100,
@@ -11695,9 +11707,12 @@
             "325761279",
             "325761316"
         ],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1329906785",
+            "1330477456"
+        ],
+        "projects_today": 2,
+        "last_project_date": "2026-06-12"
     },
     "khanhngockhanhngan": {
         "score": 100,
@@ -13381,15 +13396,20 @@
     "4a3nguyenngocphuong": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "",
-        "active_days_count": 0,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 1,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
-        "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_comments": [
+            "325764786"
+        ],
+        "processed_projects": [
+            "1331201937",
+            "1331310540"
+        ],
+        "projects_today": 2,
+        "last_project_date": "2026-06-12"
     },
     "kiwi2782014": {
         "score": 100,
@@ -13608,9 +13628,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1331307975"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "huynhminhla": {
         "score": 100,
@@ -19489,8 +19511,8 @@
     "Nhienzcute": {
         "score": 1,
         "tier": "Kém",
-        "last_active_date": "2026-06-11",
-        "active_days_count": 4,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 5,
         "total_deducted": 99,
         "new_comments": [],
         "new_logs": [],
@@ -19526,7 +19548,17 @@
             "325676218",
             "325676329",
             "325676318",
-            "325675889"
+            "325675889",
+            "325773366",
+            "325768143",
+            "325768911",
+            "325768008",
+            "325768033",
+            "325765215",
+            "325770490",
+            "325765195",
+            "325767963",
+            "325767982"
         ],
         "processed_projects": [],
         "projects_today": 0,
@@ -31303,14 +31335,16 @@
         "last_project_date": ""
     },
     "thinh1234231t": {
-        "score": 0,
-        "tier": "Kém",
-        "last_active_date": "",
-        "active_days_count": 0,
-        "total_deducted": 100,
+        "score": 100,
+        "tier": "XS",
+        "last_active_date": "2026-06-12",
+        "active_days_count": 1,
+        "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
-        "processed_comments": [],
+        "processed_comments": [
+            "325772592"
+        ],
         "processed_projects": [],
         "projects_today": 0,
         "last_project_date": ""
@@ -33185,8 +33219,8 @@
     "teamDANV": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "2026-06-11",
-        "active_days_count": 4,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 5,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -33214,7 +33248,8 @@
             "325689890",
             "325689258",
             "325682001",
-            "325678790"
+            "325678790",
+            "325766075"
         ],
         "processed_projects": [],
         "projects_today": 0,
@@ -33431,8 +33466,8 @@
     "Hung_gg": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "2026-06-11",
-        "active_days_count": 4,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 5,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -33457,7 +33492,8 @@
             "325690849",
             "325689939",
             "325681278",
-            "325678867"
+            "325678867",
+            "325766525"
         ],
         "processed_projects": [
             1331184688
@@ -37562,9 +37598,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1331228166"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "VNTUOILON": {
         "score": 100,
@@ -37883,8 +37921,8 @@
         "last_project_date": ""
     },
     "samonphungprodeptrai": {
-        "score": -20,
-        "tier": "Kém",
+        "score": 100,
+        "tier": "XS",
         "last_active_date": "",
         "active_days_count": 0,
         "total_deducted": 120,
@@ -38870,9 +38908,10 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            1330953587
+            1330953587,
+            "1331350320"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-06-12"
     },
     "therianzzz": {
@@ -39640,9 +39679,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1331333889"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "I-FOLLOW-EVERYONE_-": {
         "score": 100,
@@ -40370,11 +40411,11 @@
         "last_project_date": "2026-06-12"
     },
     "nghiemduykhoa": {
-        "score": 95,
-        "tier": "XS",
+        "score": 50,
+        "tier": "Tốt",
         "last_active_date": "",
         "active_days_count": 0,
-        "total_deducted": 5,
+        "total_deducted": 50,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
@@ -40386,9 +40427,18 @@
             1330702384,
             1331160758,
             1329159553,
-            1328166292
+            1328166292,
+            "1329159553",
+            "1329488395",
+            "1329495880",
+            "1329491668",
+            "1329603885",
+            "1330442115",
+            "1330702384",
+            "1331160758",
+            "1331301274"
         ],
-        "projects_today": 8,
+        "projects_today": 17,
         "last_project_date": "2026-06-12"
     },
     "24y1192": {
@@ -40403,7 +40453,8 @@
             325750769,
             325750837,
             "325750769",
-            "325750837"
+            "325750837",
+            "325769823"
         ],
         "processed_projects": [],
         "projects_today": 0,
@@ -40471,5 +40522,20 @@
         ],
         "projects_today": 1,
         "last_project_date": "2026-06-12"
+    },
+    "ngw---": {
+        "score": 100,
+        "tier": "XS",
+        "last_active_date": "2026-06-12",
+        "active_days_count": 1,
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "325767614"
+        ],
+        "processed_projects": [],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
