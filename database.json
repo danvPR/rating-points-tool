@@ -6963,9 +6963,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            1331244505
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "brown5454": {
         "score": 100,
@@ -10136,9 +10138,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            1180358057
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "NPQuynhChi2012": {
         "score": 100,
@@ -13690,9 +13694,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            1331269949
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "thienn212121": {
         "score": 100,
@@ -18482,9 +18488,11 @@
             325672466,
             325749070
         ],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            1331270896
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "td82_Minh": {
         "score": 100,
@@ -19193,12 +19201,14 @@
     "Huydisciple": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "",
-        "active_days_count": 0,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 1,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
-        "processed_comments": [],
+        "processed_comments": [
+            325753352
+        ],
         "processed_projects": [],
         "projects_today": 0,
         "last_project_date": ""
@@ -37129,9 +37139,11 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            1331101706
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
     },
     "JAScratch27": {
         "score": 100,
@@ -39859,8 +39871,8 @@
     "toilabaogia": {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "2026-06-11",
-        "active_days_count": 1,
+        "last_active_date": "2026-06-12",
+        "active_days_count": 2,
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -39868,11 +39880,21 @@
             325685967,
             325686744,
             325688295,
-            325690599
+            325690599,
+            325757613,
+            325757661,
+            325757919,
+            325758028,
+            325758049,
+            325758145
         ],
-        "processed_projects": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            1326034461,
+            1319715522,
+            1320115782
+        ],
+        "projects_today": 3,
+        "last_project_date": "2026-06-12"
     },
     "phuonglinhngo": {
         "score": 100,
@@ -40137,11 +40159,11 @@
         "last_project_date": "2026-06-12"
     },
     "nghiemduykhoa": {
-        "score": 75,
-        "tier": "Tốt",
+        "score": 95,
+        "tier": "XS",
         "last_active_date": "",
         "active_days_count": 0,
-        "total_deducted": 25,
+        "total_deducted": 5,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
@@ -40169,6 +40191,51 @@
         "processed_comments": [
             325750769,
             325750837
+        ],
+        "processed_projects": [],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "THÀNH VIÊN MỚI THAM GIA CẦN 30 PHÚT ĐỂ HIỆN THỊ VÀ ĐỒNG BỘ ĐIỂM ĐÁNH GIÁ Ở ĐÂY.": {
+        "score": 100,
+        "tier": "XS",
+        "last_active_date": "",
+        "active_days_count": 0,
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "BepzziiSigmaa": {
+        "score": 100,
+        "tier": "XS",
+        "last_active_date": "",
+        "active_days_count": 0,
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            1331086446
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-12"
+    },
+    "HKTC-HKCT": {
+        "score": 100,
+        "tier": "XS",
+        "last_active_date": "2026-06-12",
+        "active_days_count": 1,
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            325757724,
+            325758066,
+            325757538
         ],
         "processed_projects": [],
         "projects_today": 0,
