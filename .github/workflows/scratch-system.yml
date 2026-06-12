@@ -1,0 +1,41 @@
+name: Scratch Reputation System Tracker
+
+on:
+  schedule:
+    # Chạy vào các giờ UTC: 01:00, 03:00, 05:00... đến 15:00 (Tương đương 8h -> 22h giờ VN)
+    - cron: '0 1-15/2 * * *'
+  # Cho phép bạn bấm chạy thủ công trên GitHub để test
+  workflow_dispatch: 
+
+permissions:
+  contents: write # Cấp quyền cho Action ghi đè lại file database.json
+
+jobs:
+  fetch-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Python Script
+        run: |
+          python main.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add database.json
+          # Commit nếu có thay đổi, nếu không có thay đổi thì bỏ qua
+          git commit -m "Auto-update database [skip ci]" || echo "No changes to commit"
+          git push
