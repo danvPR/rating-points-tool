@@ -5,8 +5,8 @@ env:
 
 on:
   schedule:
-    # Chạy vào các giờ UTC: 01:00, 03:00, 05:00... đến 15:00 (Tương đương 8h -> 22h giờ VN)
-    - cron: '*/30 1-15 * * *'
+    # Chạy vào các giờ UTC
+    - cron: '17,47 1-15 * * *'
   # Cho phép bạn bấm chạy thủ công trên GitHub để test
   workflow_dispatch: 
 
