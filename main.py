@@ -2,6 +2,8 @@ import requests
 import json
 import os
 import time
+import html
+import re
 from datetime import datetime
 import gspread
 from google.oauth2.service_account import Credentials
@@ -9,6 +11,7 @@ from google.oauth2.service_account import Credentials
 STUDIO_ID = "33509364"
 API_BASE = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments"
 PROJECTS_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/projects"
+ACTIVITY_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/activity"
 DB_FILE = "database.json"
 
 BANNED_WORDS = ["chửi bậy", "ngu", "18+", "scam"] 
@@ -33,30 +36,28 @@ def init_user(username):
     return {
         "score": 100,
         "tier": "XS",
-        "last_active_date": "",
-        "active_days_count": 0,
+        "active_dates": [],     # Lưu trữ mốc 30 ngày hoạt động
+        "last_comment_date": "",# Lần cuối bình luận (Cột F)
         "total_deducted": 0,
         "new_comments": [], 
         "new_logs": [], 
         "processed_comments": [],
         "processed_projects": [],
+        "processed_activities": [],
         "projects_today": 0,
         "last_project_date": ""
     }
 
-def fetch_comments():
-    try: return requests.get(f"{API_BASE}?offset=0&limit=40", timeout=10).json()
+# --- CÁC HÀM LẤY API ---
+def fetch_api(url):
+    try: return requests.get(f"{url}?offset=0&limit=40", timeout=10).json()
     except: return []
 
 def fetch_replies(comment_id):
     try: return requests.get(f"{API_BASE}/{comment_id}/replies", timeout=10).json()
     except: return []
 
-def fetch_projects():
-    try: return requests.get(f"{PROJECTS_API}?offset=0&limit=40", timeout=10).json()
-    except: return []
-
-# KẾT NỐI SHEETS
+# --- KẾT NỐI SHEETS ---
 def get_google_sheet():
     creds_json = os.environ.get('GOOGLE_CREDENTIALS')
     sheet_url = os.environ.get('SHEET_URL')
@@ -75,7 +76,9 @@ def sync_from_sheet(db, sheet):
     for row in data_rows:
         if not row or not row[0].strip(): continue
         username = row[0].strip()
-        while len(row) < 7: row.append("")
+        
+        # Bù độ dài mảng lên 8 cột (vì đã thêm cột F)
+        while len(row) < 8: row.append("")
         
         if username not in db: db[username] = init_user(username)
         
@@ -87,118 +90,175 @@ def sync_from_sheet(db, sheet):
         db[username]["tier"] = update_tier(db[username]["score"])
     return all_values
 
-# XỬ LÝ BÌNH LUẬN VÀ LƯU DƯỚI DẠNG ID
-def process_comment(comment, db):
-    comment_id = str(comment["id"])
-    author = comment["author"]["username"]
-    content = comment["content"]
-    date_str = comment["datetime_created"][:10] 
-
-    if author not in db: db[author] = init_user(author)
-    if comment_id in db[author].get("processed_comments", []): return
-
-    if db[author].get("last_active_date") != date_str:
-        db[author]["last_active_date"] = date_str
-        db[author]["active_days_count"] = db[author].get("active_days_count", 0) + 1
-        if db[author]["active_days_count"] >= 7:
-            db[author]["score"] = min(100, db[author]["score"] + 10)
-            db[author]["active_days_count"] = 0
-            
-    content_lower = content.lower()
-    is_banned = any(word.lower() in content_lower for word in BANNED_WORDS)
-    tag = "[⚠️ TỪ CẤM] " if is_banned else ""
-    
-    # Định dạng mới: ID (Nội dung) thay vì Link dài dòng
-    formatted_comment = f"{tag}{comment_id} ({content})"
-    
-    # Kèm thêm ID vào một biến ẩn để lát nữa kiểm tra trùng lặp trên Sheet
-    db[author].setdefault("new_comments", []).append({
-        "id": comment_id,
-        "text": formatted_comment
-    })
-    
+# --- HÀM XỬ LÝ CHUNG ---
+def penalize(author, points, log_msg, db):
+    """Trừ điểm và Reset toàn bộ chuỗi 30 ngày không vi phạm"""
+    db[author]["score"] -= points
+    db[author]["total_deducted"] += points
     db[author]["tier"] = update_tier(db[author]["score"])
-    db[author].setdefault("processed_comments", []).append(comment_id)
-    db[author]["processed_comments"] = db[author]["processed_comments"][-100:]
+    db[author].setdefault("new_logs", []).append(log_msg)
+    # XÓA CHUỖI HOẠT ĐỘNG VÌ ĐÃ VI PHẠM
+    db[author]["active_dates"] = []
+
+def record_active_date(author, date_str, db):
+    """Ghi nhận ngày hoạt động để tính chuỗi 30 ngày thưởng điểm"""
+    if not date_str: return
+    user = db[author]
+    
+    if date_str not in user["active_dates"]:
+        user["active_dates"].append(date_str)
+        user["active_dates"].sort()
+        
+        # Nếu đạt 30 ngày hoạt động khác nhau
+        if len(user["active_dates"]) >= 30:
+            old_score = user["score"]
+            user["score"] = min(100, user["score"] + 10)
+            if user["score"] > old_score: # Chỉ thông báo nếu điểm có tăng
+                user["new_logs"].append(f"[{date_str}] 🎉 +10đ (Đạt 30 ngày hoạt động)")
+            user["active_dates"] = [date_str] # Reset lại chuỗi sau khi thưởng
+            
+        # Nếu đã đạt 100 điểm thì chỉ cần lưu 1 ngày cuối cùng cho gọn nhẹ DB
+        if user["score"] >= 100:
+            user["active_dates"] = [user["active_dates"][-1]]
+
+# --- XỬ LÝ CÁC DỮ LIỆU ---
+def process_activity(act, db):
+    act_id = str(act.get("id", ""))
+    author = act.get("actor_username")
+    if not author: return
+    date_str = act.get("datetime_created", "")[:10]
+    
+    if author not in db: db[author] = init_user(author)
+    if act_id in db[author].get("processed_activities", []): return
+    
+    record_active_date(author, date_str, db)
+    db[author].setdefault("processed_activities", []).append(act_id)
+    db[author]["processed_activities"] = db[author]["processed_activities"][-100:]
 
 def process_project(project, db):
     author = project.get("username", project.get("creator"))
     if not author: return
     author = str(author)
     proj_id = str(project["id"])
+    date_str = datetime.utcnow().strftime("%Y-%m-%d")
     
     if author not in db: db[author] = init_user(author)
     if proj_id in db[author].get("processed_projects", []): return
 
-    today_str = datetime.utcnow().strftime("%Y-%m-%d")
-    if db[author].get("last_project_date") != today_str:
-        db[author]["last_project_date"] = today_str
+    record_active_date(author, date_str, db)
+
+    if db[author].get("last_project_date") != date_str:
+        db[author]["last_project_date"] = date_str
         db[author]["projects_today"] = 0
         
     db[author]["projects_today"] += 1
     
+    # Phạt nếu đăng quá 5 dự án
     if db[author]["projects_today"] > 5:
-        db[author]["score"] -= 5
-        db[author]["total_deducted"] += 5
-        db[author]["tier"] = update_tier(db[author]["score"])
-        log_msg = f"[{today_str}] ⚠️ Đăng quá 5 dự án (-5đ)"
-        db[author].setdefault("new_logs", []).append(log_msg)
+        penalize(author, 5, f"[{date_str}] ⚠️ Quá 5 dự án/ngày (-5đ)", db)
 
     db[author].setdefault("processed_projects", []).append(proj_id)
     db[author]["processed_projects"] = db[author]["processed_projects"][-100:]
 
-# ĐẨY LÊN SHEETS (BỌC THÉP CHỐNG TRÙNG LẶP)
+def process_comment(comment, db):
+    comment_id = str(comment["id"])
+    author = comment["author"]["username"]
+    date_str = comment["datetime_created"][:10] 
+
+    if author not in db: db[author] = init_user(author)
+    
+    # Luôn cập nhật lần cuối bình luận nếu đây là bình luận mới thấy
+    # (Đề phòng trường hợp API trả về bình luận cũ đã quét nhưng chúng ta vẫn muốn cập nhật mốc)
+    db[author]["last_comment_date"] = date_str
+    
+    if comment_id in db[author].get("processed_comments", []): return
+
+    record_active_date(author, date_str, db)
+            
+    # [DỌN DẸP VĂN BẢN] Dịch mã HTML và xóa sạch các thẻ rác như <img src="...">
+    raw_content = html.unescape(comment["content"])
+    clean_content = re.sub(r'<[^>]+>', '', raw_content).strip()
+    
+    is_banned = any(word.lower() in clean_content.lower() for word in BANNED_WORDS)
+    tag = "[⚠️ TỪ CẤM] " if is_banned else ""
+    
+    formatted_comment = f"{tag}{comment_id} ({clean_content})"
+    
+    db[author].setdefault("new_comments", []).append({
+        "id": comment_id,
+        "text": formatted_comment
+    })
+    
+    db[author].setdefault("processed_comments", []).append(comment_id)
+    db[author]["processed_comments"] = db[author]["processed_comments"][-100:]
+
+# --- ĐẨY LÊN SHEETS ---
 def sync_to_sheet(db, sheet, all_values):
     data_rows = all_values[3:] if len(all_values) > 3 else []
     new_data_rows = []
     existing_usernames = set()
+    current_row_num = 4 
     
     for row in data_rows:
         if not row or not row[0].strip(): continue
         username = row[0].strip()
         existing_usernames.add(username)
-        while len(row) < 7: row.append("")
+        while len(row) < 8: row.append("")
         
         user_data = db.get(username)
         if user_data:
-            row[1] = str(user_data["score"])
+            base_score = user_data["score"] + user_data.get("total_deducted", 0)
+            row[1] = f"={base_score}-C{current_row_num}"
             row[2] = str(user_data.get("total_deducted", 0))
-            row[4] = user_data.get("last_active_date", "")
             
+            # Cột E (Index 4) - Lần cuối hoạt động (Dạng chuỗi các ngày hoặc 1 ngày)
+            active_list = user_data.get("active_dates", [])
+            row[4] = "\n".join(active_list) if active_list else ""
+            
+            # Cột F (Index 5) - Lần cuối bình luận
+            if user_data.get("last_comment_date"):
+                row[5] = user_data["last_comment_date"]
+            
+            # Cột G (Index 6) - Log
             if user_data.get("new_logs"):
                 added_log = "\n".join(user_data["new_logs"])
-                row[5] = row[5].strip() + "\n" + added_log if row[5].strip() else added_log
+                row[6] = row[6].strip() + "\n" + added_log if row[6].strip() else added_log
                 user_data["new_logs"] = []
             
-            # XỬ LÝ CHỐNG TRÙNG LẶP BÌNH LUẬN TRƯỚC KHI NỐI VÀO SHEET
+            # Cột H (Index 7) - Bình luận
             if user_data.get("new_comments"):
-                existing_sheet_comments = row[6].strip()
-                valid_new_texts = []
-                
-                for cmt in user_data["new_comments"]:
-                    # Chỉ lấy những ID chưa từng xuất hiện trong ô hiện tại
-                    if cmt["id"] not in existing_sheet_comments:
-                        valid_new_texts.append(cmt["text"])
+                existing_sheet_comments = row[7].strip()
+                valid_new_texts = [cmt["text"] for cmt in user_data["new_comments"] if cmt["id"] not in existing_sheet_comments]
                 
                 if valid_new_texts:
                     added_text = "\n".join(valid_new_texts)
-                    row[6] = existing_sheet_comments + "\n" + added_text if existing_sheet_comments else added_text
-                
+                    row[7] = existing_sheet_comments + "\n" + added_text if existing_sheet_comments else added_text
                 user_data["new_comments"] = [] 
 
         new_data_rows.append(row)
+        current_row_num += 1
         
     for username, user_data in db.items():
         if username not in existing_usernames:
+            base_score = user_data["score"] + user_data.get("total_deducted", 0)
             added_text = "\n".join([cmt["text"] for cmt in user_data.get("new_comments", [])])
             added_log = "\n".join(user_data.get("new_logs", []))
+            active_list = user_data.get("active_dates", [])
+            
             new_row = [
-                username, str(user_data["score"]), str(user_data.get("total_deducted", 0)),
-                "", user_data.get("last_active_date", ""), added_log, added_text
+                username, 
+                f"={base_score}-C{current_row_num}",
+                str(user_data.get("total_deducted", 0)),
+                "", # Lịch sử
+                "\n".join(active_list) if active_list else "", # Lần cuối HĐ
+                user_data.get("last_comment_date", ""), # Lần cuối BL
+                added_log, 
+                added_text
             ]
             user_data["new_comments"] = []
             user_data["new_logs"] = []
             new_data_rows.append(new_row)
+            current_row_num += 1
             
     if new_data_rows:
         sheet.update(values=new_data_rows, range_name='A4', value_input_option='USER_ENTERED')
@@ -214,9 +274,14 @@ def main():
         if sheet: all_values = sync_from_sheet(db, sheet)
     except Exception as e: print(f"Lỗi đọc Google Sheets: {e}")
 
-    for proj in fetch_projects(): process_project(proj, db)
+    # 1. Quét Activity (Hoạt động tổng hợp)
+    for act in fetch_api(ACTIVITY_API): process_activity(act, db)
 
-    comments = fetch_comments()
+    # 2. Quét Projects
+    for proj in fetch_api(PROJECTS_API): process_project(proj, db)
+
+    # 3. Quét Comments
+    comments = fetch_api(API_BASE)
     for comment in comments:
         process_comment(comment, db)
         if comment.get("reply_count", 0) > 0:
