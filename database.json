@@ -18258,16 +18258,22 @@
     "Gum_8": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-06-13"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1331558645"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-335401436"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-13"
     },
     "flagbandmaster": {
         "score": 100,
@@ -20794,7 +20800,8 @@
         "new_logs": [],
         "processed_comments": [
             "325753352",
-            "325817880"
+            "325817880",
+            "325838135"
         ],
         "processed_projects": [],
         "processed_activities": [],
