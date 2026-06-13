@@ -14,7 +14,17 @@ PROJECTS_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/projects"
 ACTIVITY_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/activity"
 DB_FILE = "database.json"
 
-BANNED_WORDS = ["chửi bậy", "ngu", "18+", "scam"] 
+import os
+
+# Đường dẫn đến file txt của bạn
+file_path = os.path.join(os.path.dirname(__file__), 'censorship-badwr.txt')
+
+# Tự động đọc file và nạp từ vào danh sách BANNED_WORDS
+with open(file_path, "r", encoding="utf-8") as file:
+    BANNED_WORDS = [line.strip() for line in file if line.strip()]
+
+# Kiểm tra thử xem mảng đã nhận đủ từ chưa
+print(f"Đã nạp thành công {len(BANNED_WORDS)} từ cấm.")
 
 def load_db():
     if os.path.exists(DB_FILE):
