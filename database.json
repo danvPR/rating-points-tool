@@ -30801,16 +30801,22 @@
     "the-oli-g": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-06-14"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1331608876"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-335587097"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-14"
     },
     "yoshiox": {
         "score": 100,
