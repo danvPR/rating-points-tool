@@ -10088,7 +10088,17 @@
             "addprojecttostudio-335537273",
             "removeprojectstudio-82281736",
             "addprojecttostudio-335537207",
-            "removeprojectstudio-82281718"
+            "removeprojectstudio-82281718",
+            "addprojecttostudio-335550145",
+            "addprojecttostudio-335550119",
+            "removeprojectstudio-82284058",
+            "addprojecttostudio-335550062",
+            "removeprojectstudio-82284039",
+            "addprojecttostudio-335544273",
+            "addprojecttostudio-335544192",
+            "removeprojectstudio-82282979",
+            "addprojecttostudio-335544121",
+            "removeprojectstudio-82282953"
         ],
         "projects_today": 3,
         "last_project_date": "2026-06-13"
@@ -14492,7 +14502,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-06-13"
+            "2026-06-14"
         ],
         "last_comment_date": "2026-06-12",
         "total_deducted": 0,
@@ -14503,11 +14513,14 @@
         ],
         "processed_projects": [
             "1331201937",
-            "1331310540"
+            "1331310540",
+            "1331745055"
         ],
-        "processed_activities": [],
-        "projects_today": 2,
-        "last_project_date": "2026-06-13"
+        "processed_activities": [
+            "addprojecttostudio-335551136"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-14"
     },
     "kiwi2782014": {
         "score": 100,
@@ -27042,16 +27055,22 @@
     "4hotel33": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-06-14"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1331611717"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-335552352"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-14"
     },
     "EspeonSiamese123": {
         "score": 100,
@@ -36357,7 +36376,9 @@
         "processed_projects": [],
         "processed_activities": [
             "addprojecttostudio-335499222",
-            "removeprojectstudio-82275761"
+            "removeprojectstudio-82275761",
+            "addprojecttostudio-335549755",
+            "removeprojectstudio-82283914"
         ],
         "projects_today": 0,
         "last_project_date": ""
@@ -39923,15 +39944,19 @@
             "1331383858",
             "1331048844",
             "1331584570",
-            "1331651314"
+            "1331651314",
+            "1279684952",
+            "1331749570"
         ],
         "processed_activities": [
             "addprojecttostudio-335277122",
             "addprojecttostudio-335321955",
             "addprojecttostudio-335417762",
-            "addprojecttostudio-335466228"
+            "addprojecttostudio-335466228",
+            "addprojecttostudio-335549692",
+            "addprojecttostudio-335549433"
         ],
-        "projects_today": 1,
+        "projects_today": 3,
         "last_project_date": "2026-06-14"
     },
     "IntelPentiumIII": {
@@ -41010,16 +41035,24 @@
     "OMGodove_123": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-06-14"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1331466485",
+            "1331515134"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-335551205",
+            "addprojecttostudio-335539336"
+        ],
+        "projects_today": 2,
+        "last_project_date": "2026-06-14"
     },
     "kduy21345": {
         "score": 100,
@@ -41307,7 +41340,12 @@
             "1331727427"
         ],
         "processed_activities": [
-            "addprojecttostudio-335531154"
+            "addprojecttostudio-335531154",
+            "addprojecttostudio-335542728",
+            "addprojecttostudio-335542726",
+            "addprojecttostudio-335542725",
+            "addprojecttostudio-335542724",
+            "addprojecttostudio-335542722"
         ],
         "projects_today": 1,
         "last_project_date": "2026-06-14"
@@ -41746,16 +41784,22 @@
     "thienphuhsg": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-06-14"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1331720472"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-335549841"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-14"
     },
     "millmillforreal": {
         "score": 100,
@@ -43844,10 +43888,14 @@
             "325820258",
             "325877501"
         ],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1331738580"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-335540550"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-14"
     },
     "cafe32": {
         "score": 100,
