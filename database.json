@@ -13545,16 +13545,22 @@
     "Alpha_HQB": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-06-15"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1331830762"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-335604062"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-15"
     },
     "heroironman": {
         "score": 100,
