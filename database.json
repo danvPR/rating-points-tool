@@ -18196,14 +18196,18 @@
     "TNT_BON": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-06-15"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [],
-        "processed_activities": [],
+        "processed_activities": [
+            "addprojecttostudio-335736743"
+        ],
         "projects_today": 0,
         "last_project_date": ""
     },
@@ -36860,16 +36864,22 @@
     "Kien_4465": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-06-16"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1316095086"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-335748541"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-16"
     },
     "Thanh15_vip-promax": {
         "score": 100,
@@ -40145,7 +40155,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-06-14"
+            "2026-06-16"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -40159,7 +40169,8 @@
             "1331651314",
             "1279684952",
             "1331749570",
-            "1331751066"
+            "1331751066",
+            "1332123712"
         ],
         "processed_activities": [
             "addprojecttostudio-335277122",
@@ -40168,10 +40179,11 @@
             "addprojecttostudio-335466228",
             "addprojecttostudio-335549692",
             "addprojecttostudio-335549433",
-            "addprojecttostudio-335598299"
+            "addprojecttostudio-335598299",
+            "addprojecttostudio-335738250"
         ],
-        "projects_today": 4,
-        "last_project_date": "2026-06-14"
+        "projects_today": 1,
+        "last_project_date": "2026-06-16"
     },
     "IntelPentiumIII": {
         "score": 100,
@@ -41453,16 +41465,22 @@
     "susu_usi": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-06-16"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1331102279"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-335748610"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-06-16"
     },
     "vothithienha2015": {
         "score": 100,
@@ -42717,7 +42735,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-06-15"
+            "2026-06-16"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -42725,13 +42743,17 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1331559418"
+            "1331559418",
+            "1304944632"
         ],
         "processed_activities": [
-            "addprojecttostudio-335724113"
+            "addprojecttostudio-335724113",
+            "addprojecttostudio-335737672",
+            "addprojecttostudio-335736820",
+            "addprojecttostudio-335735414"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-06-13"
+        "last_project_date": "2026-06-16"
     },
     "SuperFern1453": {
         "score": 100,
@@ -43331,7 +43353,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-06-13"
+            "2026-06-16"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -43339,14 +43361,16 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1331430028"
+            "1331430028",
+            "1332144788"
         ],
         "processed_activities": [
             "addprojecttostudio-335329162",
-            "addprojecttostudio-335370376"
+            "addprojecttostudio-335370376",
+            "addprojecttostudio-335737450"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-06-13"
+        "last_project_date": "2026-06-16"
     },
     "Codekids_PhuongNhi": {
         "score": 100,
@@ -44925,5 +44949,37 @@
         ],
         "projects_today": 0,
         "last_project_date": ""
+    },
+    "Thunder123_": {
+        "active_dates": [
+            "2026-06-16"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1326819393"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-06-16"
+    },
+    "tanaka_underber": {
+        "active_dates": [
+            "2026-06-16"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1331236549"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-06-16"
     }
 }
