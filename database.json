@@ -28917,14 +28917,18 @@
     "gooberiaaa": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-07-31"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [],
-        "processed_activities": [],
+        "processed_activities": [
+            "addprojecttostudio-341800424"
+        ],
         "projects_today": 0,
         "last_project_date": ""
     },
@@ -40919,11 +40923,9 @@
     "Ljvel1977": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [
-            "2026-07-31"
-        ],
+        "active_dates": [],
         "last_comment_date": "",
-        "total_deducted": 0,
+        "total_deducted": 5,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
@@ -40946,7 +40948,8 @@
             "1365324153",
             "1365115031",
             "1365723713",
-            "1365745769"
+            "1365745769",
+            "1365762207"
         ],
         "processed_activities": [
             "addprojecttostudio-335277122",
@@ -40968,9 +40971,10 @@
             "addprojecttostudio-341756941",
             "addprojecttostudio-341776621",
             "addprojecttostudio-341783526",
-            "removeprojectstudio-83261600"
+            "removeprojectstudio-83261600",
+            "addprojecttostudio-341801132"
         ],
-        "projects_today": 5,
+        "projects_today": 6,
         "last_project_date": "2026-07-31"
     },
     "IntelPentiumIII": {
@@ -47452,6 +47456,22 @@
         "processed_activities": [
             "addprojecttostudio-341760829"
         ],
+        "projects_today": 1,
+        "last_project_date": "2026-07-31"
+    },
+    "ihkem2013": {
+        "active_dates": [
+            "2026-07-31"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1299857908"
+        ],
+        "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-07-31"
     }
