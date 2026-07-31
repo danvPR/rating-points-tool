@@ -20076,12 +20076,16 @@
     "Im_Sandy": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
-        "last_comment_date": "",
+        "active_dates": [
+            "2026-07-31"
+        ],
+        "last_comment_date": "2026-07-31",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
-        "processed_comments": [],
+        "processed_comments": [
+            "329194913"
+        ],
         "processed_projects": [],
         "processed_activities": [],
         "projects_today": 0,
@@ -32738,9 +32742,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-07-30"
+            "2026-07-31"
         ],
-        "last_comment_date": "2026-07-30",
+        "last_comment_date": "2026-07-31",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -32757,7 +32761,9 @@
             "329095057",
             "329095068",
             "329091747",
-            "329097241"
+            "329097241",
+            "329210962",
+            "329211013"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -38930,7 +38936,8 @@
             "329185116",
             "329187516",
             "329182437",
-            "329182486"
+            "329182486",
+            "329211354"
         ],
         "processed_projects": [],
         "processed_activities": [],
