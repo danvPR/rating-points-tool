@@ -10165,13 +10165,6 @@
             "914403188"
         ],
         "processed_activities": [
-            "removeprojectstudio-83246190",
-            "addprojecttostudio-341687919",
-            "removeprojectstudio-83245334",
-            "addprojecttostudio-341687842",
-            "removeprojectstudio-83245319",
-            "addprojecttostudio-341687775",
-            "addprojecttostudio-341719850",
             "removeprojectstudio-83251140",
             "addprojecttostudio-341719799",
             "removeprojectstudio-83251107",
@@ -10264,7 +10257,14 @@
             "addprojecttostudio-341910230",
             "removeprojectstudio-83281713",
             "addprojecttostudio-341910173",
-            "removeprojectstudio-83281703"
+            "removeprojectstudio-83281703",
+            "addprojecttostudio-341915037",
+            "addprojecttostudio-341914964",
+            "removeprojectstudio-83282318",
+            "addprojecttostudio-341914900",
+            "removeprojectstudio-83282305",
+            "addprojecttostudio-341914864",
+            "removeprojectstudio-83282294"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-01"
@@ -18073,7 +18073,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-07-30"
+            "2026-08-01"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -18082,14 +18082,16 @@
         "processed_comments": [],
         "processed_projects": [
             "1351084752",
-            "1365021990"
+            "1365021990",
+            "1365921074"
         ],
         "processed_activities": [
             "addprojecttostudio-341441139",
-            "addprojecttostudio-341608806"
+            "addprojecttostudio-341608806",
+            "addprojecttostudio-341919008"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-07-30"
+        "last_project_date": "2026-08-01"
     },
     "MissyDonut": {
         "score": 100,
@@ -37244,9 +37246,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-07-30"
+            "2026-08-01"
         ],
-        "last_comment_date": "2026-07-30",
+        "last_comment_date": "2026-08-01",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -37292,7 +37294,8 @@
             "328992704",
             "329093767",
             "329093558",
-            "329109887"
+            "329109887",
+            "329261966"
         ],
         "processed_projects": [
             "1332013893"
