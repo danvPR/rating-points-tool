@@ -7783,7 +7783,8 @@
             "329232650",
             "329229033",
             "329229091",
-            "329232636"
+            "329232636",
+            "329245230"
         ],
         "processed_projects": [
             "1322617821",
@@ -10163,12 +10164,6 @@
             "1364786720"
         ],
         "processed_activities": [
-            "addprojecttostudio-341623494",
-            "removeprojectstudio-83234909",
-            "addprojecttostudio-341632464",
-            "removeprojectstudio-83236178",
-            "addprojecttostudio-341632414",
-            "removeprojectstudio-83236166",
             "addprojecttostudio-341632380",
             "removeprojectstudio-83236154",
             "addprojecttostudio-341693097",
@@ -10262,7 +10257,13 @@
             "addprojecttostudio-341877764",
             "removeprojectstudio-83276572",
             "addprojecttostudio-341877721",
-            "removeprojectstudio-83276557"
+            "removeprojectstudio-83276557",
+            "addprojecttostudio-341888034",
+            "removeprojectstudio-83278576",
+            "addprojecttostudio-341887987",
+            "removeprojectstudio-83278556",
+            "addprojecttostudio-341887958",
+            "removeprojectstudio-83278547"
         ],
         "projects_today": 1,
         "last_project_date": "2026-07-31"
@@ -20800,16 +20801,22 @@
     "HAI-DANG": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-01"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1363850666"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-341887863"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-01"
     },
     "Technology_Scratch": {
         "score": 100,
@@ -41002,7 +41009,9 @@
     "Ljvel1977": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-01"
+        ],
         "last_comment_date": "",
         "total_deducted": 5,
         "new_comments": [],
@@ -41028,7 +41037,8 @@
             "1365115031",
             "1365723713",
             "1365745769",
-            "1365762207"
+            "1365762207",
+            "1365888036"
         ],
         "processed_activities": [
             "addprojecttostudio-335277122",
@@ -41051,10 +41061,11 @@
             "addprojecttostudio-341776621",
             "addprojecttostudio-341783526",
             "removeprojectstudio-83261600",
-            "addprojecttostudio-341801132"
+            "addprojecttostudio-341801132",
+            "addprojecttostudio-341888998"
         ],
-        "projects_today": 6,
-        "last_project_date": "2026-07-31"
+        "projects_today": 1,
+        "last_project_date": "2026-08-01"
     },
     "IntelPentiumIII": {
         "score": 100,
@@ -46655,20 +46666,23 @@
     },
     "Le-Huy": {
         "active_dates": [
-            "2026-07-29"
+            "2026-08-01"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
+        "processed_projects": [
+            "1365875618"
+        ],
         "processed_activities": [
             "removeprojectstudio-83211828",
-            "addprojecttostudio-341484655"
+            "addprojecttostudio-341484655",
+            "addprojecttostudio-341892137"
         ],
-        "projects_today": 0,
-        "last_project_date": ""
+        "projects_today": 1,
+        "last_project_date": "2026-08-01"
     },
     "Khanh_vip_pro-max": {
         "active_dates": [
@@ -47061,16 +47075,18 @@
         "processed_projects": [
             "1365488741",
             "1365869443",
-            "1365254688"
+            "1365254688",
+            "1365887914"
         ],
         "processed_activities": [
             "becomecurator-158302715",
             "addprojecttostudio-341619508",
             "removeprojectstudio-83249797",
             "addprojecttostudio-341872092",
-            "addprojecttostudio-341869439"
+            "addprojecttostudio-341869439",
+            "addprojecttostudio-341893027"
         ],
-        "projects_today": 2,
+        "projects_today": 3,
         "last_project_date": "2026-08-01"
     },
     "TH25-song": {
