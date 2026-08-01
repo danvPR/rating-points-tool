@@ -7762,13 +7762,16 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-07-30"
+            "2026-07-31"
         ],
-        "last_comment_date": "",
+        "last_comment_date": "2026-07-31",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
-        "processed_comments": [],
+        "processed_comments": [
+            "329213462",
+            "329213474"
+        ],
         "processed_projects": [
             "1322617821",
             "1364909633",
@@ -33374,7 +33377,9 @@
             "addprojecttostudio-335471409",
             "updatestudio-54481878",
             "updatestudio-54484026",
-            "addprojecttostudio-341775231"
+            "addprojecttostudio-341775231",
+            "addprojecttostudio-341817045",
+            "removeprojectstudio-83266506"
         ],
         "projects_today": 2,
         "last_project_date": "2026-07-31"
@@ -33776,7 +33781,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-07-31"
+            "2026-08-01"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -33786,15 +33791,17 @@
         "processed_projects": [
             "1365381338",
             "1365276476",
-            "1242712891"
+            "1242712891",
+            "1365687249"
         ],
         "processed_activities": [
             "addprojecttostudio-341550454",
             "addprojecttostudio-341546850",
-            "addprojecttostudio-341736148"
+            "addprojecttostudio-341736148",
+            "addprojecttostudio-341818190"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-07-31"
+        "last_project_date": "2026-08-01"
     },
     "ConeNews": {
         "score": 100,
