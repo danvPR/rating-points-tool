@@ -48648,13 +48648,15 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1365939751"
+            "1365939751",
+            "1365991623"
         ],
         "processed_activities": [
             "addprojecttostudio-342039379",
-            "becomecurator-158334910"
+            "becomecurator-158334910",
+            "addprojecttostudio-342068528"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-08-02"
     },
     "lmoa1542": {
@@ -48706,5 +48708,23 @@
         ],
         "projects_today": 0,
         "last_project_date": ""
+    },
+    "makomilo": {
+        "active_dates": [
+            "2026-08-02"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1364008526"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-342066002"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-02"
     }
 }
