@@ -42975,7 +42975,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-07-31"
+            "2026-08-02"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -42992,7 +42992,9 @@
             "1365532744",
             "1365742778",
             "1365761566",
-            "1365674105"
+            "1365674105",
+            "1362400673",
+            "1365951481"
         ],
         "processed_activities": [
             "addprojecttostudio-335384324",
@@ -43001,10 +43003,12 @@
             "addprojecttostudio-341641949",
             "addprojecttostudio-341779655",
             "addprojecttostudio-341794073",
-            "addprojecttostudio-341789755"
+            "addprojecttostudio-341789755",
+            "addprojecttostudio-342061479",
+            "addprojecttostudio-342055294"
         ],
-        "projects_today": 3,
-        "last_project_date": "2026-07-31"
+        "projects_today": 2,
+        "last_project_date": "2026-08-02"
     },
     "DinoSnoreAnimations": {
         "score": 100,
@@ -48681,6 +48685,24 @@
         "processed_projects": [],
         "processed_activities": [
             "becomecurator-158335330"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "lazy_hoagie_": {
+        "active_dates": [
+            "2026-08-02"
+        ],
+        "last_comment_date": "2026-08-02",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "329330942"
+        ],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-158336565"
         ],
         "projects_today": 0,
         "last_project_date": ""
