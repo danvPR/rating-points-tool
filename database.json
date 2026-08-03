@@ -18874,7 +18874,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-06-13"
+            "2026-08-03"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -18882,13 +18882,17 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1331558645"
+            "1331558645",
+            "1366351093",
+            "1366350093"
         ],
         "processed_activities": [
-            "addprojecttostudio-335401436"
+            "addprojecttostudio-335401436",
+            "addprojecttostudio-342217834",
+            "addprojecttostudio-342217250"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-06-13"
+        "projects_today": 2,
+        "last_project_date": "2026-08-03"
     },
     "flagbandmaster": {
         "score": 100,
@@ -31889,16 +31893,22 @@
     "Th3RealJwb0": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-03"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1366357862"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-342226304"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-03"
     },
     "27cnguyen": {
         "score": 100,
