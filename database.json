@@ -41627,7 +41627,8 @@
             "1366344399",
             "1366364488",
             "1366497954",
-            "1366580160"
+            "1366580160",
+            "1366589533"
         ],
         "processed_activities": [
             "addprojecttostudio-335277122",
@@ -41663,9 +41664,10 @@
             "addprojecttostudio-342212224",
             "addprojecttostudio-342228636",
             "addprojecttostudio-342304690",
-            "addprojecttostudio-342357752"
+            "addprojecttostudio-342357752",
+            "addprojecttostudio-342366706"
         ],
-        "projects_today": 3,
+        "projects_today": 4,
         "last_project_date": "2026-08-04"
     },
     "IntelPentiumIII": {
@@ -49552,17 +49554,20 @@
     },
     "Ngdacbiet-vnmaidinh": {
         "active_dates": [
-            "2026-08-03"
+            "2026-08-04"
         ],
-        "last_comment_date": "2026-08-03",
+        "last_comment_date": "2026-08-04",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "329373544"
+            "329373544",
+            "329480941"
         ],
         "processed_projects": [],
-        "processed_activities": [],
+        "processed_activities": [
+            "becomecurator-158369407"
+        ],
         "projects_today": 0,
         "last_project_date": ""
     },
