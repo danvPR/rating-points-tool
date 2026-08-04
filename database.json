@@ -32944,16 +32944,18 @@
             "1365333546",
             "1365934773",
             "1366293229",
-            "1366385850"
+            "1366385850",
+            "1366419679"
         ],
         "processed_activities": [
             "addprojecttostudio-341497689",
             "addprojecttostudio-341516134",
             "addprojecttostudio-342087657",
             "addprojecttostudio-342184261",
-            "addprojecttostudio-342244833"
+            "addprojecttostudio-342244833",
+            "addprojecttostudio-342342907"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-08-04"
     },
     "Nyberstore": {
@@ -41016,7 +41018,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-06-14"
+            "2026-08-04"
         ],
         "last_comment_date": "2026-06-11",
         "total_deducted": 0,
@@ -41026,13 +41028,15 @@
             "325717589"
         ],
         "processed_projects": [
-            "1329750365"
+            "1329750365",
+            "1311791641"
         ],
         "processed_activities": [
-            "addprojecttostudio-335520877"
+            "addprojecttostudio-335520877",
+            "addprojecttostudio-342344534"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-06-14"
+        "last_project_date": "2026-08-04"
     },
     "synv3l": {
         "score": 100,
@@ -43367,7 +43371,8 @@
             "1366286693",
             "1326799164",
             "1362152002",
-            "1366335027"
+            "1366335027",
+            "1366546586"
         ],
         "processed_activities": [
             "addprojecttostudio-335384324",
@@ -43382,9 +43387,10 @@
             "addprojecttostudio-342178954",
             "addprojecttostudio-342175647",
             "addprojecttostudio-342195295",
-            "addprojecttostudio-342332035"
+            "addprojecttostudio-342332035",
+            "addprojecttostudio-342335398"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-08-04"
     },
     "DinoSnoreAnimations": {
