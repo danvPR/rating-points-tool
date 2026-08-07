@@ -35512,7 +35512,8 @@
             "329552106",
             "329585042",
             "329634935",
-            "329666784"
+            "329666784",
+            "329667982"
         ],
         "processed_projects": [
             "1316583654",
@@ -41822,7 +41823,9 @@
     "CLB_2025_2": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-07"
+        ],
         "last_comment_date": "",
         "total_deducted": 40,
         "new_comments": [],
@@ -41841,7 +41844,8 @@
             "1364629944",
             "1365270365",
             "1364632543",
-            "1364631980"
+            "1364631980",
+            "1367260581"
         ],
         "processed_activities": [
             "addprojecttostudio-341571096",
@@ -41856,10 +41860,11 @@
             "addprojecttostudio-341571075",
             "addprojecttostudio-341571074",
             "addprojecttostudio-341571073",
-            "addprojecttostudio-341571072"
+            "addprojecttostudio-341571072",
+            "addprojecttostudio-342770538"
         ],
-        "projects_today": 13,
-        "last_project_date": "2026-07-30"
+        "projects_today": 1,
+        "last_project_date": "2026-08-07"
     },
     "KhaiAnh5B": {
         "score": 100,
@@ -47922,7 +47927,8 @@
             "329348537",
             "329519155",
             "329599168",
-            "329622719"
+            "329622719",
+            "329668738"
         ],
         "processed_projects": [
             "1345850613",
