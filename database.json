@@ -33590,16 +33590,22 @@
     "gojox23": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-07"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1367213845"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-342743465"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-07"
     },
     "BobaBear321": {
         "score": 100,
@@ -44023,16 +44029,22 @@
     "sun578121": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-07"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1367178433"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-342738674"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-07"
     },
     "StickMenExist": {
         "score": 100,
@@ -45943,7 +45955,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-06"
+            "2026-08-07"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -45952,14 +45964,16 @@
         "processed_comments": [],
         "processed_projects": [
             "1364833644",
-            "1366764164"
+            "1366764164",
+            "1367012127"
         ],
         "processed_activities": [
             "addprojecttostudio-342457941",
-            "addprojecttostudio-342556987"
+            "addprojecttostudio-342556987",
+            "addprojecttostudio-342743607"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-06"
+        "last_project_date": "2026-08-07"
     },
     "Tuibeoj0": {
         "score": 100,
