@@ -10251,18 +10251,6 @@
             "1366257285"
         ],
         "processed_activities": [
-            "addprojecttostudio-342618635",
-            "removeprojectstudio-83394988",
-            "addprojecttostudio-342681309",
-            "removeprojectstudio-83404203",
-            "addprojecttostudio-342681279",
-            "removeprojectstudio-83404189",
-            "addprojecttostudio-342681263",
-            "removeprojectstudio-83404183",
-            "addprojecttostudio-342700616",
-            "removeprojectstudio-83407102",
-            "addprojecttostudio-342700534",
-            "removeprojectstudio-83407090",
             "addprojecttostudio-342700520",
             "removeprojectstudio-83407082",
             "addprojecttostudio-342688123",
@@ -10350,7 +10338,19 @@
             "addprojecttostudio-342850542",
             "removeprojectstudio-83430875",
             "addprojecttostudio-342850523",
-            "removeprojectstudio-83430863"
+            "removeprojectstudio-83430863",
+            "addprojecttostudio-342858943",
+            "removeprojectstudio-83432382",
+            "addprojecttostudio-342858918",
+            "removeprojectstudio-83432372",
+            "addprojecttostudio-342858878",
+            "removeprojectstudio-83432356",
+            "addprojecttostudio-342856044",
+            "removeprojectstudio-83431913",
+            "addprojecttostudio-342855983",
+            "removeprojectstudio-83431902",
+            "addprojecttostudio-342855946",
+            "removeprojectstudio-83431888"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-06"
@@ -44546,16 +44546,22 @@
     "phong312": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-08"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1367392049"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-342858518"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-08"
     },
     "skibbiditoilet0826": {
         "score": 100,
@@ -49162,7 +49168,7 @@
     },
     "IceyGlow": {
         "active_dates": [
-            "2026-08-06"
+            "2026-08-08"
         ],
         "last_comment_date": "2026-08-02",
         "total_deducted": 0,
@@ -49175,14 +49181,23 @@
             "329287990"
         ],
         "processed_projects": [
-            "1366680751"
+            "1366680751",
+            "1365687012",
+            "1364993662",
+            "1366965394",
+            "1367217849"
         ],
         "processed_activities": [
             "becomecurator-158314817",
-            "addprojecttostudio-342554649"
+            "addprojecttostudio-342554649",
+            "addprojecttostudio-342854599",
+            "addprojecttostudio-342854597",
+            "addprojecttostudio-342854593",
+            "addprojecttostudio-342854588",
+            "addprojecttostudio-342854585"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-08-06"
+        "projects_today": 4,
+        "last_project_date": "2026-08-08"
     },
     "laianhball321": {
         "active_dates": [
