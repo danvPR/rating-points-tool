@@ -13339,7 +13339,7 @@
             "2026-08-05",
             "2026-08-06"
         ],
-        "last_comment_date": "2026-08-05",
+        "last_comment_date": "2026-08-06",
         "total_deducted": 10,
         "new_comments": [],
         "new_logs": [],
@@ -14525,7 +14525,8 @@
             "329649885",
             "329659372",
             "329659414",
-            "329661952"
+            "329661952",
+            "329710450"
         ],
         "processed_projects": [
             "1365026227",
@@ -14566,7 +14567,13 @@
             "addprojecttostudio-342730844",
             "addprojecttostudio-342850530",
             "addprojecttostudio-342850528",
-            "addprojecttostudio-342850525"
+            "addprojecttostudio-342850525",
+            "removeprojectstudio-83433306",
+            "removeprojectstudio-83433298",
+            "addprojecttostudio-342863021",
+            "removeprojectstudio-83433286",
+            "addprojecttostudio-342863010",
+            "addprojecttostudio-342863009"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-08"
@@ -34041,7 +34048,7 @@
         "active_dates": [
             "2026-08-07"
         ],
-        "last_comment_date": "2026-08-06",
+        "last_comment_date": "2026-08-05",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -38081,7 +38088,7 @@
         "active_dates": [
             "2026-08-08"
         ],
-        "last_comment_date": "2026-08-05",
+        "last_comment_date": "2026-08-06",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -49127,7 +49134,7 @@
     },
     "lethehuynh09": {
         "active_dates": [
-            "2026-08-07"
+            "2026-08-08"
         ],
         "last_comment_date": "2026-08-05",
         "total_deducted": 0,
@@ -49147,7 +49154,9 @@
             "1363101035",
             "1367132293",
             "1367128520",
-            "1367210293"
+            "1367210293",
+            "1367402020",
+            "1367399144"
         ],
         "processed_activities": [
             "becomecurator-158314359",
@@ -49161,10 +49170,12 @@
             "addprojecttostudio-342614221",
             "addprojecttostudio-342685851",
             "addprojecttostudio-342683643",
-            "addprojecttostudio-342731750"
+            "addprojecttostudio-342731750",
+            "addprojecttostudio-342863560",
+            "addprojecttostudio-342862830"
         ],
-        "projects_today": 3,
-        "last_project_date": "2026-08-07"
+        "projects_today": 2,
+        "last_project_date": "2026-08-08"
     },
     "IceyGlow": {
         "active_dates": [
