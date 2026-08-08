@@ -47993,7 +47993,7 @@
     },
     "bicoidev": {
         "active_dates": [
-            "2026-08-07"
+            "2026-08-08"
         ],
         "last_comment_date": "2026-08-06",
         "total_deducted": 0,
@@ -48012,7 +48012,9 @@
             "329599168",
             "329622719",
             "329668738",
-            "329687309"
+            "329687309",
+            "329717874",
+            "329717831"
         ],
         "processed_projects": [
             "1345850613",
@@ -49191,7 +49193,8 @@
             "1367210293",
             "1367402020",
             "1367399144",
-            "1367419532"
+            "1367419532",
+            "1367425133"
         ],
         "processed_activities": [
             "becomecurator-158314359",
@@ -49208,9 +49211,10 @@
             "addprojecttostudio-342731750",
             "addprojecttostudio-342863560",
             "addprojecttostudio-342862830",
-            "addprojecttostudio-342880511"
+            "addprojecttostudio-342880511",
+            "addprojecttostudio-342884395"
         ],
-        "projects_today": 3,
+        "projects_today": 4,
         "last_project_date": "2026-08-08"
     },
     "IceyGlow": {
