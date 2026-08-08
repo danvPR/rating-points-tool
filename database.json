@@ -7809,7 +7809,9 @@
             "329722618",
             "329722714",
             "329722768",
-            "329722799"
+            "329722799",
+            "329730115",
+            "329730137"
         ],
         "processed_projects": [
             "1322617821",
@@ -10270,18 +10272,6 @@
             "1366257285"
         ],
         "processed_activities": [
-            "addprojecttostudio-342723656",
-            "removeprojectstudio-83411173",
-            "addprojecttostudio-342728937",
-            "removeprojectstudio-83412191",
-            "addprojecttostudio-342728879",
-            "removeprojectstudio-83412180",
-            "addprojecttostudio-342730975",
-            "removeprojectstudio-83412559",
-            "addprojecttostudio-342730914",
-            "removeprojectstudio-83412537",
-            "addprojecttostudio-342730890",
-            "removeprojectstudio-83412526",
             "addprojecttostudio-342751412",
             "removeprojectstudio-83415770",
             "addprojecttostudio-342751382",
@@ -10369,7 +10359,19 @@
             "addprojecttostudio-342898382",
             "removeprojectstudio-83440404",
             "addprojecttostudio-342898356",
-            "removeprojectstudio-83440380"
+            "removeprojectstudio-83440380",
+            "addprojecttostudio-342907058",
+            "removeprojectstudio-83441643",
+            "addprojecttostudio-342907050",
+            "removeprojectstudio-83441636",
+            "addprojecttostudio-342907031",
+            "removeprojectstudio-83441626",
+            "addprojecttostudio-342905036",
+            "removeprojectstudio-83441396",
+            "addprojecttostudio-342904986",
+            "removeprojectstudio-83441377",
+            "addprojecttostudio-342904956",
+            "removeprojectstudio-83441369"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-06"
@@ -35583,7 +35585,8 @@
             "329634935",
             "329666784",
             "329667982",
-            "329697087"
+            "329697087",
+            "329731970"
         ],
         "processed_projects": [
             "1316583654",
@@ -39328,7 +39331,11 @@
             "329726947",
             "329727685",
             "329727875",
-            "329727379"
+            "329727379",
+            "329730324",
+            "329730343",
+            "329730361",
+            "329730381"
         ],
         "processed_projects": [
             "1365505581"
@@ -43966,7 +43973,8 @@
             "1367256996",
             "1367266638",
             "1367306705",
-            "1367407441"
+            "1367407441",
+            "1367454134"
         ],
         "processed_activities": [
             "addprojecttostudio-335384324",
@@ -43992,9 +44000,10 @@
             "addprojecttostudio-342775980",
             "addprojecttostudio-342785229",
             "addprojecttostudio-342798549",
-            "addprojecttostudio-342869096"
+            "addprojecttostudio-342869096",
+            "addprojecttostudio-342909100"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-08-08"
     },
     "DinoSnoreAnimations": {
@@ -45482,7 +45491,10 @@
             "329661799",
             "329697245",
             "329695004",
-            "329694878"
+            "329694878",
+            "329730569",
+            "329731379",
+            "329732321"
         ],
         "processed_projects": [
             "1366057853"
@@ -49924,7 +49936,8 @@
             "1366718778",
             "1366934373",
             "1367034339",
-            "1367386751"
+            "1367386751",
+            "1367413913"
         ],
         "processed_activities": [
             "addprojecttostudio-342036326",
@@ -49935,9 +49948,10 @@
             "addprojecttostudio-342569222",
             "addprojecttostudio-342731605",
             "addprojecttostudio-342847947",
-            "addprojecttostudio-342899461"
+            "addprojecttostudio-342899461",
+            "addprojecttostudio-342908323"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-08-08"
     },
     "SongAnn12": {
@@ -50325,7 +50339,12 @@
             "329728879",
             "329728376",
             "329728094",
-            "329728123"
+            "329728123",
+            "329729882",
+            "329729956",
+            "329730058",
+            "329730625",
+            "329731446"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -50956,7 +50975,7 @@
     },
     "anhduy2k15": {
         "active_dates": [
-            "2026-08-07"
+            "2026-08-08"
         ],
         "last_comment_date": "2026-08-06",
         "total_deducted": 0,
@@ -50967,13 +50986,19 @@
             "329573824"
         ],
         "processed_projects": [
-            "1366971870"
+            "1366971870",
+            "1367418943",
+            "1367387429",
+            "1367446451"
         ],
         "processed_activities": [
-            "becomecurator-158370527"
+            "becomecurator-158370527",
+            "addprojecttostudio-342904763",
+            "addprojecttostudio-342904761",
+            "addprojecttostudio-342904759"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-08-07"
+        "projects_today": 3,
+        "last_project_date": "2026-08-08"
     },
     "Godzilla234511": {
         "active_dates": [
