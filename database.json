@@ -28585,7 +28585,8 @@
             "addprojecttostudio-342835749",
             "addprojecttostudio-342917194",
             "addprojecttostudio-343040524",
-            "addprojecttostudio-343055633"
+            "addprojecttostudio-343055633",
+            "addprojecttostudio-343064791"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-09"
@@ -40033,12 +40034,14 @@
             "329396130",
             "329613111",
             "329595988",
-            "329665504"
+            "329665504",
+            "329810221"
         ],
         "processed_projects": [
             "1296468457",
             "1366773175",
-            "1295048717"
+            "1295048717",
+            "1367643029"
         ],
         "processed_activities": [
             "addprojecttostudio-341495843",
@@ -40061,10 +40064,11 @@
             "addprojecttostudio-342622667",
             "removeprojectstudio-83395456",
             "addprojecttostudio-342981119",
-            "removeprojectstudio-83453455"
+            "removeprojectstudio-83453455",
+            "addprojecttostudio-343063531"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-07"
+        "last_project_date": "2026-08-09"
     },
     "bamboovietnam": {
         "score": 100,
@@ -52233,6 +52237,22 @@
         "processed_comments": [],
         "processed_projects": [
             "1313452535"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-08-09"
+    },
+    "zmansoleil": {
+        "active_dates": [
+            "2026-08-09"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1363650736"
         ],
         "processed_activities": [],
         "projects_today": 1,
