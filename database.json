@@ -10298,12 +10298,6 @@
             "1366257285"
         ],
         "processed_activities": [
-            "addprojecttostudio-342758084",
-            "removeprojectstudio-83416674",
-            "addprojecttostudio-342758056",
-            "removeprojectstudio-83416659",
-            "addprojecttostudio-342757971",
-            "removeprojectstudio-83416646",
             "addprojecttostudio-342768916",
             "removeprojectstudio-83417734",
             "addprojecttostudio-342768848",
@@ -10397,7 +10391,13 @@
             "addprojecttostudio-342981075",
             "removeprojectstudio-83453441",
             "addprojecttostudio-342981055",
-            "removeprojectstudio-83453430"
+            "removeprojectstudio-83453430",
+            "addprojecttostudio-342989702",
+            "removeprojectstudio-83455010",
+            "addprojecttostudio-342989683",
+            "removeprojectstudio-83454996",
+            "addprojecttostudio-342989653",
+            "removeprojectstudio-83454980"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-06"
@@ -20966,7 +20966,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-06"
+            "2026-08-09"
         ],
         "last_comment_date": "2026-08-06",
         "total_deducted": 0,
@@ -21016,7 +21016,8 @@
             "329587883",
             "329586972",
             "329588033",
-            "329586887"
+            "329586887",
+            "329772667"
         ],
         "processed_projects": [
             "1331270896"
@@ -21494,15 +21495,17 @@
             "1366405977",
             "1366972305",
             "1367200794",
-            "1367540945"
+            "1367540945",
+            "1367551064"
         ],
         "processed_activities": [
             "addprojecttostudio-342254749",
             "addprojecttostudio-342721148",
             "addprojecttostudio-342839223",
-            "addprojecttostudio-342977919"
+            "addprojecttostudio-342977919",
+            "addprojecttostudio-342988308"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-08-09"
     },
     "chien1012014": {
@@ -49168,7 +49171,10 @@
             "329638829",
             "329686692",
             "329766347",
-            "329767992"
+            "329767992",
+            "329772465",
+            "329772745",
+            "329772996"
         ],
         "processed_projects": [
             "1367379473"
@@ -50466,7 +50472,8 @@
             "329769527",
             "329769815",
             "329771393",
-            "329771788"
+            "329771788",
+            "329774678"
         ],
         "processed_projects": [],
         "processed_activities": [],
