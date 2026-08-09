@@ -12832,7 +12832,8 @@
             "329382849",
             "329386790",
             "329690936",
-            "329763026"
+            "329763026",
+            "329820714"
         ],
         "processed_projects": [
             "1332031524"
@@ -17726,16 +17727,22 @@
     "mainkurahuto2242": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-09"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1365839000"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-343085029"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-09"
     },
     "meganemaru777": {
         "score": 100,
@@ -48262,7 +48269,8 @@
             "329687309",
             "329717874",
             "329717831",
-            "329763755"
+            "329763755",
+            "329821209"
         ],
         "processed_projects": [
             "1345850613",
