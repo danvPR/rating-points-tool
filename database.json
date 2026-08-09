@@ -33625,16 +33625,22 @@
     "Cinnamorollmilktea": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-09"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1366035252"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-342985349"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-09"
     },
     "CooleSockeCooleSocke": {
         "score": 100,
@@ -34229,7 +34235,8 @@
             "329716249",
             "329763745",
             "329763754",
-            "329768955"
+            "329768955",
+            "329769489"
         ],
         "processed_projects": [
             "1330301710",
@@ -34707,7 +34714,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-05"
+            "2026-08-09"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -34719,7 +34726,8 @@
             "1365276476",
             "1242712891",
             "1365687249",
-            "1366656786"
+            "1366656786",
+            "1362941627"
         ],
         "processed_activities": [
             "addprojecttostudio-341550454",
@@ -34728,10 +34736,15 @@
             "addprojecttostudio-341818190",
             "addprojecttostudio-342406068",
             "removeprojectstudio-83359035",
-            "addprojecttostudio-342403672"
+            "addprojecttostudio-342403672",
+            "addprojecttostudio-342983929",
+            "removeprojectstudio-83453740",
+            "addprojecttostudio-342983925",
+            "addprojecttostudio-342983924",
+            "addprojecttostudio-342983923"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-05"
+        "last_project_date": "2026-08-09"
     },
     "ConeNews": {
         "score": 100,
@@ -39388,7 +39401,8 @@
             "329765079",
             "329767404",
             "329767658",
-            "329767290"
+            "329767290",
+            "329771294"
         ],
         "processed_projects": [
             "1365505581"
@@ -46463,7 +46477,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-06"
+            "2026-08-09"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -46473,16 +46487,18 @@
         "processed_projects": [
             "1290980354",
             "1366702902",
-            "1366963976"
+            "1366963976",
+            "1367363498"
         ],
         "processed_activities": [
             "addprojecttostudio-341586915",
             "addprojecttostudio-341861167",
             "addprojecttostudio-342575157",
-            "addprojecttostudio-342595224"
+            "addprojecttostudio-342595224",
+            "addprojecttostudio-342982847"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-08-06"
+        "projects_today": 1,
+        "last_project_date": "2026-08-09"
     },
     "dai_truyen_hinh_uia": {
         "score": 100,
@@ -48516,7 +48532,13 @@
             "329758900",
             "329758514",
             "329758799",
-            "329766772"
+            "329766772",
+            "329770861",
+            "329771104",
+            "329771141",
+            "329771774",
+            "329771933",
+            "329771969"
         ],
         "processed_projects": [
             "1365446488",
@@ -50437,7 +50459,14 @@
             "329767184",
             "329769233",
             "329767447",
-            "329767326"
+            "329767326",
+            "329770388",
+            "329770944",
+            "329771081",
+            "329769527",
+            "329769815",
+            "329771393",
+            "329771788"
         ],
         "processed_projects": [],
         "processed_activities": [],
