@@ -7793,7 +7793,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-10"
+            "2026-08-11"
         ],
         "last_comment_date": "2026-08-09",
         "total_deducted": 0,
@@ -7850,7 +7850,8 @@
             "1264468804",
             "1365799942",
             "1160919022",
-            "1366669185"
+            "1366669185",
+            "1368047242"
         ],
         "processed_activities": [
             "addprojecttostudio-341604939",
@@ -7935,10 +7936,17 @@
             "addprojecttostudio-343149708",
             "addprojecttostudio-343149703",
             "removeprojectstudio-83482852",
-            "addprojecttostudio-343149690"
+            "addprojecttostudio-343149690",
+            "removeprojectstudio-83504334",
+            "removeprojectstudio-83504331",
+            "removeprojectstudio-83504329",
+            "addprojecttostudio-343289041",
+            "addprojecttostudio-343289040",
+            "addprojecttostudio-343289033",
+            "addprojecttostudio-343288908"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-05"
+        "last_project_date": "2026-08-11"
     },
     "Vietmarbel124": {
         "score": 100,
@@ -10336,12 +10344,6 @@
             "1365662361"
         ],
         "processed_activities": [
-            "addprojecttostudio-343110086",
-            "removeprojectstudio-83475725",
-            "addprojecttostudio-343105785",
-            "removeprojectstudio-83474998",
-            "addprojecttostudio-343105736",
-            "removeprojectstudio-83474980",
             "addprojecttostudio-343105700",
             "removeprojectstudio-83474961",
             "addprojecttostudio-343115873",
@@ -10435,7 +10437,13 @@
             "addprojecttostudio-343278462",
             "removeprojectstudio-83502770",
             "addprojecttostudio-343278428",
-            "removeprojectstudio-83502757"
+            "removeprojectstudio-83502757",
+            "addprojecttostudio-343284936",
+            "removeprojectstudio-83503844",
+            "addprojecttostudio-343284902",
+            "removeprojectstudio-83503827",
+            "addprojecttostudio-343284822",
+            "removeprojectstudio-83503795"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-10"
@@ -34297,8 +34305,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "325691697",
-            "325690990",
             "325693130",
             "325690897",
             "325763257",
@@ -34396,7 +34402,9 @@
             "329912590",
             "329913342",
             "329913535",
-            "329915669"
+            "329915669",
+            "329930245",
+            "329930219"
         ],
         "processed_projects": [
             "1330301710",
@@ -35821,7 +35829,8 @@
             "329873456",
             "329873709",
             "329873744",
-            "329906442"
+            "329906442",
+            "329931525"
         ],
         "processed_projects": [
             "1316583654",
@@ -47033,7 +47042,13 @@
             "329657701",
             "329797331",
             "329928071",
-            "329928089"
+            "329928089",
+            "329929643",
+            "329929901",
+            "329929954",
+            "329928682",
+            "329928914",
+            "329929009"
         ],
         "processed_projects": [
             "1331738580",
@@ -48585,7 +48600,7 @@
     },
     "Sam_Scratch22": {
         "active_dates": [
-            "2026-08-10"
+            "2026-08-11"
         ],
         "last_comment_date": "2026-07-30",
         "total_deducted": 0,
@@ -48627,7 +48642,8 @@
             "addprojecttostudio-343131752",
             "addprojecttostudio-343131751",
             "addprojecttostudio-343131736",
-            "becomecurator-158441192"
+            "becomecurator-158441192",
+            "addprojecttostudio-343284755"
         ],
         "projects_today": 4,
         "last_project_date": "2026-08-10"
@@ -50908,7 +50924,12 @@
             "329913833",
             "329913199",
             "329925109",
-            "329926367"
+            "329926367",
+            "329928426",
+            "329928859",
+            "329928986",
+            "329929356",
+            "329930459"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -52920,7 +52941,12 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "329926173"
+            "329926173",
+            "329929590",
+            "329929681",
+            "329929752",
+            "329929888",
+            "329930000"
         ],
         "processed_projects": [
             "1252392195"
