@@ -10369,12 +10369,6 @@
             "1351427341"
         ],
         "processed_activities": [
-            "removeprojectstudio-83496728",
-            "addprojecttostudio-343244876",
-            "removeprojectstudio-83496719",
-            "addprojecttostudio-343254798",
-            "removeprojectstudio-83498479",
-            "addprojecttostudio-343254781",
             "removeprojectstudio-83498470",
             "addprojecttostudio-343254766",
             "removeprojectstudio-83498461",
@@ -10468,7 +10462,13 @@
             "addprojecttostudio-343421521",
             "removeprojectstudio-83526403",
             "addprojecttostudio-343421491",
-            "removeprojectstudio-83526393"
+            "removeprojectstudio-83526393",
+            "addprojecttostudio-343429363",
+            "removeprojectstudio-83527598",
+            "addprojecttostudio-343429335",
+            "removeprojectstudio-83527580",
+            "addprojecttostudio-343429298",
+            "removeprojectstudio-83527566"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-12"
@@ -13567,7 +13567,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-06-15"
+            "2026-08-12"
         ],
         "last_comment_date": "2026-06-13",
         "total_deducted": 0,
@@ -13578,13 +13578,15 @@
         ],
         "processed_projects": [
             "1331466406",
-            "1331975832"
+            "1331975832",
+            "1368265934"
         ],
         "processed_activities": [
-            "addprojecttostudio-335658845"
+            "addprojecttostudio-335658845",
+            "addprojecttostudio-343425211"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-06-15"
+        "last_project_date": "2026-08-12"
     },
     "cakeed123": {
         "score": 100,
@@ -17243,12 +17245,15 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [
-            "addprojecttostudio-343420067"
+        "processed_projects": [
+            "1368270965"
         ],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_activities": [
+            "addprojecttostudio-343420067",
+            "addprojecttostudio-343429522"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-12"
     },
     "UUKAADO": {
         "score": 100,
@@ -24052,7 +24057,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-11"
+            "2026-08-12"
         ],
         "last_comment_date": "2026-08-11",
         "total_deducted": 0,
@@ -24064,7 +24069,8 @@
             "325762578",
             "325763457",
             "329940071",
-            "329940907"
+            "329940907",
+            "330005896"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -34372,7 +34378,7 @@
         "active_dates": [
             "2026-08-12"
         ],
-        "last_comment_date": "2026-08-09",
+        "last_comment_date": "2026-08-10",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -44444,7 +44450,9 @@
             "1367768356",
             "1367874427",
             "1367873810",
-            "1368108498"
+            "1368108498",
+            "1368270174",
+            "1368266220"
         ],
         "processed_activities": [
             "addprojecttostudio-335384324",
@@ -44482,9 +44490,11 @@
             "addprojecttostudio-343132339",
             "addprojecttostudio-343190501",
             "addprojecttostudio-343189433",
-            "addprojecttostudio-343398119"
+            "addprojecttostudio-343398119",
+            "addprojecttostudio-343429167",
+            "addprojecttostudio-343426674"
         ],
-        "projects_today": 1,
+        "projects_today": 3,
         "last_project_date": "2026-08-12"
     },
     "DinoSnoreAnimations": {
@@ -49916,7 +49926,7 @@
     },
     "lethehuynh09": {
         "active_dates": [
-            "2026-08-10"
+            "2026-08-12"
         ],
         "last_comment_date": "2026-08-05",
         "total_deducted": 0,
@@ -49944,7 +49954,8 @@
             "1367573563",
             "1367527363",
             "1367593748",
-            "1367773626"
+            "1367773626",
+            "1368200433"
         ],
         "processed_activities": [
             "becomecurator-158314359",
@@ -49966,10 +49977,11 @@
             "addprojecttostudio-343002896",
             "addprojecttostudio-343001574",
             "addprojecttostudio-343021865",
-            "addprojecttostudio-343137575"
+            "addprojecttostudio-343137575",
+            "addprojecttostudio-343426263"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-10"
+        "last_project_date": "2026-08-12"
     },
     "IceyGlow": {
         "active_dates": [
