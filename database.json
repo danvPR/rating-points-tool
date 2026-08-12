@@ -21431,7 +21431,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-01"
+            "2026-08-12"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -21439,13 +21439,15 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1363850666"
+            "1363850666",
+            "1368276042"
         ],
         "processed_activities": [
-            "addprojecttostudio-341887863"
+            "addprojecttostudio-341887863",
+            "addprojecttostudio-343432937"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-01"
+        "last_project_date": "2026-08-12"
     },
     "Technology_Scratch": {
         "score": 100,
@@ -42539,7 +42541,8 @@
             "2026-08-07",
             "2026-08-09",
             "2026-08-10",
-            "2026-08-11"
+            "2026-08-11",
+            "2026-08-12"
         ],
         "last_comment_date": "",
         "total_deducted": 5,
@@ -42592,7 +42595,8 @@
             "1367589380",
             "1367659025",
             "1367819006",
-            "1368115581"
+            "1368115581",
+            "1368280091"
         ],
         "processed_activities": [
             "addprojecttostudio-335277122",
@@ -42640,10 +42644,11 @@
             "addprojecttostudio-343017726",
             "addprojecttostudio-343072439",
             "addprojecttostudio-343162755",
-            "addprojecttostudio-343325999"
+            "addprojecttostudio-343325999",
+            "addprojecttostudio-343434445"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-11"
+        "last_project_date": "2026-08-12"
     },
     "IntelPentiumIII": {
         "score": 100,
@@ -48622,7 +48627,7 @@
     },
     "bicoidev": {
         "active_dates": [
-            "2026-08-11"
+            "2026-08-12"
         ],
         "last_comment_date": "2026-08-11",
         "total_deducted": 0,
@@ -48646,7 +48651,8 @@
             "329717831",
             "329763755",
             "329821209",
-            "329967313"
+            "329967313",
+            "330008612"
         ],
         "processed_projects": [
             "1345850613",
@@ -48950,7 +48956,7 @@
     },
     "TH25-bang": {
         "active_dates": [
-            "2026-08-09"
+            "2026-08-12"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -48963,7 +48969,8 @@
             "1365903158",
             "1353129444",
             "1366889953",
-            "1367573873"
+            "1367573873",
+            "1362716889"
         ],
         "processed_activities": [
             "addprojecttostudio-341569268",
@@ -48977,10 +48984,12 @@
             "addprojecttostudio-342565021",
             "addprojecttostudio-342705136",
             "removeprojectstudio-83459462",
-            "addprojecttostudio-343014232"
+            "addprojecttostudio-343014232",
+            "addprojecttostudio-343434299",
+            "addprojecttostudio-343431160"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-09"
+        "last_project_date": "2026-08-12"
     },
     "DuolingoEnglishTest": {
         "active_dates": [
@@ -49374,7 +49383,8 @@
         "processed_comments": [
             "329991136",
             "329990596",
-            "330002075"
+            "330002075",
+            "330007824"
         ],
         "processed_projects": [
             "1364406485",
@@ -49385,7 +49395,8 @@
             "1320953568",
             "1350731562",
             "1223972516",
-            "1223600412"
+            "1223600412",
+            "1295493912"
         ],
         "processed_activities": [
             "addprojecttostudio-343398387",
@@ -49398,9 +49409,10 @@
             "addprojecttostudio-343398364",
             "addprojecttostudio-343398361",
             "addprojecttostudio-343398354",
-            "becomecurator-158470650"
+            "becomecurator-158470650",
+            "addprojecttostudio-343429751"
         ],
-        "projects_today": 7,
+        "projects_today": 8,
         "last_project_date": "2026-08-12"
     },
     "sonBANHBAO": {
