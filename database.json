@@ -7796,7 +7796,7 @@
             "2026-08-11"
         ],
         "last_comment_date": "2026-08-09",
-        "total_deducted": 0,
+        "total_deducted": 5,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
@@ -7843,7 +7843,8 @@
             "329793472",
             "329793479",
             "329858577",
-            "329940524"
+            "329940524",
+            "329966195"
         ],
         "processed_projects": [
             "1322617821",
@@ -7854,21 +7855,15 @@
             "1366669185",
             "1368047242",
             "1202957652",
-            "1199412357"
+            "1199412357",
+            "1119124945",
+            "1124363702",
+            "1128542887",
+            "1182708442",
+            "1188818101",
+            "1203863578"
         ],
         "processed_activities": [
-            "addprojecttostudio-341614272",
-            "removeprojectstudio-83233766",
-            "addprojecttostudio-341614262",
-            "addprojecttostudio-341615664",
-            "addprojecttostudio-341824237",
-            "removeprojectstudio-83301949",
-            "addprojecttostudio-342031199",
-            "removeprojectstudio-83301948",
-            "removeprojectstudio-83301946",
-            "addprojecttostudio-342031197",
-            "addprojecttostudio-342031196",
-            "removeprojectstudio-83301945",
             "addprojecttostudio-342031191",
             "addprojecttostudio-342103368",
             "removeprojectstudio-83312420",
@@ -7956,10 +7951,22 @@
             "addprojecttostudio-343305024",
             "removeprojectstudio-83506780",
             "addprojecttostudio-343305018",
-            "removeprojectstudio-83506779"
+            "removeprojectstudio-83506779",
+            "removeprojectstudio-83514986",
+            "addprojecttostudio-343357671",
+            "removeprojectstudio-83514985",
+            "addprojecttostudio-343357644",
+            "removeprojectstudio-83514983",
+            "addprojecttostudio-343357625",
+            "removeprojectstudio-83514980",
+            "addprojecttostudio-343357591",
+            "removeprojectstudio-83514979",
+            "addprojecttostudio-343357578",
+            "removeprojectstudio-83514976",
+            "addprojecttostudio-343357571"
         ],
-        "projects_today": 3,
-        "last_project_date": "2026-08-11"
+        "projects_today": 6,
+        "last_project_date": "2026-08-12"
     },
     "Vietmarbel124": {
         "score": 100,
@@ -48568,7 +48575,7 @@
         "active_dates": [
             "2026-08-11"
         ],
-        "last_comment_date": "2026-08-08",
+        "last_comment_date": "2026-08-11",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -48589,7 +48596,8 @@
             "329717874",
             "329717831",
             "329763755",
-            "329821209"
+            "329821209",
+            "329967313"
         ],
         "processed_projects": [
             "1345850613",
