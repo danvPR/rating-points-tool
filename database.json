@@ -22052,7 +22052,9 @@
             "329015204",
             "328973026",
             "329088261",
-            "330091982"
+            "330091982",
+            "330095606",
+            "330095616"
         ],
         "processed_projects": [
             "1329643401"
@@ -34436,12 +34438,11 @@
         "active_dates": [
             "2026-08-13"
         ],
-        "last_comment_date": "2026-08-10",
+        "last_comment_date": "2026-08-11",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "329184476",
             "329185077",
             "329184247",
             "329290530",
@@ -34540,7 +34541,8 @@
             "330054398",
             "330054410",
             "330054432",
-            "330076044"
+            "330076044",
+            "330094073"
         ],
         "processed_projects": [
             "1330301710",
@@ -34551,7 +34553,8 @@
             "1365714247",
             "1365997641",
             "1366737360",
-            "1366484565"
+            "1366484565",
+            "1368574885"
         ],
         "processed_activities": [
             "removeprojectstudio-82243531",
@@ -34622,10 +34625,12 @@
             "removeprojectstudio-83505671",
             "removeprojectstudio-83505669",
             "removeprojectstudio-83505668",
-            "removeprojectstudio-83542001"
+            "removeprojectstudio-83542001",
+            "addprojecttostudio-343597559",
+            "becomeownerstudio-59816168"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-07"
+        "last_project_date": "2026-08-13"
     },
     "BearPlanet": {
         "score": 100,
@@ -38265,9 +38270,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-06-14"
+            "2026-08-13"
         ],
-        "last_comment_date": "2026-06-13",
+        "last_comment_date": "2026-08-13",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -38297,7 +38302,10 @@
             "325841665",
             "325842424",
             "325840179",
-            "325878000"
+            "325878000",
+            "330095588",
+            "330095517",
+            "330095835"
         ],
         "processed_projects": [],
         "processed_activities": [
@@ -38340,7 +38348,8 @@
             "removeprojectstudio-82260608",
             "removeprojectstudio-82260605",
             "removeprojectstudio-82260603",
-            "removeprojectstudio-82260601"
+            "removeprojectstudio-82260601",
+            "becomecurator-158493511"
         ],
         "projects_today": 0,
         "last_project_date": ""
@@ -42697,7 +42706,8 @@
             "1368115581",
             "1368280091",
             "1368526214",
-            "1368522323"
+            "1368522323",
+            "1368574478"
         ],
         "processed_activities": [
             "addprojecttostudio-335277122",
@@ -42748,9 +42758,10 @@
             "addprojecttostudio-343325999",
             "addprojecttostudio-343434445",
             "addprojecttostudio-343568167",
-            "addprojecttostudio-343564951"
+            "addprojecttostudio-343564951",
+            "addprojecttostudio-343596994"
         ],
-        "projects_today": 2,
+        "projects_today": 3,
         "last_project_date": "2026-08-13"
     },
     "IntelPentiumIII": {
@@ -44585,7 +44596,9 @@
             "1368270174",
             "1368266220",
             "1368351003",
-            "1368353535"
+            "1368353535",
+            "1368569179",
+            "1368262878"
         ],
         "processed_activities": [
             "addprojecttostudio-335384324",
@@ -44627,9 +44640,11 @@
             "addprojecttostudio-343429167",
             "addprojecttostudio-343426674",
             "addprojecttostudio-343470185",
-            "addprojecttostudio-343546765"
+            "addprojecttostudio-343546765",
+            "addprojecttostudio-343597480",
+            "addprojecttostudio-343592683"
         ],
-        "projects_today": 1,
+        "projects_today": 3,
         "last_project_date": "2026-08-13"
     },
     "DinoSnoreAnimations": {
@@ -53827,7 +53842,8 @@
             "becomecurator-158484350",
             "addprojecttostudio-343549314",
             "removeprojectstudio-83547864",
-            "addprojecttostudio-343549312"
+            "addprojecttostudio-343549312",
+            "addprojecttostudio-343599301"
         ],
         "projects_today": 2,
         "last_project_date": "2026-08-13"
