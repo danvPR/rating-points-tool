@@ -41573,16 +41573,22 @@
     "10152692": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-13"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1326951780"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-343631227"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-13"
     },
     "firebird0727": {
         "score": 100,
