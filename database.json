@@ -22056,16 +22056,19 @@
             "329088261",
             "330091982",
             "330095606",
-            "330095616"
+            "330095616",
+            "330100512"
         ],
         "processed_projects": [
-            "1329643401"
+            "1329643401",
+            "1368598934"
         ],
         "processed_activities": [
-            "becomecurator-158299178"
+            "becomecurator-158299178",
+            "addprojecttostudio-343607623"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-06-13"
+        "last_project_date": "2026-08-13"
     },
     "babaisyou544": {
         "score": 100,
@@ -28602,7 +28605,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-12"
+            "2026-08-13"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -28616,7 +28619,8 @@
             "1366583512",
             "1367836341",
             "1367845381",
-            "1367843100"
+            "1367843100",
+            "1368603217"
         ],
         "processed_activities": [
             "addprojecttostudio-335552352",
@@ -28624,10 +28628,11 @@
             "addprojecttostudio-342363700",
             "addprojecttostudio-343173729",
             "addprojecttostudio-343178799",
-            "addprojecttostudio-343455971"
+            "addprojecttostudio-343455971",
+            "addprojecttostudio-343613444"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-12"
+        "last_project_date": "2026-08-13"
     },
     "EspeonSiamese123": {
         "score": 100,
@@ -35912,7 +35917,7 @@
         "active_dates": [
             "2026-08-12"
         ],
-        "last_comment_date": "2026-08-11",
+        "last_comment_date": "2026-08-12",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -42763,7 +42768,8 @@
             "addprojecttostudio-343568167",
             "addprojecttostudio-343564951",
             "addprojecttostudio-343596994",
-            "addprojecttostudio-343601527"
+            "addprojecttostudio-343601527",
+            "addprojecttostudio-343609421"
         ],
         "projects_today": 4,
         "last_project_date": "2026-08-13"
@@ -51305,7 +51311,7 @@
         "active_dates": [
             "2026-08-13"
         ],
-        "last_comment_date": "2026-08-11",
+        "last_comment_date": "2026-08-12",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -51660,7 +51666,7 @@
         "active_dates": [
             "2026-08-13"
         ],
-        "last_comment_date": "2026-08-11",
+        "last_comment_date": "2026-08-13",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -53581,7 +53587,7 @@
     },
     "__CubeCode__": {
         "active_dates": [
-            "2026-08-12"
+            "2026-08-13"
         ],
         "last_comment_date": "2026-08-11",
         "total_deducted": 0,
@@ -53592,7 +53598,8 @@
             "329941691",
             "329951087",
             "329951034",
-            "329993593"
+            "329993593",
+            "330102169"
         ],
         "processed_projects": [
             "1367299854",
@@ -53899,5 +53906,21 @@
         ],
         "projects_today": 0,
         "last_project_date": ""
+    },
+    "DatYoyoMiguel": {
+        "active_dates": [
+            "2026-08-13"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1363387610"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-08-13"
     }
 }
