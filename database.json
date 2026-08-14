@@ -42854,7 +42854,8 @@
             "1368635217",
             "1368125256",
             "1368758833",
-            "1368783580"
+            "1368783580",
+            "1368845093"
         ],
         "processed_activities": [
             "addprojecttostudio-335277122",
@@ -42915,9 +42916,10 @@
             "addprojecttostudio-343637912",
             "addprojecttostudio-343646447",
             "addprojecttostudio-343705559",
-            "addprojecttostudio-343721088"
+            "addprojecttostudio-343721088",
+            "addprojecttostudio-343755090"
         ],
-        "projects_today": 3,
+        "projects_today": 4,
         "last_project_date": "2026-08-14"
     },
     "IntelPentiumIII": {
@@ -46529,7 +46531,8 @@
             "addprojecttostudio-343185911",
             "removeprojectstudio-83487789",
             "addprojecttostudio-343703801",
-            "addprojecttostudio-343742223"
+            "addprojecttostudio-343742223",
+            "addprojecttostudio-343745599"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-14"
@@ -52489,15 +52492,18 @@
     },
     "An_deptrai2017": {
         "active_dates": [
-            "2026-08-11"
+            "2026-08-14"
         ],
-        "last_comment_date": "2026-08-11",
+        "last_comment_date": "2026-08-14",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
             "329936790",
-            "329941256"
+            "329941256",
+            "330172083",
+            "330172152",
+            "330172182"
         ],
         "processed_projects": [
             "1362520506"
