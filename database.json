@@ -42788,12 +42788,9 @@
     "Ljvel1977": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [
-            "2026-08-13",
-            "2026-08-14"
-        ],
+        "active_dates": [],
         "last_comment_date": "",
-        "total_deducted": 10,
+        "total_deducted": 15,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
@@ -42856,7 +42853,8 @@
             "1368758833",
             "1368783580",
             "1368845093",
-            "1368845770"
+            "1368845770",
+            "1368875302"
         ],
         "processed_activities": [
             "addprojecttostudio-335277122",
@@ -42919,9 +42917,10 @@
             "addprojecttostudio-343705559",
             "addprojecttostudio-343721088",
             "addprojecttostudio-343755090",
-            "addprojecttostudio-343759241"
+            "addprojecttostudio-343759241",
+            "addprojecttostudio-343773616"
         ],
-        "projects_today": 5,
+        "projects_today": 6,
         "last_project_date": "2026-08-14"
     },
     "IntelPentiumIII": {
@@ -54734,13 +54733,16 @@
         "new_logs": [],
         "processed_comments": [
             "330143742",
-            "330143776"
+            "330143776",
+            "330184031"
         ],
         "processed_projects": [
             "1368738159",
             "1368736917"
         ],
-        "processed_activities": [],
+        "processed_activities": [
+            "becomecurator-158511830"
+        ],
         "projects_today": 2,
         "last_project_date": "2026-08-14"
     },
