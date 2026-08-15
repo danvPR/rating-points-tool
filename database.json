@@ -12958,7 +12958,8 @@
             "330132468",
             "330200755",
             "330201514",
-            "330202349"
+            "330202349",
+            "330216112"
         ],
         "processed_projects": [
             "1332031524"
@@ -38399,9 +38400,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-13"
+            "2026-08-15"
         ],
-        "last_comment_date": "2026-08-13",
+        "last_comment_date": "2026-08-15",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -38435,7 +38436,16 @@
             "330095588",
             "330095517",
             "330095835",
-            "330117248"
+            "330117248",
+            "330216200",
+            "330215828",
+            "330216325",
+            "330216311",
+            "330216398",
+            "330215927",
+            "330216350",
+            "330216341",
+            "330215939"
         ],
         "processed_projects": [],
         "processed_activities": [
@@ -38479,7 +38489,9 @@
             "removeprojectstudio-82260605",
             "removeprojectstudio-82260603",
             "removeprojectstudio-82260601",
-            "becomecurator-158493511"
+            "becomecurator-158493511",
+            "addprojecttostudio-343837173",
+            "removeprojectstudio-83596208"
         ],
         "projects_today": 0,
         "last_project_date": ""
@@ -44598,7 +44610,9 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330213497"
+            "330213497",
+            "330216336",
+            "330216468"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -53731,7 +53745,7 @@
     },
     "crystalchick123": {
         "active_dates": [
-            "2026-08-13"
+            "2026-08-15"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -53748,7 +53762,8 @@
             "addprojecttostudio-343291518",
             "addprojecttostudio-343561789",
             "addprojecttostudio-343561786",
-            "addprojecttostudio-343561779"
+            "addprojecttostudio-343561779",
+            "removeprojectstudio-83596305"
         ],
         "projects_today": 2,
         "last_project_date": "2026-08-13"
@@ -54655,7 +54670,8 @@
             "addprojecttostudio-343702865",
             "addprojecttostudio-343702104",
             "addprojecttostudio-343711286",
-            "addprojecttostudio-343835109"
+            "addprojecttostudio-343835109",
+            "addprojecttostudio-343836824"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-14"
