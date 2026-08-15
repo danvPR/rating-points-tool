@@ -12968,7 +12968,10 @@
             "330226732",
             "330230438",
             "330231374",
-            "330230615"
+            "330230615",
+            "330234177",
+            "330233527",
+            "330234127"
         ],
         "processed_projects": [
             "1332031524"
@@ -33341,7 +33344,8 @@
         "tier": "XS",
         "active_dates": [
             "2026-07-30",
-            "2026-08-14"
+            "2026-08-14",
+            "2026-08-15"
         ],
         "last_comment_date": "",
         "total_deducted": 10,
@@ -33362,7 +33366,9 @@
             "addprojecttostudio-343651199",
             "addprojecttostudio-343649458",
             "addprojecttostudio-343649235",
-            "addprojecttostudio-343648832"
+            "addprojecttostudio-343648832",
+            "addprojecttostudio-343867856",
+            "removeprojectstudio-83601159"
         ],
         "projects_today": 5,
         "last_project_date": "2026-08-14"
@@ -51223,7 +51229,7 @@
     },
     "hung_7654jilo": {
         "active_dates": [
-            "2026-08-05"
+            "2026-08-15"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -51236,7 +51242,8 @@
             "1366069796",
             "1366152699",
             "1366229492",
-            "1366630509"
+            "1366630509",
+            "1368995175"
         ],
         "processed_activities": [
             "addprojecttostudio-342037436",
@@ -51246,10 +51253,11 @@
             "addprojecttostudio-342117939",
             "addprojecttostudio-342174511",
             "addprojecttostudio-342174403",
-            "addprojecttostudio-342392616"
+            "addprojecttostudio-342392616",
+            "addprojecttostudio-343868706"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-05"
+        "last_project_date": "2026-08-15"
     },
     "dihoangAK": {
         "active_dates": [
