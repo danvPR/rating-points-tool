@@ -17872,16 +17872,22 @@
     "tolimoli": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-15"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1368749798"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-343869581"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-15"
     },
     "Eoraptor-Pomindu": {
         "score": 100,
@@ -36054,9 +36060,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-14"
+            "2026-08-15"
         ],
-        "last_comment_date": "2026-08-14",
+        "last_comment_date": "2026-08-15",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -36133,7 +36139,8 @@
             "329934062",
             "329936476",
             "330026499",
-            "330131380"
+            "330131380",
+            "330234932"
         ],
         "processed_projects": [
             "1316583654",
@@ -36148,7 +36155,9 @@
             "addprojecttostudio-342604843",
             "removeprojectstudio-83408529",
             "addprojecttostudio-342709690",
-            "addprojecttostudio-343176428"
+            "addprojecttostudio-343176428",
+            "removeprojectstudio-83601444",
+            "addprojecttostudio-343869702"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-05"
@@ -43375,16 +43384,22 @@
     "duckyistheduck": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-15"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1368572861"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-343870322"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-15"
     },
     "TheFanOf62": {
         "score": 100,
