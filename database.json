@@ -33827,7 +33827,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-12"
+            "2026-08-16"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -33846,7 +33846,8 @@
             "1367040564",
             "1367625556",
             "1367852907",
-            "1056706207"
+            "1056706207",
+            "1369186372"
         ],
         "processed_activities": [
             "addprojecttostudio-341497689",
@@ -33859,10 +33860,11 @@
             "addprojecttostudio-342624452",
             "addprojecttostudio-343045402",
             "addprojecttostudio-343327289",
-            "addprojecttostudio-343390135"
+            "addprojecttostudio-343390135",
+            "addprojecttostudio-344026357"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-12"
+        "last_project_date": "2026-08-16"
     },
     "Nyberstore": {
         "score": 100,
@@ -44534,7 +44536,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-12"
+            "2026-08-16"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -44547,7 +44549,8 @@
             "1330337595",
             "1366758212",
             "1367789019",
-            "1368251140"
+            "1368251140",
+            "1368516366"
         ],
         "processed_activities": [
             "addprojecttostudio-341731123",
@@ -44562,10 +44565,11 @@
             "removeprojectstudio-83479642",
             "addprojecttostudio-343139192",
             "addprojecttostudio-343148370",
-            "addprojecttostudio-343456495"
+            "addprojecttostudio-343456495",
+            "addprojecttostudio-344020293"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-12"
+        "last_project_date": "2026-08-16"
     },
     "sukunal_l": {
         "score": 100,
@@ -56118,6 +56122,22 @@
         "processed_projects": [],
         "processed_activities": [
             "becomecurator-158532934"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "sxpphirezTwT": {
+        "active_dates": [
+            "2026-08-16"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-158533787"
         ],
         "projects_today": 0,
         "last_project_date": ""
