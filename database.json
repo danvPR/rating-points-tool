@@ -33848,7 +33848,8 @@
             "1367852907",
             "1056706207",
             "1369186372",
-            "1369195586"
+            "1369195586",
+            "1369209281"
         ],
         "processed_activities": [
             "addprojecttostudio-341497689",
@@ -33863,9 +33864,10 @@
             "addprojecttostudio-343327289",
             "addprojecttostudio-343390135",
             "addprojecttostudio-344026357",
-            "addprojecttostudio-344037517"
+            "addprojecttostudio-344037517",
+            "addprojecttostudio-344051645"
         ],
-        "projects_today": 2,
+        "projects_today": 3,
         "last_project_date": "2026-08-16"
     },
     "Nyberstore": {
@@ -56140,6 +56142,22 @@
         "processed_projects": [],
         "processed_activities": [
             "becomecurator-158533787"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "EMT111": {
+        "active_dates": [
+            "2026-08-16"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-158535602"
         ],
         "projects_today": 0,
         "last_project_date": ""
