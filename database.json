@@ -12880,8 +12880,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "329017380",
-            "329017403",
             "329015714",
             "329015847",
             "329015457",
@@ -12979,7 +12977,9 @@
             "330234127",
             "330268526",
             "330272174",
-            "330272562"
+            "330272562",
+            "330281286",
+            "330282414"
         ],
         "processed_projects": [
             "1332031524"
@@ -24246,7 +24246,8 @@
             "330014401",
             "330193874",
             "330265256",
-            "330265226"
+            "330265226",
+            "330283018"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -34847,14 +34848,18 @@
     "AlProgramer": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-16"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [],
-        "processed_activities": [],
+        "processed_activities": [
+            "addprojecttostudio-343963136"
+        ],
         "projects_today": 0,
         "last_project_date": ""
     },
@@ -48009,7 +48014,8 @@
             "330130454",
             "330139817",
             "330139891",
-            "330273889"
+            "330273889",
+            "330280832"
         ],
         "processed_projects": [],
         "processed_activities": [
@@ -51324,7 +51330,7 @@
     },
     "hung_7654jilo": {
         "active_dates": [
-            "2026-08-15"
+            "2026-08-16"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -51349,7 +51355,9 @@
             "addprojecttostudio-342174511",
             "addprojecttostudio-342174403",
             "addprojecttostudio-342392616",
-            "addprojecttostudio-343868706"
+            "addprojecttostudio-343868706",
+            "addprojecttostudio-343968492",
+            "removeprojectstudio-83615584"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-15"
@@ -52055,7 +52063,9 @@
             "addprojecttostudio-343841218",
             "addprojecttostudio-343841211",
             "addprojecttostudio-343841208",
-            "addprojecttostudio-343944042"
+            "addprojecttostudio-343944042",
+            "addprojecttostudio-343968661",
+            "addprojecttostudio-343968659"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-16"
@@ -54620,7 +54630,8 @@
             "330154918",
             "330155966",
             "330209961",
-            "330263263"
+            "330263263",
+            "330280970"
         ],
         "processed_projects": [
             "1368456886",
@@ -55638,5 +55649,59 @@
         "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-08-16"
+    },
+    "DoraemonLoveScratch": {
+        "active_dates": [
+            "2026-08-16"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-158528449"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "nhatue4444": {
+        "active_dates": [
+            "2026-08-16"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1368256154",
+            "1119136030",
+            "1154913846"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-343966384",
+            "addprojecttostudio-343966374",
+            "addprojecttostudio-343966368"
+        ],
+        "projects_today": 3,
+        "last_project_date": "2026-08-16"
+    },
+    "nguityiu": {
+        "active_dates": [
+            "2026-08-16"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-158528229"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
