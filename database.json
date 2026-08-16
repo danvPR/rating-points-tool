@@ -10419,12 +10419,6 @@
             "1368451627"
         ],
         "processed_activities": [
-            "removeprojectstudio-83568545",
-            "addprojecttostudio-343683065",
-            "removeprojectstudio-83569988",
-            "addprojecttostudio-343682983",
-            "removeprojectstudio-83569975",
-            "addprojecttostudio-343682775",
             "removeprojectstudio-83569940",
             "addprojecttostudio-343695834",
             "removeprojectstudio-83572824",
@@ -10518,7 +10512,13 @@
             "addprojecttostudio-343952341",
             "removeprojectstudio-83613511",
             "addprojecttostudio-343952314",
-            "removeprojectstudio-83613501"
+            "removeprojectstudio-83613501",
+            "addprojecttostudio-343985515",
+            "removeprojectstudio-83618673",
+            "addprojecttostudio-343985355",
+            "removeprojectstudio-83618661",
+            "addprojecttostudio-343985258",
+            "removeprojectstudio-83618647"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-15"
@@ -52308,7 +52308,7 @@
     },
     "matketnoi_123": {
         "active_dates": [
-            "2026-08-15"
+            "2026-08-16"
         ],
         "last_comment_date": "2026-08-03",
         "total_deducted": 0,
@@ -52334,7 +52334,8 @@
             "1366658502",
             "1366479958",
             "1368560890",
-            "1368962230"
+            "1368962230",
+            "1369099847"
         ],
         "processed_activities": [
             "removeprojectstudio-83325811",
@@ -52359,10 +52360,11 @@
             "removeprojectstudio-83528533",
             "addprojecttostudio-343437219",
             "addprojecttostudio-343800669",
-            "addprojecttostudio-343840435"
+            "addprojecttostudio-343840435",
+            "addprojecttostudio-343986072"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-08-15"
+        "projects_today": 1,
+        "last_project_date": "2026-08-16"
     },
     "luckymatcha": {
         "active_dates": [
@@ -55838,12 +55840,19 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [
-            "becomecurator-158529276"
+        "processed_projects": [
+            "1361875819",
+            "1367942219",
+            "1351784644"
         ],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_activities": [
+            "becomecurator-158529276",
+            "addprojecttostudio-343987353",
+            "addprojecttostudio-343987336",
+            "addprojecttostudio-343987198"
+        ],
+        "projects_today": 3,
+        "last_project_date": "2026-08-16"
     },
     "Banrainbow": {
         "active_dates": [
@@ -55858,6 +55867,22 @@
         "processed_activities": [
             "becomecurator-158529712"
         ],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "GamingWithCrashy": {
+        "active_dates": [
+            "2026-08-16"
+        ],
+        "last_comment_date": "2026-08-16",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "330291908"
+        ],
+        "processed_projects": [],
+        "processed_activities": [],
         "projects_today": 0,
         "last_project_date": ""
     }
