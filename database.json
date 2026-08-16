@@ -12873,7 +12873,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-15"
+            "2026-08-16"
         ],
         "last_comment_date": "2026-08-15",
         "total_deducted": 0,
@@ -12976,7 +12976,8 @@
             "330230615",
             "330234177",
             "330233527",
-            "330234127"
+            "330234127",
+            "330268526"
         ],
         "processed_projects": [
             "1332031524"
@@ -27285,7 +27286,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-09"
+            "2026-08-16"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -27295,17 +27296,19 @@
         "processed_projects": [
             "1365897372",
             "1366522010",
-            "1227749155"
+            "1227749155",
+            "1331454383"
         ],
         "processed_activities": [
             "addprojecttostudio-342305210",
             "addprojecttostudio-342869238",
             "addprojecttostudio-342995970",
             "addprojecttostudio-342993660",
-            "removeprojectstudio-83456088"
+            "removeprojectstudio-83456088",
+            "addprojecttostudio-343939126"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-09"
+        "last_project_date": "2026-08-16"
     },
     "truongcaovinhan": {
         "score": 100,
@@ -42702,11 +42705,9 @@
     "CLB_2025_2": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [
-            "2026-08-07"
-        ],
+        "active_dates": [],
         "last_comment_date": "",
-        "total_deducted": 40,
+        "total_deducted": 45,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
@@ -42724,7 +42725,13 @@
             "1365270365",
             "1364632543",
             "1364631980",
-            "1367260581"
+            "1367260581",
+            "1368912751",
+            "1368902878",
+            "1368919117",
+            "1368951599",
+            "1369075427",
+            "1368992288"
         ],
         "processed_activities": [
             "addprojecttostudio-341571096",
@@ -42740,10 +42747,18 @@
             "addprojecttostudio-341571074",
             "addprojecttostudio-341571073",
             "addprojecttostudio-341571072",
-            "addprojecttostudio-342770538"
+            "addprojecttostudio-342770538",
+            "addprojecttostudio-343936487",
+            "addprojecttostudio-343936485",
+            "addprojecttostudio-343936484",
+            "addprojecttostudio-343936478",
+            "addprojecttostudio-343936468",
+            "addprojecttostudio-343936467",
+            "removeprojectstudio-83610663",
+            "addprojecttostudio-343936465"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-08-07"
+        "projects_today": 6,
+        "last_project_date": "2026-08-16"
     },
     "KhaiAnh5B": {
         "score": 100,
@@ -55220,7 +55235,8 @@
     },
     "quantoan": {
         "active_dates": [
-            "2026-08-15"
+            "2026-08-15",
+            "2026-08-16"
         ],
         "last_comment_date": "2026-08-14",
         "total_deducted": 5,
@@ -55250,7 +55266,9 @@
             "addprojecttostudio-343807434",
             "addprojecttostudio-343806943",
             "addprojecttostudio-343848315",
-            "addprojecttostudio-343866705"
+            "addprojecttostudio-343866705",
+            "removeprojectstudio-83610966",
+            "addprojecttostudio-343938940"
         ],
         "projects_today": 7,
         "last_project_date": "2026-08-15"
