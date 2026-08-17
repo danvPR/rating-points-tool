@@ -42847,19 +42847,22 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-06-13"
+            "2026-08-17"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [
-            "addprojecttostudio-335377065"
+        "processed_projects": [
+            "1362781018"
         ],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_activities": [
+            "addprojecttostudio-335377065",
+            "addprojecttostudio-344125181"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-17"
     },
     "tk_linh": {
         "score": 100,
@@ -51553,7 +51556,7 @@
     },
     "anphuc3009": {
         "active_dates": [
-            "2026-08-16"
+            "2026-08-17"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -51561,13 +51564,15 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1366046184"
+            "1366046184",
+            "1367788817"
         ],
         "processed_activities": [
-            "becomecurator-158530737"
+            "becomecurator-158530737",
+            "addprojecttostudio-344124001"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-02"
+        "last_project_date": "2026-08-17"
     },
     "hung_7654jilo": {
         "active_dates": [
@@ -52852,7 +52857,7 @@
     },
     "ALANBILLBILL": {
         "active_dates": [
-            "2026-08-16"
+            "2026-08-17"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -52863,16 +52868,18 @@
             "1363819208",
             "1367081674",
             "1367565179",
-            "1369139063"
+            "1369139063",
+            "1369159323"
         ],
         "processed_activities": [
             "addprojecttostudio-342302675",
             "addprojecttostudio-342693229",
             "addprojecttostudio-342993155",
-            "addprojecttostudio-343994084"
+            "addprojecttostudio-343994084",
+            "addprojecttostudio-344125318"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-16"
+        "last_project_date": "2026-08-17"
     },
     "FGHS6788": {
         "active_dates": [
@@ -53364,7 +53371,8 @@
             "329573761",
             "329573786",
             "329573975",
-            "330346954"
+            "330346954",
+            "330362513"
         ],
         "processed_projects": [
             "1366955086"
@@ -54893,7 +54901,7 @@
     },
     "Robloxquocte": {
         "active_dates": [
-            "2026-08-16"
+            "2026-08-17"
         ],
         "last_comment_date": "2026-08-16",
         "total_deducted": 0,
@@ -54915,7 +54923,8 @@
             "330209961",
             "330263263",
             "330280970",
-            "330285585"
+            "330285585",
+            "330364381"
         ],
         "processed_projects": [
             "1368456886",
@@ -55613,7 +55622,8 @@
             "addprojecttostudio-343999023",
             "removeprojectstudio-83632106",
             "addprojecttostudio-344087258",
-            "addprojecttostudio-344087255"
+            "addprojecttostudio-344087255",
+            "addprojecttostudio-344125236"
         ],
         "projects_today": 7,
         "last_project_date": "2026-08-15"
@@ -56254,7 +56264,11 @@
             "becomecurator-158530844",
             "addprojecttostudio-343997857",
             "addprojecttostudio-344079469",
-            "addprojecttostudio-344090889"
+            "addprojecttostudio-344090889",
+            "addprojecttostudio-344124994",
+            "addprojecttostudio-344124989",
+            "addprojecttostudio-344124988",
+            "addprojecttostudio-344124982"
         ],
         "projects_today": 2,
         "last_project_date": "2026-08-17"
