@@ -51710,7 +51710,7 @@
     },
     "SongAnn12": {
         "active_dates": [
-            "2026-08-11"
+            "2026-08-17"
         ],
         "last_comment_date": "2026-08-11",
         "total_deducted": 0,
@@ -51726,14 +51726,18 @@
             "1365719426",
             "1367249684",
             "1365843457",
-            "1365826673"
+            "1365826673",
+            "1369154655",
+            "1369151186"
         ],
         "processed_activities": [
             "becomecurator-158334495",
-            "addprojecttostudio-343033973"
+            "addprojecttostudio-343033973",
+            "addprojecttostudio-344105146",
+            "addprojecttostudio-344105124"
         ],
         "projects_today": 2,
-        "last_project_date": "2026-08-09"
+        "last_project_date": "2026-08-17"
     },
     "phatcauca": {
         "active_dates": [
@@ -54104,7 +54108,7 @@
     },
     "K21_QuocBao": {
         "active_dates": [
-            "2026-08-16"
+            "2026-08-17"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -54122,7 +54126,8 @@
             "addprojecttostudio-343155632",
             "becomecurator-158444104",
             "addprojecttostudio-343835346",
-            "addprojecttostudio-343998836"
+            "addprojecttostudio-343998836",
+            "addprojecttostudio-344102161"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-16"
@@ -54468,7 +54473,8 @@
             "1367563939",
             "1368332284",
             "1368521126",
-            "1369281382"
+            "1369281382",
+            "1369292656"
         ],
         "processed_activities": [
             "addprojecttostudio-343308354",
@@ -54479,9 +54485,10 @@
             "addprojecttostudio-343406103",
             "addprojecttostudio-343471684",
             "addprojecttostudio-343732183",
-            "addprojecttostudio-344097037"
+            "addprojecttostudio-344097037",
+            "addprojecttostudio-344102212"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-08-17"
     },
     "PrincessKatsy": {
@@ -54932,7 +54939,7 @@
     },
     "hoanghai41": {
         "active_dates": [
-            "2026-08-14"
+            "2026-08-17"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -54940,14 +54947,16 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1367602927"
+            "1367602927",
+            "1366670932"
         ],
         "processed_activities": [
             "becomecurator-158500804",
-            "addprojecttostudio-343690762"
+            "addprojecttostudio-343690762",
+            "addprojecttostudio-344103388"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-14"
+        "last_project_date": "2026-08-17"
     },
     "ScratcherCatVN": {
         "active_dates": [
@@ -56256,19 +56265,88 @@
     },
     "thienlyxD": {
         "active_dates": [
-            "2026-08-16"
+            "2026-08-17"
         ],
         "last_comment_date": "",
-        "total_deducted": 0,
+        "total_deducted": 5,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [
-            "becomecurator-158531867"
+        "processed_projects": [
+            "1305447567",
+            "1327067512",
+            "1323520342",
+            "1327982792",
+            "1312438140",
+            "1319445510",
+            "1331115072",
+            "1329491739",
+            "1331686242",
+            "1332022119",
+            "1332627097",
+            "1334185873",
+            "1332904552",
+            "1334190088",
+            "1334587950",
+            "1352303015",
+            "1352563542",
+            "1362299796",
+            "1362308329",
+            "1362312792",
+            "1363730229",
+            "1362930531",
+            "1363958444",
+            "1364414608",
+            "1365001522",
+            "1365650724",
+            "1365909824",
+            "1366057908",
+            "1365998818",
+            "1365994795",
+            "1366912890",
+            "1366412665",
+            "1368515304"
         ],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_activities": [
+            "becomecurator-158531867",
+            "addprojecttostudio-344104720",
+            "addprojecttostudio-344104710",
+            "addprojecttostudio-344104702",
+            "addprojecttostudio-344104698",
+            "addprojecttostudio-344104695",
+            "addprojecttostudio-344104691",
+            "addprojecttostudio-344104690",
+            "addprojecttostudio-344104689",
+            "addprojecttostudio-344104688",
+            "addprojecttostudio-344104687",
+            "addprojecttostudio-344104685",
+            "addprojecttostudio-344104681",
+            "addprojecttostudio-344104679",
+            "addprojecttostudio-344104669",
+            "addprojecttostudio-344104668",
+            "removeprojectstudio-83634721",
+            "addprojecttostudio-344104658",
+            "addprojecttostudio-344104656",
+            "addprojecttostudio-344104654",
+            "addprojecttostudio-344104653",
+            "addprojecttostudio-344104649",
+            "addprojecttostudio-344104643",
+            "addprojecttostudio-344104640",
+            "addprojecttostudio-344104638",
+            "addprojecttostudio-344104636",
+            "addprojecttostudio-344104634",
+            "addprojecttostudio-344104633",
+            "addprojecttostudio-344104632",
+            "addprojecttostudio-344104630",
+            "addprojecttostudio-344104629",
+            "addprojecttostudio-344104628",
+            "addprojecttostudio-344104627",
+            "addprojecttostudio-344104626",
+            "addprojecttostudio-344104625",
+            "addprojecttostudio-344104623"
+        ],
+        "projects_today": 33,
+        "last_project_date": "2026-08-17"
     },
     "H4Rk3N": {
         "active_dates": [
