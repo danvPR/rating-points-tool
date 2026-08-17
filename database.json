@@ -9059,7 +9059,8 @@
             "329714400",
             "329736396",
             "329806884",
-            "330373985"
+            "330373985",
+            "330389940"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -18545,7 +18546,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-12"
+            "2026-08-17"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -18559,7 +18560,8 @@
             "1367016359",
             "1367859536",
             "1367845545",
-            "1367866630"
+            "1367866630",
+            "1368367455"
         ],
         "processed_activities": [
             "addprojecttostudio-341521242",
@@ -18570,10 +18572,11 @@
             "addprojecttostudio-342612970",
             "addprojecttostudio-343184977",
             "addprojecttostudio-343182141",
-            "addprojecttostudio-343460674"
+            "addprojecttostudio-343460674",
+            "addprojecttostudio-344162034"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-12"
+        "last_project_date": "2026-08-17"
     },
     "wawon999": {
         "score": 100,
@@ -33972,7 +33975,10 @@
             "1369186372",
             "1369195586",
             "1369209281",
-            "1369206990"
+            "1369206990",
+            "1369410229",
+            "1325694789",
+            "1369389993"
         ],
         "processed_activities": [
             "addprojecttostudio-341497689",
@@ -33989,9 +33995,12 @@
             "addprojecttostudio-344026357",
             "addprojecttostudio-344037517",
             "addprojecttostudio-344051645",
-            "addprojecttostudio-344158494"
+            "addprojecttostudio-344158494",
+            "addprojecttostudio-344172261",
+            "addprojecttostudio-344165514",
+            "addprojecttostudio-344165123"
         ],
-        "projects_today": 1,
+        "projects_today": 4,
         "last_project_date": "2026-08-17"
     },
     "Nyberstore": {
@@ -56704,6 +56713,38 @@
         ],
         "processed_projects": [],
         "processed_activities": [],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "LiYi12": {
+        "active_dates": [
+            "2026-08-17"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-158551568"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "MIncraftdude2167": {
+        "active_dates": [
+            "2026-08-17"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-158551015"
+        ],
         "projects_today": 0,
         "last_project_date": ""
     }
