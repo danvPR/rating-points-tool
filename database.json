@@ -29085,7 +29085,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-15"
+            "2026-08-17"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -29099,7 +29099,8 @@
             "1366919713",
             "1367597902",
             "1367772960",
-            "1368980156"
+            "1368980156",
+            "1072084119"
         ],
         "processed_activities": [
             "addprojecttostudio-341542403",
@@ -29125,10 +29126,11 @@
             "addprojecttostudio-343351761",
             "addprojecttostudio-343388073",
             "addprojecttostudio-343392499",
-            "addprojecttostudio-343913902"
+            "addprojecttostudio-343913902",
+            "addprojecttostudio-344180699"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-15"
+        "last_project_date": "2026-08-17"
     },
     "nhan-11": {
         "score": 100,
@@ -31734,7 +31736,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-04"
+            "2026-08-17"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -31743,14 +31745,17 @@
         "processed_comments": [],
         "processed_projects": [
             "1366320357",
-            "1364920805"
+            "1364920805",
+            "1369019231"
         ],
         "processed_activities": [
             "addprojecttostudio-342197093",
-            "addprojecttostudio-342327241"
+            "addprojecttostudio-342327241",
+            "addprojecttostudio-344182079",
+            "addprojecttostudio-344178010"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-04"
+        "last_project_date": "2026-08-17"
     },
     "ravocsirex": {
         "score": 100,
@@ -56725,12 +56730,15 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [
-            "becomecurator-158551568"
+        "processed_projects": [
+            "1369417093"
         ],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_activities": [
+            "becomecurator-158551568",
+            "addprojecttostudio-344177077"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-17"
     },
     "MIncraftdude2167": {
         "active_dates": [
@@ -56747,5 +56755,21 @@
         ],
         "projects_today": 0,
         "last_project_date": ""
+    },
+    "Smithy-Chronicles": {
+        "active_dates": [
+            "2026-08-17"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1369392908"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-08-17"
     }
 }
