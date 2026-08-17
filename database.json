@@ -10440,12 +10440,6 @@
             "1368451627"
         ],
         "processed_activities": [
-            "removeprojectstudio-83579206",
-            "addprojecttostudio-343799656",
-            "removeprojectstudio-83589503",
-            "addprojecttostudio-343799621",
-            "removeprojectstudio-83589493",
-            "addprojecttostudio-343799573",
             "removeprojectstudio-83589475",
             "addprojecttostudio-343808030",
             "removeprojectstudio-83590990",
@@ -10539,7 +10533,13 @@
             "addprojecttostudio-344081307",
             "removeprojectstudio-83631357",
             "addprojecttostudio-344081248",
-            "removeprojectstudio-83631335"
+            "removeprojectstudio-83631335",
+            "addprojecttostudio-344091319",
+            "removeprojectstudio-83632866",
+            "addprojecttostudio-344091304",
+            "removeprojectstudio-83632856",
+            "addprojecttostudio-344091234",
+            "removeprojectstudio-83632844"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-15"
@@ -33011,7 +33011,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-07-30"
+            "2026-08-17"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -33019,13 +33019,15 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1365206211"
+            "1365206211",
+            "1369280284"
         ],
         "processed_activities": [
-            "addprojecttostudio-341642091"
+            "addprojecttostudio-341642091",
+            "addprojecttostudio-344094029"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-07-30"
+        "last_project_date": "2026-08-17"
     },
     "game-makers1": {
         "score": 100,
@@ -40894,16 +40896,22 @@
     "kietgame123clone": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-17"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1369267647"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-344091494"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-17"
     },
     "John_PN": {
         "score": 100,
@@ -53319,9 +53327,9 @@
     },
     "thinh02": {
         "active_dates": [
-            "2026-08-15"
+            "2026-08-17"
         ],
-        "last_comment_date": "2026-08-06",
+        "last_comment_date": "2026-08-17",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -53329,7 +53337,8 @@
             "329565251",
             "329573761",
             "329573786",
-            "329573975"
+            "329573975",
+            "330346954"
         ],
         "processed_projects": [
             "1366955086"
