@@ -6882,12 +6882,17 @@
     "cas_turtor": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
-        "last_comment_date": "",
+        "active_dates": [
+            "2026-08-17"
+        ],
+        "last_comment_date": "2026-08-17",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
-        "processed_comments": [],
+        "processed_comments": [
+            "330368700",
+            "330368578"
+        ],
         "processed_projects": [],
         "processed_activities": [],
         "projects_today": 0,
@@ -10442,18 +10447,6 @@
             "1368451627"
         ],
         "processed_activities": [
-            "removeprojectstudio-83591821",
-            "addprojecttostudio-343818189",
-            "removeprojectstudio-83592393",
-            "addprojecttostudio-343818227",
-            "removeprojectstudio-83592414",
-            "addprojecttostudio-343818205",
-            "removeprojectstudio-83592403",
-            "addprojecttostudio-343834471",
-            "removeprojectstudio-83595615",
-            "addprojecttostudio-343834172",
-            "removeprojectstudio-83595556",
-            "addprojecttostudio-343834154",
             "removeprojectstudio-83595539",
             "addprojecttostudio-343844291",
             "removeprojectstudio-83597408",
@@ -10541,7 +10534,19 @@
             "addprojecttostudio-344120799",
             "removeprojectstudio-83637170",
             "addprojecttostudio-344120781",
-            "removeprojectstudio-83637162"
+            "removeprojectstudio-83637162",
+            "addprojecttostudio-344136310",
+            "removeprojectstudio-83639525",
+            "addprojecttostudio-344136178",
+            "removeprojectstudio-83639502",
+            "addprojecttostudio-344136081",
+            "removeprojectstudio-83639489",
+            "addprojecttostudio-344130301",
+            "removeprojectstudio-83638688",
+            "addprojecttostudio-344130237",
+            "removeprojectstudio-83638676",
+            "addprojecttostudio-344130217",
+            "removeprojectstudio-83638670"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-15"
@@ -13300,7 +13305,7 @@
         "active_dates": [
             "2026-08-16"
         ],
-        "last_comment_date": "2026-08-15",
+        "last_comment_date": "2026-08-16",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -33490,16 +33495,22 @@
     "Jandelaura15": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-08-17"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1369333301"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-344133740"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-17"
     },
     "moltres2014": {
         "score": 100,
@@ -39105,7 +39116,8 @@
             "330303447",
             "330302873",
             "330343543",
-            "330343558"
+            "330343558",
+            "330366937"
         ],
         "processed_projects": [
             "1332013893",
@@ -49654,7 +49666,8 @@
             "1352782896",
             "1366455320",
             "1367146723",
-            "1369256257"
+            "1369256257",
+            "1369303123"
         ],
         "processed_activities": [
             "addprojecttostudio-341459274",
@@ -49685,9 +49698,10 @@
             "addprojecttostudio-343533472",
             "addprojecttostudio-343674762",
             "addprojecttostudio-343674758",
-            "addprojecttostudio-344083890"
+            "addprojecttostudio-344083890",
+            "addprojecttostudio-344134070"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-08-17"
     },
     "Le-Huy": {
@@ -50254,7 +50268,7 @@
     },
     "Phatgresh": {
         "active_dates": [
-            "2026-08-15"
+            "2026-08-17"
         ],
         "last_comment_date": "2026-08-15",
         "total_deducted": 0,
@@ -50286,7 +50300,9 @@
             "1368422064",
             "1368474584",
             "1352831715",
-            "1338374218"
+            "1338374218",
+            "1369336317",
+            "1369340375"
         ],
         "processed_activities": [
             "becomecurator-158302715",
@@ -50313,10 +50329,12 @@
             "addprojecttostudio-343537454",
             "addprojecttostudio-343537444",
             "addprojecttostudio-343851529",
-            "addprojecttostudio-343851336"
+            "addprojecttostudio-343851336",
+            "addprojecttostudio-344130903",
+            "addprojecttostudio-344130852"
         ],
         "projects_today": 2,
-        "last_project_date": "2026-08-15"
+        "last_project_date": "2026-08-17"
     },
     "TH25-song": {
         "active_dates": [
@@ -52876,7 +52894,8 @@
             "addprojecttostudio-342693229",
             "addprojecttostudio-342993155",
             "addprojecttostudio-343994084",
-            "addprojecttostudio-344125318"
+            "addprojecttostudio-344125318",
+            "addprojecttostudio-344130573"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-17"
@@ -56139,7 +56158,8 @@
             "1367942219",
             "1351784644",
             "1369070685",
-            "1367685312"
+            "1367685312",
+            "1369345463"
         ],
         "processed_activities": [
             "becomecurator-158529276",
@@ -56147,9 +56167,10 @@
             "addprojecttostudio-343987336",
             "addprojecttostudio-343987198",
             "addprojecttostudio-343999505",
-            "addprojecttostudio-344059882"
+            "addprojecttostudio-344059882",
+            "addprojecttostudio-344136308"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-08-17"
     },
     "Banrainbow": {
