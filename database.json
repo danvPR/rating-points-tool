@@ -7928,12 +7928,6 @@
             "1369061631"
         ],
         "processed_activities": [
-            "addprojecttostudio-343149703",
-            "removeprojectstudio-83482852",
-            "addprojecttostudio-343149690",
-            "removeprojectstudio-83504334",
-            "removeprojectstudio-83504331",
-            "removeprojectstudio-83504329",
             "addprojecttostudio-343289041",
             "addprojecttostudio-343289040",
             "addprojecttostudio-343289033",
@@ -8027,7 +8021,13 @@
             "removeprojectstudio-83636854",
             "addprojecttostudio-344118778",
             "addprojecttostudio-344118775",
-            "addprojecttostudio-344118772"
+            "addprojecttostudio-344118772",
+            "addprojecttostudio-344199664",
+            "addprojecttostudio-344199663",
+            "addprojecttostudio-344199662",
+            "removeprojectstudio-83648990",
+            "removeprojectstudio-83648989",
+            "removeprojectstudio-83648987"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-16"
@@ -12915,9 +12915,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "329005576",
-            "329031218",
-            "329031274",
             "329030914",
             "329031030",
             "329031331",
@@ -13014,7 +13011,10 @@
             "330342685",
             "330344011",
             "330360529",
-            "330373427"
+            "330373427",
+            "330404718",
+            "330404618",
+            "330404571"
         ],
         "processed_projects": [
             "1332031524"
