@@ -7926,7 +7926,10 @@
             "330440693",
             "330451914",
             "330451947",
-            "330454450"
+            "330454450",
+            "330479379",
+            "330479313",
+            "330479322"
         ],
         "processed_projects": [
             "1322617821",
@@ -7948,14 +7951,6 @@
             "1369640495"
         ],
         "processed_activities": [
-            "addprojecttostudio-343357644",
-            "removeprojectstudio-83514983",
-            "addprojecttostudio-343357625",
-            "removeprojectstudio-83514980",
-            "addprojecttostudio-343357591",
-            "removeprojectstudio-83514979",
-            "addprojecttostudio-343357578",
-            "removeprojectstudio-83514976",
             "addprojecttostudio-343357571",
             "removeprojectstudio-83529545",
             "addprojecttostudio-343442371",
@@ -8047,7 +8042,15 @@
             "removeprojectstudio-83662200",
             "removeprojectstudio-83662198",
             "addprojecttostudio-344289993",
-            "addprojecttostudio-344289992"
+            "addprojecttostudio-344289992",
+            "addprojecttostudio-344345169",
+            "addprojecttostudio-344345167",
+            "addprojecttostudio-344345166",
+            "removeprojectstudio-83669789",
+            "removeprojectstudio-83669788",
+            "removeprojectstudio-83669787",
+            "addprojecttostudio-344343933",
+            "addprojecttostudio-344343661"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-18"
@@ -38786,7 +38789,7 @@
         "active_dates": [
             "2026-08-18"
         ],
-        "last_comment_date": "2026-08-18",
+        "last_comment_date": "2026-08-17",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -57925,6 +57928,38 @@
         "processed_comments": [],
         "processed_projects": [
             "1368141835"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-08-18"
+    },
+    "longbuihoang": {
+        "active_dates": [
+            "2026-08-18"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1369129050"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-08-18"
+    },
+    "cunken_animation": {
+        "active_dates": [
+            "2026-08-18"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1369740585"
         ],
         "processed_activities": [],
         "projects_today": 1,
