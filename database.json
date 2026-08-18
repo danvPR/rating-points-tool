@@ -34047,7 +34047,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-17"
+            "2026-08-18"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -34073,7 +34073,8 @@
             "1369206990",
             "1369410229",
             "1325694789",
-            "1369389993"
+            "1369389993",
+            "1369654746"
         ],
         "processed_activities": [
             "addprojecttostudio-341497689",
@@ -34093,10 +34094,11 @@
             "addprojecttostudio-344158494",
             "addprojecttostudio-344172261",
             "addprojecttostudio-344165514",
-            "addprojecttostudio-344165123"
+            "addprojecttostudio-344165123",
+            "addprojecttostudio-344303301"
         ],
-        "projects_today": 4,
-        "last_project_date": "2026-08-17"
+        "projects_today": 1,
+        "last_project_date": "2026-08-18"
     },
     "Nyberstore": {
         "score": 100,
@@ -43422,7 +43424,9 @@
             "1369370090",
             "1369483309",
             "1369469188",
-            "1369665408"
+            "1369665408",
+            "1369674962",
+            "1369670135"
         ],
         "processed_activities": [
             "addprojecttostudio-335277122",
@@ -43495,9 +43499,11 @@
             "addprojecttostudio-344149921",
             "addprojecttostudio-344214037",
             "addprojecttostudio-344206054",
-            "addprojecttostudio-344302276"
+            "addprojecttostudio-344302276",
+            "addprojecttostudio-344308019",
+            "addprojecttostudio-344304711"
         ],
-        "projects_today": 3,
+        "projects_today": 5,
         "last_project_date": "2026-08-18"
     },
     "IntelPentiumIII": {
@@ -45361,7 +45367,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-17"
+            "2026-08-18"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -45419,7 +45425,9 @@
             "1368558280",
             "1369166388",
             "1369371519",
-            "1369382447"
+            "1369382447",
+            "1362623820",
+            "1369674979"
         ],
         "processed_activities": [
             "addprojecttostudio-335384324",
@@ -45473,10 +45481,12 @@
             "addprojecttostudio-343999151",
             "addprojecttostudio-344010929",
             "addprojecttostudio-344152961",
-            "addprojecttostudio-344155558"
+            "addprojecttostudio-344155558",
+            "addprojecttostudio-344311631",
+            "addprojecttostudio-344306033"
         ],
         "projects_today": 2,
-        "last_project_date": "2026-08-17"
+        "last_project_date": "2026-08-18"
     },
     "DinoSnoreAnimations": {
         "score": 100,
@@ -57879,6 +57889,22 @@
         "processed_projects": [],
         "processed_activities": [
             "becomecurator-158570308"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "computer-_": {
+        "active_dates": [
+            "2026-08-18"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-158571403"
         ],
         "projects_today": 0,
         "last_project_date": ""
