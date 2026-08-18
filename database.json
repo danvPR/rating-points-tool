@@ -7909,7 +7909,11 @@
             "330331127",
             "330360372",
             "330360407",
-            "330407001"
+            "330407001",
+            "330423933",
+            "330423942",
+            "330423950",
+            "330423963"
         ],
         "processed_projects": [
             "1322617821",
@@ -12917,7 +12921,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "329073677",
             "329098004",
             "329098215",
             "329098322",
@@ -13016,7 +13019,8 @@
             "330420043",
             "330418887",
             "330420126",
-            "330418855"
+            "330418855",
+            "330423576"
         ],
         "processed_projects": [
             "1332031524"
@@ -13650,7 +13654,8 @@
             "330063828",
             "330345518",
             "330345538",
-            "330421080"
+            "330421080",
+            "330423908"
         ],
         "processed_projects": [
             "1366283724",
@@ -33057,7 +33062,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-17"
+            "2026-08-18"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -33066,14 +33071,16 @@
         "processed_comments": [],
         "processed_projects": [
             "1365206211",
-            "1369280284"
+            "1369280284",
+            "1369517712"
         ],
         "processed_activities": [
             "addprojecttostudio-341642091",
-            "addprojecttostudio-344094029"
+            "addprojecttostudio-344094029",
+            "addprojecttostudio-344236924"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-17"
+        "last_project_date": "2026-08-18"
     },
     "game-makers1": {
         "score": 100,
@@ -40123,7 +40130,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-05"
+            "2026-08-18"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -40132,14 +40139,16 @@
         "processed_comments": [],
         "processed_projects": [
             "1365500317",
-            "1366659687"
+            "1366659687",
+            "1366478658"
         ],
         "processed_activities": [
             "addprojecttostudio-342173182",
-            "addprojecttostudio-342429863"
+            "addprojecttostudio-342429863",
+            "addprojecttostudio-344237793"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-05"
+        "last_project_date": "2026-08-18"
     },
     "agnivebiswaslkgb": {
         "score": 100,
@@ -49517,9 +49526,9 @@
     },
     "tea-tap": {
         "active_dates": [
-            "2026-08-14"
+            "2026-08-18"
         ],
-        "last_comment_date": "2026-08-14",
+        "last_comment_date": "2026-08-18",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -49535,7 +49544,8 @@
             "330017568",
             "330017595",
             "330128123",
-            "330125884"
+            "330125884",
+            "330423795"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -56718,14 +56728,15 @@
     },
     "minh_beo1": {
         "active_dates": [
-            "2026-08-17"
+            "2026-08-18"
         ],
-        "last_comment_date": "2026-08-17",
+        "last_comment_date": "2026-08-18",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330358638"
+            "330358638",
+            "330424083"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -56957,6 +56968,22 @@
         "processed_projects": [],
         "processed_activities": [
             "becomecurator-158559812"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "quangtien_2016": {
+        "active_dates": [
+            "2026-08-18"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-158561540"
         ],
         "projects_today": 0,
         "last_project_date": ""
