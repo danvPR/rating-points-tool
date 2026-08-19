@@ -4,7 +4,7 @@ import os
 import time
 import html
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -23,7 +23,6 @@ except Exception as e:
 # ==========================================================
 
 STUDIO_ID = "33509364"
-# Giữ chính xác link API yêu cầu
 API_BASE = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments?limit=40&offset=0"
 PROJECTS_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/projects"
 ACTIVITY_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/activity"
@@ -65,7 +64,6 @@ def fetch_api(url):
 
 def fetch_replies(comment_id, reply_count):
     replies = []
-    # Tự động quét sạch mọi trang của reply nếu lượng reply quá nhiều
     for offset in range(0, reply_count + 40, 40):
         url = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments/{comment_id}/replies?limit=40&offset={offset}"
         try: 
@@ -160,7 +158,10 @@ def process_project(project, db):
 def process_comment(comment, db):
     comment_id = str(comment["id"])
     author = comment["author"]["username"]
-    date_str = comment["datetime_created"][:10] 
+    
+    # Lấy thời gian thô từ API Scratch
+    raw_dt = comment.get("datetime_created", "")
+    date_str = raw_dt[:10] 
 
     if author not in db: db[author] = init_user(author)
     
@@ -169,7 +170,7 @@ def process_comment(comment, db):
 
     record_active_date(author, date_str, db)
             
-    raw_content = html.unescape(comment["content"])
+    raw_content = html.unescape(comment.get("content", ""))
     clean_content = re.sub(r'<[^>]+>', '', raw_content).strip()
     
     is_banned = False
@@ -180,8 +181,20 @@ def process_comment(comment, db):
                 is_banned = True
                 break
 
+    # ================= ĐỔI GIỜ UTC SANG GIỜ VIỆT NAM =================
+    try:
+        # Chuyển chuỗi của API thành định dạng datetime, cộng 7 tiếng
+        utc_dt = datetime.strptime(raw_dt, "%Y-%m-%dT%H:%M:%S.%fZ")
+        local_dt = utc_dt + timedelta(hours=7)
+        time_display = local_dt.strftime("%d/%m/%Y %H:%M")
+    except Exception:
+        # Nếu lỗi (rất hiếm), hiển thị tạm ngày tháng năm thô
+        time_display = raw_dt[:10]
+    # =================================================================
+
     tag = "[⚠️ TỪ CẤM] " if is_banned else ""
-    formatted_comment = f"{tag}{comment_id} ({clean_content})"
+    # Chèn biến ngày giờ vào form hiển thị
+    formatted_comment = f"[{time_display}] {tag}{comment_id} ({clean_content})"
     
     db[author].setdefault("new_comments", []).append({"id": comment_id, "text": formatted_comment})
     db[author].setdefault("processed_comments", []).append(comment_id)
@@ -191,7 +204,7 @@ def sync_to_sheet(db, sheet, all_values):
     data_rows = all_values[4:] if len(all_values) > 4 else []
     new_data_rows = []
     existing_usernames = set()
-    users_to_clear = [] # Lưu trữ tài khoản chờ dọn dẹp data
+    users_to_clear = [] 
     
     for row in data_rows:
         if not row or not row[0].strip(): continue
@@ -247,7 +260,6 @@ def sync_to_sheet(db, sheet, all_values):
             sheet.update('A5', new_data_rows, value_input_option='USER_ENTERED')
             print("Đồng bộ Sheets thành công!")
             
-        # [QUAN TRỌNG] CHỈ DỌN DẸP new_comments KHI ĐÃ GHI THÀNH CÔNG VÀO SHEET!
         for username in users_to_clear:
             if username in db:
                 db[username]["new_comments"] = []
@@ -258,7 +270,6 @@ def main():
     sheet = None
     all_values = []
 
-    # ================= KHÓA BẢO VỆ DỮ LIỆU =================
     try:
         sheet = get_google_sheet()
         if not sheet:
@@ -273,13 +284,11 @@ def main():
         sync_from_sheet(db, all_values)
     except Exception as e: 
         print(f"Lỗi đọc Google Sheets: {e}. Hủy chạy.")
-        return # Thoát chương trình lập tức nếu có bất kì rủi ro nào
-    # ========================================================
+        return 
 
     for act in fetch_api(f"{ACTIVITY_API}?limit=40&offset=0"): process_activity(act, db)
     for proj in fetch_api(f"{PROJECTS_API}?limit=40&offset=0"): process_project(proj, db)
 
-    # Quét hẳn 5 trang (200 bình luận gốc) để chắc chắn vớt mọi replies bị đào lên
     comments = []
     for offset in [0, 40, 80, 120, 160]:
         url = API_BASE.replace("offset=0", f"offset={offset}")
@@ -297,7 +306,6 @@ def main():
             for reply in fetch_replies(comment["id"], reply_count): 
                 process_comment(reply, db)
 
-    # Bước cuối cùng ghi lên Sheets. Nếu quá trình này sụp mạng, new_comments vẫn sẽ an toàn chờ ghi ở lần tiếp theo!
     if sheet:
         try: sync_to_sheet(db, sheet, all_values)
         except Exception as e: print(f"Lỗi ghi Google Sheets: {e}")
