@@ -23,8 +23,8 @@ except Exception as e:
 # ==========================================================
 
 STUDIO_ID = "33509364"
-# Loại bỏ params query khỏi BASE URL để tái sử dụng chuẩn xác
-API_BASE = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments"
+# Giữ CHÍNH XÁC cấu trúc API bạn yêu cầu
+API_BASE = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments?limit=40&offset=0"
 PROJECTS_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/projects"
 ACTIVITY_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/activity"
 DB_FILE = "database.json"
@@ -40,11 +40,6 @@ def save_db(db):
     with open(DB_FILE, 'w', encoding='utf-8') as f:
         json.dump(db, f, indent=4, ensure_ascii=False)
 
-def update_tier(score):
-    if score >= 90: return "XS"
-    elif score >= 30: return "Tốt"
-    else: return "Kém"
-
 def init_user(username):
     return {
         "active_dates": [],     
@@ -59,22 +54,23 @@ def init_user(username):
         "last_project_date": ""
     }
 
-def fetch_api(url, offset=0, limit=40):
+def fetch_api(url):
     try: 
-        res = requests.get(url, params={"offset": offset, "limit": limit}, timeout=10)
+        res = requests.get(url, timeout=10)
         res.raise_for_status()
         return res.json()
     except Exception as e: 
         print(f"Lỗi lấy API ({url}): {e}")
         return []
 
-# SỬA LỖI: Tự động phân trang quét sạch toàn bộ Reply (kể cả thread có >40 replies)
 def fetch_replies(comment_id, reply_count):
     replies = []
-    # Lặp qua tất cả các trang reply để không bỏ sót reply mới ở các page sau
+    # Tự động quét sạch mọi trang của reply nếu lượng reply quá nhiều
     for offset in range(0, reply_count + 40, 40):
+        # Thiết kế link lấy reply theo đúng form gốc
+        url = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments/{comment_id}/replies?limit=40&offset={offset}"
         try: 
-            res = requests.get(f"{API_BASE}/{comment_id}/replies", params={"offset": offset, "limit": 40}, timeout=10)
+            res = requests.get(url, timeout=10)
             res.raise_for_status()
             data = res.json()
             if not data: break
@@ -174,8 +170,6 @@ def process_comment(comment, db):
     if author not in db: db[author] = init_user(author)
     
     db[author]["last_comment_date"] = date_str
-    
-    # Kể cả nếu đây là 1 reply cũ và đã process rồi, hàm sẽ bỏ qua không lưu trùng lập
     if comment_id in db[author].get("processed_comments", []): return
 
     record_active_date(author, date_str, db)
@@ -268,14 +262,17 @@ def main():
         if sheet: all_values = sync_from_sheet(db, sheet)
     except Exception as e: print(f"Lỗi đọc Google Sheets: {e}")
 
-    for act in fetch_api(ACTIVITY_API): process_activity(act, db)
-    for proj in fetch_api(PROJECTS_API): process_project(proj, db)
+    # Gọi hàm riêng cho Activity và Projects
+    for act in fetch_api(f"{ACTIVITY_API}?limit=40&offset=0"): process_activity(act, db)
+    for proj in fetch_api(f"{PROJECTS_API}?limit=40&offset=0"): process_project(proj, db)
 
-    # ================= MỤC SỬA 120 COMMENTS =================
+    # ================= MỤC LẤY COMMENTS =================
     comments = []
-    # Mình tăng lên duyệt 3 trang (120 comments) để tránh việc có ai reply vào comment quá cũ bị bỏ sót
+    # Quét qua 3 đợt để lấy tổng cộng 120 comments
     for offset in [0, 40, 80]:
-        data = fetch_api(API_BASE, offset=offset, limit=40)
+        # Tự thay thế chữ "offset=0" bằng "offset=40" trên chính link API_BASE gốc
+        url = API_BASE.replace("offset=0", f"offset={offset}")
+        data = fetch_api(url)
         if not data: break
         comments.extend(data)
         
@@ -284,10 +281,10 @@ def main():
 
     for comment in comments:
         process_comment(comment, db)
-        # Chỉ check gọi API của replies nếu reply_count thực sự lớn hơn 0
         reply_count = comment.get("reply_count", 0)
+        
+        # Chỉ quét Reply khi có người reply
         if reply_count > 0:
-            # Truyền số reply vào để móc tách triệt để các trang của reply
             for reply in fetch_replies(comment["id"], reply_count): 
                 process_comment(reply, db)
 
