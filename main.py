@@ -23,7 +23,7 @@ except Exception as e:
 # ==========================================================
 
 STUDIO_ID = "33509364"
-# Giữ CHÍNH XÁC cấu trúc API bạn yêu cầu
+# Giữ chính xác link API yêu cầu
 API_BASE = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments?limit=40&offset=0"
 PROJECTS_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/projects"
 ACTIVITY_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/activity"
@@ -67,7 +67,6 @@ def fetch_replies(comment_id, reply_count):
     replies = []
     # Tự động quét sạch mọi trang của reply nếu lượng reply quá nhiều
     for offset in range(0, reply_count + 40, 40):
-        # Thiết kế link lấy reply theo đúng form gốc
         url = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments/{comment_id}/replies?limit=40&offset={offset}"
         try: 
             res = requests.get(url, timeout=10)
@@ -91,16 +90,12 @@ def get_google_sheet():
     client = gspread.authorize(creds)
     return client.open_by_url(sheet_url).get_worksheet_by_id(1060874817)
 
-def sync_from_sheet(db, sheet):
-    all_values = sheet.get_all_values()
-    if len(all_values) < 4: return all_values 
-    
-    data_rows = all_values[4:]
+def sync_from_sheet(db, all_values):
+    data_rows = all_values[4:] if len(all_values) > 4 else []
     for row in data_rows:
         if not row or not row[0].strip(): continue
         username = row[0].strip()
         if username not in db: db[username] = init_user(username)
-    return all_values
 
 def penalize(author, points, log_msg, db):
     db[author]["total_deducted"] += points
@@ -190,12 +185,13 @@ def process_comment(comment, db):
     
     db[author].setdefault("new_comments", []).append({"id": comment_id, "text": formatted_comment})
     db[author].setdefault("processed_comments", []).append(comment_id)
-    db[author]["processed_comments"] = db[author]["processed_comments"][-200:]
+    db[author]["processed_comments"] = db[author]["processed_comments"][-250:]
 
 def sync_to_sheet(db, sheet, all_values):
     data_rows = all_values[4:] if len(all_values) > 4 else []
     new_data_rows = []
     existing_usernames = set()
+    users_to_clear = [] # Lưu trữ tài khoản chờ dọn dẹp data
     
     for row in data_rows:
         if not row or not row[0].strip(): continue
@@ -215,7 +211,6 @@ def sync_to_sheet(db, sheet, all_values):
             if user_data.get("new_logs"):
                 added_log = "\n".join(user_data["new_logs"])
                 row[3] = row[3].strip() + "\n" + added_log if row[3].strip() else added_log
-                user_data["new_logs"] = []
             
             if user_data.get("new_comments"):
                 existing_sheet_comments = row[4].strip()
@@ -223,7 +218,8 @@ def sync_to_sheet(db, sheet, all_values):
                 if valid_new_texts:
                     added_text = "\n".join(valid_new_texts)
                     row[4] = existing_sheet_comments + "\n" + added_text if existing_sheet_comments else added_text
-                user_data["new_comments"] = [] 
+            
+            users_to_clear.append(username)
 
         new_data_rows.append(row[:5])
         
@@ -240,9 +236,8 @@ def sync_to_sheet(db, sheet, all_values):
                 added_log,                                      
                 added_text                                      
             ]
-            user_data["new_comments"] = []
-            user_data["new_logs"] = []
             new_data_rows.append(new_row)
+            users_to_clear.append(username)
             
     if new_data_rows:
         try:
@@ -251,43 +246,58 @@ def sync_to_sheet(db, sheet, all_values):
         except TypeError:
             sheet.update('A5', new_data_rows, value_input_option='USER_ENTERED')
             print("Đồng bộ Sheets thành công!")
+            
+        # [QUAN TRỌNG] CHỈ DỌN DẸP new_comments KHI ĐÃ GHI THÀNH CÔNG VÀO SHEET!
+        for username in users_to_clear:
+            if username in db:
+                db[username]["new_comments"] = []
+                db[username]["new_logs"] = []
 
 def main():
     db = load_db()
     sheet = None
     all_values = []
 
+    # ================= KHÓA BẢO VỆ DỮ LIỆU =================
     try:
         sheet = get_google_sheet()
-        if sheet: all_values = sync_from_sheet(db, sheet)
-    except Exception as e: print(f"Lỗi đọc Google Sheets: {e}")
+        if not sheet:
+            print("Lỗi: Không thể kết nối Google Sheets. Hủy chạy để bảo vệ dữ liệu.")
+            return
+            
+        all_values = sheet.get_all_values()
+        if len(all_values) < 4:
+            print("Lỗi: Dữ liệu Sheet trả về trống hoặc lỗi mạng. Hủy chạy để KHÔNG GHI ĐÈ nhầm.")
+            return
+            
+        sync_from_sheet(db, all_values)
+    except Exception as e: 
+        print(f"Lỗi đọc Google Sheets: {e}. Hủy chạy.")
+        return # Thoát chương trình lập tức nếu có bất kì rủi ro nào
+    # ========================================================
 
-    # Gọi hàm riêng cho Activity và Projects
     for act in fetch_api(f"{ACTIVITY_API}?limit=40&offset=0"): process_activity(act, db)
     for proj in fetch_api(f"{PROJECTS_API}?limit=40&offset=0"): process_project(proj, db)
 
-    # ================= MỤC LẤY COMMENTS =================
+    # Quét hẳn 5 trang (200 bình luận gốc) để chắc chắn vớt mọi replies bị đào lên
     comments = []
-    # Quét qua 3 đợt để lấy tổng cộng 120 comments
-    for offset in [0, 40, 80]:
-        # Tự thay thế chữ "offset=0" bằng "offset=40" trên chính link API_BASE gốc
+    for offset in [0, 40, 80, 120, 160]:
         url = API_BASE.replace("offset=0", f"offset={offset}")
         data = fetch_api(url)
         if not data: break
         comments.extend(data)
         
     print(f"Đã tải {len(comments)} bình luận gốc.")
-    # ========================================================
 
     for comment in comments:
         process_comment(comment, db)
         reply_count = comment.get("reply_count", 0)
         
-        # Chỉ quét Reply khi có người reply
         if reply_count > 0:
             for reply in fetch_replies(comment["id"], reply_count): 
                 process_comment(reply, db)
 
+    # Bước cuối cùng ghi lên Sheets. Nếu quá trình này sụp mạng, new_comments vẫn sẽ an toàn chờ ghi ở lần tiếp theo!
     if sheet:
         try: sync_to_sheet(db, sheet, all_values)
         except Exception as e: print(f"Lỗi ghi Google Sheets: {e}")
