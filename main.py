@@ -23,7 +23,7 @@ except Exception as e:
 # ==========================================================
 
 STUDIO_ID = "33509364"
-API_BASE = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments"
+API_BASE = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments?limit=40&offset=0"
 PROJECTS_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/projects"
 ACTIVITY_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/activity"
 DB_FILE = "database.json"

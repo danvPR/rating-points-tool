@@ -1,8 +1,5 @@
 name: Scratch Reputation System Tracker
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 on:
   schedule:
     # --- BAN NGÀY (Quét mỗi 30 phút vào phút 13 và 43) ---
@@ -30,10 +27,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.10'
 
@@ -49,7 +46,7 @@ jobs:
           python main.py
 
       - name: Commit and Push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Auto-update database [skip ci]"
           file_pattern: 'database.json'
