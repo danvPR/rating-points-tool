@@ -23,7 +23,8 @@ except Exception as e:
 # ==========================================================
 
 STUDIO_ID = "33509364"
-API_BASE = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments?limit=40&offset=0"
+# SỬA LỖI #1: Xóa phần query params ở đuôi API_BASE để tránh làm hỏng URL khi nối thêm id của reply
+API_BASE = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments"
 PROJECTS_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/projects"
 ACTIVITY_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/activity"
 DB_FILE = "database.json"
@@ -58,21 +59,25 @@ def init_user(username):
         "last_project_date": ""
     }
 
-def fetch_api(url):
+# SỬA LỖI #2: Dùng thư viện requests để tự xử lý params, tránh lỗi cú pháp URL
+def fetch_api(url, offset=0, limit=40):
     try: 
-        res = requests.get(f"{url}?offset=0&limit=40", timeout=10)
+        res = requests.get(url, params={"offset": offset, "limit": limit}, timeout=10)
         res.raise_for_status()
         return res.json()
     except Exception as e: 
-        print(f"Lỗi lấy API: {e}")
+        print(f"Lỗi lấy API ({url}): {e}")
         return []
 
 def fetch_replies(comment_id):
     try: 
-        res = requests.get(f"{API_BASE}/{comment_id}/replies", timeout=10)
+        # Cấu trúc URL giờ sẽ chuẩn xác: .../comments/{id}/replies
+        res = requests.get(f"{API_BASE}/{comment_id}/replies", params={"offset": 0, "limit": 40}, timeout=10)
         res.raise_for_status()
         return res.json()
-    except: return []
+    except Exception as e: 
+        print(f"Lỗi lấy reply cho cmt {comment_id}: {e}")
+        return []
 
 def get_google_sheet():
     creds_json = os.environ.get('GOOGLE_CREDENTIALS')
@@ -155,7 +160,7 @@ def process_project(project, db):
         
     db[author]["projects_today"] += 1
     
-    # SỬA LỖI #1: Chỉ phạt đúng 1 lần (5đ) khi vừa chạm mốc dự án thứ 6 trong ngày
+    # SỬA LỖI: Chỉ phạt đúng 1 lần (5đ) khi vừa chạm mốc dự án thứ 6 trong ngày
     if db[author]["projects_today"] == 6:
         penalize(author, 5, f"[{date_str}] ⚠️ Quá 5 dự án/ngày (-5đ)", db)
 
@@ -177,7 +182,7 @@ def process_comment(comment, db):
     raw_content = html.unescape(comment["content"])
     clean_content = re.sub(r'<[^>]+>', '', raw_content).strip()
     
-    # SỬA LỖI #2: Dùng Regex quét từ cấm để tránh bị bắt nhầm chữ (VD: cá - cát)
+    # Dùng Regex quét từ cấm để tránh bị bắt nhầm chữ (VD: cá - cát)
     is_banned = False
     if BANNED_WORDS:
         text_lower = clean_content.lower()
@@ -276,12 +281,23 @@ def main():
     for act in fetch_api(ACTIVITY_API): process_activity(act, db)
     for proj in fetch_api(PROJECTS_API): process_project(proj, db)
 
-    comments = fetch_api(API_BASE)
+    # ================= MỤC SỬA 80 COMMENTS =================
+    comments = []
+    # Lấy 40 comments đầu tiên (offset=0)
+    comments.extend(fetch_api(API_BASE, offset=0, limit=40))
+    # Lấy tiếp 40 comments tiếp theo (offset=40)
+    comments.extend(fetch_api(API_BASE, offset=40, limit=40))
+    
+    print(f"Đã tải {len(comments)} bình luận gốc.")
+    # ========================================================
+
     for comment in comments:
         process_comment(comment, db)
         if comment.get("reply_count", 0) > 0:
             time.sleep(0.5)
-            for reply in fetch_replies(comment["id"]): process_comment(reply, db)
+            # Giờ thì API lấy reply đã chạy đúng do API_BASE đã được sửa ở trên
+            for reply in fetch_replies(comment["id"]): 
+                process_comment(reply, db)
 
     if sheet:
         try: sync_to_sheet(db, sheet, all_values)
