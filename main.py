@@ -88,6 +88,47 @@ def get_google_sheet():
     client = gspread.authorize(creds)
     return client.open_by_url(sheet_url).get_worksheet_by_id(1060874817)
 
+# ================= HÀM TẠO CỘT THEO THÁNG MỚI =================
+def check_and_create_month_column(sheet):
+    try:
+        row3 = sheet.row_values(3)
+        header_e = row3[4] if len(row3) > 4 else ""
+        
+        # Lấy giờ VN để xác định tháng/năm hiện tại
+        local_dt = datetime.utcnow() + timedelta(hours=7)
+        current_month_label = f"Bình luận {local_dt.month}/{local_dt.year}"
+        
+        if header_e == "Bình luận" or not header_e:
+            # Lần đầu chạy, cập nhật "Bình luận" thành "Bình luận 8/2026"
+            sheet.update_acell('E3', current_month_label)
+            print(f"Đã cập nhật tiêu đề cột E thành: {current_month_label}")
+            
+        elif header_e != current_month_label and header_e.startswith("Bình luận"):
+            # Sang tháng mới! Ra lệnh chèn thêm 1 cột đẩy data cũ sang bên phải
+            print(f"Phát hiện tháng mới! Đang tạo cột {current_month_label}...")
+            
+            body = {
+                "requests": [{
+                    "insertDimension": {
+                        "range": {
+                            "sheetId": sheet.id,
+                            "dimension": "COLUMNS",
+                            "startIndex": 4, # Index 4 tương ứng Cột E
+                            "endIndex": 5
+                        },
+                        "inheritFromBefore": False # Copy định dạng (màu, viền, wrap text) từ cột E cũ
+                    }
+                }]
+            }
+            sheet.spreadsheet.batch_update(body)
+            sheet.update_acell('E3', current_month_label)
+            print("Đã tạo cột tháng mới thành công!")
+            time.sleep(2) # Đợi Sheets ổn định sau khi chèn cột
+            
+    except Exception as e:
+        print(f"Lỗi khi kiểm tra/tạo cột tháng mới: {e}")
+# =============================================================
+
 def sync_from_sheet(db, all_values):
     data_rows = all_values[4:] if len(all_values) > 4 else []
     for row in data_rows:
@@ -159,7 +200,6 @@ def process_comment(comment, db):
     comment_id = str(comment["id"])
     author = comment["author"]["username"]
     
-    # Lấy thời gian thô từ API Scratch
     raw_dt = comment.get("datetime_created", "")
     date_str = raw_dt[:10] 
 
@@ -181,19 +221,14 @@ def process_comment(comment, db):
                 is_banned = True
                 break
 
-    # ================= ĐỔI GIỜ UTC SANG GIỜ VIỆT NAM =================
     try:
-        # Chuyển chuỗi của API thành định dạng datetime, cộng 7 tiếng
         utc_dt = datetime.strptime(raw_dt, "%Y-%m-%dT%H:%M:%S.%fZ")
         local_dt = utc_dt + timedelta(hours=7)
         time_display = local_dt.strftime("%d/%m/%Y %H:%M")
     except Exception:
-        # Nếu lỗi (rất hiếm), hiển thị tạm ngày tháng năm thô
         time_display = raw_dt[:10]
-    # =================================================================
 
     tag = "[⚠️ TỪ CẤM] " if is_banned else ""
-    # Chèn biến ngày giờ vào form hiển thị
     formatted_comment = f"[{time_display}] {tag}{comment_id} ({clean_content})"
     
     db[author].setdefault("new_comments", []).append({"id": comment_id, "text": formatted_comment})
@@ -234,6 +269,7 @@ def sync_to_sheet(db, sheet, all_values):
             
             users_to_clear.append(username)
 
+        # Cắt đúng 5 cột đầu để không lưu đè làm hỏng các tháng cũ (cột F, G...)
         new_data_rows.append(row[:5])
         
     for username, user_data in db.items():
@@ -276,6 +312,9 @@ def main():
             print("Lỗi: Không thể kết nối Google Sheets. Hủy chạy để bảo vệ dữ liệu.")
             return
             
+        # Kiểm tra và tạo Cột Tháng mới (nếu sang tháng) TRƯỚC KHI lấy dữ liệu
+        check_and_create_month_column(sheet)
+        
         all_values = sheet.get_all_values()
         if len(all_values) < 4:
             print("Lỗi: Dữ liệu Sheet trả về trống hoặc lỗi mạng. Hủy chạy để KHÔNG GHI ĐÈ nhầm.")
