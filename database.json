@@ -7960,12 +7960,6 @@
             "1369640495"
         ],
         "processed_activities": [
-            "addprojecttostudio-343727852",
-            "addprojecttostudio-343727851",
-            "addprojecttostudio-343727850",
-            "addprojecttostudio-343790811",
-            "removeprojectstudio-83588059",
-            "addprojecttostudio-343790808",
             "addprojecttostudio-343790807",
             "removeprojectstudio-83588058",
             "removeprojectstudio-83588056",
@@ -8059,7 +8053,13 @@
             "removeprojectstudio-83681878",
             "removeprojectstudio-83681876",
             "addprojecttostudio-344430990",
-            "removeprojectstudio-83682159"
+            "removeprojectstudio-83682159",
+            "addprojecttostudio-344486777",
+            "removeprojectstudio-83690292",
+            "addprojecttostudio-344486767",
+            "removeprojectstudio-83690287",
+            "addprojecttostudio-344486759",
+            "removeprojectstudio-83690283"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-18"
@@ -19640,7 +19640,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-15"
+            "2026-08-19"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -19652,17 +19652,20 @@
             "1366351093",
             "1366350093",
             "1367314743",
-            "1369019925"
+            "1369019925",
+            "1368143188"
         ],
         "processed_activities": [
             "addprojecttostudio-335401436",
             "addprojecttostudio-342217834",
             "addprojecttostudio-342217250",
             "addprojecttostudio-343876848",
-            "addprojecttostudio-343884838"
+            "addprojecttostudio-343884838",
+            "addprojecttostudio-344488617",
+            "addprojecttostudio-344486648"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-08-15"
+        "projects_today": 1,
+        "last_project_date": "2026-08-19"
     },
     "flagbandmaster": {
         "score": 100,
@@ -50658,19 +50661,22 @@
     },
     "cnken2": {
         "active_dates": [
-            "2026-07-30"
+            "2026-08-19"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [
-            "becomecurator-158299498"
+        "processed_projects": [
+            "1370024220"
         ],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_activities": [
+            "becomecurator-158299498",
+            "addprojecttostudio-344488580"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-08-19"
     },
     "MaimelamScratch_2k16": {
         "active_dates": [
