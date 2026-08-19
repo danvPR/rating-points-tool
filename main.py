@@ -23,7 +23,7 @@ except Exception as e:
 # ==========================================================
 
 STUDIO_ID = "33509364"
-# SỬA LỖI #1: Xóa phần query params ở đuôi API_BASE để tránh làm hỏng URL khi nối thêm id của reply
+# Loại bỏ params query khỏi BASE URL để tái sử dụng chuẩn xác
 API_BASE = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/comments"
 PROJECTS_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/projects"
 ACTIVITY_API = f"https://api.scratch.mit.edu/studios/{STUDIO_ID}/activity"
@@ -59,7 +59,6 @@ def init_user(username):
         "last_project_date": ""
     }
 
-# SỬA LỖI #2: Dùng thư viện requests để tự xử lý params, tránh lỗi cú pháp URL
 def fetch_api(url, offset=0, limit=40):
     try: 
         res = requests.get(url, params={"offset": offset, "limit": limit}, timeout=10)
@@ -69,15 +68,22 @@ def fetch_api(url, offset=0, limit=40):
         print(f"Lỗi lấy API ({url}): {e}")
         return []
 
-def fetch_replies(comment_id):
-    try: 
-        # Cấu trúc URL giờ sẽ chuẩn xác: .../comments/{id}/replies
-        res = requests.get(f"{API_BASE}/{comment_id}/replies", params={"offset": 0, "limit": 40}, timeout=10)
-        res.raise_for_status()
-        return res.json()
-    except Exception as e: 
-        print(f"Lỗi lấy reply cho cmt {comment_id}: {e}")
-        return []
+# SỬA LỖI: Tự động phân trang quét sạch toàn bộ Reply (kể cả thread có >40 replies)
+def fetch_replies(comment_id, reply_count):
+    replies = []
+    # Lặp qua tất cả các trang reply để không bỏ sót reply mới ở các page sau
+    for offset in range(0, reply_count + 40, 40):
+        try: 
+            res = requests.get(f"{API_BASE}/{comment_id}/replies", params={"offset": offset, "limit": 40}, timeout=10)
+            res.raise_for_status()
+            data = res.json()
+            if not data: break
+            replies.extend(data)
+            time.sleep(0.2)
+        except Exception as e: 
+            print(f"Lỗi lấy reply cho cmt {comment_id}: {e}")
+            break
+    return replies
 
 def get_google_sheet():
     creds_json = os.environ.get('GOOGLE_CREDENTIALS')
@@ -87,23 +93,17 @@ def get_google_sheet():
     scopes = ['https://www.googleapis.com/auth/spreadsheets']
     creds = Credentials.from_service_account_info(creds_dict, scopes=scopes)
     client = gspread.authorize(creds)
-    # LƯU Ý: Lấy chính xác Sheet có gid=1060874817
     return client.open_by_url(sheet_url).get_worksheet_by_id(1060874817)
 
 def sync_from_sheet(db, sheet):
     all_values = sheet.get_all_values()
     if len(all_values) < 4: return all_values 
     
-    # Dữ liệu hiện tại bắt đầu từ dòng 5 (index 4)
     data_rows = all_values[4:]
     for row in data_rows:
         if not row or not row[0].strip(): continue
         username = row[0].strip()
-        
         if username not in db: db[username] = init_user(username)
-        # Note: Bỏ việc đọc "total_deducted" từ sheet vì cấu trúc mới không còn cột Điểm phạt ở vị trí cũ.
-        # Điểm phạt sẽ được lưu và tính toán hoàn toàn thông qua database.json
-        
     return all_values
 
 def penalize(author, points, log_msg, db):
@@ -160,7 +160,6 @@ def process_project(project, db):
         
     db[author]["projects_today"] += 1
     
-    # SỬA LỖI: Chỉ phạt đúng 1 lần (5đ) khi vừa chạm mốc dự án thứ 6 trong ngày
     if db[author]["projects_today"] == 6:
         penalize(author, 5, f"[{date_str}] ⚠️ Quá 5 dự án/ngày (-5đ)", db)
 
@@ -175,6 +174,8 @@ def process_comment(comment, db):
     if author not in db: db[author] = init_user(author)
     
     db[author]["last_comment_date"] = date_str
+    
+    # Kể cả nếu đây là 1 reply cũ và đã process rồi, hàm sẽ bỏ qua không lưu trùng lập
     if comment_id in db[author].get("processed_comments", []): return
 
     record_active_date(author, date_str, db)
@@ -182,12 +183,10 @@ def process_comment(comment, db):
     raw_content = html.unescape(comment["content"])
     clean_content = re.sub(r'<[^>]+>', '', raw_content).strip()
     
-    # Dùng Regex quét từ cấm để tránh bị bắt nhầm chữ (VD: cá - cát)
     is_banned = False
     if BANNED_WORDS:
         text_lower = clean_content.lower()
         for word in BANNED_WORDS:
-            # \b giúp khoanh vùng ranh giới từ, tìm chính xác từ cần cấm
             if re.search(rf'\b{re.escape(word.lower())}\b', text_lower):
                 is_banned = True
                 break
@@ -197,10 +196,9 @@ def process_comment(comment, db):
     
     db[author].setdefault("new_comments", []).append({"id": comment_id, "text": formatted_comment})
     db[author].setdefault("processed_comments", []).append(comment_id)
-    db[author]["processed_comments"] = db[author]["processed_comments"][-100:]
+    db[author]["processed_comments"] = db[author]["processed_comments"][-200:]
 
 def sync_to_sheet(db, sheet, all_values):
-    # Lấy dữ liệu bắt đầu từ ROW 5 (Index 4)
     data_rows = all_values[4:] if len(all_values) > 4 else []
     new_data_rows = []
     existing_usernames = set()
@@ -210,26 +208,21 @@ def sync_to_sheet(db, sheet, all_values):
         username = row[0].strip()
         existing_usernames.add(username)
         
-        # Cập nhật cấu trúc cột mới [A: User, B: Hoạt động, C: Cmt, D: Log, E: Chi tiết Cmt]
         while len(row) < 5: row.append("")
         
         user_data = db.get(username)
         if user_data:
-            # CỘT B: Lần cuối hoạt động
             active_list = user_data.get("active_dates", [])
             if active_list: row[1] = "\n".join(active_list)
             
-            # CỘT C: Lần cuối bình luận
             if user_data.get("last_comment_date"): 
                 row[2] = user_data["last_comment_date"]
             
-            # CỘT D: Log
             if user_data.get("new_logs"):
                 added_log = "\n".join(user_data["new_logs"])
                 row[3] = row[3].strip() + "\n" + added_log if row[3].strip() else added_log
                 user_data["new_logs"] = []
             
-            # CỘT E: Chi tiết bình luận
             if user_data.get("new_comments"):
                 existing_sheet_comments = row[4].strip()
                 valid_new_texts = [cmt["text"] for cmt in user_data["new_comments"] if cmt["id"] not in existing_sheet_comments]
@@ -238,9 +231,8 @@ def sync_to_sheet(db, sheet, all_values):
                     row[4] = existing_sheet_comments + "\n" + added_text if existing_sheet_comments else added_text
                 user_data["new_comments"] = [] 
 
-        new_data_rows.append(row[:5]) # Giới hạn cập nhật trong 5 cột để ko bị lẹm sang các cột khác
+        new_data_rows.append(row[:5])
         
-    # Xử lý các tài khoản hoàn toàn mới chưa có trong sheet
     for username, user_data in db.items():
         if username not in existing_usernames:
             added_text = "\n".join([cmt["text"] for cmt in user_data.get("new_comments", [])])
@@ -248,25 +240,23 @@ def sync_to_sheet(db, sheet, all_values):
             active_list = user_data.get("active_dates", [])
             
             new_row = [
-                username,                                       # Cột A
-                "\n".join(active_list) if active_list else "",  # Cột B
-                user_data.get("last_comment_date", ""),         # Cột C
-                added_log,                                      # Cột D
-                added_text                                      # Cột E
+                username,                                       
+                "\n".join(active_list) if active_list else "",  
+                user_data.get("last_comment_date", ""),         
+                added_log,                                      
+                added_text                                      
             ]
             user_data["new_comments"] = []
             user_data["new_logs"] = []
             new_data_rows.append(new_row)
             
     if new_data_rows:
-        # Bắt đầu ghi đè từ ô A5 (sẽ bung ra A5:E...)
         try:
             sheet.update(range_name='A5', values=new_data_rows, value_input_option='USER_ENTERED')
-            print("Đồng bộ Sheets thành công vào B5, C5, D5...!")
+            print("Đồng bộ Sheets thành công!")
         except TypeError:
-            # Phòng trường hợp thư viện gspread của bạn là bản cũ
             sheet.update('A5', new_data_rows, value_input_option='USER_ENTERED')
-            print("Đồng bộ Sheets thành công vào B5, C5, D5...!")
+            print("Đồng bộ Sheets thành công!")
 
 def main():
     db = load_db()
@@ -281,22 +271,24 @@ def main():
     for act in fetch_api(ACTIVITY_API): process_activity(act, db)
     for proj in fetch_api(PROJECTS_API): process_project(proj, db)
 
-    # ================= MỤC SỬA 80 COMMENTS =================
+    # ================= MỤC SỬA 120 COMMENTS =================
     comments = []
-    # Lấy 40 comments đầu tiên (offset=0)
-    comments.extend(fetch_api(API_BASE, offset=0, limit=40))
-    # Lấy tiếp 40 comments tiếp theo (offset=40)
-    comments.extend(fetch_api(API_BASE, offset=40, limit=40))
-    
+    # Mình tăng lên duyệt 3 trang (120 comments) để tránh việc có ai reply vào comment quá cũ bị bỏ sót
+    for offset in [0, 40, 80]:
+        data = fetch_api(API_BASE, offset=offset, limit=40)
+        if not data: break
+        comments.extend(data)
+        
     print(f"Đã tải {len(comments)} bình luận gốc.")
     # ========================================================
 
     for comment in comments:
         process_comment(comment, db)
-        if comment.get("reply_count", 0) > 0:
-            time.sleep(0.5)
-            # Giờ thì API lấy reply đã chạy đúng do API_BASE đã được sửa ở trên
-            for reply in fetch_replies(comment["id"]): 
+        # Chỉ check gọi API của replies nếu reply_count thực sự lớn hơn 0
+        reply_count = comment.get("reply_count", 0)
+        if reply_count > 0:
+            # Truyền số reply vào để móc tách triệt để các trang của reply
+            for reply in fetch_replies(comment["id"], reply_count): 
                 process_comment(reply, db)
 
     if sheet:
