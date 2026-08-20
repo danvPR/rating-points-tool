@@ -10493,12 +10493,6 @@
             "1368960418"
         ],
         "processed_activities": [
-            "addprojecttostudio-344266211",
-            "removeprojectstudio-83658380",
-            "addprojecttostudio-344272369",
-            "removeprojectstudio-83659530",
-            "addprojecttostudio-344272148",
-            "removeprojectstudio-83659488",
             "addprojecttostudio-344272022",
             "removeprojectstudio-83659454",
             "addprojecttostudio-344291121",
@@ -10592,7 +10586,13 @@
             "addprojecttostudio-344518125",
             "removeprojectstudio-83695199",
             "addprojecttostudio-344518094",
-            "removeprojectstudio-83695170"
+            "removeprojectstudio-83695170",
+            "addprojecttostudio-344522222",
+            "removeprojectstudio-83695668",
+            "addprojecttostudio-344522176",
+            "removeprojectstudio-83695661",
+            "addprojecttostudio-344522088",
+            "removeprojectstudio-83695645"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-18"
@@ -10774,7 +10774,8 @@
             "2026-07-30",
             "2026-08-11",
             "2026-08-12",
-            "2026-08-14"
+            "2026-08-14",
+            "2026-08-20"
         ],
         "last_comment_date": "2026-08-14",
         "total_deducted": 20,
@@ -10792,13 +10793,15 @@
         ],
         "processed_projects": [
             "1367967414",
-            "1363825917"
+            "1363825917",
+            "1370092524"
         ],
         "processed_activities": [
-            "addprojecttostudio-343244476"
+            "addprojecttostudio-343244476",
+            "addprojecttostudio-344523738"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-12"
+        "last_project_date": "2026-08-20"
     },
     "phucthienlop7": {
         "score": 100,
@@ -11254,7 +11257,8 @@
         ],
         "processed_activities": [
             "addprojecttostudio-344242185",
-            "addprojecttostudio-344500521"
+            "addprojecttostudio-344500521",
+            "addprojecttostudio-344521966"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-20"
@@ -35105,7 +35109,11 @@
             "330524365",
             "330531550",
             "330561540",
-            "330565459"
+            "330565459",
+            "330571429",
+            "330571456",
+            "330571354",
+            "330571334"
         ],
         "processed_projects": [
             "1330301710",
@@ -35193,7 +35201,9 @@
             "becomeownerstudio-59816168",
             "updatestudio-54907907",
             "removeprojectstudio-83620946",
-            "updatestudio-54920152"
+            "updatestudio-54920152",
+            "addprojecttostudio-344523460",
+            "removeprojectstudio-83695847"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-13"
@@ -36849,7 +36859,7 @@
         "active_dates": [
             "2026-08-20"
         ],
-        "last_comment_date": "2026-08-10",
+        "last_comment_date": "2026-08-13",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -56418,7 +56428,8 @@
             "removeprojectstudio-83674372",
             "addprojecttostudio-344415585",
             "addprojecttostudio-344439548",
-            "addprojecttostudio-344515618"
+            "addprojecttostudio-344515618",
+            "addprojecttostudio-344522622"
         ],
         "projects_today": 7,
         "last_project_date": "2026-08-15"
@@ -58587,7 +58598,10 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330519755"
+            "330519755",
+            "330571282",
+            "330571778",
+            "330571799"
         ],
         "processed_projects": [],
         "processed_activities": [
@@ -58732,5 +58746,37 @@
         ],
         "projects_today": 0,
         "last_project_date": ""
+    },
+    "thucanhaimy": {
+        "active_dates": [
+            "2026-08-20"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-158598635"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "-waterball-": {
+        "active_dates": [
+            "2026-08-20"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1367329689"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-08-20"
     }
 }
