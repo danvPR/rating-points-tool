@@ -14,7 +14,7 @@ try:
     file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'censorship-badwr.txt')
     if os.path.exists(file_path):
         with open(file_path, "r", encoding="utf-8") as file:
-            BANNED_WORDS = re.findall(r'"([^"]*)"', file.read()) # lạy bố, code bug ít th
+            BANNED_WORDS = [word for word in file.read().splitlines() if word.strip()] #Fixed
         print(f"Đã nạp thành công {len(BANNED_WORDS)} từ cấm.")
     else:
         print("Cảnh báo: Không tìm thấy file censorship-badwr.txt. Danh sách từ cấm đang trống.")
