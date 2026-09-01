@@ -14,7 +14,7 @@ try:
     file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'censorship-badwr.txt')
     if os.path.exists(file_path):
         with open(file_path, "r", encoding="utf-8") as file:
-            BANNED_WORDS = [word for word in file.read().splitlines() if word.strip()] #Fixed
+            BANNED_WORDS = [word for word in file.read().splitlines() if word.strip()]
         print(f"Đã nạp thành công {len(BANNED_WORDS)} từ cấm.")
     else:
         print("Cảnh báo: Không tìm thấy file censorship-badwr.txt. Danh sách từ cấm đang trống.")
@@ -78,33 +78,38 @@ def fetch_replies(comment_id, reply_count):
             break
     return replies
 
-def get_google_sheet():
+def get_google_sheets():
     creds_json = os.environ.get('GOOGLE_CREDENTIALS')
     sheet_url = os.environ.get('SHEET_URL')
-    if not creds_json or not sheet_url: return None
+    if not creds_json or not sheet_url: return None, None
     creds_dict = json.loads(creds_json)
     scopes = ['https://www.googleapis.com/auth/spreadsheets']
     creds = Credentials.from_service_account_info(creds_dict, scopes=scopes)
     client = gspread.authorize(creds)
-    return client.open_by_url(sheet_url).get_worksheet_by_id(1060874817)
+    spreadsheet = client.open_by_url(sheet_url)
+    
+    main_sheet = spreadsheet.get_worksheet_by_id(1060874817)
+    try:
+        sim_sheet = spreadsheet.get_worksheet_by_id(1169567819) # Dùng ID của tab mô phỏng
+    except Exception as e:
+        print(f"Không thể mở tab Mô phỏng bằng ID 1169567819: {e}")
+        sim_sheet = None
+        
+    return main_sheet, sim_sheet
 
-# ================= HÀM TẠO CỘT THEO THÁNG MỚI =================
 def check_and_create_month_column(sheet):
     try:
         row3 = sheet.row_values(3)
         header_e = row3[4] if len(row3) > 4 else ""
         
-        # Lấy giờ VN để xác định tháng/năm hiện tại
         local_dt = datetime.utcnow() + timedelta(hours=7)
         current_month_label = f"Bình luận {local_dt.month}/{local_dt.year}"
         
         if header_e == "Bình luận" or not header_e:
-            # Lần đầu chạy, cập nhật "Bình luận" thành "Bình luận 8/2026"
             sheet.update_acell('E3', current_month_label)
             print(f"Đã cập nhật tiêu đề cột E thành: {current_month_label}")
             
         elif header_e != current_month_label and header_e.startswith("Bình luận"):
-            # Sang tháng mới! Ra lệnh chèn thêm 1 cột đẩy data cũ sang bên phải
             print(f"Phát hiện tháng mới! Đang tạo cột {current_month_label}...")
             
             body = {
@@ -113,21 +118,20 @@ def check_and_create_month_column(sheet):
                         "range": {
                             "sheetId": sheet.id,
                             "dimension": "COLUMNS",
-                            "startIndex": 4, # Index 4 tương ứng Cột E
+                            "startIndex": 4, 
                             "endIndex": 5
                         },
-                        "inheritFromBefore": False # Copy định dạng (màu, viền, wrap text) từ cột E cũ
+                        "inheritFromBefore": False 
                     }
                 }]
             }
             sheet.spreadsheet.batch_update(body)
             sheet.update_acell('E3', current_month_label)
             print("Đã tạo cột tháng mới thành công!")
-            time.sleep(2) # Đợi Sheets ổn định sau khi chèn cột
+            time.sleep(2) 
             
     except Exception as e:
         print(f"Lỗi khi kiểm tra/tạo cột tháng mới: {e}")
-# =============================================================
 
 def sync_from_sheet(db, all_values):
     data_rows = all_values[4:] if len(all_values) > 4 else []
@@ -235,6 +239,78 @@ def process_comment(comment, db):
     db[author].setdefault("processed_comments", []).append(comment_id)
     db[author]["processed_comments"] = db[author]["processed_comments"][-250:]
 
+# ================= HÀM XỬ LÝ VÀ CHUẨN BỊ MÔ PHỎNG =================
+def format_time(raw_dt):
+    try:
+        utc_dt = datetime.strptime(raw_dt, "%Y-%m-%dT%H:%M:%S.%fZ")
+        local_dt = utc_dt + timedelta(hours=7)
+        return local_dt.strftime("%d/%m/%Y %H:%M")
+    except Exception:
+        return raw_dt[:10]
+
+def clean_text(raw_content):
+    raw_content = html.unescape(raw_content)
+    return re.sub(r'<[^>]+>', '', raw_content).strip()
+
+def sync_simulation_sheet(db, sim_sheet):
+    if not sim_sheet or "SYSTEM_THREADS_STORAGE" not in db: return
+    
+    threads = db["SYSTEM_THREADS_STORAGE"]
+    
+    # Sắp xếp các cụm comment theo thời gian mới nhất lên đầu để dễ đọc
+    sorted_threads = sorted(threads.values(), key=lambda x: x.get("datetime_created", ""), reverse=True)
+    
+    rows = []
+    
+    for thread in sorted_threads:
+        main_dt = thread.get("datetime_created", "")
+        main_time = format_time(main_dt)
+        main_content = clean_text(thread.get("content", ""))
+        
+        # Format Bình luận chính
+        main_text = f"({thread.get('id', '')} - {thread.get('author', '')} - {main_time}) {main_content}"
+        
+        # Thêm Bình luận chính (nằm ở Cột A, Cột B bỏ trống)
+        rows.append([main_text, ""])
+        
+        replies = thread.get("replies", {})
+        # Sắp xếp các Replies theo thứ tự cũ nhất -> mới nhất (chiều từ trên xuống giống Studio)
+        sorted_replies = sorted(replies.values(), key=lambda x: x.get("datetime_created", ""))
+        
+        for reply in sorted_replies:
+            reply_dt = reply.get("datetime_created", "")
+            reply_time = format_time(reply_dt)
+            reply_content = clean_text(reply.get("content", ""))
+            
+            # Format Bình luận phản hồi
+            reply_text = f"({reply.get('id', '')} - {reply.get('author', '')} - {reply_time}) {reply_content}"
+            
+            # Thêm Reply (Cột A bỏ trống, đẩy sang Cột B)
+            rows.append(["", reply_text])
+
+    # Đảm bảo list rows có ít nhất 1 dòng để tránh lỗi khi sheet trống
+    if not rows:
+        rows = [["", ""]]
+
+    try:
+        # Tự động co giãn (resize) Sheet vừa khít với dữ liệu để cắt bỏ toàn bộ ô thừa
+        sim_sheet.resize(rows=len(rows), cols=2)
+    except Exception as e:
+        print(f"Lỗi khi resize Sheet Mô phỏng: {e}")
+            
+    try:
+        sim_sheet.clear() # Đảm bảo xóa bỏ rác cũ
+    except Exception:
+        pass
+        
+    try:
+        sim_sheet.update(range_name='A1', values=rows, value_input_option='USER_ENTERED')
+        print(f"Đã đồng bộ vĩnh viễn {len(rows)} dòng Archive vào Sheet 'Mô phỏng'!")
+    except TypeError:
+        sim_sheet.update('A1', rows, value_input_option='USER_ENTERED')
+        print(f"Đã đồng bộ vĩnh viễn {len(rows)} dòng Archive vào Sheet 'Mô phỏng'!")
+# ===================================================================
+
 def sync_to_sheet(db, sheet, all_values):
     data_rows = all_values[4:] if len(all_values) > 4 else []
     new_data_rows = []
@@ -269,11 +345,10 @@ def sync_to_sheet(db, sheet, all_values):
             
             users_to_clear.append(username)
 
-        # Cắt đúng 5 cột đầu để không lưu đè làm hỏng các tháng cũ (cột F, G...)
         new_data_rows.append(row[:5])
         
     for username, user_data in db.items():
-        if username not in existing_usernames:
+        if username not in existing_usernames and username != "SYSTEM_THREADS_STORAGE":
             added_text = "\n".join([cmt["text"] for cmt in user_data.get("new_comments", [])])
             added_log = "\n".join(user_data.get("new_logs", []))
             active_list = user_data.get("active_dates", [])
@@ -291,10 +366,10 @@ def sync_to_sheet(db, sheet, all_values):
     if new_data_rows:
         try:
             sheet.update(range_name='A5', values=new_data_rows, value_input_option='USER_ENTERED')
-            print("Đồng bộ Sheets thành công!")
+            print("Đồng bộ Sheets User thành công!")
         except TypeError:
             sheet.update('A5', new_data_rows, value_input_option='USER_ENTERED')
-            print("Đồng bộ Sheets thành công!")
+            print("Đồng bộ Sheets User thành công!")
             
         for username in users_to_clear:
             if username in db:
@@ -303,19 +378,26 @@ def sync_to_sheet(db, sheet, all_values):
 
 def main():
     db = load_db()
-    sheet = None
+    main_sheet = None
+    sim_sheet = None
     all_values = []
+    
+    # Nâng cấp phiên bản key dữ liệu nếu có
+    if "threads" in db:
+        db["SYSTEM_THREADS_STORAGE"] = db.pop("threads")
+
+    if "SYSTEM_THREADS_STORAGE" not in db:
+        db["SYSTEM_THREADS_STORAGE"] = {}
 
     try:
-        sheet = get_google_sheet()
-        if not sheet:
-            print("Lỗi: Không thể kết nối Google Sheets. Hủy chạy để bảo vệ dữ liệu.")
+        main_sheet, sim_sheet = get_google_sheets()
+        if not main_sheet:
+            print("Lỗi: Không thể kết nối Google Sheets (Tab Chính). Hủy chạy để bảo vệ dữ liệu.")
             return
             
-        # Kiểm tra và tạo Cột Tháng mới (nếu sang tháng) TRƯỚC KHI lấy dữ liệu
-        check_and_create_month_column(sheet)
+        check_and_create_month_column(main_sheet)
         
-        all_values = sheet.get_all_values()
+        all_values = main_sheet.get_all_values()
         if len(all_values) < 4:
             print("Lỗi: Dữ liệu Sheet trả về trống hoặc lỗi mạng. Hủy chạy để KHÔNG GHI ĐÈ nhầm.")
             return
@@ -339,18 +421,48 @@ def main():
 
     for comment in comments:
         process_comment(comment, db)
+        
+        # ============ LƯU VÀO CƠ SỞ DỮ LIỆU ARCHIVE ============
+        comment_id = str(comment["id"])
+        if comment_id not in db["SYSTEM_THREADS_STORAGE"]:
+            db["SYSTEM_THREADS_STORAGE"][comment_id] = {
+                "id": comment_id,
+                "author": comment["author"]["username"],
+                "content": comment.get("content", ""),
+                "datetime_created": comment.get("datetime_created", ""),
+                "replies": {}
+            }
+        else:
+            db["SYSTEM_THREADS_STORAGE"][comment_id]["content"] = comment.get("content", "")
+            db["SYSTEM_THREADS_STORAGE"][comment_id]["datetime_created"] = comment.get("datetime_created", "")
+            
         reply_count = comment.get("reply_count", 0)
         
         if reply_count > 0:
-            for reply in fetch_replies(comment["id"], reply_count): 
+            replies_data = fetch_replies(comment["id"], reply_count)
+            for reply in replies_data: 
                 process_comment(reply, db)
+                
+                reply_id = str(reply["id"])
+                db["SYSTEM_THREADS_STORAGE"][comment_id]["replies"][reply_id] = {
+                    "id": reply_id,
+                    "author": reply["author"]["username"],
+                    "content": reply.get("content", ""),
+                    "datetime_created": reply.get("datetime_created", "")
+                }
+        # =======================================================
 
-    if sheet:
-        try: sync_to_sheet(db, sheet, all_values)
-        except Exception as e: print(f"Lỗi ghi Google Sheets: {e}")
+    # ĐÃ GỠ BỎ ĐOẠN CUT OFF DỮ LIỆU ĐỂ LƯU TRỮ VĨNH VIỄN!
+
+    if main_sheet:
+        try: sync_to_sheet(db, main_sheet, all_values)
+        except Exception as e: print(f"Lỗi ghi Google Sheets (Tab Chính): {e}")
+        
+    if sim_sheet:
+        sync_simulation_sheet(db, sim_sheet)
 
     save_db(db)
-    print("Hoàn tất.")
+    print("Hoàn tất mọi tác vụ.")
 
 if __name__ == "__main__":
     main()
