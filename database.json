@@ -13657,9 +13657,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-19"
+            "2026-09-01"
         ],
-        "last_comment_date": "2026-08-15",
+        "last_comment_date": "2026-09-01",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -13677,7 +13677,8 @@
             "330212479",
             "330287855",
             "330521481",
-            "330521522"
+            "330521522",
+            "331461751"
         ],
         "processed_projects": [
             "1329906785",
@@ -55291,7 +55292,7 @@
         "active_dates": [
             "2026-09-01"
         ],
-        "last_comment_date": "2026-08-21",
+        "last_comment_date": "2026-08-22",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -60442,6 +60443,12 @@
                     "author": "cunken",
                     "content": "ok",
                     "datetime_created": "2026-09-01T06:03:14.000Z"
+                },
+                "331461817": {
+                    "id": "331461817",
+                    "author": "I-love-scratch-team",
+                    "content": "Hoặc c&oacute; thể forward qua studiodanv@g (meow) com",
+                    "datetime_created": "2026-09-01T07:32:37.000Z"
                 }
             }
         },
@@ -64758,6 +64765,20 @@
                     "datetime_created": "2026-08-21T13:47:20.000Z"
                 }
             }
+        },
+        "331461798": {
+            "id": "331461798",
+            "author": "I-love-scratch-team",
+            "content": "Cho v&ocirc; ne:3",
+            "datetime_created": "2026-09-01T07:32:03.000Z",
+            "replies": {}
+        },
+        "331461751": {
+            "id": "331461751",
+            "author": "WPONTA",
+            "content": "<img src=\"/images/emoji/blm.png\" class=\"emoji\" alt=\"blm emoji\"> https://scratch.mit.edu/projects/1376863396/",
+            "datetime_created": "2026-09-01T07:30:46.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -70141,7 +70162,9 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "331458846"
+            "331458846",
+            "331461798",
+            "331461817"
         ],
         "processed_projects": [],
         "processed_activities": [],
