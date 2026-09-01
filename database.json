@@ -19989,7 +19989,8 @@
             "1367314743",
             "1369019925",
             "1368143188",
-            "1376641045"
+            "1376641045",
+            "1376708315"
         ],
         "processed_activities": [
             "addprojecttostudio-335401436",
@@ -19998,9 +19999,10 @@
             "addprojecttostudio-343876848",
             "addprojecttostudio-343884838",
             "addprojecttostudio-344488617",
-            "addprojecttostudio-344486648"
+            "addprojecttostudio-344486648",
+            "addprojecttostudio-346381876"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-09-01"
     },
     "flagbandmaster": {
@@ -40425,16 +40427,22 @@
     "Z3r000Z": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-09-01"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1376982672"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-346378103"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-09-01"
     },
     "bill_992016": {
         "score": 100,
@@ -48092,7 +48100,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-19"
+            "2026-09-01"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -48124,7 +48132,8 @@
             "addprojecttostudio-343742223",
             "addprojecttostudio-343745599",
             "addprojecttostudio-344221366",
-            "addprojecttostudio-344442830"
+            "addprojecttostudio-344442830",
+            "addprojecttostudio-346370121"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-19"
@@ -55759,7 +55768,7 @@
     },
     "Craft_mentions": {
         "active_dates": [
-            "2026-08-18"
+            "2026-09-01"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -55769,11 +55778,12 @@
         "processed_projects": [
             "1367590934",
             "1367841905",
-            "1369489130"
+            "1369489130",
+            "1377049905"
         ],
         "processed_activities": [],
         "projects_today": 1,
-        "last_project_date": "2026-08-18"
+        "last_project_date": "2026-09-01"
     },
     "ngquynhmai17acc3": {
         "active_dates": [
@@ -65245,6 +65255,27 @@
             "content": "OMG quay lại r nek <img src=\"/images/emoji/gobo.png\" class=\"emoji\" alt=\"gobo emoji\">",
             "datetime_created": "2026-09-01T13:44:16.000Z",
             "replies": {}
+        },
+        "331504047": {
+            "id": "331504047",
+            "author": "DanvTeam",
+            "content": "M&atilde; lỗi 1473: y&ecirc;u cầu @lunavocado xo&aacute; t&agrave;i khoản @AdminDanv nếu kh&ocirc;ng sẽ bị ban,lệnh thực thi",
+            "datetime_created": "2026-09-01T21:06:11.000Z",
+            "replies": {
+                "331504091": {
+                    "id": "331504091",
+                    "author": "DanvTeam",
+                    "content": "Lệnh ho&agrave;n tất,ban th&agrave;nh c&ocirc;ng @AdminDanv",
+                    "datetime_created": "2026-09-01T21:07:10.000Z"
+                }
+            }
+        },
+        "331503045": {
+            "id": "331503045",
+            "author": "DanvTeam",
+            "content": "Tất cả mọi người b&igrave;nh t&itilde;nh,&dstrok;ội ng&utilde; ch&uacute;ng t&ocirc;i &dstrok;ang khắc phục sự cố,cảnh b&aacute;o t&agrave;i khoản @AdminDanv l&agrave; giả mạo v&agrave; kh&ocirc;ng &dstrok;&aacute;ng tin cậy ",
+            "datetime_created": "2026-09-01T20:44:37.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -70915,5 +70946,23 @@
         "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-09-01"
+    },
+    "DanvTeam": {
+        "active_dates": [
+            "2026-09-01"
+        ],
+        "last_comment_date": "2026-09-01",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "331504047",
+            "331504091",
+            "331503045"
+        ],
+        "processed_projects": [],
+        "processed_activities": [],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
