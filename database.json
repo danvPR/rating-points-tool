@@ -7878,7 +7878,7 @@
             "2026-09-02",
             "2026-09-03"
         ],
-        "last_comment_date": "2026-08-23",
+        "last_comment_date": "2026-08-24",
         "total_deducted": 5,
         "new_comments": [],
         "new_logs": [],
@@ -10694,16 +10694,10 @@
             "1369774726",
             "1370557214",
             "1368523556",
-            "1376841924"
+            "1376841924",
+            "1376928351"
         ],
         "processed_activities": [
-            "addprojecttostudio-346275068",
-            "removeprojectstudio-83983796",
-            "addprojecttostudio-346320015",
-            "removeprojectstudio-83992008",
-            "addprojecttostudio-346319926",
-            "removeprojectstudio-83991979",
-            "addprojecttostudio-346319850",
             "removeprojectstudio-83991950",
             "addprojecttostudio-346308181",
             "removeprojectstudio-83990256",
@@ -10796,10 +10790,17 @@
             "addprojecttostudio-346603056",
             "removeprojectstudio-84037529",
             "addprojecttostudio-346603037",
-            "removeprojectstudio-84037522"
+            "removeprojectstudio-84037522",
+            "addprojecttostudio-346611468",
+            "addprojecttostudio-346611314",
+            "removeprojectstudio-84038891",
+            "addprojecttostudio-346611235",
+            "removeprojectstudio-84038874",
+            "addprojecttostudio-346611220",
+            "removeprojectstudio-84038870"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-02"
+        "last_project_date": "2026-09-03"
     },
     "hoangminhngoc16": {
         "score": 100,
@@ -40132,7 +40133,8 @@
             "331588562",
             "331591656",
             "331597404",
-            "331619437"
+            "331619437",
+            "331624275"
         ],
         "processed_projects": [
             "1332013893",
@@ -43424,7 +43426,9 @@
             "331611340",
             "331622304",
             "331611266",
-            "331622194"
+            "331622194",
+            "331624526",
+            "331624534"
         ],
         "processed_projects": [
             "1369896163",
@@ -46507,7 +46511,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-01"
+            "2026-09-03"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -46575,7 +46579,9 @@
             "1370183547",
             "1370199119",
             "1370253885",
-            "1376966638"
+            "1376966638",
+            "1377679143",
+            "1377648679"
         ],
         "processed_activities": [
             "addprojecttostudio-335384324",
@@ -46639,10 +46645,12 @@
             "addprojecttostudio-344566349",
             "addprojecttostudio-344577640",
             "addprojecttostudio-344594607",
-            "addprojecttostudio-346339402"
+            "addprojecttostudio-346339402",
+            "addprojecttostudio-346625320",
+            "addprojecttostudio-346614286"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-09-01"
+        "projects_today": 2,
+        "last_project_date": "2026-09-03"
     },
     "DinoSnoreAnimations": {
         "score": 100,
@@ -66660,7 +66668,20 @@
             "author": "Studio-DANV",
             "content": "Ch&agrave;o!",
             "datetime_created": "2026-09-03T15:09:54.000Z",
-            "replies": {}
+            "replies": {
+                "331624275": {
+                    "id": "331624275",
+                    "author": "Hung_gg",
+                    "content": "Real",
+                    "datetime_created": "2026-09-03T15:39:44.000Z"
+                },
+                "331624534": {
+                    "id": "331624534",
+                    "author": "gaua7_2",
+                    "content": "of fake",
+                    "datetime_created": "2026-09-03T15:44:40.000Z"
+                }
+            }
         },
         "331621338": {
             "id": "331621338",
@@ -66742,6 +66763,13 @@
                     "datetime_created": "2026-09-03T14:31:45.000Z"
                 }
             }
+        },
+        "331624526": {
+            "id": "331624526",
+            "author": "gaua7_2",
+            "content": "good night! :D",
+            "datetime_created": "2026-09-03T15:44:26.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
