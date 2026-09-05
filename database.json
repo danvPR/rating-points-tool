@@ -29573,7 +29573,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-04"
+            "2026-09-05"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -29598,7 +29598,8 @@
             "1377403439",
             "1377763616",
             "1377784977",
-            "1378037707"
+            "1378037707",
+            "1378056777"
         ],
         "processed_activities": [
             "addprojecttostudio-335552352",
@@ -29615,10 +29616,11 @@
             "addprojecttostudio-346398868",
             "addprojecttostudio-346403501",
             "addprojecttostudio-346527445",
-            "addprojecttostudio-346667340"
+            "addprojecttostudio-346667340",
+            "addprojecttostudio-346798629"
         ],
-        "projects_today": 3,
-        "last_project_date": "2026-09-04"
+        "projects_today": 1,
+        "last_project_date": "2026-09-05"
     },
     "EspeonSiamese123": {
         "score": 100,
@@ -43513,7 +43515,8 @@
             "331622194",
             "331624526",
             "331624534",
-            "331687543"
+            "331687543",
+            "331713395"
         ],
         "processed_projects": [
             "1369896163",
@@ -44494,7 +44497,8 @@
             "2026-09-01",
             "2026-09-02",
             "2026-09-03",
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
         ],
         "last_comment_date": "",
         "total_deducted": 15,
@@ -44683,7 +44687,8 @@
             "addprojecttostudio-346532720",
             "addprojecttostudio-346637145",
             "addprojecttostudio-346661569",
-            "addprojecttostudio-346761908"
+            "addprojecttostudio-346761908",
+            "addprojecttostudio-346808265"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-04"
@@ -45160,7 +45165,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-03"
+            "2026-09-05"
         ],
         "last_comment_date": "2026-09-02",
         "total_deducted": 0,
@@ -45168,7 +45173,9 @@
         "new_logs": [],
         "processed_comments": [
             "329367782",
-            "331531874"
+            "331531874",
+            "331713533",
+            "331713574"
         ],
         "processed_projects": [
             "1330328176",
@@ -45179,7 +45186,8 @@
             "1367741298",
             "1367535140",
             "1368957553",
-            "1376957759"
+            "1376957759",
+            "1374676296"
         ],
         "processed_activities": [
             "addprojecttostudio-335365974",
@@ -45194,10 +45202,13 @@
             "addprojecttostudio-343836064",
             "addprojecttostudio-344265799",
             "addprojecttostudio-346432574",
-            "addprojecttostudio-346608078"
+            "addprojecttostudio-346608078",
+            "addprojecttostudio-346798461",
+            "addprojecttostudio-346798457",
+            "addprojecttostudio-346798454"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-02"
+        "last_project_date": "2026-09-05"
     },
     "Thaodieptinhoctre": {
         "score": 100,
@@ -67147,6 +67158,26 @@
                     "author": "bicoidev",
                     "content": "lại ch&aacute;n hở",
                     "datetime_created": "2026-09-04T13:34:52.000Z"
+                }
+            }
+        },
+        "331713395": {
+            "id": "331713395",
+            "author": "gaua7_2",
+            "content": "n&abreve;m học mới (ko) vui vẻ &gt;:(",
+            "datetime_created": "2026-09-04T22:40:45.000Z",
+            "replies": {
+                "331713533": {
+                    "id": "331713533",
+                    "author": "phud123543",
+                    "content": ":))",
+                    "datetime_created": "2026-09-04T22:43:25.000Z"
+                },
+                "331713574": {
+                    "id": "331713574",
+                    "author": "phud123543",
+                    "content": "t&ocirc;i giống bn phải dậy sớm",
+                    "datetime_created": "2026-09-04T22:44:06.000Z"
                 }
             }
         }
