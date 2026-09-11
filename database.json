@@ -13496,7 +13496,9 @@
             "332088447",
             "332088455",
             "332171851",
-            "332169769"
+            "332169769",
+            "332176133",
+            "332176113"
         ],
         "processed_projects": [
             "1332031524"
@@ -15371,7 +15373,7 @@
         "active_dates": [
             "2026-09-05"
         ],
-        "last_comment_date": "2026-08-27",
+        "last_comment_date": "2026-08-28",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -20161,7 +20163,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-06"
+            "2026-09-11"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -20177,7 +20179,8 @@
             "1368143188",
             "1376641045",
             "1376708315",
-            "1378567431"
+            "1378567431",
+            "1380271195"
         ],
         "processed_activities": [
             "addprojecttostudio-335401436",
@@ -20188,10 +20191,11 @@
             "addprojecttostudio-344488617",
             "addprojecttostudio-344486648",
             "addprojecttostudio-346381876",
-            "addprojecttostudio-347091871"
+            "addprojecttostudio-347091871",
+            "addprojecttostudio-347815642"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-06"
+        "last_project_date": "2026-09-11"
     },
     "flagbandmaster": {
         "score": 100,
@@ -22959,7 +22963,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-10"
+            "2026-09-11"
         ],
         "last_comment_date": "2026-08-27",
         "total_deducted": 0,
@@ -22997,7 +23001,9 @@
             "addprojecttostudio-343607623",
             "addprojecttostudio-346607335",
             "removeprojectstudio-84085025",
-            "addprojecttostudio-346903370"
+            "addprojecttostudio-346903370",
+            "addprojecttostudio-347804004",
+            "removeprojectstudio-84222648"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-03"
@@ -35301,16 +35307,22 @@
     "deanplayz10": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-09-11"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1380216587"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-347822617"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-09-11"
     },
     "Pancakes_82810": {
         "score": 100,
@@ -70045,6 +70057,18 @@
                     "author": "minhhoa1609",
                     "content": "bro hạn chế quảng c&aacute;o",
                     "datetime_created": "2026-09-11T15:12:31.000Z"
+                },
+                "332174558": {
+                    "id": "332174558",
+                    "author": "Thai_hung",
+                    "content": "ừ nhỉ qu&ecirc;n mất  =) ",
+                    "datetime_created": "2026-09-11T15:13:44.000Z"
+                },
+                "332176113": {
+                    "id": "332176113",
+                    "author": "gaua7",
+                    "content": "c&oacute;",
+                    "datetime_created": "2026-09-11T15:38:47.000Z"
                 }
             }
         },
@@ -70102,6 +70126,13 @@
                     "datetime_created": "2026-09-11T14:02:34.000Z"
                 }
             }
+        },
+        "332176133": {
+            "id": "332176133",
+            "author": "gaua7",
+            "content": "ch&uacute;c ngủ ngol",
+            "datetime_created": "2026-09-11T15:39:02.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -70119,7 +70150,8 @@
             "330787663",
             "330787683",
             "332174328",
-            "332174363"
+            "332174363",
+            "332174558"
         ],
         "processed_projects": [],
         "processed_activities": [
