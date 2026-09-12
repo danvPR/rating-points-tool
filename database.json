@@ -6804,7 +6804,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-11"
+            "2026-09-12"
         ],
         "last_comment_date": "2026-09-09",
         "total_deducted": 0,
@@ -6812,7 +6812,8 @@
         "new_logs": [],
         "processed_comments": [
             "332037339",
-            "332169674"
+            "332169674",
+            "332203956"
         ],
         "processed_projects": [],
         "processed_activities": [
@@ -9408,7 +9409,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-07"
+            "2026-09-12"
         ],
         "last_comment_date": "2026-09-07",
         "total_deducted": 0,
@@ -9422,7 +9423,9 @@
             "330636320",
             "330636503",
             "330675178",
-            "331868539"
+            "331868539",
+            "332198427",
+            "332203842"
         ],
         "processed_projects": [
             "1365037096",
@@ -15373,7 +15376,7 @@
         "active_dates": [
             "2026-09-05"
         ],
-        "last_comment_date": "2026-08-28",
+        "last_comment_date": "2026-08-27",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -38018,7 +38021,8 @@
             "331530746",
             "331547654",
             "332174310",
-            "332174463"
+            "332174463",
+            "332197629"
         ],
         "processed_projects": [
             "1330362142",
@@ -43963,7 +43967,9 @@
             "332032175",
             "332105450",
             "332131381",
-            "332161979"
+            "332161979",
+            "332198107",
+            "332198094"
         ],
         "processed_projects": [
             "1369896163",
@@ -45514,7 +45520,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-10"
+            "2026-09-12"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -45532,7 +45538,8 @@
             "1377526039",
             "1377522022",
             "1378024889",
-            "1379703258"
+            "1379703258",
+            "1380372334"
         ],
         "processed_activities": [
             "addprojecttostudio-343040495",
@@ -45543,10 +45550,11 @@
             "addprojecttostudio-346439850",
             "addprojecttostudio-346548971",
             "addprojecttostudio-346748141",
-            "addprojecttostudio-347598236"
+            "addprojecttostudio-347598236",
+            "addprojecttostudio-347872894"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-10"
+        "last_project_date": "2026-09-12"
     },
     "chrowse": {
         "score": 100,
@@ -52126,7 +52134,8 @@
             "332080142",
             "332112534",
             "332130080",
-            "332172428"
+            "332172428",
+            "332199631"
         ],
         "processed_projects": [
             "1345850613",
@@ -54710,7 +54719,8 @@
     "fguebyberg": {
         "active_dates": [
             "2026-08-20",
-            "2026-09-11"
+            "2026-09-11",
+            "2026-09-12"
         ],
         "last_comment_date": "",
         "total_deducted": 5,
@@ -54736,7 +54746,8 @@
             "1367265677",
             "1367253609",
             "1370125748",
-            "1380223995"
+            "1380223995",
+            "1376951439"
         ],
         "processed_activities": [
             "becomecurator-158601174",
@@ -54756,10 +54767,11 @@
             "addprojecttostudio-344563658",
             "addprojecttostudio-344563657",
             "addprojecttostudio-344563646",
-            "addprojecttostudio-347799728"
+            "addprojecttostudio-347799728",
+            "addprojecttostudio-347859477"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-11"
+        "last_project_date": "2026-09-12"
     },
     "I_LOVE_YOU_-": {
         "active_dates": [
@@ -70112,6 +70124,12 @@
                     "author": "gaua7",
                     "content": "ai &dstrok;&acirc;y",
                     "datetime_created": "2026-09-11T14:32:28.000Z"
+                },
+                "332203956": {
+                    "id": "332203956",
+                    "author": "khoadepzai4215",
+                    "content": "acc n&agrave;y 1 n&abreve;m rồi bị hack mới lấy lại &dstrok;ấy bro",
+                    "datetime_created": "2026-09-12T00:48:27.000Z"
                 }
             }
         },
@@ -70135,6 +70153,46 @@
             "content": "ch&uacute;c ngủ ngol",
             "datetime_created": "2026-09-11T15:39:02.000Z",
             "replies": {}
+        },
+        "332198107": {
+            "id": "332198107",
+            "author": "gaua7_2",
+            "content": "ch&agrave;o buổi s&aacute;ng",
+            "datetime_created": "2026-09-11T23:26:19.000Z",
+            "replies": {
+                "332198427": {
+                    "id": "332198427",
+                    "author": "khangkgb",
+                    "content": "its evening for me lol xD",
+                    "datetime_created": "2026-09-11T23:31:16.000Z"
+                },
+                "332199631": {
+                    "id": "332199631",
+                    "author": "bicoidev",
+                    "content": "where do u live?",
+                    "datetime_created": "2026-09-11T23:48:51.000Z"
+                },
+                "332203842": {
+                    "id": "332203842",
+                    "author": "khangkgb",
+                    "content": "united states",
+                    "datetime_created": "2026-09-12T00:47:00.000Z"
+                }
+            }
+        },
+        "332197629": {
+            "id": "332197629",
+            "author": "minhhoa1609",
+            "content": "@SayHiWithMe lm host từ khi n&agrave;o v",
+            "datetime_created": "2026-09-11T23:18:53.000Z",
+            "replies": {
+                "332198094": {
+                    "id": "332198094",
+                    "author": "gaua7_2",
+                    "content": "chắc l&agrave; h&ocirc;m qua",
+                    "datetime_created": "2026-09-11T23:26:04.000Z"
+                }
+            }
         }
     },
     "Thai_hung": {
