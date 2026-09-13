@@ -32858,7 +32858,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-10"
+            "2026-09-13"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -32873,7 +32873,8 @@
             "1378064140",
             "1379507698",
             "1379562816",
-            "1379836017"
+            "1379836017",
+            "1380737273"
         ],
         "processed_activities": [
             "addprojecttostudio-342197093",
@@ -32899,10 +32900,11 @@
             "addprojecttostudio-347536664",
             "addprojecttostudio-347531589",
             "addprojecttostudio-347651487",
-            "addprojecttostudio-347647608"
+            "addprojecttostudio-347647608",
+            "addprojecttostudio-348167884"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-10"
+        "last_project_date": "2026-09-13"
     },
     "ravocsirex": {
         "score": 100,
@@ -45145,8 +45147,6 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1332123712",
-            "1365035754",
             "1365254107",
             "1365340394",
             "1365353766",
@@ -45244,11 +45244,11 @@
             "1380381472",
             "1380539824",
             "1380504740",
-            "1380726379"
+            "1380726379",
+            "1380755859",
+            "1380611811"
         ],
         "processed_activities": [
-            "addprojecttostudio-341518714",
-            "addprojecttostudio-341545587",
             "addprojecttostudio-341653165",
             "addprojecttostudio-341661467",
             "addprojecttostudio-341680208",
@@ -45346,9 +45346,11 @@
             "addprojecttostudio-347879189",
             "addprojecttostudio-347990865",
             "addprojecttostudio-347988079",
-            "addprojecttostudio-348148900"
+            "addprojecttostudio-348148900",
+            "addprojecttostudio-348171181",
+            "addprojecttostudio-348157705"
         ],
-        "projects_today": 1,
+        "projects_today": 3,
         "last_project_date": "2026-09-13"
     },
     "IntelPentiumIII": {
@@ -56924,7 +56926,7 @@
         "active_dates": [
             "2026-09-12"
         ],
-        "last_comment_date": "2026-08-28",
+        "last_comment_date": "2026-09-03",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -71121,6 +71123,13 @@
                     "datetime_created": "2026-09-13T13:08:25.000Z"
                 }
             }
+        },
+        "332326299": {
+            "id": "332326299",
+            "author": "SDM_DMD",
+            "content": "vừa tạo acc phụ, cho v&agrave;o với\n",
+            "datetime_created": "2026-09-13T17:14:40.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -78251,5 +78260,21 @@
         "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-09-13"
+    },
+    "SDM_DMD": {
+        "active_dates": [
+            "2026-09-13"
+        ],
+        "last_comment_date": "2026-09-13",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "332326299"
+        ],
+        "processed_projects": [],
+        "processed_activities": [],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
