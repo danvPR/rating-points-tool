@@ -29857,7 +29857,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-09"
+            "2026-09-14"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -29890,7 +29890,8 @@
             "1379279246",
             "1379277646",
             "1379248995",
-            "1377428411"
+            "1377428411",
+            "1380795655"
         ],
         "processed_activities": [
             "addprojecttostudio-335552352",
@@ -29912,10 +29913,11 @@
             "addprojecttostudio-347433665",
             "addprojecttostudio-347432401",
             "addprojecttostudio-347431426",
-            "addprojecttostudio-347524834"
+            "addprojecttostudio-347524834",
+            "addprojecttostudio-348205987"
         ],
-        "projects_today": 4,
-        "last_project_date": "2026-09-09"
+        "projects_today": 1,
+        "last_project_date": "2026-09-14"
     },
     "EspeonSiamese123": {
         "score": 100,
@@ -44128,7 +44130,8 @@
             "332299829",
             "332315425",
             "332310107",
-            "332315377"
+            "332315377",
+            "332344940"
         ],
         "processed_projects": [
             "1369896163",
@@ -48553,7 +48556,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-06-16"
+            "2026-09-14"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -48562,16 +48565,18 @@
         "processed_comments": [],
         "processed_projects": [
             "1331559418",
-            "1304944632"
+            "1304944632",
+            "1379674964"
         ],
         "processed_activities": [
             "addprojecttostudio-335724113",
             "addprojecttostudio-335737672",
             "addprojecttostudio-335736820",
-            "addprojecttostudio-335735414"
+            "addprojecttostudio-335735414",
+            "addprojecttostudio-348212081"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-06-16"
+        "last_project_date": "2026-09-14"
     },
     "SuperFern1453": {
         "score": 100,
@@ -57086,7 +57091,7 @@
         "active_dates": [
             "2026-09-13"
         ],
-        "last_comment_date": "2026-08-28",
+        "last_comment_date": "2026-09-01",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -71136,13 +71141,20 @@
             "content": "vừa tạo acc phụ, cho v&agrave;o với\n",
             "datetime_created": "2026-09-13T17:14:40.000Z",
             "replies": {}
+        },
+        "332344940": {
+            "id": "332344940",
+            "author": "gaua7_2",
+            "content": "l&ocirc; buổi s&aacute;ng",
+            "datetime_created": "2026-09-13T23:13:27.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
         "active_dates": [
             "2026-09-13"
         ],
-        "last_comment_date": "2026-08-28",
+        "last_comment_date": "2026-09-11",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
