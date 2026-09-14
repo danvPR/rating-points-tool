@@ -7911,7 +7911,7 @@
             "2026-09-12",
             "2026-09-13"
         ],
-        "last_comment_date": "2026-08-28",
+        "last_comment_date": "2026-09-01",
         "total_deducted": 5,
         "new_comments": [],
         "new_logs": [],
@@ -10518,7 +10518,7 @@
         "active_dates": [
             "2026-09-10"
         ],
-        "last_comment_date": "2026-08-31",
+        "last_comment_date": "2026-09-02",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -10781,24 +10781,6 @@
             "1201558638"
         ],
         "processed_activities": [
-            "addprojecttostudio-347898996",
-            "removeprojectstudio-84236416",
-            "addprojecttostudio-347898980",
-            "removeprojectstudio-84236408",
-            "addprojecttostudio-347898959",
-            "removeprojectstudio-84236401",
-            "addprojecttostudio-347921204",
-            "removeprojectstudio-84240461",
-            "addprojecttostudio-347921107",
-            "removeprojectstudio-84240452",
-            "addprojecttostudio-347921009",
-            "removeprojectstudio-84240439",
-            "addprojecttostudio-347910210",
-            "removeprojectstudio-84238340",
-            "addprojecttostudio-347937883",
-            "removeprojectstudio-84243525",
-            "addprojecttostudio-347937808",
-            "removeprojectstudio-84243506",
             "addprojecttostudio-347937772",
             "removeprojectstudio-84243491",
             "addprojecttostudio-347974420",
@@ -10880,7 +10862,25 @@
             "addprojecttostudio-348247596",
             "removeprojectstudio-84290909",
             "addprojecttostudio-348247541",
-            "removeprojectstudio-84290893"
+            "removeprojectstudio-84290893",
+            "addprojecttostudio-348292663",
+            "removeprojectstudio-84298280",
+            "addprojecttostudio-348292610",
+            "removeprojectstudio-84298257",
+            "addprojecttostudio-348292591",
+            "removeprojectstudio-84298246",
+            "addprojecttostudio-348289751",
+            "removeprojectstudio-84297821",
+            "addprojecttostudio-348289700",
+            "removeprojectstudio-84297805",
+            "addprojecttostudio-348289669",
+            "removeprojectstudio-84297792",
+            "addprojecttostudio-348286146",
+            "removeprojectstudio-84297293",
+            "addprojecttostudio-348286101",
+            "removeprojectstudio-84297285",
+            "addprojecttostudio-348286060",
+            "removeprojectstudio-84297262"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-13"
@@ -14258,7 +14258,10 @@
             "332360565",
             "332376353",
             "332376796",
-            "332377324"
+            "332377324",
+            "332385972",
+            "332386319",
+            "332386773"
         ],
         "processed_projects": [
             "1366283724",
@@ -14281,7 +14284,10 @@
             "updatestudio-55101763",
             "updatestudio-55106270",
             "updatestudio-55113995",
-            "updatestudio-55115818"
+            "updatestudio-55115818",
+            "removeprojectstudio-84296864",
+            "updatestudio-55116541",
+            "updatestudio-55116316"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-12"
@@ -14654,16 +14660,21 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-21"
+            "2026-09-14"
         ],
-        "last_comment_date": "2026-08-21",
+        "last_comment_date": "2026-09-14",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
             "330654982",
             "330660518",
-            "330660540"
+            "330660540",
+            "332385844",
+            "332386091",
+            "332386126",
+            "332386419",
+            "332386900"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -21987,7 +21998,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-12"
+            "2026-09-14"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -21999,17 +22010,19 @@
             "1367526530",
             "1378282084",
             "1379076730",
-            "1380374400"
+            "1380374400",
+            "1380636415"
         ],
         "processed_activities": [
             "addprojecttostudio-342251762",
             "addprojecttostudio-343035035",
             "addprojecttostudio-347342438",
             "addprojecttostudio-347348598",
-            "addprojecttostudio-347887913"
+            "addprojecttostudio-347887913",
+            "addprojecttostudio-348289952"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-12"
+        "last_project_date": "2026-09-14"
     },
     "mia-annhien": {
         "score": 100,
@@ -22459,7 +22472,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-13"
+            "2026-09-14"
         ],
         "last_comment_date": "2026-08-23",
         "total_deducted": 0,
@@ -22481,7 +22494,8 @@
             "addprojecttostudio-347090463",
             "addprojecttostudio-347336909",
             "addprojecttostudio-347924928",
-            "addprojecttostudio-348145499"
+            "addprojecttostudio-348145499",
+            "addprojecttostudio-348294923"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-04"
@@ -23311,7 +23325,8 @@
             "addprojecttostudio-347917704",
             "addprojecttostudio-347916707",
             "addprojecttostudio-347914971",
-            "addprojecttostudio-348236434"
+            "addprojecttostudio-348236434",
+            "addprojecttostudio-348280965"
         ],
         "projects_today": 0,
         "last_project_date": ""
@@ -24840,9 +24855,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-10"
+            "2026-09-14"
         ],
-        "last_comment_date": "2026-08-10",
+        "last_comment_date": "2026-09-14",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -24850,7 +24865,8 @@
             "325826914",
             "329103723",
             "329108772",
-            "329854147"
+            "329854147",
+            "332386286"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -33277,9 +33293,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-27"
+            "2026-09-14"
         ],
-        "last_comment_date": "2026-08-27",
+        "last_comment_date": "2026-09-14",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -33291,7 +33307,8 @@
             "330718801",
             "330728433",
             "330884334",
-            "331111237"
+            "331111237",
+            "332386495"
         ],
         "processed_projects": [
             "1369167869"
@@ -35865,16 +35882,22 @@
     "bogeiman": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-09-14"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1381094965"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-348314736"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-09-14"
     },
     "zacb2025": {
         "score": 100,
@@ -37937,7 +37960,7 @@
             "2026-09-09",
             "2026-09-10"
         ],
-        "last_comment_date": "2026-08-28",
+        "last_comment_date": "2026-09-05",
         "total_deducted": 50,
         "new_comments": [],
         "new_logs": [],
@@ -44048,7 +44071,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-13"
+            "2026-09-14"
         ],
         "last_comment_date": "2026-09-02",
         "total_deducted": 0,
@@ -44152,7 +44175,11 @@
             "332315425",
             "332310107",
             "332315377",
-            "332344940"
+            "332344940",
+            "332394941",
+            "332386275",
+            "332394960",
+            "332393130"
         ],
         "processed_projects": [
             "1369896163",
@@ -45168,7 +45195,8 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-12",
-            "2026-09-13"
+            "2026-09-13",
+            "2026-09-14"
         ],
         "last_comment_date": "",
         "total_deducted": 15,
@@ -45176,7 +45204,6 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1365254107",
             "1365340394",
             "1365353766",
             "1365558672",
@@ -45275,10 +45302,10 @@
             "1380504740",
             "1380726379",
             "1380755859",
-            "1380611811"
+            "1380611811",
+            "1380789572"
         ],
         "processed_activities": [
-            "addprojecttostudio-341653165",
             "addprojecttostudio-341661467",
             "addprojecttostudio-341680208",
             "addprojecttostudio-341747023",
@@ -45377,10 +45404,11 @@
             "addprojecttostudio-347988079",
             "addprojecttostudio-348148900",
             "addprojecttostudio-348171181",
-            "addprojecttostudio-348157705"
+            "addprojecttostudio-348157705",
+            "addprojecttostudio-348311459"
         ],
-        "projects_today": 3,
-        "last_project_date": "2026-09-13"
+        "projects_today": 1,
+        "last_project_date": "2026-09-14"
     },
     "IntelPentiumIII": {
         "score": 100,
@@ -48391,7 +48419,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-13"
+            "2026-09-14"
         ],
         "last_comment_date": "2026-08-25",
         "total_deducted": 0,
@@ -48411,7 +48439,8 @@
             "1378763573",
             "1380159602",
             "1380395416",
-            "1380625205"
+            "1380625205",
+            "1380978708"
         ],
         "processed_activities": [
             "addprojecttostudio-335383506",
@@ -48427,10 +48456,11 @@
             "addprojecttostudio-347195756",
             "addprojecttostudio-347773473",
             "addprojecttostudio-347886104",
-            "addprojecttostudio-348064121"
+            "addprojecttostudio-348064121",
+            "addprojecttostudio-348278921"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-13"
+        "last_project_date": "2026-09-14"
     },
     "sharksareheross": {
         "score": 100,
@@ -51445,7 +51475,7 @@
     },
     "toilanguoibth": {
         "active_dates": [
-            "2026-09-12"
+            "2026-09-14"
         ],
         "last_comment_date": "2026-08-20",
         "total_deducted": 0,
@@ -51469,7 +51499,8 @@
             "1379783953",
             "1379504852",
             "1379876811",
-            "1380389687"
+            "1380389687",
+            "1381030908"
         ],
         "processed_activities": [
             "addprojecttostudio-343264220",
@@ -51486,10 +51517,11 @@
             "addprojecttostudio-347623876",
             "addprojecttostudio-347621266",
             "addprojecttostudio-347765736",
-            "addprojecttostudio-347883339"
+            "addprojecttostudio-347883339",
+            "addprojecttostudio-348290973"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-12"
+        "last_project_date": "2026-09-14"
     },
     "_tilvan_": {
         "active_dates": [
@@ -52528,7 +52560,8 @@
             "1380632005",
             "1380627854",
             "1380693571",
-            "1380949706"
+            "1380949706",
+            "1381020054"
         ],
         "processed_activities": [
             "becomecurator-158289531",
@@ -52595,9 +52628,10 @@
             "addprojecttostudio-347892615",
             "addprojecttostudio-348071070",
             "addprojecttostudio-348066492",
-            "addprojecttostudio-348261672"
+            "addprojecttostudio-348261672",
+            "addprojecttostudio-348286930"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-09-14"
     },
     "Sam_Scratch22": {
@@ -56150,7 +56184,8 @@
             "addprojecttostudio-347901545",
             "addprojecttostudio-347972575",
             "addprojecttostudio-348141842",
-            "addprojecttostudio-348266811"
+            "addprojecttostudio-348266811",
+            "addprojecttostudio-348285712"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-12"
@@ -61290,7 +61325,7 @@
     },
     "xinchao27": {
         "active_dates": [
-            "2026-09-13"
+            "2026-09-14"
         ],
         "last_comment_date": "2026-09-13",
         "total_deducted": 0,
@@ -61338,7 +61373,9 @@
             "addprojecttostudio-347913852",
             "removeprojectstudio-84239040",
             "addprojecttostudio-347985435",
-            "removeprojectstudio-84250634"
+            "removeprojectstudio-84250634",
+            "addprojecttostudio-348289480",
+            "removeprojectstudio-84297756"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-11"
@@ -71188,6 +71225,18 @@
                     "author": "SayHiWithMe",
                     "content": "M&igrave;nh mời v&agrave;o rồi nh&eacute;!",
                     "datetime_created": "2026-09-14T05:07:15.000Z"
+                },
+                "332387280": {
+                    "id": "332387280",
+                    "author": "SDM_DMD",
+                    "content": "thx bn\n\n",
+                    "datetime_created": "2026-09-14T14:23:20.000Z"
+                },
+                "332387478": {
+                    "id": "332387478",
+                    "author": "SDM_DMD",
+                    "content": "ơ sao m&igrave;nh kh&ocirc;ng thấy lời mời nhỉ?",
+                    "datetime_created": "2026-09-14T14:26:04.000Z"
                 }
             }
         },
@@ -71208,6 +71257,12 @@
                     "author": "bicoidev",
                     "content": "l&ocirc; buổi tối",
                     "datetime_created": "2026-09-14T12:08:30.000Z"
+                },
+                "332393130": {
+                    "id": "332393130",
+                    "author": "gaua7_2",
+                    "content": "l&ocirc; buổi &dstrok;&ecirc;m",
+                    "datetime_created": "2026-09-14T15:50:27.000Z"
                 }
             }
         },
@@ -71216,7 +71271,14 @@
             "author": "hoangminhtam_vn001",
             "content": "STUDIO ổn chưa ae",
             "datetime_created": "2026-09-14T03:39:04.000Z",
-            "replies": {}
+            "replies": {
+                "332394960": {
+                    "id": "332394960",
+                    "author": "gaua7_2",
+                    "content": "tuy c&aacute;ch bạn gọi ổn ntn",
+                    "datetime_created": "2026-09-14T16:24:51.000Z"
+                }
+            }
         },
         "332376092": {
             "id": "332376092",
@@ -71273,6 +71335,96 @@
             "author": "CanhThienNek",
             "content": "dead hơn 7 tiếng r",
             "datetime_created": "2026-09-14T11:25:25.000Z",
+            "replies": {}
+        },
+        "332386495": {
+            "id": "332386495",
+            "author": "huygojo",
+            "content": "h&egrave;n g&igrave; studio bị ẩn",
+            "datetime_created": "2026-09-14T14:12:50.000Z",
+            "replies": {
+                "332394941": {
+                    "id": "332394941",
+                    "author": "gaua7_2",
+                    "content": "l&agrave; sao",
+                    "datetime_created": "2026-09-14T16:24:28.000Z"
+                }
+            }
+        },
+        "332386286": {
+            "id": "332386286",
+            "author": "yuhaignam",
+            "content": "thay m&aacute;u nhiều thế :)",
+            "datetime_created": "2026-09-14T14:09:43.000Z",
+            "replies": {}
+        },
+        "332385844": {
+            "id": "332385844",
+            "author": "ttphuc200614",
+            "content": "Ủa mới &dstrok;ổi người kh&aacute;c l&agrave;m manager hả\n\n\n",
+            "datetime_created": "2026-09-14T14:04:29.000Z",
+            "replies": {
+                "332385972": {
+                    "id": "332385972",
+                    "author": "SayHiWithMe",
+                    "content": "&Dstrok;ổi cơ cấu Ban Quản L&yacute; rồi bạn, sau vụ DANV bị ban IP v&agrave; mất quyền truy cập v&agrave;o tất cả t&agrave;i khoản ấy.",
+                    "datetime_created": "2026-09-14T14:05:51.000Z"
+                },
+                "332386091": {
+                    "id": "332386091",
+                    "author": "ttphuc200614",
+                    "content": "Bị ban lu&ocirc;n o_o\n\n",
+                    "datetime_created": "2026-09-14T14:07:13.000Z"
+                },
+                "332386126": {
+                    "id": "332386126",
+                    "author": "ttphuc200614",
+                    "content": "M&agrave; tạo acc mới &dstrok;ược m&agrave; nhỉ ?",
+                    "datetime_created": "2026-09-14T14:07:44.000Z"
+                },
+                "332386275": {
+                    "id": "332386275",
+                    "author": "gaua7_2",
+                    "content": "sao v",
+                    "datetime_created": "2026-09-14T14:09:32.000Z"
+                },
+                "332386319": {
+                    "id": "332386319",
+                    "author": "SayHiWithMe",
+                    "content": "Ban IP rồi bạn, DANV c&ograve;n kh&ocirc;ng thể truy cập Scratch &dstrok;ể xem Studio chứ &dstrok;ừng n&oacute;i l&agrave; tạo t&agrave;i khoản.",
+                    "datetime_created": "2026-09-14T14:10:11.000Z"
+                },
+                "332386419": {
+                    "id": "332386419",
+                    "author": "ttphuc200614",
+                    "content": "L&iacute; do ban l&agrave; v&igrave; scratch &dstrok;ang ... ( kh&ocirc;ng biết ) nhưng thấy hơi buồn &aacute;",
+                    "datetime_created": "2026-09-14T14:11:46.000Z"
+                },
+                "332386773": {
+                    "id": "332386773",
+                    "author": "SayHiWithMe",
+                    "content": "L&yacute; do ban l&agrave; do @Heythisismyacc cố t&igrave;nh d&ugrave;ng bot dể tự &yacute; buff view cho Maxerage n&ecirc;n Scratch bất cảnh b&aacute;o &dstrok;ỏ qu&eacute;t t&agrave;i khoản v&agrave; tr&uacute;ng Maxerage, sau &dstrok;&oacute; c&aacute;c acc kh&aacute;c của DANV v&igrave; c&oacute; d&iacute;nh l&itilde;u n&ecirc;n ban hết lu&ocirc;n. C&oacute; thể coi h&agrave;nh vi của @Heythisismyacc l&agrave; DDoS Attack.",
+                    "datetime_created": "2026-09-14T14:16:12.000Z"
+                },
+                "332386900": {
+                    "id": "332386900",
+                    "author": "ttphuc200614",
+                    "content": "&agrave; vậy l&agrave; c&oacute; người kh&aacute;c ph&aacute; hiểu rồi\n ",
+                    "datetime_created": "2026-09-14T14:17:59.000Z"
+                },
+                "332387155": {
+                    "id": "332387155",
+                    "author": "--ThanhHey_",
+                    "content": "bubu",
+                    "datetime_created": "2026-09-14T14:21:36.000Z"
+                }
+            }
+        },
+        "332383797": {
+            "id": "332383797",
+            "author": "phonghaochan9002",
+            "content": "xl ae t&ocirc;i kiếm lại &dstrok;c acc n&ecirc;n ko &dstrok;&abreve;ng g&igrave; cả",
+            "datetime_created": "2026-09-14T13:36:53.000Z",
             "replies": {}
         }
     },
@@ -76824,7 +76976,7 @@
     },
     "thichlamscrach": {
         "active_dates": [
-            "2026-09-12"
+            "2026-09-14"
         ],
         "last_comment_date": "2026-09-01",
         "total_deducted": 0,
@@ -76845,7 +76997,8 @@
             "1377999412",
             "1379089924",
             "1379707795",
-            "1380135500"
+            "1380135500",
+            "1380379970"
         ],
         "processed_activities": [
             "becomecurator-158894663",
@@ -76853,10 +77006,12 @@
             "addprojecttostudio-347639780",
             "addprojecttostudio-347764981",
             "removeprojectstudio-84233871",
-            "addprojecttostudio-347884216"
+            "addprojecttostudio-347884216",
+            "addprojecttostudio-348285422",
+            "addprojecttostudio-348285413"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-11"
+        "last_project_date": "2026-09-14"
     },
     "dokyphong": {
         "active_dates": [
@@ -78416,14 +78571,16 @@
     },
     "SDM_DMD": {
         "active_dates": [
-            "2026-09-13"
+            "2026-09-14"
         ],
-        "last_comment_date": "2026-09-13",
+        "last_comment_date": "2026-09-14",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "332326299"
+            "332326299",
+            "332387280",
+            "332387478"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -78493,5 +78650,39 @@
         "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-09-14"
+    },
+    "phonghaochan9002": {
+        "active_dates": [
+            "2026-09-14"
+        ],
+        "last_comment_date": "2026-09-14",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "332383797"
+        ],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-159083766"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "--ThanhHey_": {
+        "active_dates": [
+            "2026-09-14"
+        ],
+        "last_comment_date": "2026-09-14",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "332387155"
+        ],
+        "processed_projects": [],
+        "processed_activities": [],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
