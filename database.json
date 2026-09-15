@@ -7915,7 +7915,7 @@
             "2026-09-13",
             "2026-09-15"
         ],
-        "last_comment_date": "2026-09-01",
+        "last_comment_date": "2026-09-03",
         "total_deducted": 5,
         "new_comments": [],
         "new_logs": [],
@@ -9431,7 +9431,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-12"
+            "2026-09-15"
         ],
         "last_comment_date": "2026-09-07",
         "total_deducted": 0,
@@ -9448,7 +9448,8 @@
             "331868539",
             "332198427",
             "332203842",
-            "332240032"
+            "332240032",
+            "332473290"
         ],
         "processed_projects": [
             "1365037096",
@@ -14158,7 +14159,7 @@
             "2026-09-14",
             "2026-09-15"
         ],
-        "last_comment_date": "2026-09-01",
+        "last_comment_date": "2026-09-02",
         "total_deducted": 10,
         "new_comments": [],
         "new_logs": [],
@@ -20252,7 +20253,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-11"
+            "2026-09-15"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -20269,7 +20270,8 @@
             "1376641045",
             "1376708315",
             "1378567431",
-            "1380271195"
+            "1380271195",
+            "1381496112"
         ],
         "processed_activities": [
             "addprojecttostudio-335401436",
@@ -20281,10 +20283,11 @@
             "addprojecttostudio-344486648",
             "addprojecttostudio-346381876",
             "addprojecttostudio-347091871",
-            "addprojecttostudio-347815642"
+            "addprojecttostudio-347815642",
+            "addprojecttostudio-348463467"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-11"
+        "last_project_date": "2026-09-15"
     },
     "flagbandmaster": {
         "score": 100,
@@ -31503,7 +31506,8 @@
             "1350590835",
             "1335045639",
             "1377709049",
-            "1381392727"
+            "1381392727",
+            "1377291921"
         ],
         "processed_activities": [
             "addprojecttostudio-346340347",
@@ -31523,9 +31527,10 @@
             "addprojecttostudio-346747906",
             "addprojecttostudio-347514685",
             "addprojecttostudio-347657834",
-            "addprojecttostudio-348431308"
+            "addprojecttostudio-348431308",
+            "addprojecttostudio-348462411"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-09-15"
     },
     "Chickenlady269": {
@@ -31602,7 +31607,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-11"
+            "2026-09-15"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -31613,16 +31618,18 @@
             "1350350115",
             "1379188768",
             "1379926616",
-            "1379931518"
+            "1379931518",
+            "1381162214"
         ],
         "processed_activities": [
             "addprojecttostudio-347251753",
             "addprojecttostudio-347386822",
             "addprojecttostudio-347677158",
-            "addprojecttostudio-347828913"
+            "addprojecttostudio-347828913",
+            "addprojecttostudio-348453973"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-11"
+        "last_project_date": "2026-09-15"
     },
     "Davidon1002": {
         "score": 100,
@@ -44107,7 +44114,7 @@
         "active_dates": [
             "2026-09-15"
         ],
-        "last_comment_date": "2026-09-02",
+        "last_comment_date": "2026-09-01",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -71643,6 +71650,13 @@
             "author": "Agentsball",
             "content": "Cho tui v&agrave;o với nha?",
             "datetime_created": "2026-09-15T13:18:48.000Z",
+            "replies": {}
+        },
+        "332473290": {
+            "id": "332473290",
+            "author": "khangkgb",
+            "content": "Wow, this studio has changed a lot.",
+            "datetime_created": "2026-09-15T19:31:02.000Z",
             "replies": {}
         }
     },
