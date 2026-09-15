@@ -43867,7 +43867,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-13"
+            "2026-09-15"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -43875,14 +43875,16 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1326951780"
+            "1326951780",
+            "1376742362"
         ],
         "processed_activities": [
             "addprojecttostudio-343631227",
-            "addprojecttostudio-348195636"
+            "addprojecttostudio-348195636",
+            "addprojecttostudio-348329849"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-13"
+        "last_project_date": "2026-09-15"
     },
     "firebird0727": {
         "score": 100,
@@ -44179,7 +44181,8 @@
             "332394941",
             "332386275",
             "332394960",
-            "332393130"
+            "332393130",
+            "332415391"
         ],
         "processed_projects": [
             "1369896163",
@@ -45196,7 +45199,8 @@
             "2026-09-10",
             "2026-09-12",
             "2026-09-13",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
         ],
         "last_comment_date": "",
         "total_deducted": 15,
@@ -45204,7 +45208,6 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1365353766",
             "1365558672",
             "1365478565",
             "1365590393",
@@ -45303,10 +45306,10 @@
             "1380755859",
             "1380611811",
             "1380789572",
-            "1381093840"
+            "1381093840",
+            "1381105152"
         ],
         "processed_activities": [
-            "addprojecttostudio-341680208",
             "addprojecttostudio-341747023",
             "addprojecttostudio-341756941",
             "addprojecttostudio-341776621",
@@ -45405,10 +45408,11 @@
             "addprojecttostudio-348171181",
             "addprojecttostudio-348157705",
             "addprojecttostudio-348311459",
-            "addprojecttostudio-348316502"
+            "addprojecttostudio-348316502",
+            "addprojecttostudio-348337897"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-09-14"
+        "projects_today": 1,
+        "last_project_date": "2026-09-15"
     },
     "IntelPentiumIII": {
         "score": 100,
@@ -56185,7 +56189,9 @@
             "addprojecttostudio-347972575",
             "addprojecttostudio-348141842",
             "addprojecttostudio-348266811",
-            "addprojecttostudio-348285712"
+            "addprojecttostudio-348285712",
+            "removeprojectstudio-84307116",
+            "addprojecttostudio-348348629"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-12"
@@ -59791,7 +59797,7 @@
     },
     "chris_on_scratch2": {
         "active_dates": [
-            "2026-09-10"
+            "2026-09-15"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -59799,14 +59805,16 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1379619113"
+            "1379619113",
+            "1381159014"
         ],
         "processed_activities": [
             "becomecurator-158512576",
-            "addprojecttostudio-347642058"
+            "addprojecttostudio-347642058",
+            "addprojecttostudio-348355230"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-10"
+        "last_project_date": "2026-09-15"
     },
     "katuo2525": {
         "active_dates": [
@@ -71425,6 +71433,13 @@
             "author": "phonghaochan9002",
             "content": "xl ae t&ocirc;i kiếm lại &dstrok;c acc n&ecirc;n ko &dstrok;&abreve;ng g&igrave; cả",
             "datetime_created": "2026-09-14T13:36:53.000Z",
+            "replies": {}
+        },
+        "332415391": {
+            "id": "332415391",
+            "author": "gaua7_2",
+            "content": "l&ocirc; buổi s&aacute;ng",
+            "datetime_created": "2026-09-14T23:07:50.000Z",
             "replies": {}
         }
     },
