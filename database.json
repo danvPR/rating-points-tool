@@ -34537,16 +34537,22 @@
     "caren888": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-09-17"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1381931972"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-348782175"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-09-17"
     },
     "DashTheDino12": {
         "score": 100,
@@ -45316,7 +45322,6 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1365590393",
             "1365324153",
             "1365115031",
             "1365723713",
@@ -45415,10 +45420,10 @@
             "1381093840",
             "1381105152",
             "1381509786",
-            "1382110309"
+            "1382110309",
+            "1382321337"
         ],
         "processed_activities": [
-            "addprojecttostudio-341776621",
             "addprojecttostudio-341783526",
             "removeprojectstudio-83261600",
             "addprojecttostudio-341801132",
@@ -45517,9 +45522,10 @@
             "addprojecttostudio-348316502",
             "addprojecttostudio-348337897",
             "addprojecttostudio-348475398",
-            "addprojecttostudio-348694722"
+            "addprojecttostudio-348694722",
+            "addprojecttostudio-348772569"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-09-17"
     },
     "IntelPentiumIII": {
