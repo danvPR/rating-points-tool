@@ -7904,7 +7904,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-17"
+            "2026-09-19"
         ],
         "last_comment_date": "2026-09-03",
         "total_deducted": 0,
@@ -8132,7 +8132,8 @@
             "332297536",
             "332297558",
             "332297775",
-            "332503628"
+            "332503628",
+            "332781148"
         ],
         "processed_projects": [
             "1322617821",
@@ -25273,7 +25274,7 @@
         "active_dates": [
             "2026-09-13"
         ],
-        "last_comment_date": "2026-09-05",
+        "last_comment_date": "2026-09-03",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -42971,9 +42972,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-07-31"
+            "2026-09-20"
         ],
-        "last_comment_date": "2026-07-31",
+        "last_comment_date": "2026-09-20",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -42985,7 +42986,8 @@
             "329187516",
             "329182437",
             "329182486",
-            "329211354"
+            "329211354",
+            "332784071"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -45397,7 +45399,8 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
         ],
         "last_comment_date": "",
         "total_deducted": 20,
@@ -45405,8 +45408,6 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1365902602",
-            "1365890858",
             "1364519874",
             "1366048449",
             "1366117403",
@@ -45504,11 +45505,11 @@
             "1382898322",
             "1382115843",
             "1382877545",
-            "1382869123"
+            "1382869123",
+            "1382962853",
+            "1382951885"
         ],
         "processed_activities": [
-            "addprojecttostudio-341966561",
-            "addprojecttostudio-341966274",
             "addprojecttostudio-342077715",
             "addprojecttostudio-342076237",
             "addprojecttostudio-342172633",
@@ -45606,10 +45607,12 @@
             "addprojecttostudio-349061609",
             "addprojecttostudio-349051693",
             "addprojecttostudio-349050882",
-            "addprojecttostudio-349047661"
+            "addprojecttostudio-349047661",
+            "addprojecttostudio-349114511",
+            "addprojecttostudio-349103149"
         ],
-        "projects_today": 7,
-        "last_project_date": "2026-09-19"
+        "projects_today": 2,
+        "last_project_date": "2026-09-20"
     },
     "IntelPentiumIII": {
         "score": 100,
@@ -61030,7 +61033,7 @@
     },
     "EMT111": {
         "active_dates": [
-            "2026-09-10"
+            "2026-09-20"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -61043,7 +61046,8 @@
             "1377516839",
             "1362760291",
             "1377514687",
-            "1379249049"
+            "1379249049",
+            "1382102475"
         ],
         "processed_activities": [
             "becomecurator-158535602",
@@ -61054,10 +61058,11 @@
             "addprojecttostudio-346705878",
             "addprojecttostudio-346705365",
             "addprojecttostudio-347417493",
-            "addprojecttostudio-347631914"
+            "addprojecttostudio-347631914",
+            "addprojecttostudio-349113313"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-08"
+        "last_project_date": "2026-09-20"
     },
     "thach912": {
         "active_dates": [
@@ -62552,7 +62557,7 @@
         "active_dates": [
             "2026-09-13"
         ],
-        "last_comment_date": "2026-09-02",
+        "last_comment_date": "2026-09-03",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -72800,6 +72805,20 @@
                     "datetime_created": "2026-09-19T14:25:25.000Z"
                 }
             }
+        },
+        "332784071": {
+            "id": "332784071",
+            "author": "20047090",
+            "content": "Hello mn",
+            "datetime_created": "2026-09-20T00:22:47.000Z",
+            "replies": {}
+        },
+        "332781148": {
+            "id": "332781148",
+            "author": "cunken",
+            "content": "b&acirc;y giờ tui &iacute;t on b&ecirc;n ni rồi :) &dstrok;ang chu vu c&ugrave;ng danv b&ecirc;n ni: https://turbows.pages.dev/",
+            "datetime_created": "2026-09-19T23:30:40.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
