@@ -7906,7 +7906,7 @@
         "active_dates": [
             "2026-09-19"
         ],
-        "last_comment_date": "2026-09-03",
+        "last_comment_date": "2026-09-04",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -10713,9 +10713,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-21"
+            "2026-09-22"
         ],
-        "last_comment_date": "2026-09-03",
+        "last_comment_date": "2026-09-05",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -10776,7 +10776,9 @@
             "332506423",
             "332513513",
             "332531065",
-            "332792563"
+            "332792563",
+            "332966699",
+            "332967124"
         ],
         "processed_projects": [
             "1329652114",
@@ -10805,27 +10807,10 @@
             "1379407902",
             "1201558638",
             "1377791582",
-            "1382790151"
+            "1382790151",
+            "1217492483"
         ],
         "processed_activities": [
-            "removeprojectstudio-84424038",
-            "addprojecttostudio-349052128",
-            "removeprojectstudio-84424016",
-            "addprojecttostudio-349158342",
-            "removeprojectstudio-84441359",
-            "addprojecttostudio-349158278",
-            "removeprojectstudio-84441346",
-            "addprojecttostudio-349158214",
-            "removeprojectstudio-84441322",
-            "addprojecttostudio-349147672",
-            "removeprojectstudio-84438967",
-            "addprojecttostudio-349147630",
-            "removeprojectstudio-84438957",
-            "addprojecttostudio-349147586",
-            "removeprojectstudio-84438945",
-            "addprojecttostudio-349141151",
-            "removeprojectstudio-84437479",
-            "addprojecttostudio-349141058",
             "removeprojectstudio-84437463",
             "addprojecttostudio-349141018",
             "removeprojectstudio-84437453",
@@ -10907,10 +10892,28 @@
             "addprojecttostudio-349383535",
             "removeprojectstudio-84479089",
             "addprojecttostudio-349383384",
-            "removeprojectstudio-84479010"
+            "removeprojectstudio-84479010",
+            "addprojecttostudio-349499581",
+            "removeprojectstudio-84498961",
+            "addprojecttostudio-349499530",
+            "removeprojectstudio-84498944",
+            "addprojecttostudio-349499505",
+            "removeprojectstudio-84498926",
+            "addprojecttostudio-349495135",
+            "removeprojectstudio-84497910",
+            "addprojecttostudio-349495124",
+            "removeprojectstudio-84497903",
+            "addprojecttostudio-349495096",
+            "removeprojectstudio-84497881",
+            "addprojecttostudio-349489653",
+            "removeprojectstudio-84496787",
+            "addprojecttostudio-349489617",
+            "removeprojectstudio-84496773",
+            "addprojecttostudio-349489535",
+            "removeprojectstudio-84496750"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-20"
+        "last_project_date": "2026-09-22"
     },
     "hoangminhngoc16": {
         "score": 100,
@@ -14162,7 +14165,7 @@
         "score": 90,
         "tier": "XS",
         "active_dates": [
-            "2026-09-21"
+            "2026-09-22"
         ],
         "last_comment_date": "2026-09-05",
         "total_deducted": 0,
@@ -14287,7 +14290,11 @@
             "332754487",
             "332753361",
             "332879952",
-            "332884412"
+            "332884412",
+            "332967084",
+            "332967183",
+            "332967202",
+            "332967210"
         ],
         "processed_projects": [
             "1366283724",
@@ -32507,7 +32514,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-20"
+            "2026-09-22"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -32530,7 +32537,8 @@
             "1380721749",
             "1381779018",
             "1382579913",
-            "1383114753"
+            "1383114753",
+            "1383566825"
         ],
         "processed_activities": [
             "removeprojectstudio-84001528",
@@ -32553,10 +32561,11 @@
             "addprojecttostudio-348879536",
             "addprojecttostudio-349056063",
             "removeprojectstudio-84424931",
-            "addprojecttostudio-349233082"
+            "addprojecttostudio-349233082",
+            "addprojecttostudio-349468163"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-20"
+        "last_project_date": "2026-09-22"
     },
     "sky_vn": {
         "score": 100,
@@ -53778,7 +53787,7 @@
     },
     "Phatgresh": {
         "active_dates": [
-            "2026-09-18"
+            "2026-09-22"
         ],
         "last_comment_date": "2026-09-17",
         "total_deducted": 0,
@@ -53831,7 +53840,8 @@
             "331596080",
             "332503677",
             "332601611",
-            "332655703"
+            "332655703",
+            "332968938"
         ],
         "processed_projects": [
             "1365488741",
@@ -73293,6 +73303,18 @@
                     "author": "anphuc3009phu",
                     "content": "Tui nữa v&ocirc; với",
                     "datetime_created": "2026-09-21T10:23:38.000Z"
+                },
+                "332967202": {
+                    "id": "332967202",
+                    "author": "SayHiWithMe",
+                    "content": "Bạn nhờ Manager kh&aacute;c mời &dstrok;i bạn, hệ thống b&aacute;o bạn &dstrok;ược mời rồi. Bạn kiểm tra xem bạn &dstrok;&atilde; &dstrok;ược th&ecirc;m dự &aacute;n v&agrave;o Studio chưa ấy ạ!",
+                    "datetime_created": "2026-09-22T05:04:03.000Z"
+                },
+                "332967210": {
+                    "id": "332967210",
+                    "author": "SayHiWithMe",
+                    "content": "M&igrave;nh gửi lời mời rồi nh&eacute;!",
+                    "datetime_created": "2026-09-22T05:04:17.000Z"
                 }
             }
         },
@@ -73328,7 +73350,14 @@
             "author": "cas_fal",
             "content": "host&apos;s deprecation...",
             "datetime_created": "2026-09-21T15:12:21.000Z",
-            "replies": {}
+            "replies": {
+                "332967183": {
+                    "id": "332967183",
+                    "author": "SayHiWithMe",
+                    "content": "ừ th&igrave;...",
+                    "datetime_created": "2026-09-22T05:03:10.000Z"
+                }
+            }
         },
         "332915410": {
             "id": "332915410",
@@ -73343,6 +73372,33 @@
             "content": "seven DANV bị lỗi rồi &yacute; :((\n",
             "datetime_created": "2026-09-21T23:55:58.000Z",
             "replies": {}
+        },
+        "332968938": {
+            "id": "332968938",
+            "author": "Phatgresh",
+            "content": "I love terradrive.eu!",
+            "datetime_created": "2026-09-22T05:44:33.000Z",
+            "replies": {}
+        },
+        "332966699": {
+            "id": "332966699",
+            "author": "ReallySopa",
+            "content": "H&ocirc;m nay l&agrave; ng&agrave;y sinh nhật của t&ocirc;i! <img src=\"/images/emoji/aww-cat.png\" class=\"emoji\" alt=\"aww-cat emoji\"> <img src=\"/images/emoji/10mil.png\" class=\"emoji\" alt=\"10mil emoji\">",
+            "datetime_created": "2026-09-22T04:49:15.000Z",
+            "replies": {
+                "332967084": {
+                    "id": "332967084",
+                    "author": "SayHiWithMe",
+                    "content": "Ch&uacute;c mừng sinh nhật @ReallySopa nh&eacute;!! <img src=\"/images/emoji/10mil.png\" class=\"emoji\" alt=\"10mil emoji\">",
+                    "datetime_created": "2026-09-22T05:00:39.000Z"
+                },
+                "332967124": {
+                    "id": "332967124",
+                    "author": "ReallySopa",
+                    "content": "Cảm ơn bạn rất nhiều! <img src=\"/images/emoji/aww-cat.png\" class=\"emoji\" alt=\"aww-cat emoji\">",
+                    "datetime_created": "2026-09-22T05:01:39.000Z"
+                }
+            }
         }
     },
     "Thai_hung": {
