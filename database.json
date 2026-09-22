@@ -30019,7 +30019,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-18"
+            "2026-09-22"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -30054,7 +30054,8 @@
             "1379248995",
             "1377428411",
             "1380795655",
-            "1381754912"
+            "1381754912",
+            "1381102180"
         ],
         "processed_activities": [
             "addprojecttostudio-335552352",
@@ -30078,10 +30079,11 @@
             "addprojecttostudio-347431426",
             "addprojecttostudio-347524834",
             "addprojecttostudio-348205987",
-            "addprojecttostudio-348900858"
+            "addprojecttostudio-348900858",
+            "addprojecttostudio-349588937"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-18"
+        "last_project_date": "2026-09-22"
     },
     "EspeonSiamese123": {
         "score": 100,
@@ -35647,14 +35649,18 @@
     "AYSomkiv": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-09-22"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [],
-        "processed_activities": [],
+        "processed_activities": [
+            "addprojecttostudio-349600083"
+        ],
         "projects_today": 0,
         "last_project_date": ""
     },
@@ -44189,7 +44195,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-15"
+            "2026-09-22"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -44203,7 +44209,8 @@
         "processed_activities": [
             "addprojecttostudio-343631227",
             "addprojecttostudio-348195636",
-            "addprojecttostudio-348329849"
+            "addprojecttostudio-348329849",
+            "addprojecttostudio-349598167"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-15"
@@ -45566,7 +45573,6 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1366116461",
             "1366270618",
             "1366257003",
             "1366344399",
@@ -45665,10 +45671,10 @@
             "1382951885",
             "1383087496",
             "1383160973",
-            "1383516530"
+            "1383516530",
+            "1383934025"
         ],
         "processed_activities": [
-            "addprojecttostudio-342212224",
             "addprojecttostudio-342228636",
             "addprojecttostudio-342304690",
             "addprojecttostudio-342357752",
@@ -45767,9 +45773,10 @@
             "addprojecttostudio-349103149",
             "addprojecttostudio-349215029",
             "addprojecttostudio-349270051",
-            "addprojecttostudio-349433411"
+            "addprojecttostudio-349433411",
+            "addprojecttostudio-349596930"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-09-22"
     },
     "IntelPentiumIII": {
@@ -73596,6 +73603,12 @@
                     "author": "gaua7_2",
                     "content": "taca",
                     "datetime_created": "2026-09-22T15:05:22.000Z"
+                },
+                "333021777": {
+                    "id": "333021777",
+                    "author": "DewiCooler",
+                    "content": "Is it cat",
+                    "datetime_created": "2026-09-22T21:16:16.000Z"
                 }
             }
         },
@@ -81591,5 +81604,37 @@
         "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-09-22"
+    },
+    "FriedPotatotar": {
+        "active_dates": [
+            "2026-09-22"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1383425928"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-09-22"
+    },
+    "DewiCooler": {
+        "active_dates": [
+            "2026-09-22"
+        ],
+        "last_comment_date": "2026-09-22",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "333021777"
+        ],
+        "processed_projects": [],
+        "processed_activities": [],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
