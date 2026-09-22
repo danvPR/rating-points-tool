@@ -33124,7 +33124,12 @@
             "addprojecttostudio-348896186",
             "addprojecttostudio-349067089",
             "addprojecttostudio-349389931",
-            "addprojecttostudio-349552962"
+            "addprojecttostudio-349552962",
+            "addprojecttostudio-349582126",
+            "addprojecttostudio-349567239",
+            "addprojecttostudio-349567184",
+            "addprojecttostudio-349567109",
+            "addprojecttostudio-349567027"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-21"
@@ -81553,19 +81558,22 @@
         "last_project_date": ""
     },
     "Number-Station-ETC": {
-        "active_dates": [
-            "2026-09-22"
-        ],
+        "active_dates": [],
         "last_comment_date": "",
-        "total_deducted": 0,
+        "total_deducted": 5,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1383783854"
+            "1383783854",
+            "1383893173",
+            "1383845093",
+            "1383833415",
+            "1383830859",
+            "1383827268"
         ],
         "processed_activities": [],
-        "projects_today": 1,
+        "projects_today": 6,
         "last_project_date": "2026-09-22"
     },
     "ScratchGioRaRoma": {
