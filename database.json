@@ -9287,9 +9287,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-02"
+            "2026-09-24"
         ],
-        "last_comment_date": "2026-09-02",
+        "last_comment_date": "2026-09-24",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -9309,7 +9309,9 @@
             "330389940",
             "330790280",
             "330953669",
-            "331561896"
+            "331561896",
+            "333174649",
+            "333174662"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -74066,8 +74068,21 @@
                     "author": "gaua7_2",
                     "content": "oi oi oi",
                     "datetime_created": "2026-09-24T16:01:40.000Z"
+                },
+                "333174662": {
+                    "id": "333174662",
+                    "author": "-Rusks-",
+                    "content": "Ur pp is so funny",
+                    "datetime_created": "2026-09-24T19:22:09.000Z"
                 }
             }
+        },
+        "333174649": {
+            "id": "333174649",
+            "author": "-Rusks-",
+            "content": "Hiii",
+            "datetime_created": "2026-09-24T19:21:56.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -80416,7 +80431,7 @@
         "active_dates": [
             "2026-09-08"
         ],
-        "last_comment_date": "2026-09-04",
+        "last_comment_date": "2026-09-05",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
