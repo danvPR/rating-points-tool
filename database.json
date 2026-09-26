@@ -10557,7 +10557,7 @@
         "active_dates": [
             "2026-09-23"
         ],
-        "last_comment_date": "2026-09-05",
+        "last_comment_date": "2026-09-07",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -13366,7 +13366,7 @@
         "active_dates": [
             "2026-09-25"
         ],
-        "last_comment_date": "2026-09-05",
+        "last_comment_date": "2026-09-06",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -23195,7 +23195,7 @@
         "active_dates": [
             "2026-09-19"
         ],
-        "last_comment_date": "2026-09-05",
+        "last_comment_date": "2026-09-10",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -33593,7 +33593,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-24"
+            "2026-09-26"
         ],
         "last_comment_date": "2026-09-14",
         "total_deducted": 0,
@@ -33610,7 +33610,8 @@
             "331111237",
             "332386495",
             "332456108",
-            "333074805"
+            "333074805",
+            "333263238"
         ],
         "processed_projects": [
             "1369167869",
@@ -37008,7 +37009,7 @@
         "active_dates": [
             "2026-09-25"
         ],
-        "last_comment_date": "2026-09-05",
+        "last_comment_date": "2026-09-10",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -38341,7 +38342,7 @@
             "2026-09-23",
             "2026-09-24"
         ],
-        "last_comment_date": "2026-09-05",
+        "last_comment_date": "2026-09-06",
         "total_deducted": 50,
         "new_comments": [],
         "new_logs": [],
@@ -39044,7 +39045,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-13"
+            "2026-09-26"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -39069,7 +39070,8 @@
             "1378029908",
             "1377986623",
             "1379849893",
-            "1380692738"
+            "1380692738",
+            "1385139314"
         ],
         "processed_activities": [
             "addprojecttostudio-335620381",
@@ -39086,10 +39088,11 @@
             "addprojecttostudio-344677678",
             "addprojecttostudio-346718731",
             "addprojecttostudio-347651443",
-            "addprojecttostudio-348144607"
+            "addprojecttostudio-348144607",
+            "addprojecttostudio-350079413"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-13"
+        "last_project_date": "2026-09-26"
     },
     "Airbus_A350-900_ULR": {
         "score": 100,
@@ -41093,7 +41096,7 @@
         "active_dates": [
             "2026-09-13"
         ],
-        "last_comment_date": "2026-09-05",
+        "last_comment_date": "2026-09-06",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -44548,7 +44551,7 @@
         "active_dates": [
             "2026-09-25"
         ],
-        "last_comment_date": "2026-09-06",
+        "last_comment_date": "2026-09-05",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -44692,7 +44695,8 @@
             "333232417",
             "333217400",
             "333232372",
-            "333219454"
+            "333219454",
+            "333257336"
         ],
         "processed_projects": [
             "1369896163",
@@ -44790,7 +44794,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-19"
+            "2026-09-26"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -44815,7 +44819,8 @@
             "1378464555",
             "1378478211",
             "1380434213",
-            "1382342773"
+            "1382342773",
+            "1383060465"
         ],
         "processed_activities": [
             "addprojecttostudio-335336360",
@@ -44837,10 +44842,11 @@
             "addprojecttostudio-347424000",
             "addprojecttostudio-347921470",
             "addprojecttostudio-348845920",
-            "addprojecttostudio-348974290"
+            "addprojecttostudio-348974290",
+            "addprojecttostudio-350074061"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-19"
+        "last_project_date": "2026-09-26"
     },
     "hakerlormn": {
         "score": 100,
@@ -53019,7 +53025,7 @@
         "active_dates": [
             "2026-09-25"
         ],
-        "last_comment_date": "2026-09-05",
+        "last_comment_date": "2026-09-06",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -63612,7 +63618,7 @@
     },
     "qasyduaytduts": {
         "active_dates": [
-            "2026-09-25"
+            "2026-09-26"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -63627,7 +63633,9 @@
             "addprojecttostudio-344575091",
             "addprojecttostudio-349185156",
             "removeprojectstudio-84446193",
-            "addprojecttostudio-350004418"
+            "addprojecttostudio-350004418",
+            "addprojecttostudio-350076050",
+            "removeprojectstudio-84593746"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-25"
@@ -74419,6 +74427,20 @@
             "author": "Vuicungscratch_hehe",
             "content": "&ecirc; mana cho tui v&agrave;o tui chưa v&agrave;o",
             "datetime_created": "2026-09-25T13:09:23.000Z",
+            "replies": {}
+        },
+        "333263238": {
+            "id": "333263238",
+            "author": "huygojo",
+            "content": "Today is my birthday !!!!!",
+            "datetime_created": "2026-09-26T01:14:57.000Z",
+            "replies": {}
+        },
+        "333257336": {
+            "id": "333257336",
+            "author": "gaua7_2",
+            "content": "hi morning",
+            "datetime_created": "2026-09-25T23:38:44.000Z",
             "replies": {}
         }
     },
