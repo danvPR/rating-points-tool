@@ -35879,7 +35879,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-11"
+            "2026-09-27"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -35887,13 +35887,15 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1380216587"
+            "1380216587",
+            "1384256344"
         ],
         "processed_activities": [
-            "addprojecttostudio-347822617"
+            "addprojecttostudio-347822617",
+            "addprojecttostudio-350386281"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-11"
+        "last_project_date": "2026-09-27"
     },
     "Pancakes_82810": {
         "score": 100,
@@ -83462,5 +83464,22 @@
         "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-09-27"
+    },
+    "PERRO_SALCHICHA_1": {
+        "active_dates": [
+            "2026-09-27"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "removeprojectstudio-84645575",
+            "addprojecttostudio-350380042"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
