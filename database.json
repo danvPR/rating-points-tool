@@ -9459,7 +9459,7 @@
         "active_dates": [
             "2026-09-18"
         ],
-        "last_comment_date": "2026-09-07",
+        "last_comment_date": "2026-09-12",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -15559,7 +15559,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-27"
+            "2026-09-29"
         ],
         "last_comment_date": "2026-09-13",
         "total_deducted": 0,
@@ -15613,7 +15613,8 @@
             "332243054",
             "332315491",
             "332584080",
-            "333363035"
+            "333363035",
+            "333491849"
         ],
         "processed_projects": [
             "1365026227",
@@ -33306,7 +33307,8 @@
             "addprojecttostudio-350029769",
             "addprojecttostudio-350048363",
             "addprojecttostudio-350539042",
-            "addprojecttostudio-350522706"
+            "addprojecttostudio-350522706",
+            "addprojecttostudio-350563828"
         ],
         "projects_today": 2,
         "last_project_date": "2026-09-28"
@@ -44677,7 +44679,7 @@
         "active_dates": [
             "2026-09-28"
         ],
-        "last_comment_date": "2026-09-06",
+        "last_comment_date": "2026-09-08",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -44829,7 +44831,8 @@
             "333312626",
             "333335336",
             "333455202",
-            "333448470"
+            "333448470",
+            "333483168"
         ],
         "processed_projects": [
             "1369896163",
@@ -45882,7 +45885,8 @@
             "2026-09-24",
             "2026-09-25",
             "2026-09-26",
-            "2026-09-28"
+            "2026-09-28",
+            "2026-09-29"
         ],
         "last_comment_date": "",
         "total_deducted": 20,
@@ -45890,7 +45894,6 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1367252656",
             "1367589380",
             "1367659025",
             "1367819006",
@@ -45989,10 +45992,10 @@
             "1384744331",
             "1385280705",
             "1385349346",
-            "1385582853"
+            "1385582853",
+            "1385940292"
         ],
         "processed_activities": [
-            "addprojecttostudio-343162755",
             "addprojecttostudio-343325999",
             "addprojecttostudio-343434445",
             "addprojecttostudio-343568167",
@@ -46091,10 +46094,11 @@
             "addprojecttostudio-350048920",
             "addprojecttostudio-350179457",
             "addprojecttostudio-350223953",
-            "addprojecttostudio-350423307"
+            "addprojecttostudio-350423307",
+            "addprojecttostudio-350560036"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-28"
+        "last_project_date": "2026-09-29"
     },
     "IntelPentiumIII": {
         "score": 100,
@@ -62186,7 +62190,8 @@
         "active_dates": [
             "2026-09-04",
             "2026-09-09",
-            "2026-09-10"
+            "2026-09-10",
+            "2026-09-29"
         ],
         "last_comment_date": "",
         "total_deducted": 5,
@@ -62210,11 +62215,12 @@
             "1379465821",
             "1379547729",
             "1379545267",
-            "1364481569"
+            "1364481569",
+            "1385944187"
         ],
         "processed_activities": [],
         "projects_today": 1,
-        "last_project_date": "2026-09-10"
+        "last_project_date": "2026-09-29"
     },
     "thientan041215": {
         "active_dates": [
@@ -75265,6 +75271,20 @@
             "author": "peun3907",
             "content": "pls v&agrave;o ;(",
             "datetime_created": "2026-09-28T16:43:20.000Z",
+            "replies": {}
+        },
+        "333491849": {
+            "id": "333491849",
+            "author": "miyo12345",
+            "content": "<img src=\"/images/emoji/meow.png\" class=\"emoji\" alt=\"meow emoji\">",
+            "datetime_created": "2026-09-29T01:16:51.000Z",
+            "replies": {}
+        },
+        "333483168": {
+            "id": "333483168",
+            "author": "gaua7_2",
+            "content": "l&ocirc; ng&agrave;y mới",
+            "datetime_created": "2026-09-28T23:11:02.000Z",
             "replies": {}
         }
     },
