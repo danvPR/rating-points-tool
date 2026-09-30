@@ -45906,7 +45906,8 @@
             "2026-09-25",
             "2026-09-26",
             "2026-09-28",
-            "2026-09-29"
+            "2026-09-29",
+            "2026-09-30"
         ],
         "last_comment_date": "",
         "total_deducted": 20,
@@ -45914,9 +45915,6 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1367659025",
-            "1367819006",
-            "1368115581",
             "1368280091",
             "1368526214",
             "1368522323",
@@ -46013,12 +46011,12 @@
             "1385349346",
             "1385582853",
             "1385940292",
-            "1385487139"
+            "1385487139",
+            "1386379722",
+            "1386350704",
+            "1386352331"
         ],
         "processed_activities": [
-            "addprojecttostudio-343568167",
-            "addprojecttostudio-343564951",
-            "addprojecttostudio-343596994",
             "addprojecttostudio-343601527",
             "addprojecttostudio-343609421",
             "addprojecttostudio-343641143",
@@ -46115,10 +46113,13 @@
             "addprojecttostudio-350423307",
             "addprojecttostudio-350560036",
             "addprojecttostudio-350635901",
-            "addprojecttostudio-350700734"
+            "addprojecttostudio-350700734",
+            "addprojecttostudio-350723084",
+            "addprojecttostudio-350714893",
+            "addprojecttostudio-350705172"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-09-29"
+        "projects_today": 3,
+        "last_project_date": "2026-09-30"
     },
     "IntelPentiumIII": {
         "score": 100,
@@ -49176,7 +49177,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-28"
+            "2026-09-30"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -49188,7 +49189,8 @@
             "1380510337",
             "1307551200",
             "1384236551",
-            "1311996746"
+            "1311996746",
+            "1386259301"
         ],
         "processed_activities": [
             "addprojecttostudio-335268024",
@@ -49196,10 +49198,11 @@
             "addprojecttostudio-348056705",
             "addprojecttostudio-349540223",
             "addprojecttostudio-349720465",
-            "addprojecttostudio-350518247"
+            "addprojecttostudio-350518247",
+            "addprojecttostudio-350704872"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-28"
+        "last_project_date": "2026-09-30"
     },
     "Luialf25": {
         "score": 100,
@@ -61636,7 +61639,7 @@
     },
     "Banhmimini123": {
         "active_dates": [
-            "2026-09-29"
+            "2026-09-30"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -61661,7 +61664,8 @@
             "1384917476",
             "1364556631",
             "1378267996",
-            "1384941421"
+            "1384941421",
+            "1386140685"
         ],
         "processed_activities": [
             "becomecurator-158529276",
@@ -61685,8 +61689,8 @@
             "addprojecttostudio-350135488",
             "addprojecttostudio-350640586"
         ],
-        "projects_today": 3,
-        "last_project_date": "2026-09-26"
+        "projects_today": 1,
+        "last_project_date": "2026-09-30"
     },
     "Banrainbow": {
         "active_dates": [
