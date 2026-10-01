@@ -84027,7 +84027,7 @@
     },
     "TeuAnXoi": {
         "active_dates": [
-            "2026-09-24"
+            "2026-10-01"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -84038,7 +84038,9 @@
             "1384387048"
         ],
         "processed_activities": [
-            "addprojecttostudio-349833780"
+            "addprojecttostudio-349833780",
+            "removeprojectstudio-84733430",
+            "addprojecttostudio-350893234"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-24"
