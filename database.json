@@ -81363,13 +81363,9 @@
         "last_project_date": "2026-09-18"
     },
     "YeuXYZ": {
-        "active_dates": [
-            "2026-09-29",
-            "2026-09-30",
-            "2026-10-02"
-        ],
+        "active_dates": [],
         "last_comment_date": "",
-        "total_deducted": 15,
+        "total_deducted": 20,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
@@ -81439,7 +81435,12 @@
             "1386184992",
             "1386159468",
             "1386461637",
-            "1387243846"
+            "1387243846",
+            "1386871051",
+            "1387249832",
+            "1387248886",
+            "1387248461",
+            "1387245143"
         ],
         "processed_activities": [
             "removeprojectstudio-83984249",
@@ -81509,9 +81510,14 @@
             "addprojecttostudio-350651833",
             "addprojecttostudio-350651578",
             "addprojecttostudio-350756634",
-            "addprojecttostudio-351050949"
+            "addprojecttostudio-351050949",
+            "addprojecttostudio-351055243",
+            "addprojecttostudio-351053513",
+            "addprojecttostudio-351053307",
+            "addprojecttostudio-351052815",
+            "addprojecttostudio-351052446"
         ],
-        "projects_today": 1,
+        "projects_today": 6,
         "last_project_date": "2026-10-02"
     },
     "MUSIC__BOY": {
@@ -84498,7 +84504,7 @@
     },
     "hugepokemonlover": {
         "active_dates": [
-            "2026-10-01"
+            "2026-10-02"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -84519,7 +84525,8 @@
             "addprojecttostudio-350766249",
             "addprojecttostudio-350750078",
             "addprojecttostudio-350923247",
-            "addprojecttostudio-350911367"
+            "addprojecttostudio-350911367",
+            "addprojecttostudio-351055673"
         ],
         "projects_today": 2,
         "last_project_date": "2026-10-01"
@@ -84657,6 +84664,22 @@
         "processed_comments": [],
         "processed_projects": [
             "1369683728"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-10-02"
+    },
+    "meowpurrrmeow8": {
+        "active_dates": [
+            "2026-10-02"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1351745652"
         ],
         "processed_activities": [],
         "projects_today": 1,
