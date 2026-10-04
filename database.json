@@ -10498,7 +10498,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-03"
+            "2026-10-04"
         ],
         "last_comment_date": "2026-09-13",
         "total_deducted": 0,
@@ -10537,7 +10537,9 @@
             "addprojecttostudio-349688500",
             "addprojecttostudio-351222505",
             "addprojecttostudio-351361151",
-            "removeprojectstudio-84811443"
+            "removeprojectstudio-84811443",
+            "addprojecttostudio-351536083",
+            "removeprojectstudio-84840413"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-18"
@@ -49479,7 +49481,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-01"
+            "2026-10-04"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -49494,7 +49496,8 @@
             "1311996746",
             "1386259301",
             "1386781104",
-            "1387076034"
+            "1387076034",
+            "1388040732"
         ],
         "processed_activities": [
             "addprojecttostudio-335268024",
@@ -49505,10 +49508,11 @@
             "addprojecttostudio-350518247",
             "addprojecttostudio-350704872",
             "addprojecttostudio-350885058",
-            "addprojecttostudio-350998160"
+            "addprojecttostudio-350998160",
+            "addprojecttostudio-351534466"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-10-01"
+        "projects_today": 1,
+        "last_project_date": "2026-10-04"
     },
     "Luialf25": {
         "score": 100,
@@ -86266,6 +86270,22 @@
         "processed_projects": [],
         "processed_activities": [
             "becomecurator-159544354"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "GloryWOFfan": {
+        "active_dates": [
+            "2026-10-04"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-159549004"
         ],
         "projects_today": 0,
         "last_project_date": ""
