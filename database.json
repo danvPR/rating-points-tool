@@ -10906,12 +10906,6 @@
             "1385649646"
         ],
         "processed_activities": [
-            "removeprojectstudio-84747938",
-            "addprojecttostudio-350980063",
-            "removeprojectstudio-84747931",
-            "addprojecttostudio-350980017",
-            "removeprojectstudio-84747919",
-            "addprojecttostudio-350974353",
             "removeprojectstudio-84747070",
             "addprojecttostudio-350974331",
             "removeprojectstudio-84747062",
@@ -11005,7 +10999,13 @@
             "addprojecttostudio-351463169",
             "removeprojectstudio-84828525",
             "addprojecttostudio-351463147",
-            "removeprojectstudio-84828518"
+            "removeprojectstudio-84828518",
+            "addprojecttostudio-351481190",
+            "removeprojectstudio-84831579",
+            "addprojecttostudio-351481153",
+            "removeprojectstudio-84831568",
+            "addprojecttostudio-351481096",
+            "removeprojectstudio-84831554"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-30"
@@ -19800,7 +19800,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-02"
+            "2026-10-04"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -19820,7 +19820,8 @@
             "1383194667",
             "1384819755",
             "1386571454",
-            "1387070795"
+            "1387070795",
+            "1387936501"
         ],
         "processed_activities": [
             "addprojecttostudio-341441139",
@@ -19838,10 +19839,11 @@
             "addprojecttostudio-350003020",
             "addprojecttostudio-350179478",
             "addprojecttostudio-350820435",
-            "addprojecttostudio-351137220"
+            "addprojecttostudio-351137220",
+            "addprojecttostudio-351483928"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-02"
+        "last_project_date": "2026-10-04"
     },
     "MissyDonut": {
         "score": 100,
@@ -27867,7 +27869,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-10"
+            "2026-10-04"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -27875,15 +27877,17 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1367448950"
+            "1367448950",
+            "1387865404"
         ],
         "processed_activities": [
             "addprojecttostudio-342971048",
             "removeprojectstudio-84203407",
-            "addprojecttostudio-347667723"
+            "addprojecttostudio-347667723",
+            "addprojecttostudio-351482778"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-09"
+        "last_project_date": "2026-10-04"
     },
     "tica7713": {
         "score": 100,
@@ -37127,16 +37131,22 @@
     "Tech-Jet": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-10-04"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1387512322"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-351483614"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-10-04"
     },
     "itsVM": {
         "score": 100,
@@ -38670,7 +38680,8 @@
             "2026-09-23",
             "2026-09-24",
             "2026-09-26",
-            "2026-09-27"
+            "2026-09-27",
+            "2026-10-04"
         ],
         "last_comment_date": "2026-09-18",
         "total_deducted": 50,
@@ -38762,7 +38773,9 @@
             "addprojecttostudio-349773736",
             "removeprojectstudio-84543375",
             "addprojecttostudio-350252414",
-            "removeprojectstudio-84623994"
+            "removeprojectstudio-84623994",
+            "addprojecttostudio-351485344",
+            "removeprojectstudio-84832215"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-18"
@@ -46166,7 +46179,6 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1368758833",
             "1368783580",
             "1368845093",
             "1368845770",
@@ -46265,10 +46277,10 @@
             "1387752837",
             "1387829754",
             "1387846950",
-            "1387170452"
+            "1387170452",
+            "1387965275"
         ],
         "processed_activities": [
-            "addprojecttostudio-343759241",
             "addprojecttostudio-343773616",
             "addprojecttostudio-343855919",
             "addprojecttostudio-343918816",
@@ -46367,9 +46379,10 @@
             "addprojecttostudio-351355896",
             "addprojecttostudio-351335516",
             "addprojecttostudio-351377498",
-            "addprojecttostudio-351367652"
+            "addprojecttostudio-351367652",
+            "addprojecttostudio-351477459"
         ],
-        "projects_today": 2,
+        "projects_today": 3,
         "last_project_date": "2026-10-04"
     },
     "IntelPentiumIII": {
@@ -63239,7 +63252,8 @@
             "1386669681",
             "1387771845",
             "1385421292",
-            "1387905637"
+            "1387905637",
+            "1387985367"
         ],
         "processed_activities": [
             "addprojecttostudio-344263578",
@@ -63294,9 +63308,10 @@
             "removeprojectstudio-84602295",
             "addprojecttostudio-350988525",
             "addprojecttostudio-351315496",
-            "addprojecttostudio-351311429"
+            "addprojecttostudio-351311429",
+            "addprojecttostudio-351490344"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-10-04"
     },
     "Chimi2016": {
