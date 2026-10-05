@@ -30360,7 +30360,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-04"
+            "2026-10-05"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -30400,7 +30400,8 @@
             "1384247639",
             "1385051620",
             "1310030594",
-            "1387762691"
+            "1387762691",
+            "1387541395"
         ],
         "processed_activities": [
             "addprojecttostudio-335552352",
@@ -30430,10 +30431,11 @@
             "addprojecttostudio-350198641",
             "addprojecttostudio-350212363",
             "addprojecttostudio-350494910",
-            "addprojecttostudio-351466746"
+            "addprojecttostudio-351466746",
+            "addprojecttostudio-351663870"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-04"
+        "last_project_date": "2026-10-05"
     },
     "EspeonSiamese123": {
         "score": 100,
@@ -33475,7 +33477,8 @@
             "1387151814",
             "1387533911",
             "1388327515",
-            "1388274361"
+            "1388274361",
+            "1388386434"
         ],
         "processed_activities": [
             "addprojecttostudio-342197093",
@@ -33541,9 +33544,10 @@
             "addprojecttostudio-351007859",
             "addprojecttostudio-351160163",
             "addprojecttostudio-351647992",
-            "addprojecttostudio-351626177"
+            "addprojecttostudio-351626177",
+            "addprojecttostudio-351666842"
         ],
-        "projects_today": 2,
+        "projects_today": 3,
         "last_project_date": "2026-10-05"
     },
     "ravocsirex": {
@@ -36735,14 +36739,19 @@
     "GrayBro5060Games": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-10-05"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [],
-        "processed_activities": [],
+        "processed_activities": [
+            "removeprojectstudio-84862165",
+            "addprojecttostudio-351659814"
+        ],
         "projects_today": 0,
         "last_project_date": ""
     },
@@ -39504,7 +39513,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-29"
+            "2026-10-05"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -39513,14 +39522,16 @@
         "processed_comments": [],
         "processed_projects": [
             "1382265660",
-            "1308734635"
+            "1308734635",
+            "1388392001"
         ],
         "processed_activities": [
             "addprojecttostudio-349963847",
-            "addprojecttostudio-350631799"
+            "addprojecttostudio-350631799",
+            "addprojecttostudio-351667768"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-09-25"
+        "projects_today": 1,
+        "last_project_date": "2026-10-05"
     },
     "BlueRun009": {
         "score": 100,
@@ -61736,7 +61747,7 @@
     },
     "chris_on_scratch2": {
         "active_dates": [
-            "2026-09-15"
+            "2026-10-05"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -61750,7 +61761,10 @@
         "processed_activities": [
             "becomecurator-158512576",
             "addprojecttostudio-347642058",
-            "addprojecttostudio-348355230"
+            "addprojecttostudio-348355230",
+            "removeprojectstudio-84866833",
+            "addprojecttostudio-351692411",
+            "addprojecttostudio-351692410"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-15"
