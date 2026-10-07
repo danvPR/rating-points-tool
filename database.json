@@ -10508,9 +10508,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-05"
+            "2026-10-06"
         ],
-        "last_comment_date": "2026-09-13",
+        "last_comment_date": "2026-09-21",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -10551,7 +10551,9 @@
             "addprojecttostudio-351536083",
             "removeprojectstudio-84840413",
             "addprojecttostudio-351623023",
-            "removeprojectstudio-84856816"
+            "removeprojectstudio-84856816",
+            "removeprojectstudio-84892422",
+            "addprojecttostudio-351849250"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-18"
@@ -13446,14 +13448,13 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-05"
+            "2026-10-06"
         ],
         "last_comment_date": "2026-09-16",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330272562",
             "330281286",
             "330282414",
             "330284271",
@@ -13702,7 +13703,8 @@
             "333910476",
             "333910893",
             "333911331",
-            "333992519"
+            "333992519",
+            "334101662"
         ],
         "processed_projects": [
             "1332031524",
@@ -14302,7 +14304,7 @@
         "active_dates": [
             "2026-10-06"
         ],
-        "last_comment_date": "2026-09-13",
+        "last_comment_date": "2026-09-18",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -35510,7 +35512,9 @@
             "2026-09-20",
             "2026-09-21",
             "2026-09-22",
-            "2026-09-27"
+            "2026-09-27",
+            "2026-10-06",
+            "2026-10-07"
         ],
         "last_comment_date": "",
         "total_deducted": 10,
@@ -35541,7 +35545,8 @@
             "1383541031",
             "1383569841",
             "1385369809",
-            "1385369379"
+            "1385369379",
+            "1388841788"
         ],
         "processed_activities": [
             "addprojecttostudio-341667514",
@@ -35569,10 +35574,11 @@
             "addprojecttostudio-349448026",
             "addprojecttostudio-349466567",
             "addprojecttostudio-350244359",
-            "addprojecttostudio-350244174"
+            "addprojecttostudio-350244174",
+            "addprojecttostudio-351838104"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-09-27"
+        "projects_today": 1,
+        "last_project_date": "2026-10-07"
     },
     "ThatOneGuy2976": {
         "score": 100,
@@ -51659,7 +51665,7 @@
         "active_dates": [
             "2026-10-06"
         ],
-        "last_comment_date": "2026-09-13",
+        "last_comment_date": "2026-09-14",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -77476,6 +77482,20 @@
             "content": "@Blackholeatrandom &dstrok;ang spam dự &aacute;n",
             "datetime_created": "2026-10-06T11:53:10.000Z",
             "replies": {}
+        },
+        "334104940": {
+            "id": "334104940",
+            "author": "Omega_Fox_Coder",
+            "content": "where am i?",
+            "datetime_created": "2026-10-07T00:31:24.000Z",
+            "replies": {}
+        },
+        "334101662": {
+            "id": "334101662",
+            "author": "gaua7",
+            "content": "L&ocirc;",
+            "datetime_created": "2026-10-06T23:35:02.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -86923,6 +86943,22 @@
         "new_logs": [],
         "processed_comments": [
             "334064577"
+        ],
+        "processed_projects": [],
+        "processed_activities": [],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "Omega_Fox_Coder": {
+        "active_dates": [
+            "2026-10-07"
+        ],
+        "last_comment_date": "2026-10-07",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "334104940"
         ],
         "processed_projects": [],
         "processed_activities": [],
