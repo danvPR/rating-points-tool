@@ -10197,16 +10197,22 @@
     "gbjilbgu": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-10-09"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1385484404"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-352189371"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-10-09"
     },
     "ngovantruong1234": {
         "score": 100,
@@ -63545,7 +63551,7 @@
     },
     "xinchao27": {
         "active_dates": [
-            "2026-10-07"
+            "2026-10-09"
         ],
         "last_comment_date": "2026-09-13",
         "total_deducted": 0,
@@ -63634,7 +63640,9 @@
             "addprojecttostudio-351490344",
             "addprojecttostudio-351788812",
             "addprojecttostudio-351946041",
-            "removeprojectstudio-84909213"
+            "removeprojectstudio-84909213",
+            "addprojecttostudio-352190767",
+            "removeprojectstudio-84946102"
         ],
         "projects_today": 2,
         "last_project_date": "2026-10-06"
