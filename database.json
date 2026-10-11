@@ -37557,7 +37557,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-10"
+            "2026-10-11"
         ],
         "last_comment_date": "2026-09-17",
         "total_deducted": 0,
@@ -37606,7 +37606,8 @@
             "333795816",
             "333800815",
             "334051272",
-            "334058420"
+            "334058420",
+            "334398715"
         ],
         "processed_projects": [
             "1364266975",
@@ -49776,7 +49777,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-10"
+            "2026-10-11"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -49794,7 +49795,8 @@
             "1387076034",
             "1388040732",
             "1308095620",
-            "1390142317"
+            "1390142317",
+            "1390345013"
         ],
         "processed_activities": [
             "addprojecttostudio-335268024",
@@ -49808,10 +49810,11 @@
             "addprojecttostudio-350998160",
             "addprojecttostudio-351534466",
             "addprojecttostudio-351537850",
-            "addprojecttostudio-352474868"
+            "addprojecttostudio-352474868",
+            "addprojecttostudio-352526135"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-10"
+        "last_project_date": "2026-10-11"
     },
     "Luialf25": {
         "score": 100,
@@ -78488,7 +78491,14 @@
             "author": "Rip_hung",
             "content": "Ko ngờ @Sayhiwithme l&ecirc;n quyền:)) \n",
             "datetime_created": "2026-10-10T13:57:44.000Z",
-            "replies": {}
+            "replies": {
+                "334398715": {
+                    "id": "334398715",
+                    "author": "Fleiroscracth",
+                    "content": "l&acirc;u rồi",
+                    "datetime_created": "2026-10-11T00:18:02.000Z"
+                }
+            }
         },
         "334353955": {
             "id": "334353955",
@@ -78515,6 +78525,12 @@
                     "author": "trongnghiax",
                     "content": "Thằng kid n&agrave;y vẫn muốn g&acirc;y sự ch&uacute; &yacute; &agrave;",
                     "datetime_created": "2026-10-10T18:54:34.000Z"
+                },
+                "334402163": {
+                    "id": "334402163",
+                    "author": "-_FrezSky_-",
+                    "content": "waw",
+                    "datetime_created": "2026-10-11T01:12:34.000Z"
                 }
             }
         }
@@ -86376,7 +86392,7 @@
     },
     "ntphong17": {
         "active_dates": [
-            "2026-10-10"
+            "2026-10-11"
         ],
         "last_comment_date": "2026-09-18",
         "total_deducted": 0,
@@ -86403,7 +86419,8 @@
             "1388259874",
             "1389051245",
             "1389915655",
-            "1390122382"
+            "1390122382",
+            "1390339180"
         ],
         "processed_activities": [
             "becomecurator-159190060",
@@ -86417,10 +86434,11 @@
             "addprojecttostudio-350961037",
             "addprojecttostudio-351124139",
             "addprojecttostudio-351119340",
-            "addprojecttostudio-352257139"
+            "addprojecttostudio-352257139",
+            "addprojecttostudio-352526120"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-10"
+        "last_project_date": "2026-10-11"
     },
     "conca10000kg": {
         "active_dates": [
@@ -87058,7 +87076,7 @@
     },
     "-_FrezSky_-": {
         "active_dates": [
-            "2026-10-10"
+            "2026-10-11"
         ],
         "last_comment_date": "2026-09-27",
         "total_deducted": 0,
@@ -87080,7 +87098,8 @@
             "333912570",
             "333979793",
             "334064496",
-            "334334273"
+            "334334273",
+            "334402163"
         ],
         "processed_projects": [
             "1385410434"
@@ -88475,6 +88494,22 @@
         ],
         "processed_projects": [],
         "processed_activities": [],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "ailiolw": {
+        "active_dates": [
+            "2026-10-11"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-159689863"
+        ],
         "projects_today": 0,
         "last_project_date": ""
     }
