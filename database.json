@@ -17625,7 +17625,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-04"
+            "2026-10-11"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -17638,7 +17638,8 @@
             "1367827917",
             "1369349875",
             "1381847269",
-            "1387999384"
+            "1387999384",
+            "1389988494"
         ],
         "processed_activities": [
             "addprojecttostudio-335698612",
@@ -17647,10 +17648,11 @@
             "addprojecttostudio-344117759",
             "addprojecttostudio-344142944",
             "addprojecttostudio-349734008",
-            "addprojecttostudio-351504421"
+            "addprojecttostudio-351504421",
+            "addprojecttostudio-352685500"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-04"
+        "last_project_date": "2026-10-11"
     },
     "toon-kaBOOM": {
         "score": 100,
@@ -33047,7 +33049,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-02"
+            "2026-10-11"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -33074,7 +33076,8 @@
             "1383566825",
             "1384017074",
             "1385791784",
-            "1387440449"
+            "1387440449",
+            "1390475334"
         ],
         "processed_activities": [
             "removeprojectstudio-84001528",
@@ -33103,10 +33106,11 @@
             "addprojecttostudio-350504662",
             "addprojecttostudio-350809048",
             "addprojecttostudio-351041283",
-            "addprojecttostudio-351129786"
+            "addprojecttostudio-351129786",
+            "addprojecttostudio-352649195"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-02"
+        "last_project_date": "2026-10-11"
     },
     "sky_vn": {
         "score": 100,
@@ -49831,7 +49835,8 @@
             "1388040732",
             "1308095620",
             "1390142317",
-            "1390345013"
+            "1390345013",
+            "1390349229"
         ],
         "processed_activities": [
             "addprojecttostudio-335268024",
@@ -49846,9 +49851,10 @@
             "addprojecttostudio-351534466",
             "addprojecttostudio-351537850",
             "addprojecttostudio-352474868",
-            "addprojecttostudio-352526135"
+            "addprojecttostudio-352526135",
+            "addprojecttostudio-352647873"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-10-11"
     },
     "Luialf25": {
@@ -78844,6 +78850,20 @@
                     "datetime_created": "2026-10-11T13:24:02.000Z"
                 }
             }
+        },
+        "334458376": {
+            "id": "334458376",
+            "author": "Shay204",
+            "content": "Can I be a curator?",
+            "datetime_created": "2026-10-11T18:37:13.000Z",
+            "replies": {}
+        },
+        "334458351": {
+            "id": "334458351",
+            "author": "Shay204",
+            "content": "Not trying to be rude, but what is this studio based on?",
+            "datetime_created": "2026-10-11T18:36:38.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -88013,14 +88033,16 @@
         "processed_projects": [
             "1386952007",
             "1269539690",
-            "1304726341"
+            "1304726341",
+            "1390262001"
         ],
         "processed_activities": [
             "addprojecttostudio-351292186",
             "addprojecttostudio-351787825",
-            "addprojecttostudio-352623340"
+            "addprojecttostudio-352623340",
+            "addprojecttostudio-352645150"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-10-11"
     },
     "hqp1_23": {
@@ -88968,6 +88990,23 @@
             "334427431",
             "334439114",
             "334441310"
+        ],
+        "processed_projects": [],
+        "processed_activities": [],
+        "projects_today": 0,
+        "last_project_date": ""
+    },
+    "Shay204": {
+        "active_dates": [
+            "2026-10-11"
+        ],
+        "last_comment_date": "2026-10-11",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "334458376",
+            "334458351"
         ],
         "processed_projects": [],
         "processed_activities": [],
