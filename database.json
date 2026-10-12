@@ -33107,7 +33107,8 @@
             "addprojecttostudio-350809048",
             "addprojecttostudio-351041283",
             "addprojecttostudio-351129786",
-            "addprojecttostudio-352649195"
+            "addprojecttostudio-352649195",
+            "addprojecttostudio-352778750"
         ],
         "projects_today": 1,
         "last_project_date": "2026-10-11"
@@ -49816,7 +49817,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-11"
+            "2026-10-12"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -49836,7 +49837,8 @@
             "1308095620",
             "1390142317",
             "1390345013",
-            "1390349229"
+            "1390349229",
+            "1388417027"
         ],
         "processed_activities": [
             "addprojecttostudio-335268024",
@@ -49852,10 +49854,11 @@
             "addprojecttostudio-351537850",
             "addprojecttostudio-352474868",
             "addprojecttostudio-352526135",
-            "addprojecttostudio-352647873"
+            "addprojecttostudio-352647873",
+            "addprojecttostudio-352785274"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-10-11"
+        "projects_today": 1,
+        "last_project_date": "2026-10-12"
     },
     "Luialf25": {
         "score": 100,
@@ -78763,6 +78766,12 @@
                     "author": "SayHiWithMe",
                     "content": "Hạn chế spam trong v&ugrave;ng b&igrave;nh luận nh&eacute; bạn! <img src=\"/images/emoji/cat.png\" class=\"emoji\" alt=\"cat emoji\">",
                     "datetime_created": "2026-10-11T14:29:13.000Z"
+                },
+                "334472626": {
+                    "id": "334472626",
+                    "author": "Hello_VN123",
+                    "content": "ồ v hả i don&apos;t know, sorry",
+                    "datetime_created": "2026-10-11T23:30:58.000Z"
                 }
             }
         },
@@ -78798,6 +78807,18 @@
                     "author": "cunken",
                     "content": "y&ecirc;u cầm &iacute;t spam nha bạn ko m&igrave;nh kick, &dstrok;ể b&aacute;o trừ &dstrok;iểm :(",
                     "datetime_created": "2026-10-11T14:00:59.000Z"
+                },
+                "334472869": {
+                    "id": "334472869",
+                    "author": "Hello_VN123",
+                    "content": "m&igrave;nh chỉ &dstrok;ang k&ecirc;u gọi th&ocirc;i m&agrave; :)",
+                    "datetime_created": "2026-10-11T23:34:46.000Z"
+                },
+                "334473087": {
+                    "id": "334473087",
+                    "author": "Hello_VN123",
+                    "content": "ờ v th&ocirc;i",
+                    "datetime_created": "2026-10-11T23:38:27.000Z"
                 }
             }
         },
@@ -88907,7 +88928,7 @@
     },
     "Hello_VN123": {
         "active_dates": [
-            "2026-10-11"
+            "2026-10-12"
         ],
         "last_comment_date": "2026-10-11",
         "total_deducted": 0,
@@ -88922,12 +88943,18 @@
             "334425163",
             "334444653",
             "334424916",
-            "334433300"
+            "334433300",
+            "334472626",
+            "334472869",
+            "334473087"
         ],
         "processed_projects": [
             "1387384775",
             "1383027962",
-            "1390132776"
+            "1390132776",
+            "1386639124",
+            "1390370365",
+            "1390374845"
         ],
         "processed_activities": [
             "addprojecttostudio-352622447",
@@ -88939,10 +88966,19 @@
             "addprojecttostudio-352622111",
             "removeprojectstudio-85012539",
             "addprojecttostudio-352622019",
-            "removeprojectstudio-85012537"
+            "removeprojectstudio-85012537",
+            "addprojecttostudio-352774630",
+            "removeprojectstudio-85022712",
+            "addprojecttostudio-352774607",
+            "addprojecttostudio-352774578",
+            "removeprojectstudio-85022708",
+            "addprojecttostudio-352774544",
+            "removeprojectstudio-85022707",
+            "addprojecttostudio-352774526",
+            "addprojecttostudio-352774455"
         ],
         "projects_today": 3,
-        "last_project_date": "2026-10-11"
+        "last_project_date": "2026-10-12"
     },
     "spookykitty1": {
         "active_dates": [
@@ -89012,5 +89048,21 @@
         "processed_activities": [],
         "projects_today": 0,
         "last_project_date": ""
+    },
+    "Uji_Matcha-powder": {
+        "active_dates": [
+            "2026-10-12"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1390537167"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-10-12"
     }
 }
