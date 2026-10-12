@@ -24366,7 +24366,7 @@
         "active_dates": [
             "2026-10-11"
         ],
-        "last_comment_date": "2026-09-16",
+        "last_comment_date": "2026-10-03",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -33462,7 +33462,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-02"
+            "2026-10-12"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -33478,7 +33478,8 @@
             "addprojecttostudio-346440097",
             "addprojecttostudio-346439421",
             "addprojecttostudio-346439017",
-            "addprojecttostudio-346437119"
+            "addprojecttostudio-346437119",
+            "addprojecttostudio-352804913"
         ],
         "projects_today": 1,
         "last_project_date": "2026-08-04"
@@ -50374,7 +50375,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-09"
+            "2026-10-12"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -50389,7 +50390,8 @@
             "1382664120",
             "1382936988",
             "1387503498",
-            "1389517118"
+            "1389517118",
+            "1335109769"
         ],
         "processed_activities": [
             "addprojecttostudio-347644944",
@@ -50399,10 +50401,11 @@
             "addprojecttostudio-348908225",
             "addprojecttostudio-349742671",
             "addprojecttostudio-352184612",
-            "addprojecttostudio-352184270"
+            "addprojecttostudio-352184270",
+            "addprojecttostudio-352803968"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-10-09"
+        "projects_today": 1,
+        "last_project_date": "2026-10-12"
     },
     "Dark_Camera_Man": {
         "score": 100,
@@ -78885,6 +78888,20 @@
             "content": "Not trying to be rude, but what is this studio based on?",
             "datetime_created": "2026-10-11T18:36:38.000Z",
             "replies": {}
+        },
+        "334481572": {
+            "id": "334481572",
+            "author": "I-LUV-PATCHBREAKERS",
+            "content": "sayhi l&agrave;m việc c&oacute; mệt ko?",
+            "datetime_created": "2026-10-12T01:48:50.000Z",
+            "replies": {
+                "334481751": {
+                    "id": "334481751",
+                    "author": "I-LUV-PATCHBREAKERS",
+                    "content": "huhu nhớ luna nhi&ecirc;n v&agrave; cookied cả ysana nx (c&ograve;n hưng th&igrave; vẫn sống nh&abreve;n r&abreve;ng tr&ecirc;n wks n&ecirc;n khỏi)",
+                    "datetime_created": "2026-10-12T01:51:56.000Z"
+                }
+            }
         }
     },
     "Thai_hung": {
@@ -89064,5 +89081,38 @@
         "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-10-12"
+    },
+    "Xi_Wed": {
+        "active_dates": [
+            "2026-10-12"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1326466288"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-10-12"
+    },
+    "I-LUV-PATCHBREAKERS": {
+        "active_dates": [
+            "2026-10-12"
+        ],
+        "last_comment_date": "2026-10-12",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "334481572",
+            "334481751"
+        ],
+        "processed_projects": [],
+        "processed_activities": [],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
