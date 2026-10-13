@@ -30548,7 +30548,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-10"
+            "2026-10-13"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -30592,7 +30592,8 @@
             "1387541395",
             "1389236510",
             "1389111774",
-            "1390249444"
+            "1390249444",
+            "1390749772"
         ],
         "processed_activities": [
             "addprojecttostudio-335552352",
@@ -30626,10 +30627,11 @@
             "addprojecttostudio-351663870",
             "addprojecttostudio-351979073",
             "addprojecttostudio-351977489",
-            "addprojecttostudio-352450761"
+            "addprojecttostudio-352450761",
+            "addprojecttostudio-353098290"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-10"
+        "last_project_date": "2026-10-13"
     },
     "EspeonSiamese123": {
         "score": 100,
@@ -45103,7 +45105,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-10"
+            "2026-10-13"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -45114,7 +45116,8 @@
             "1326951780",
             "1376742362",
             "1385285831",
-            "1389957402"
+            "1389957402",
+            "1305078665"
         ],
         "processed_activities": [
             "addprojecttostudio-343631227",
@@ -45124,10 +45127,11 @@
             "addprojecttostudio-349916223",
             "addprojecttostudio-350241334",
             "addprojecttostudio-350332312",
-            "addprojecttostudio-352313081"
+            "addprojecttostudio-352313081",
+            "addprojecttostudio-353101382"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-10"
+        "last_project_date": "2026-10-13"
     },
     "firebird0727": {
         "score": 100,
@@ -47238,7 +47242,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-13"
+            "2026-10-13"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -47254,7 +47258,8 @@
             "addprojecttostudio-348024016",
             "addprojecttostudio-348131325",
             "addprojecttostudio-348129430",
-            "addprojecttostudio-348185201"
+            "addprojecttostudio-348185201",
+            "addprojecttostudio-353093129"
         ],
         "projects_today": 3,
         "last_project_date": "2026-09-13"
@@ -89507,7 +89512,7 @@
     },
     "Shay204": {
         "active_dates": [
-            "2026-10-11"
+            "2026-10-13"
         ],
         "last_comment_date": "2026-10-11",
         "total_deducted": 0,
@@ -89518,7 +89523,9 @@
             "334458351"
         ],
         "processed_projects": [],
-        "processed_activities": [],
+        "processed_activities": [
+            "becomecurator-159755748"
+        ],
         "projects_today": 0,
         "last_project_date": ""
     },
@@ -89665,6 +89672,22 @@
         "processed_comments": [],
         "processed_projects": [
             "1367263553"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-10-13"
+    },
+    "enzoiscool123456": {
+        "active_dates": [
+            "2026-10-13"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1388413353"
         ],
         "processed_activities": [],
         "projects_today": 1,
