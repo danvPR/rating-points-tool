@@ -13483,7 +13483,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330329258",
             "330329265",
             "330338005",
             "330342583",
@@ -13732,7 +13731,8 @@
             "334342640",
             "334342494",
             "334424387",
-            "334579299"
+            "334579299",
+            "334642307"
         ],
         "processed_projects": [
             "1332031524",
@@ -15771,7 +15771,7 @@
         "active_dates": [
             "2026-10-09"
         ],
-        "last_comment_date": "2026-09-17",
+        "last_comment_date": "2026-09-27",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -45322,7 +45322,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-08"
+            "2026-10-13"
         ],
         "last_comment_date": "2026-09-17",
         "total_deducted": 0,
@@ -45491,7 +45491,9 @@
             "334053165",
             "334053187",
             "334217205",
-            "334217192"
+            "334217192",
+            "334638859",
+            "334637193"
         ],
         "processed_projects": [
             "1369896163",
@@ -46134,16 +46136,22 @@
     "Sakuraa_Gaming": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-10-14"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1390790537"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-353106327"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-10-14"
     },
     "UraniumWolf": {
         "score": 100,
@@ -55219,7 +55227,10 @@
             "334438925",
             "334585667",
             "334585690",
-            "334596696"
+            "334596696",
+            "334639612",
+            "334637796",
+            "334637509"
         ],
         "processed_projects": [
             "1365488741",
@@ -57561,7 +57572,8 @@
             "addprojecttostudio-352371824",
             "addprojecttostudio-352882721",
             "addprojecttostudio-353024446",
-            "addprojecttostudio-353007142"
+            "addprojecttostudio-353007142",
+            "addprojecttostudio-353112833"
         ],
         "projects_today": 2,
         "last_project_date": "2026-10-13"
@@ -78955,6 +78967,12 @@
                     "author": "Hello_VN123",
                     "content": "sao bro biết &Ocirc;_&ocirc;",
                     "datetime_created": "2026-10-13T13:08:58.000Z"
+                },
+                "334637509": {
+                    "id": "334637509",
+                    "author": "Phatgresh",
+                    "content": "because you spam it plus the guidelines of this studio DO NOT allow advertisement. period.",
+                    "datetime_created": "2026-10-13T22:31:35.000Z"
                 }
             }
         },
@@ -79272,6 +79290,18 @@
                     "author": "Vuicungscratch_hehe",
                     "content": "&ecirc; cho t&ocirc;i xin l&agrave;m sao &dstrok;ể l&agrave;m m&acirc;na vậy \n",
                     "datetime_created": "2026-10-13T14:25:40.000Z"
+                },
+                "334637193": {
+                    "id": "334637193",
+                    "author": "gaua7_2",
+                    "content": "MẸ ƠI CON TR&Uacute;NG R ",
+                    "datetime_created": "2026-10-13T22:26:27.000Z"
+                },
+                "334642307": {
+                    "id": "334642307",
+                    "author": "gaua7",
+                    "content": "Phải chờ &dstrok;ợt tuyển nh&eacute;",
+                    "datetime_created": "2026-10-13T23:47:08.000Z"
                 }
             }
         },
@@ -79294,6 +79324,27 @@
             "author": "Hello_VN123",
             "content": "xem dự &aacute;n 2018 &dstrok;i xem c&oacute; hay ko",
             "datetime_created": "2026-10-13T13:17:11.000Z",
+            "replies": {}
+        },
+        "334639612": {
+            "id": "334639612",
+            "author": "Phatgresh",
+            "content": "kde linux is banana and why because https://linux.kde.org",
+            "datetime_created": "2026-10-13T23:01:46.000Z",
+            "replies": {}
+        },
+        "334638859": {
+            "id": "334638859",
+            "author": "gaua7_2",
+            "content": "day 1 l&agrave;m mama",
+            "datetime_created": "2026-10-13T22:50:24.000Z",
+            "replies": {}
+        },
+        "334637796": {
+            "id": "334637796",
+            "author": "Phatgresh",
+            "content": "i reported some comments of @Hello_VN123 forspam and advertisement",
+            "datetime_created": "2026-10-13T22:35:45.000Z",
             "replies": {}
         }
     },
@@ -80589,19 +80640,21 @@
     },
     "lolvietnam3415": {
         "active_dates": [
-            "2026-09-13"
+            "2026-10-14"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
+        "processed_projects": [
+            "1386575899"
+        ],
         "processed_activities": [
             "becomecurator-159059473"
         ],
-        "projects_today": 0,
-        "last_project_date": ""
+        "projects_today": 1,
+        "last_project_date": "2026-10-14"
     },
     "h4tak0_": {
         "active_dates": [],
