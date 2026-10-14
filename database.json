@@ -10642,7 +10642,7 @@
         "active_dates": [
             "2026-10-08"
         ],
-        "last_comment_date": "2026-09-17",
+        "last_comment_date": "2026-09-21",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -13479,7 +13479,7 @@
         "active_dates": [
             "2026-10-14"
         ],
-        "last_comment_date": "2026-09-17",
+        "last_comment_date": "2026-09-20",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -33126,7 +33126,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-11"
+            "2026-10-14"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -33154,7 +33154,8 @@
             "1384017074",
             "1385791784",
             "1387440449",
-            "1390475334"
+            "1390475334",
+            "1391713578"
         ],
         "processed_activities": [
             "removeprojectstudio-84001528",
@@ -33185,10 +33186,11 @@
             "addprojecttostudio-351041283",
             "addprojecttostudio-351129786",
             "addprojecttostudio-352649195",
-            "addprojecttostudio-352778750"
+            "addprojecttostudio-352778750",
+            "addprojecttostudio-353264461"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-11"
+        "last_project_date": "2026-10-14"
     },
     "sky_vn": {
         "score": 100,
@@ -50119,7 +50121,8 @@
         "processed_activities": [
             "addprojecttostudio-347082233",
             "addprojecttostudio-347117955",
-            "addprojecttostudio-353247869"
+            "addprojecttostudio-353247869",
+            "addprojecttostudio-353256493"
         ],
         "projects_today": 1,
         "last_project_date": "2026-10-14"
@@ -54080,9 +54083,9 @@
     },
     "bicoidev": {
         "active_dates": [
-            "2026-10-13"
+            "2026-10-14"
         ],
-        "last_comment_date": "2026-09-17",
+        "last_comment_date": "2026-09-18",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -54222,7 +54225,8 @@
             "334494026",
             "334528601",
             "334517352",
-            "334528513"
+            "334528513",
+            "334716261"
         ],
         "processed_projects": [
             "1345850613",
@@ -79618,6 +79622,13 @@
             "content": "@betieucuong vi phạm v&igrave; &dstrok;&abreve;ng qu&aacute; 8/5 project 1 ng&agrave;y",
             "datetime_created": "2026-10-14T13:55:39.000Z",
             "replies": {}
+        },
+        "334716261": {
+            "id": "334716261",
+            "author": "bicoidev",
+            "content": "POV: khi &dstrok;ang &dstrok;i tr&ecirc;n &dstrok;ường v&agrave; thấy 1 &dstrok;ống l&aacute; kh&ocirc;...",
+            "datetime_created": "2026-10-14T22:52:09.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -90135,6 +90146,22 @@
         "processed_comments": [],
         "processed_projects": [
             "1391199058"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-10-14"
+    },
+    "WarriorWings123": {
+        "active_dates": [
+            "2026-10-14"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1391183918"
         ],
         "processed_activities": [],
         "projects_today": 1,
