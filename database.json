@@ -33679,7 +33679,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-14"
+            "2026-10-15"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -33806,7 +33806,8 @@
             "addprojecttostudio-352151238",
             "addprojecttostudio-352551345",
             "addprojecttostudio-353060415",
-            "addprojecttostudio-353249213"
+            "addprojecttostudio-353249213",
+            "addprojecttostudio-353287628"
         ],
         "projects_today": 1,
         "last_project_date": "2026-10-14"
@@ -36813,7 +36814,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-04"
+            "2026-10-15"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -36823,15 +36824,17 @@
         "processed_projects": [
             "1366350104",
             "1385289861",
-            "1387829128"
+            "1387829128",
+            "1390298060"
         ],
         "processed_activities": [
             "addprojecttostudio-349535983",
             "addprojecttostudio-350189455",
-            "addprojecttostudio-351366791"
+            "addprojecttostudio-351366791",
+            "addprojecttostudio-353284560"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-04"
+        "last_project_date": "2026-10-15"
     },
     "Gobo000": {
         "score": 100,
@@ -43442,16 +43445,95 @@
     "NGOTRIKHUE": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-10-15"
+        ],
         "last_comment_date": "",
-        "total_deducted": 0,
+        "total_deducted": 5,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1366741769",
+            "1366066272",
+            "1367399430",
+            "1374511892",
+            "1352429341",
+            "1374274542",
+            "1374539592",
+            "1374524833",
+            "1368715584",
+            "1374762639",
+            "1375353947",
+            "1375358394",
+            "1376121639",
+            "1376129014",
+            "1376194020",
+            "1376496730",
+            "1376306854",
+            "1376310531",
+            "1378028202",
+            "1377593773",
+            "1378345882",
+            "1378338881",
+            "1379422824",
+            "1378763452",
+            "1379367071",
+            "1380372341",
+            "1381396395",
+            "1376382807",
+            "1381780885",
+            "1381407296",
+            "1382106676",
+            "1382495458",
+            "1382963530",
+            "1382870495",
+            "1383012636",
+            "1383010309",
+            "1391732069",
+            "1387882586"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-353278037",
+            "addprojecttostudio-353278036",
+            "addprojecttostudio-353278029",
+            "addprojecttostudio-353278021",
+            "addprojecttostudio-353278019",
+            "addprojecttostudio-353278016",
+            "addprojecttostudio-353278013",
+            "addprojecttostudio-353278010",
+            "addprojecttostudio-353278008",
+            "addprojecttostudio-353277999",
+            "addprojecttostudio-353277985",
+            "addprojecttostudio-353277983",
+            "addprojecttostudio-353277981",
+            "addprojecttostudio-353277974",
+            "addprojecttostudio-353277972",
+            "addprojecttostudio-353277965",
+            "addprojecttostudio-353277962",
+            "addprojecttostudio-353277956",
+            "addprojecttostudio-353277950",
+            "addprojecttostudio-353277947",
+            "addprojecttostudio-353277945",
+            "addprojecttostudio-353277939",
+            "addprojecttostudio-353277930",
+            "addprojecttostudio-353277928",
+            "addprojecttostudio-353277926",
+            "addprojecttostudio-353277924",
+            "addprojecttostudio-353277895",
+            "addprojecttostudio-353277892",
+            "addprojecttostudio-353277890",
+            "addprojecttostudio-353277886",
+            "addprojecttostudio-353277850",
+            "addprojecttostudio-353277847",
+            "addprojecttostudio-353277844",
+            "addprojecttostudio-353277837",
+            "addprojecttostudio-353277835",
+            "addprojecttostudio-353277831",
+            "addprojecttostudio-353277830"
+        ],
+        "projects_today": 38,
+        "last_project_date": "2026-10-15"
     },
     "trinhminhthinh": {
         "score": 100,
@@ -56791,7 +56873,7 @@
     },
     "anphuc3009": {
         "active_dates": [
-            "2026-10-13"
+            "2026-10-14"
         ],
         "last_comment_date": "2026-09-30",
         "total_deducted": 0,
@@ -56820,7 +56902,8 @@
             "addprojecttostudio-344403740",
             "addprojecttostudio-346273519",
             "addprojecttostudio-349280888",
-            "addprojecttostudio-349711339"
+            "addprojecttostudio-349711339",
+            "addprojecttostudio-353278537"
         ],
         "projects_today": 1,
         "last_project_date": "2026-10-13"
@@ -63478,7 +63561,8 @@
             "2026-09-10",
             "2026-09-29",
             "2026-10-01",
-            "2026-10-07"
+            "2026-10-07",
+            "2026-10-15"
         ],
         "last_comment_date": "",
         "total_deducted": 5,
@@ -63506,11 +63590,12 @@
             "1385944187",
             "1386265671",
             "1387031033",
-            "1389162743"
+            "1389162743",
+            "1391694473"
         ],
         "processed_activities": [],
         "projects_today": 1,
-        "last_project_date": "2026-10-07"
+        "last_project_date": "2026-10-15"
     },
     "thientan041215": {
         "active_dates": [
