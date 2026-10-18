@@ -5084,12 +5084,15 @@
         "processed_comments": [
             "332505453"
         ],
-        "processed_projects": [],
-        "processed_activities": [
-            "becomecurator-159854385"
+        "processed_projects": [
+            "1392875258"
         ],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_activities": [
+            "becomecurator-159854385",
+            "addprojecttostudio-353886890"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-10-18"
     },
     "khanhha2506": {
         "score": 100,
@@ -10539,7 +10542,7 @@
         "active_dates": [
             "2026-10-15"
         ],
-        "last_comment_date": "2026-09-24",
+        "last_comment_date": "2026-09-25",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -14621,7 +14624,14 @@
             "334910368",
             "334910247",
             "334958135",
-            "334958160"
+            "334958160",
+            "334999738",
+            "334992849",
+            "334992686",
+            "334992217",
+            "334992296",
+            "334992264",
+            "334992726"
         ],
         "processed_projects": [
             "1366283724",
@@ -14629,7 +14639,6 @@
             "1385754288"
         ],
         "processed_activities": [
-            "updatestudio-55106270",
             "updatestudio-55113995",
             "updatestudio-55115818",
             "removeprojectstudio-84296864",
@@ -14728,7 +14737,8 @@
             "removeprojectstudio-85194521",
             "removeprojectstudio-85194519",
             "removeprojectstudio-85194517",
-            "removeprojectstudio-85194515"
+            "removeprojectstudio-85194515",
+            "removeprojectstudio-85194742"
         ],
         "projects_today": 1,
         "last_project_date": "2026-10-08"
@@ -18193,7 +18203,8 @@
             "1382829147",
             "1385223625",
             "1385850433",
-            "1392881577"
+            "1392881577",
+            "1392938391"
         ],
         "processed_activities": [
             "addprojecttostudio-342129894",
@@ -18203,9 +18214,10 @@
             "addprojecttostudio-349027582",
             "addprojecttostudio-350135698",
             "addprojecttostudio-350526309",
-            "addprojecttostudio-353851321"
+            "addprojecttostudio-353851321",
+            "addprojecttostudio-353894067"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-10-18"
     },
     "orionblockguyanimate": {
@@ -35335,7 +35347,8 @@
             "1379691697",
             "1379993713",
             "1386023650",
-            "1392810511"
+            "1392810511",
+            "1380181106"
         ],
         "processed_activities": [
             "addprojecttostudio-342226304",
@@ -35347,9 +35360,10 @@
             "addprojecttostudio-347635491",
             "addprojecttostudio-347708359",
             "addprojecttostudio-350601432",
-            "addprojecttostudio-353781315"
+            "addprojecttostudio-353781315",
+            "addprojecttostudio-353896101"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-10-18"
     },
     "27cnguyen": {
@@ -59011,7 +59025,7 @@
     },
     "votrinhan": {
         "active_dates": [
-            "2026-10-17"
+            "2026-10-18"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -59066,7 +59080,8 @@
             "addprojecttostudio-353059492",
             "addprojecttostudio-353527068",
             "addprojecttostudio-353542600",
-            "addprojecttostudio-353709419"
+            "addprojecttostudio-353709419",
+            "addprojecttostudio-353889565"
         ],
         "projects_today": 1,
         "last_project_date": "2026-10-16"
@@ -59945,7 +59960,7 @@
     },
     "_Mio_ChanhLeo_": {
         "active_dates": [
-            "2026-10-16"
+            "2026-10-18"
         ],
         "last_comment_date": "2026-09-03",
         "total_deducted": 0,
@@ -59969,7 +59984,8 @@
             "1382550819",
             "1382891463",
             "1385414264",
-            "1392424544"
+            "1392424544",
+            "1392440540"
         ],
         "processed_activities": [
             "addprojecttostudio-347800088",
@@ -59978,10 +59994,11 @@
             "addprojecttostudio-348870708",
             "addprojecttostudio-349153294",
             "addprojecttostudio-350287216",
-            "addprojecttostudio-353532699"
+            "addprojecttostudio-353532699",
+            "addprojecttostudio-353899289"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-16"
+        "last_project_date": "2026-10-18"
     },
     "thtttyt-0029": {
         "active_dates": [
@@ -80905,6 +80922,12 @@
                     "author": "vietcakcalimaidinh",
                     "content": "Cali m&atilde;i &dstrok;ỉnh",
                     "datetime_created": "2026-10-18T12:01:11.000Z"
+                },
+                "334992726": {
+                    "id": "334992726",
+                    "author": "SayHiWithMe",
+                    "content": "bait ngu th&igrave; &dstrok;ừng thả",
+                    "datetime_created": "2026-10-18T14:48:37.000Z"
                 }
             }
         },
@@ -80933,21 +80956,42 @@
             "author": "uN_kNowNn",
             "content": "@englishbyaVietnamese spam ạ",
             "datetime_created": "2026-10-18T14:23:26.000Z",
-            "replies": {}
+            "replies": {
+                "334992217": {
+                    "id": "334992217",
+                    "author": "SayHiWithMe",
+                    "content": "Cảm ơn bạn &dstrok;&atilde; b&aacute;o c&aacute;o! Ch&uacute;ng m&igrave;nh sẽ sớm xem x&eacute;t v&agrave; xử l&yacute; b&aacute;o c&aacute;o của bạn! <img src=\"/images/emoji/aww-cat.png\" class=\"emoji\" alt=\"aww-cat emoji\">",
+                    "datetime_created": "2026-10-18T14:40:31.000Z"
+                }
+            }
         },
         "334989477": {
             "id": "334989477",
             "author": "Dauluyn",
             "content": "Cho m&igrave;nh v&ocirc; với",
             "datetime_created": "2026-10-18T13:56:58.000Z",
-            "replies": {}
+            "replies": {
+                "334992296": {
+                    "id": "334992296",
+                    "author": "SayHiWithMe",
+                    "content": "M&igrave;nh &dstrok;&atilde; gửi lời mời rồi ạ! Bạn vui l&ograve;ng v&agrave;o &dstrok;&acirc;y kiểm tra nh&eacute;! (nếu hộp thư kh&ocirc;ng c&oacute; lời mời): https://scratch.mit.edu/studios/33509364/curators",
+                    "datetime_created": "2026-10-18T14:41:45.000Z"
+                }
+            }
         },
         "334986833": {
             "id": "334986833",
             "author": "CanhThienNek",
             "content": "@qua_dep_trai &dstrok;&abreve;ng lố dự &aacute;n",
             "datetime_created": "2026-10-18T13:23:33.000Z",
-            "replies": {}
+            "replies": {
+                "334992264": {
+                    "id": "334992264",
+                    "author": "SayHiWithMe",
+                    "content": "Cảm ơn v&igrave; b&aacute;o c&aacute;o của bạn! Ch&uacute;ng m&igrave;nh sẽ tiến h&agrave;nh xem x&eacute;t v&agrave; xử l&yacute; b&aacute;o c&aacute;o từ bạn! Cảm ơn! <img src=\"/images/emoji/wink-cat.png\" class=\"emoji\" alt=\"wink-cat emoji\">",
+                    "datetime_created": "2026-10-18T14:41:11.000Z"
+                }
+            }
         },
         "334986351": {
             "id": "334986351",
@@ -80969,6 +81013,27 @@
                     "datetime_created": "2026-10-18T13:08:43.000Z"
                 }
             }
+        },
+        "334999738": {
+            "id": "334999738",
+            "author": "SayHiWithMe",
+            "content": "00:00 (UTC+7) || P/s: Học b&agrave;i...",
+            "datetime_created": "2026-10-18T17:01:20.000Z",
+            "replies": {}
+        },
+        "334992849": {
+            "id": "334992849",
+            "author": "SayHiWithMe",
+            "content": "(Tự nhi&ecirc;n nhớ DANV hồi c&utilde; qu&aacute;...)",
+            "datetime_created": "2026-10-18T14:50:34.000Z",
+            "replies": {}
+        },
+        "334992686": {
+            "id": "334992686",
+            "author": "SayHiWithMe",
+            "content": "[TB] Tui sẽ kh&ocirc;ng active nhiều tr&ecirc;n Scratch v&igrave; l&yacute; do học tập v&agrave; một số việc kh&aacute;c! (một số Manager trong Ban Quản L&yacute; c&utilde;ng thế), n&ecirc;n một số sự kiện như Tết Cổ Truyền sẽ diễn ra muộn hay qua loa do vấn &dstrok;ề thời gian! Xin cảm ơn v&igrave; bạn &dstrok;&atilde; &dstrok;ọc, nếu bạn c&oacute; thắc mắc h&aacute;y li&ecirc;n hệ Ban Quản L&yacute; &dstrok;ể nhận hỗ trợ! <img src=\"/images/emoji/aww-cat.png\" class=\"emoji\" alt=\"aww-cat emoji\"> (thời gian reply lại &iacute;t nhất l&agrave; 2-3 tiếng)",
+            "datetime_created": "2026-10-18T14:47:58.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -91365,7 +91430,10 @@
         "processed_projects": [
             "1392865208"
         ],
-        "processed_activities": [],
+        "processed_activities": [
+            "addprojecttostudio-353883405",
+            "removeprojectstudio-85194631"
+        ],
         "projects_today": 1,
         "last_project_date": "2026-10-18"
     },
@@ -91578,7 +91646,9 @@
         "last_project_date": "2026-10-14"
     },
     "betieucuong": {
-        "active_dates": [],
+        "active_dates": [
+            "2026-10-18"
+        ],
         "last_comment_date": "",
         "total_deducted": 10,
         "new_comments": [],
@@ -91598,7 +91668,8 @@
             "1392926732",
             "1392924546",
             "1392921712",
-            "1392923067"
+            "1392923067",
+            "1392935658"
         ],
         "processed_activities": [
             "addprojecttostudio-353197782",
@@ -91611,9 +91682,10 @@
             "addprojecttostudio-353197768",
             "becomecurator-159772303",
             "addprojecttostudio-353805956",
-            "addprojecttostudio-353848750"
+            "addprojecttostudio-353848750",
+            "addprojecttostudio-353888866"
         ],
-        "projects_today": 6,
+        "projects_today": 7,
         "last_project_date": "2026-10-18"
     },
     "Ta_ThanhAn": {
