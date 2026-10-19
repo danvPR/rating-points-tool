@@ -5077,12 +5077,13 @@
         "active_dates": [
             "2026-10-18"
         ],
-        "last_comment_date": "2026-09-16",
+        "last_comment_date": "2026-10-18",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "332505453"
+            "332505453",
+            "335016624"
         ],
         "processed_projects": [
             "1392875258"
@@ -13509,7 +13510,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330450844",
             "330455289",
             "330483164",
             "330481885",
@@ -13758,7 +13758,8 @@
             "334965815",
             "334974082",
             "334985552",
-            "335015998"
+            "335015998",
+            "335017884"
         ],
         "processed_projects": [
             "1332031524",
@@ -50482,7 +50483,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-17"
+            "2026-10-19"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -50491,15 +50492,17 @@
         "processed_comments": [],
         "processed_projects": [
             "1334110970",
-            "1391773289"
+            "1391773289",
+            "1392782168"
         ],
         "processed_activities": [
             "addprojecttostudio-346397562",
             "addprojecttostudio-348797424",
-            "addprojecttostudio-353620526"
+            "addprojecttostudio-353620526",
+            "addprojecttostudio-353956418"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-17"
+        "last_project_date": "2026-10-19"
     },
     "the_foxfurry10": {
         "score": 100,
@@ -62920,7 +62923,7 @@
     },
     "chris_on_scratch2": {
         "active_dates": [
-            "2026-10-05"
+            "2026-10-18"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -62937,7 +62940,9 @@
             "addprojecttostudio-348355230",
             "removeprojectstudio-84866833",
             "addprojecttostudio-351692411",
-            "addprojecttostudio-351692410"
+            "addprojecttostudio-351692410",
+            "addprojecttostudio-353945402",
+            "removeprojectstudio-85203389"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-15"
@@ -63364,7 +63369,7 @@
     },
     "Banhmimini123": {
         "active_dates": [
-            "2026-10-17"
+            "2026-10-19"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -63396,7 +63401,8 @@
             "1375295872",
             "1388473450",
             "1390192244",
-            "1369754814"
+            "1369754814",
+            "1393015418"
         ],
         "processed_activities": [
             "becomecurator-158529276",
@@ -63421,10 +63427,11 @@
             "addprojecttostudio-350640586",
             "addprojecttostudio-351226966",
             "addprojecttostudio-351717125",
-            "addprojecttostudio-353521278"
+            "addprojecttostudio-353521278",
+            "addprojecttostudio-353960709"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-17"
+        "last_project_date": "2026-10-19"
     },
     "Banrainbow": {
         "active_dates": [
@@ -81054,6 +81061,20 @@
             "content": "[TB] Tui sẽ kh&ocirc;ng active nhiều tr&ecirc;n Scratch v&igrave; l&yacute; do học tập v&agrave; một số việc kh&aacute;c! (một số Manager trong Ban Quản L&yacute; c&utilde;ng thế), n&ecirc;n một số sự kiện như Tết Cổ Truyền sẽ diễn ra muộn hay qua loa do vấn &dstrok;ề thời gian! Xin cảm ơn v&igrave; bạn &dstrok;&atilde; &dstrok;ọc, nếu bạn c&oacute; thắc mắc h&aacute;y li&ecirc;n hệ Ban Quản L&yacute; &dstrok;ể nhận hỗ trợ! <img src=\"/images/emoji/aww-cat.png\" class=\"emoji\" alt=\"aww-cat emoji\"> (thời gian reply lại &iacute;t nhất l&agrave; 2-3 tiếng)",
             "datetime_created": "2026-10-18T14:47:58.000Z",
             "replies": {}
+        },
+        "335016624": {
+            "id": "335016624",
+            "author": "ptqan",
+            "content": "T&ocirc;i &Dstrok;&atilde; Tạo Ra Một Tr&ograve; Chơi Giả Lập Sử Dụng Một CHiếc Laptop Chạy Bằng Củ Khoai T&acirc;y Hay C&ograve;n &Dstrok;ược Gọi L&agrave; &quot;Scratell&quot; , Hiện Tại LapTop N&agrave;y Chỉ C&oacute; Một Tr&ograve; Chơi Duy Nhất L&agrave; &quot;k&eacute;o b&uacute;a bao&quot; https://scratch.mit.edu/projects/1392875258",
+            "datetime_created": "2026-10-18T22:27:22.000Z",
+            "replies": {
+                "335017884": {
+                    "id": "335017884",
+                    "author": "gaua7",
+                    "content": "hạn chế qc",
+                    "datetime_created": "2026-10-18T22:44:22.000Z"
+                }
+            }
         }
     },
     "Thai_hung": {
@@ -92236,5 +92257,21 @@
         "processed_activities": [],
         "projects_today": 0,
         "last_project_date": ""
+    },
+    "BrLopez13": {
+        "active_dates": [
+            "2026-10-19"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "148932259"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-10-19"
     }
 }
