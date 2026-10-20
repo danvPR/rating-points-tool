@@ -3969,9 +3969,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-02"
+            "2026-10-20"
         ],
-        "last_comment_date": "2026-09-02",
+        "last_comment_date": "2026-10-20",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -3979,7 +3979,8 @@
             "329168229",
             "329316882",
             "329382767",
-            "331535312"
+            "331535312",
+            "335116124"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -9362,7 +9363,7 @@
         "active_dates": [
             "2026-10-12"
         ],
-        "last_comment_date": "2026-09-25",
+        "last_comment_date": "2026-10-12",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -10595,7 +10596,9 @@
             "addprojecttostudio-352622417",
             "addprojecttostudio-353325036",
             "removeprojectstudio-85107556",
-            "addprojecttostudio-354041478"
+            "addprojecttostudio-354041478",
+            "addprojecttostudio-354109712",
+            "removeprojectstudio-85229288"
         ],
         "projects_today": 1,
         "last_project_date": "2026-09-18"
@@ -13509,16 +13512,13 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-18"
+            "2026-10-19"
         ],
         "last_comment_date": "2026-09-25",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330455289",
-            "330483164",
-            "330481885",
             "330487338",
             "330481916",
             "330494360",
@@ -13765,7 +13765,10 @@
             "334974082",
             "334985552",
             "335015998",
-            "335017884"
+            "335017884",
+            "335105526",
+            "335102835",
+            "335103745"
         ],
         "processed_projects": [
             "1332031524",
@@ -36012,7 +36015,9 @@
             "2026-10-09",
             "2026-10-10",
             "2026-10-17",
-            "2026-10-18"
+            "2026-10-18",
+            "2026-10-19",
+            "2026-10-20"
         ],
         "last_comment_date": "",
         "total_deducted": 10,
@@ -36048,7 +36053,8 @@
             "1389702561",
             "1390101850",
             "1392566797",
-            "1392163498"
+            "1392163498",
+            "1393427791"
         ],
         "processed_activities": [
             "addprojecttostudio-341667514",
@@ -36081,10 +36087,11 @@
             "addprojecttostudio-352160590",
             "addprojecttostudio-352342198",
             "addprojecttostudio-353598548",
-            "addprojecttostudio-353776761"
+            "addprojecttostudio-353776761",
+            "addprojecttostudio-354107962"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-18"
+        "last_project_date": "2026-10-20"
     },
     "ThatOneGuy2976": {
         "score": 100,
@@ -61934,7 +61941,9 @@
             "2026-09-26",
             "2026-10-03",
             "2026-10-05",
-            "2026-10-12"
+            "2026-10-12",
+            "2026-10-19",
+            "2026-10-20"
         ],
         "last_comment_date": "",
         "total_deducted": 5,
@@ -61962,7 +61971,8 @@
             "1385233923",
             "1387731019",
             "1387394051",
-            "1390447651"
+            "1390447651",
+            "1392000223"
         ],
         "processed_activities": [
             "addprojecttostudio-343670678",
@@ -61981,10 +61991,11 @@
             "addprojecttostudio-350163033",
             "addprojecttostudio-351290477",
             "addprojecttostudio-351632059",
-            "addprojecttostudio-352878437"
+            "addprojecttostudio-352878437",
+            "addprojecttostudio-354102420"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-12"
+        "last_project_date": "2026-10-20"
     },
     "Doing_something": {
         "active_dates": [
@@ -81136,7 +81147,14 @@
             "author": "SayHiWithMe",
             "content": "(Tự nhi&ecirc;n nhớ DANV hồi c&utilde; qu&aacute;...)",
             "datetime_created": "2026-10-18T14:50:34.000Z",
-            "replies": {}
+            "replies": {
+                "335102835": {
+                    "id": "335102835",
+                    "author": "gaua7",
+                    "content": "mee too nếu m&agrave; ko c&oacute; heythisismyacc th&igrave; danv &dstrok;&atilde; y&ecirc;n ổn hơn r",
+                    "datetime_created": "2026-10-19T21:28:51.000Z"
+                }
+            }
         },
         "334992686": {
             "id": "334992686",
@@ -81149,6 +81167,12 @@
                     "author": "cas_turtor",
                     "content": "&dstrok;ể tui lm quản l&yacute;:D",
                     "datetime_created": "2026-10-19T10:47:03.000Z"
+                },
+                "335103745": {
+                    "id": "335103745",
+                    "author": "gaua7",
+                    "content": "mama on si&ecirc;u nhiều",
+                    "datetime_created": "2026-10-19T21:41:01.000Z"
                 }
             }
         },
@@ -81199,6 +81223,20 @@
             "author": "ReallySopa",
             "content": "&Dstrok;&atilde; dịch Scratchtober 2026 th&aacute;nh c&ocirc;ng... NHANH, GỌN, LẸ! <img src=\"/images/emoji/aww-cat.png\" class=\"emoji\" alt=\"aww-cat emoji\">",
             "datetime_created": "2026-10-19T10:37:20.000Z",
+            "replies": {}
+        },
+        "335116124": {
+            "id": "335116124",
+            "author": "Rabbit_San",
+            "content": "ch&uacute;c 20/10 vui vẻ nha ae",
+            "datetime_created": "2026-10-20T00:18:57.000Z",
+            "replies": {}
+        },
+        "335105526": {
+            "id": "335105526",
+            "author": "gaua7",
+            "content": "Happy Ng&agrave;y Phụ Nữ Việt Nam :) <img src=\"/images/emoji/meow.png\" class=\"emoji\" alt=\"meow emoji\">",
+            "datetime_created": "2026-10-19T22:04:49.000Z",
             "replies": {}
         }
     },
