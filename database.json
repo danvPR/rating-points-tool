@@ -10858,7 +10858,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-19"
+            "2026-10-20"
         ],
         "last_comment_date": "2026-09-26",
         "total_deducted": 0,
@@ -10942,7 +10942,9 @@
             "334841934",
             "334884508",
             "335039350",
-            "335052854"
+            "335052854",
+            "335132914",
+            "335133171"
         ],
         "processed_projects": [
             "1329652114",
@@ -10982,24 +10984,6 @@
             "1393153526"
         ],
         "processed_activities": [
-            "removeprojectstudio-85084813",
-            "addprojecttostudio-353178430",
-            "addprojecttostudio-353223344",
-            "removeprojectstudio-85092017",
-            "addprojecttostudio-353223250",
-            "removeprojectstudio-85091967",
-            "addprojecttostudio-353223238",
-            "removeprojectstudio-85091959",
-            "addprojecttostudio-353212840",
-            "removeprojectstudio-85090345",
-            "addprojecttostudio-353212803",
-            "removeprojectstudio-85090329",
-            "addprojecttostudio-353212762",
-            "removeprojectstudio-85090312",
-            "addprojecttostudio-353307657",
-            "removeprojectstudio-85104603",
-            "addprojecttostudio-353307478",
-            "removeprojectstudio-85104563",
             "addprojecttostudio-353307238",
             "removeprojectstudio-85104515",
             "addprojecttostudio-353339469",
@@ -11081,7 +11065,25 @@
             "addprojecttostudio-354050601",
             "removeprojectstudio-85219462",
             "addprojecttostudio-354050541",
-            "removeprojectstudio-85219448"
+            "removeprojectstudio-85219448",
+            "addprojecttostudio-354145514",
+            "removeprojectstudio-85235155",
+            "addprojecttostudio-354145499",
+            "removeprojectstudio-85235145",
+            "addprojecttostudio-354145450",
+            "removeprojectstudio-85235128",
+            "addprojecttostudio-354141829",
+            "removeprojectstudio-85234434",
+            "addprojecttostudio-354141796",
+            "removeprojectstudio-85234409",
+            "addprojecttostudio-354141732",
+            "removeprojectstudio-85234382",
+            "addprojecttostudio-354138976",
+            "removeprojectstudio-85233932",
+            "addprojecttostudio-354138926",
+            "removeprojectstudio-85233921",
+            "addprojecttostudio-354138878",
+            "removeprojectstudio-85233902"
         ],
         "projects_today": 1,
         "last_project_date": "2026-10-19"
@@ -23719,7 +23721,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-05"
+            "2026-10-20"
         ],
         "last_comment_date": "2026-10-04",
         "total_deducted": 0,
@@ -23754,7 +23756,8 @@
         "processed_projects": [
             "1329643401",
             "1368598934",
-            "1367438910"
+            "1367438910",
+            "1393257651"
         ],
         "processed_activities": [
             "becomecurator-158299178",
@@ -23770,10 +23773,11 @@
             "removeprojectstudio-84413145",
             "addprojecttostudio-350148216",
             "removeprojectstudio-84606023",
-            "becomecurator-159568202"
+            "becomecurator-159568202",
+            "addprojecttostudio-354148546"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-03"
+        "last_project_date": "2026-10-20"
     },
     "babaisyou544": {
         "score": 100,
@@ -45782,7 +45786,7 @@
         "active_dates": [
             "2026-10-13"
         ],
-        "last_comment_date": "2026-09-24",
+        "last_comment_date": "2026-09-25",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -54580,7 +54584,7 @@
         "active_dates": [
             "2026-10-19"
         ],
-        "last_comment_date": "2026-09-24",
+        "last_comment_date": "2026-09-25",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -81240,6 +81244,20 @@
             "content": "Happy Ng&agrave;y Phụ Nữ Việt Nam :) <img src=\"/images/emoji/meow.png\" class=\"emoji\" alt=\"meow emoji\">",
             "datetime_created": "2026-10-19T22:04:49.000Z",
             "replies": {}
+        },
+        "335132914": {
+            "id": "335132914",
+            "author": "ReallySopa",
+            "content": "Ch&uacute;c Ng&agrave;y Phụ nữ Việt Nam! <img src=\"/images/emoji/aww-cat.png\" class=\"emoji\" alt=\"aww-cat emoji\"> <img src=\"/images/emoji/10mil.png\" class=\"emoji\" alt=\"10mil emoji\">",
+            "datetime_created": "2026-10-20T06:23:35.000Z",
+            "replies": {
+                "335133171": {
+                    "id": "335133171",
+                    "author": "ReallySopa",
+                    "content": "&Dstrok;ể ch&agrave;o mừng ng&agrave;y n&agrave;y, t&ocirc;i &dstrok;&atilde; d&ugrave;ng fan-art bởi @nfp117 (t&agrave;i khoản bị x&oacute;a rồi, giờ người &dstrok;&oacute; &dstrok;&acirc;u rồi?) tr&ecirc;n Scratch, từ c&aacute;i art contest (cho 1200 follower). Ch&uacute;c may mắn xanh cho tất cả phụ nữ ở Việt Nam! ☘️",
+                    "datetime_created": "2026-10-20T06:34:08.000Z"
+                }
+            }
         }
     },
     "Thai_hung": {
