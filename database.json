@@ -33209,16 +33209,22 @@
     "ZIAD4REAL": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-10-21"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1393797652"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-354268016"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-10-21"
     },
     "RafaelThecreator0ofc": {
         "score": 100,
@@ -35355,16 +35361,22 @@
     "Kuro1t": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-10-21"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1384803426"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-354268703"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-10-21"
     },
     "SocietyDevz": {
         "score": 100,
@@ -36053,7 +36065,8 @@
             "2026-10-17",
             "2026-10-18",
             "2026-10-19",
-            "2026-10-20"
+            "2026-10-20",
+            "2026-10-21"
         ],
         "last_comment_date": "",
         "total_deducted": 10,
@@ -36090,7 +36103,8 @@
             "1390101850",
             "1392566797",
             "1392163498",
-            "1393427791"
+            "1393427791",
+            "1393880551"
         ],
         "processed_activities": [
             "addprojecttostudio-341667514",
@@ -36124,10 +36138,11 @@
             "addprojecttostudio-352342198",
             "addprojecttostudio-353598548",
             "addprojecttostudio-353776761",
-            "addprojecttostudio-354107962"
+            "addprojecttostudio-354107962",
+            "addprojecttostudio-354269254"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-20"
+        "last_project_date": "2026-10-21"
     },
     "ThatOneGuy2976": {
         "score": 100,
@@ -92823,7 +92838,7 @@
     },
     "Qu1Van4nh": {
         "active_dates": [
-            "2026-10-20"
+            "2026-10-21"
         ],
         "last_comment_date": "2026-10-20",
         "total_deducted": 0,
@@ -92833,7 +92848,9 @@
             "335150819"
         ],
         "processed_projects": [],
-        "processed_activities": [],
+        "processed_activities": [
+            "becomecurator-159926297"
+        ],
         "projects_today": 0,
         "last_project_date": ""
     }
