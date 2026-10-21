@@ -13532,7 +13532,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330526977",
             "330526993",
             "330526699",
             "330526628",
@@ -13781,7 +13780,8 @@
             "335256974",
             "335251393",
             "335243978",
-            "335243736"
+            "335243736",
+            "335280804"
         ],
         "processed_projects": [
             "1332031524",
@@ -38090,7 +38090,8 @@
             "334885901",
             "334940034",
             "335152899",
-            "335256594"
+            "335256594",
+            "335279965"
         ],
         "processed_projects": [
             "1364266975",
@@ -54846,7 +54847,8 @@
             "335039578",
             "335039550",
             "335171737",
-            "335234457"
+            "335234457",
+            "335281895"
         ],
         "processed_projects": [
             "1345850613",
@@ -81763,7 +81765,14 @@
             "author": "gaua7",
             "content": "fact: t chưa từng nhắn cập nhận thời gian trong ng&agrave;y như &quot;l&ocirc; buổi s&aacute;ng&quot; trong 1 th&aacute;ng l&agrave; l&uacute;c h&egrave; th&igrave; h&ocirc;m n&agrave;o c&utilde;ng nhắn :)",
             "datetime_created": "2026-10-21T15:53:16.000Z",
-            "replies": {}
+            "replies": {
+                "335281895": {
+                    "id": "335281895",
+                    "author": "bicoidev",
+                    "content": "&quot;ch&uacute;c ngủ ngol&quot; nữa chứ :))",
+                    "datetime_created": "2026-10-21T23:14:03.000Z"
+                }
+            }
         },
         "335256594": {
             "id": "335256594",
@@ -81776,6 +81785,18 @@
                     "author": "gaua7",
                     "content": "&quot;mng&quot; l&agrave; j v",
                     "datetime_created": "2026-10-21T15:51:37.000Z"
+                },
+                "335279965": {
+                    "id": "335279965",
+                    "author": "Fleiroscracth",
+                    "content": "Manager",
+                    "datetime_created": "2026-10-21T22:43:45.000Z"
+                },
+                "335280804": {
+                    "id": "335280804",
+                    "author": "gaua7",
+                    "content": "v t l&agrave; 1% c&ograve;n lại",
+                    "datetime_created": "2026-10-21T22:56:39.000Z"
                 }
             }
         },
