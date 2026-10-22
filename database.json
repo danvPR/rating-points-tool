@@ -3975,9 +3975,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-20"
+            "2026-10-22"
         ],
-        "last_comment_date": "2026-10-20",
+        "last_comment_date": "2026-10-22",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -3986,7 +3986,8 @@
             "329316882",
             "329382767",
             "331535312",
-            "335116124"
+            "335116124",
+            "335289033"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -63592,7 +63593,7 @@
     },
     "Banhmimini123": {
         "active_dates": [
-            "2026-10-19"
+            "2026-10-22"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -63625,7 +63626,8 @@
             "1388473450",
             "1390192244",
             "1369754814",
-            "1393015418"
+            "1393015418",
+            "1394356065"
         ],
         "processed_activities": [
             "becomecurator-158529276",
@@ -63651,10 +63653,11 @@
             "addprojecttostudio-351226966",
             "addprojecttostudio-351717125",
             "addprojecttostudio-353521278",
-            "addprojecttostudio-353960709"
+            "addprojecttostudio-353960709",
+            "addprojecttostudio-354440944"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-19"
+        "last_project_date": "2026-10-22"
     },
     "Banrainbow": {
         "active_dates": [
@@ -81428,6 +81431,12 @@
                     "author": "3mmango",
                     "content": "iuu skibiiddi",
                     "datetime_created": "2026-10-21T12:46:09.000Z"
+                },
+                "335289033": {
+                    "id": "335289033",
+                    "author": "Rabbit_San",
+                    "content": "oi oi oi bro c&ograve;n sống =)))",
+                    "datetime_created": "2026-10-22T01:06:56.000Z"
                 }
             }
         },
