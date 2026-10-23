@@ -34057,10 +34057,10 @@
             "1394591202",
             "1394731599",
             "1394727342",
-            "1395048946"
+            "1395048946",
+            "1395134996"
         ],
         "processed_activities": [
-            "addprojecttostudio-344182079",
             "addprojecttostudio-344178010",
             "addprojecttostudio-346465803",
             "addprojecttostudio-346515276",
@@ -34159,9 +34159,10 @@
             "addprojecttostudio-354552626",
             "addprojecttostudio-354675724",
             "addprojecttostudio-354673799",
-            "addprojecttostudio-354671662"
+            "addprojecttostudio-354671662",
+            "addprojecttostudio-354710307"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-10-23"
     },
     "ravocsirex": {
@@ -35776,14 +35777,18 @@
     "ErikLikerOST": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-10-23"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [],
-        "processed_activities": [],
+        "processed_activities": [
+            "addprojecttostudio-354700391"
+        ],
         "projects_today": 0,
         "last_project_date": ""
     },
@@ -92619,7 +92624,7 @@
     },
     "Shay204": {
         "active_dates": [
-            "2026-10-17"
+            "2026-10-23"
         ],
         "last_comment_date": "2026-10-11",
         "total_deducted": 0,
@@ -92631,16 +92636,18 @@
         ],
         "processed_projects": [
             "1392702006",
-            "1392691247"
+            "1392691247",
+            "1392949820"
         ],
         "processed_activities": [
             "becomecurator-159755748",
             "addprojecttostudio-353693380",
             "addprojecttostudio-353692332",
-            "addprojecttostudio-353690298"
+            "addprojecttostudio-353690298",
+            "addprojecttostudio-354714627"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-10-17"
+        "projects_today": 1,
+        "last_project_date": "2026-10-23"
     },
     "Uji_Matcha-powder": {
         "active_dates": [
@@ -93681,6 +93688,22 @@
         "processed_comments": [],
         "processed_projects": [
             "1394849792"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-10-23"
+    },
+    "doctordavidtennant": {
+        "active_dates": [
+            "2026-10-23"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "2950611"
         ],
         "processed_activities": [],
         "projects_today": 1,
