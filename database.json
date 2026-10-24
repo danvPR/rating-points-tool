@@ -7909,7 +7909,8 @@
         "tier": "Tốt",
         "active_dates": [
             "2026-08-28",
-            "2026-10-08"
+            "2026-10-08",
+            "2026-10-24"
         ],
         "last_comment_date": "2026-10-08",
         "total_deducted": 35,
@@ -7919,7 +7920,8 @@
             "331162708",
             "331161954",
             "331167147",
-            "334204123"
+            "334204123",
+            "335503091"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -10959,7 +10961,8 @@
             "335039350",
             "335052854",
             "335132914",
-            "335133171"
+            "335133171",
+            "335499786"
         ],
         "processed_projects": [
             "1329652114",
@@ -13539,7 +13542,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330585116",
             "330603842",
             "330603782",
             "330625949",
@@ -13788,7 +13790,8 @@
             "335451142",
             "335479452",
             "335491404",
-            "335496162"
+            "335496162",
+            "335502682"
         ],
         "processed_projects": [
             "1332031524",
@@ -39238,9 +39241,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-21"
+            "2026-10-24"
         ],
-        "last_comment_date": "2026-10-21",
+        "last_comment_date": "2026-10-24",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -39357,7 +39360,9 @@
             "331733562",
             "331733455",
             "331808102",
-            "335255147"
+            "335255147",
+            "335502645",
+            "335502578"
         ],
         "processed_projects": [
             "1316583654",
@@ -54842,7 +54847,7 @@
     },
     "bicoidev": {
         "active_dates": [
-            "2026-10-23"
+            "2026-10-24"
         ],
         "last_comment_date": "2026-09-28",
         "total_deducted": 0,
@@ -55073,7 +55078,9 @@
             "addprojecttostudio-353697532",
             "removeprojectstudio-85166517",
             "addprojecttostudio-353840366",
-            "removeprojectstudio-85188241"
+            "removeprojectstudio-85188241",
+            "addprojecttostudio-354858261",
+            "removeprojectstudio-85345354"
         ],
         "projects_today": 1,
         "last_project_date": "2026-10-11"
@@ -59542,7 +59549,12 @@
             "addprojecttostudio-354521173",
             "addprojecttostudio-354652018",
             "addprojecttostudio-354835971",
-            "removeprojectstudio-85341684"
+            "removeprojectstudio-85341684",
+            "addprojecttostudio-354860502",
+            "addprojecttostudio-354860430",
+            "removeprojectstudio-85345656",
+            "addprojecttostudio-354860291",
+            "removeprojectstudio-85345619"
         ],
         "projects_today": 1,
         "last_project_date": "2026-10-22"
@@ -82109,6 +82121,12 @@
                     "author": "KhangRealNe",
                     "content": "hạn chế qc :)",
                     "datetime_created": "2026-10-24T11:27:24.000Z"
+                },
+                "335502578": {
+                    "id": "335502578",
+                    "author": "thinh1234231t",
+                    "content": "Yea whatever, d&ugrave; j c&utilde;ng c&oacute; &dstrok;ể link j &dstrok;&acirc;u m&agrave; qc c&utilde;ng chả c&oacute; c&aacute;i j m&agrave; li&ecirc;n hệ hết, th&ocirc;ng b&aacute;o th&ocirc;i",
+                    "datetime_created": "2026-10-24T16:10:10.000Z"
                 }
             }
         },
@@ -82334,6 +82352,33 @@
                     "author": "gaua7",
                     "content": "&dstrok;ấy l&agrave; DANVworkshop m&agrave;, &dstrok;ang cần t&igrave;m link xưởng cộng &dstrok;ồng m&agrave;",
                     "datetime_created": "2026-10-24T14:21:59.000Z"
+                }
+            }
+        },
+        "335503091": {
+            "id": "335503091",
+            "author": "hoangducdat",
+            "content": "ai nhắn tin khum :&gt;",
+            "datetime_created": "2026-10-24T16:19:40.000Z",
+            "replies": {}
+        },
+        "335499786": {
+            "id": "335499786",
+            "author": "ReallySopa",
+            "content": "T&ocirc;i &dstrok;&atilde; l&agrave;m avatar mới cho m&ugrave;a Halloween n&agrave;y, bạn ngh&itilde; sao về c&aacute;i avatar mới của t&ocirc;i? <img src=\"/images/emoji/cool-cat.png\" class=\"emoji\" alt=\"cool-cat emoji\">",
+            "datetime_created": "2026-10-24T15:14:45.000Z",
+            "replies": {
+                "335502645": {
+                    "id": "335502645",
+                    "author": "thinh1234231t",
+                    "content": "Hmmmm, not bad <img src=\"/images/emoji/gobo.png\" class=\"emoji\" alt=\"gobo emoji\">",
+                    "datetime_created": "2026-10-24T16:11:17.000Z"
+                },
+                "335502682": {
+                    "id": "335502682",
+                    "author": "gaua7",
+                    "content": "*feel the aura",
+                    "datetime_created": "2026-10-24T16:12:03.000Z"
                 }
             }
         }
@@ -89848,7 +89893,7 @@
     },
     "sigmaguyvn349-_": {
         "active_dates": [
-            "2026-09-15"
+            "2026-10-24"
         ],
         "last_comment_date": "2026-09-13",
         "total_deducted": 0,
@@ -89859,15 +89904,17 @@
             "332317860"
         ],
         "processed_projects": [
-            "1376610922"
+            "1376610922",
+            "1380701670"
         ],
         "processed_activities": [
             "addprojecttostudio-348141597",
             "becomecurator-159062234",
-            "addprojecttostudio-348419826"
+            "addprojecttostudio-348419826",
+            "addprojecttostudio-354864823"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-13"
+        "last_project_date": "2026-10-24"
     },
     "hadieudeday_2": {
         "active_dates": [
