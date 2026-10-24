@@ -50623,7 +50623,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-23"
+            "2026-10-24"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -50652,7 +50652,9 @@
             "1393019451",
             "1393401858",
             "1394262150",
-            "1394614304"
+            "1394614304",
+            "1395410868",
+            "1395358872"
         ],
         "processed_activities": [
             "addprojecttostudio-335268024",
@@ -50677,10 +50679,12 @@
             "addprojecttostudio-353972015",
             "addprojecttostudio-354375938",
             "addprojecttostudio-354397695",
-            "addprojecttostudio-354673319"
+            "addprojecttostudio-354673319",
+            "addprojecttostudio-354901318",
+            "addprojecttostudio-354894842"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-10-23"
+        "projects_today": 2,
+        "last_project_date": "2026-10-24"
     },
     "Luialf25": {
         "score": 100,
@@ -51433,7 +51437,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-16"
+            "2026-10-24"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -51453,7 +51457,9 @@
             "1386760386",
             "1386876229",
             "1386854396",
-            "1390060659"
+            "1390060659",
+            "1395409408",
+            "1395406663"
         ],
         "processed_activities": [
             "addprojecttostudio-341589740",
@@ -51468,10 +51474,12 @@
             "addprojecttostudio-350856020",
             "addprojecttostudio-350913408",
             "addprojecttostudio-350905125",
-            "addprojecttostudio-353569860"
+            "addprojecttostudio-353569860",
+            "addprojecttostudio-354898795",
+            "addprojecttostudio-354895579"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-10-16"
+        "projects_today": 2,
+        "last_project_date": "2026-10-24"
     },
     "TCgameplayer15": {
         "score": 100,
@@ -94085,13 +94093,16 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1395213250"
+            "1395213250",
+            "1395304514"
         ],
         "processed_activities": [
             "addprojecttostudio-354804618",
-            "becomecurator-160007515"
+            "becomecurator-160007515",
+            "addprojecttostudio-354905772",
+            "addprojecttostudio-354905770"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-10-24"
     },
     "DipperXander": {
