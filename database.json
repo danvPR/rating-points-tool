@@ -39465,7 +39465,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-20"
+            "2026-10-26"
         ],
         "last_comment_date": "2026-10-20",
         "total_deducted": 0,
@@ -39476,7 +39476,9 @@
             "332308746",
             "332310051",
             "332313058",
-            "335149509"
+            "335149509",
+            "335610518",
+            "335610802"
         ],
         "processed_projects": [],
         "processed_activities": [],
@@ -46038,7 +46040,7 @@
         "active_dates": [
             "2026-10-13"
         ],
-        "last_comment_date": "2026-09-29",
+        "last_comment_date": "2026-09-30",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -82922,6 +82924,20 @@
                     "author": "bicoidev",
                     "content": "&yacute; t&ocirc;i l&agrave; từ &quot;blackroom&quot; &bull;____&bull;",
                     "datetime_created": "2026-10-25T14:18:41.000Z"
+                }
+            }
+        },
+        "335610518": {
+            "id": "335610518",
+            "author": "lunavocado",
+            "content": "c&ograve;n sống k",
+            "datetime_created": "2026-10-26T00:43:52.000Z",
+            "replies": {
+                "335610802": {
+                    "id": "335610802",
+                    "author": "lunavocado",
+                    "content": "bởi v&igrave; khi nắng vẫn c&ograve;n rơi",
+                    "datetime_created": "2026-10-26T00:49:18.000Z"
                 }
             }
         }
