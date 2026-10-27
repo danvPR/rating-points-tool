@@ -15980,7 +15980,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-26"
+            "2026-10-27"
         ],
         "last_comment_date": "2026-10-01",
         "total_deducted": 0,
@@ -16046,7 +16046,8 @@
             "334943773",
             "334950759",
             "335653412",
-            "335657766"
+            "335657766",
+            "335698571"
         ],
         "processed_projects": [
             "1365026227",
@@ -50947,7 +50948,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-14"
+            "2026-10-27"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -50957,16 +50958,18 @@
         "processed_projects": [
             "1370069154",
             "1306983274",
-            "1390853300"
+            "1390853300",
+            "1395626588"
         ],
         "processed_activities": [
             "addprojecttostudio-347082233",
             "addprojecttostudio-347117955",
             "addprojecttostudio-353247869",
-            "addprojecttostudio-353256493"
+            "addprojecttostudio-353256493",
+            "addprojecttostudio-355342663"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-14"
+        "last_project_date": "2026-10-27"
     },
     "MnsterHandler628": {
         "score": 100,
@@ -83101,6 +83104,12 @@
                     "author": "gaua7",
                     "content": "m&agrave; danv cop j",
                     "datetime_created": "2026-10-26T14:50:13.000Z"
+                },
+                "335698571": {
+                    "id": "335698571",
+                    "author": "miyo12345",
+                    "content": "bro kh&ocirc;ng thấy mọi thứ ở trong xưởng cộng &dstrok;ồng DANV &dstrok;ều lấy &yacute; tưởng từ scratch &agrave; &agrave; một số c&aacute;i c&oacute; khi l&agrave; copy",
+                    "datetime_created": "2026-10-27T00:43:51.000Z"
                 }
             }
         },
