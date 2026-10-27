@@ -29175,16 +29175,22 @@
     "KJSlimeits2025": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-10-27"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1393612159"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-355487108"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-10-27"
     },
     "nguyennhutan1000": {
         "score": 100,
@@ -83421,6 +83427,13 @@
             "content": "studio c&ograve;n ph&aacute;t triển &dstrok;ến b&acirc;y giờ l&agrave; vui r kk",
             "datetime_created": "2026-10-27T16:58:49.000Z",
             "replies": {}
+        },
+        "335762565": {
+            "id": "335762565",
+            "author": "ifuriate",
+            "content": "Ban me\n",
+            "datetime_created": "2026-10-27T19:54:10.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -95489,5 +95502,21 @@
         "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-10-27"
+    },
+    "ifuriate": {
+        "active_dates": [
+            "2026-10-27"
+        ],
+        "last_comment_date": "2026-10-27",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "335762565"
+        ],
+        "processed_projects": [],
+        "processed_activities": [],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
