@@ -13584,8 +13584,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "331164909",
-            "331170282",
             "331160845",
             "331098903",
             "331094779",
@@ -13833,7 +13831,9 @@
             "335893609",
             "335893668",
             "335895256",
-            "335881161"
+            "335881161",
+            "335931901",
+            "335933632"
         ],
         "processed_projects": [
             "1332031524",
@@ -38318,7 +38318,7 @@
         "active_dates": [
             "2026-10-28"
         ],
-        "last_comment_date": "2026-10-03",
+        "last_comment_date": "2026-10-06",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -46397,7 +46397,19 @@
             "335656601",
             "335881271",
             "335881253",
-            "335893502"
+            "335893502",
+            "335932264",
+            "335932295",
+            "335932402",
+            "335932426",
+            "335932432",
+            "335932446",
+            "335932468",
+            "335932527",
+            "335932536",
+            "335932579",
+            "335932644",
+            "335932653"
         ],
         "processed_projects": [
             "1369896163",
@@ -55334,7 +55346,9 @@
             "335661782",
             "335722273",
             "335807889",
-            "335893153"
+            "335893153",
+            "335932404",
+            "335933937"
         ],
         "processed_projects": [
             "1345850613",
@@ -83201,7 +83215,14 @@
             "author": "Qu1Van4nh",
             "content": "Anh em chat g&igrave; &dstrok;ể tao v&agrave;o ragebait c&aacute;i",
             "datetime_created": "2026-10-25T14:43:47.000Z",
-            "replies": {}
+            "replies": {
+                "335932653": {
+                    "id": "335932653",
+                    "author": "gaua7_2",
+                    "content": "ok",
+                    "datetime_created": "2026-10-29T23:29:01.000Z"
+                }
+            }
         },
         "335573631": {
             "id": "335573631",
@@ -83344,6 +83365,12 @@
                     "author": "KhangRealNe",
                     "content": "c&ograve;n sống :0",
                     "datetime_created": "2026-10-29T11:59:34.000Z"
+                },
+                "335932644": {
+                    "id": "335932644",
+                    "author": "gaua7_2",
+                    "content": "ai bảo dead hẳn v một nửa linh hồn studio bay sang DANVws r",
+                    "datetime_created": "2026-10-29T23:28:50.000Z"
                 }
             }
         },
@@ -83352,7 +83379,14 @@
             "author": "Rabbit_San",
             "content": "dead",
             "datetime_created": "2026-10-26T06:08:57.000Z",
-            "replies": {}
+            "replies": {
+                "335932536": {
+                    "id": "335932536",
+                    "author": "gaua7_2",
+                    "content": "die",
+                    "datetime_created": "2026-10-29T23:26:51.000Z"
+                }
+            }
         },
         "335621957": {
             "id": "335621957",
@@ -83371,6 +83405,12 @@
                     "author": "Fleiroscracth",
                     "content": "me too",
                     "datetime_created": "2026-10-26T11:14:00.000Z"
+                },
+                "335932579": {
+                    "id": "335932579",
+                    "author": "gaua7_2",
+                    "content": "bro bật phần mềm thứ 3",
+                    "datetime_created": "2026-10-29T23:27:32.000Z"
                 }
             }
         },
@@ -83521,6 +83561,12 @@
                     "author": "CanhThienNek",
                     "content": "khoảng 1 th&aacute;ng r",
                     "datetime_created": "2026-10-26T12:57:36.000Z"
+                },
+                "335932527": {
+                    "id": "335932527",
+                    "author": "gaua7_2",
+                    "content": "&dstrok;&ugrave;ng chạm cỏ nx ;-;",
+                    "datetime_created": "2026-10-29T23:26:41.000Z"
                 }
             }
         },
@@ -83689,6 +83735,12 @@
                     "author": "24y1192",
                     "content": "ko bt ",
                     "datetime_created": "2026-10-29T03:54:37.000Z"
+                },
+                "335932468": {
+                    "id": "335932468",
+                    "author": "gaua7_2",
+                    "content": "yay",
+                    "datetime_created": "2026-10-29T23:25:39.000Z"
                 }
             }
         },
@@ -83741,6 +83793,18 @@
                     "author": "KhangRealNe",
                     "content": "same qs",
                     "datetime_created": "2026-10-29T11:50:15.000Z"
+                },
+                "335932426": {
+                    "id": "335932426",
+                    "author": "gaua7_2",
+                    "content": "Scratcher",
+                    "datetime_created": "2026-10-29T23:25:01.000Z"
+                },
+                "335932432": {
+                    "id": "335932432",
+                    "author": "gaua7_2",
+                    "content": "con người",
+                    "datetime_created": "2026-10-29T23:25:11.000Z"
                 }
             }
         },
@@ -83749,7 +83813,14 @@
             "author": "cunken",
             "content": "danv qua ni r: https://danvpr.github.io/workshop/",
             "datetime_created": "2026-10-28T05:33:10.000Z",
-            "replies": {}
+            "replies": {
+                "335932446": {
+                    "id": "335932446",
+                    "author": "gaua7_2",
+                    "content": "t&ecirc;n miền cổ &dstrok;ại",
+                    "datetime_created": "2026-10-29T23:25:23.000Z"
+                }
+            }
         },
         "335827163": {
             "id": "335827163",
@@ -83776,7 +83847,14 @@
             "author": "Phatancat",
             "content": "ai chỉnh d&ugrave;m tui &dstrok;i https://scratch.mit.edu/projects/1365851697/editor/\n",
             "datetime_created": "2026-10-28T14:25:41.000Z",
-            "replies": {}
+            "replies": {
+                "335932402": {
+                    "id": "335932402",
+                    "author": "gaua7_2",
+                    "content": "hạn chế qc",
+                    "datetime_created": "2026-10-29T23:24:40.000Z"
+                }
+            }
         },
         "335825334": {
             "id": "335825334",
@@ -84023,7 +84101,46 @@
             "author": "Ivandtvn",
             "content": "23:57",
             "datetime_created": "2026-10-29T16:57:25.000Z",
-            "replies": {}
+            "replies": {
+                "335932295": {
+                    "id": "335932295",
+                    "author": "gaua7_2",
+                    "content": "sao ko thức th&ecirc;m 3 ph&uacute;t nx cho tr&ograve;n",
+                    "datetime_created": "2026-10-29T23:22:33.000Z"
+                }
+            }
+        },
+        "335931901": {
+            "id": "335931901",
+            "author": "gaua7",
+            "content": "l&ocirc; buổi s&aacute;ng",
+            "datetime_created": "2026-10-29T23:15:08.000Z",
+            "replies": {
+                "335932264": {
+                    "id": "335932264",
+                    "author": "gaua7_2",
+                    "content": "c&oacute; ng gửi dự &acirc;n th&iacute;ch &acirc;y ai &dstrok;&ocirc; la c&oacute; t&iacute;nh l&agrave; vi phạm ko (joke)",
+                    "datetime_created": "2026-10-29T23:22:08.000Z"
+                },
+                "335932404": {
+                    "id": "335932404",
+                    "author": "bicoidev",
+                    "content": "cmsn tui ik :3",
+                    "datetime_created": "2026-10-29T23:24:43.000Z"
+                },
+                "335933632": {
+                    "id": "335933632",
+                    "author": "gaua7",
+                    "content": "snvv nghen\n",
+                    "datetime_created": "2026-10-29T23:44:58.000Z"
+                },
+                "335933937": {
+                    "id": "335933937",
+                    "author": "bicoidev",
+                    "content": "thx xD",
+                    "datetime_created": "2026-10-29T23:50:54.000Z"
+                }
+            }
         }
     },
     "Thai_hung": {
