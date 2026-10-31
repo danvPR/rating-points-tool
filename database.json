@@ -7975,7 +7975,7 @@
         "active_dates": [
             "2026-10-31"
         ],
-        "last_comment_date": "2026-10-12",
+        "last_comment_date": "2026-10-04",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -18342,7 +18342,8 @@
             "1397372334",
             "1397649501",
             "1397749212",
-            "1397913460"
+            "1397913460",
+            "1397986097"
         ],
         "processed_activities": [
             "addprojecttostudio-342129894",
@@ -18362,9 +18363,10 @@
             "addprojecttostudio-355815134",
             "addprojecttostudio-355938135",
             "addprojecttostudio-355971458",
-            "addprojecttostudio-356103007"
+            "addprojecttostudio-356103007",
+            "addprojecttostudio-356154876"
         ],
-        "projects_today": 1,
+        "projects_today": 2,
         "last_project_date": "2026-10-31"
     },
     "orionblockguyanimate": {
@@ -24198,9 +24200,10 @@
             "2026-06-11",
             "2026-06-12",
             "2026-06-13",
-            "2026-08-17"
+            "2026-08-17",
+            "2026-10-31"
         ],
-        "last_comment_date": "2026-08-17",
+        "last_comment_date": "2026-10-31",
         "total_deducted": 99,
         "new_comments": [],
         "new_logs": [],
@@ -24233,12 +24236,17 @@
             "325839078",
             "325845938",
             "325845950",
-            "330330443"
+            "330330443",
+            "336064509"
         ],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1397922434"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-356139151"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-10-31"
     },
     "baminh2015": {
         "score": 100,
@@ -38440,7 +38448,8 @@
             "335640896",
             "335708043",
             "335798553",
-            "336033976"
+            "336033976",
+            "336063293"
         ],
         "processed_projects": [
             "1364266975",
@@ -46287,7 +46296,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-30"
+            "2026-10-31"
         ],
         "last_comment_date": "2026-10-05",
         "total_deducted": 0,
@@ -46478,7 +46487,8 @@
             "335932579",
             "335932644",
             "335932653",
-            "336009669"
+            "336009669",
+            "336060342"
         ],
         "processed_projects": [
             "1369896163",
@@ -55427,7 +55437,8 @@
             "335932404",
             "335933937",
             "335970755",
-            "336058507"
+            "336058507",
+            "336061167"
         ],
         "processed_projects": [
             "1345850613",
@@ -84489,7 +84500,20 @@
             "author": "bicoidev",
             "content": "hi vọng &dstrok;&acirc;y sẽ l&agrave; comment cuối c&ugrave;ng trong ng&agrave;y _(:3JL)_",
             "datetime_created": "2026-10-31T14:57:00.000Z",
-            "replies": {}
+            "replies": {
+                "336060342": {
+                    "id": "336060342",
+                    "author": "gaua7_2",
+                    "content": "chưa &dstrok;&acirc;u",
+                    "datetime_created": "2026-10-31T15:25:47.000Z"
+                },
+                "336061167": {
+                    "id": "336061167",
+                    "author": "bicoidev",
+                    "content": "bruh",
+                    "datetime_created": "2026-10-31T15:38:19.000Z"
+                }
+            }
         },
         "336054160": {
             "id": "336054160",
@@ -84553,6 +84577,20 @@
                     "datetime_created": "2026-10-31T09:23:18.000Z"
                 }
             }
+        },
+        "336064509": {
+            "id": "336064509",
+            "author": "Nhienzcute",
+            "content": "yes",
+            "datetime_created": "2026-10-31T16:34:21.000Z",
+            "replies": {}
+        },
+        "336063293": {
+            "id": "336063293",
+            "author": "Fleiroscracth",
+            "content": "no",
+            "datetime_created": "2026-10-31T16:10:46.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
