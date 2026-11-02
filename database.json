@@ -95308,7 +95308,9 @@
         "last_project_date": "2026-10-22"
     },
     "Hello_VN123": {
-        "active_dates": [],
+        "active_dates": [
+            "2026-11-02"
+        ],
         "last_comment_date": "2026-10-11",
         "total_deducted": 5,
         "new_comments": [],
@@ -95360,7 +95362,9 @@
             "1398083753",
             "1398137423",
             "1398122296",
-            "1398096758"
+            "1398096758",
+            "1398270825",
+            "1398272219"
         ],
         "processed_activities": [
             "addprojecttostudio-352622447",
@@ -95433,10 +95437,12 @@
             "addprojecttostudio-356237957",
             "addprojecttostudio-356282552",
             "addprojecttostudio-356275217",
-            "addprojecttostudio-356265077"
+            "addprojecttostudio-356265077",
+            "addprojecttostudio-356369605",
+            "addprojecttostudio-356369556"
         ],
-        "projects_today": 6,
-        "last_project_date": "2026-11-01"
+        "projects_today": 2,
+        "last_project_date": "2026-11-02"
     },
     "spookykitty1": {
         "active_dates": [
