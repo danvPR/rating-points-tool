@@ -6875,9 +6875,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-16"
+            "2026-11-03"
         ],
-        "last_comment_date": "2026-09-16",
+        "last_comment_date": "2026-11-03",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -6885,19 +6885,23 @@
             "332037339",
             "332169674",
             "332203956",
-            "332525689"
+            "332525689",
+            "336267737",
+            "336262223"
         ],
         "processed_projects": [
-            "1381775868"
+            "1381775868",
+            "1398702908"
         ],
         "processed_activities": [
             "addprojecttostudio-347795487",
             "removeprojectstudio-84221680",
             "addprojecttostudio-347795480",
-            "addprojecttostudio-348569174"
+            "addprojecttostudio-348569174",
+            "addprojecttostudio-356544098"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-16"
+        "last_project_date": "2026-11-03"
     },
     "mcgaming162": {
         "score": 100,
@@ -35560,7 +35564,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-02"
+            "2026-11-03"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -35588,7 +35592,8 @@
             "1395476920",
             "1395824905",
             "1395806828",
-            "1398126416"
+            "1398126416",
+            "1398650249"
         ],
         "processed_activities": [
             "addprojecttostudio-342276061",
@@ -35609,10 +35614,11 @@
             "addprojecttostudio-354959047",
             "addprojecttostudio-355256920",
             "addprojecttostudio-355241630",
-            "addprojecttostudio-356416241"
+            "addprojecttostudio-356416241",
+            "addprojecttostudio-356544986"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-02"
+        "last_project_date": "2026-11-03"
     },
     "kazunok0221": {
         "score": 100,
@@ -55363,7 +55369,7 @@
         "active_dates": [
             "2026-11-02"
         ],
-        "last_comment_date": "2026-10-05",
+        "last_comment_date": "2026-10-07",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -85060,6 +85066,27 @@
                     "datetime_created": "2026-11-02T12:55:38.000Z"
                 }
             }
+        },
+        "336267737": {
+            "id": "336267737",
+            "author": "khoadepzai4215",
+            "content": "tui xin quảng c&aacute;o anh em chơi game tui &dstrok;&abreve;ng thử &dstrok;i",
+            "datetime_created": "2026-11-03T03:39:48.000Z",
+            "replies": {}
+        },
+        "336262223": {
+            "id": "336262223",
+            "author": "khoadepzai4215",
+            "content": "cuối c&ugrave;ng th&igrave; giữa k&igrave; c&utilde;ng xong rồi",
+            "datetime_created": "2026-11-03T02:34:00.000Z",
+            "replies": {}
+        },
+        "336260042": {
+            "id": "336260042",
+            "author": "ADHDoyokun",
+            "content": "no",
+            "datetime_created": "2026-11-03T02:09:26.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -97578,19 +97605,22 @@
     },
     "ADHDoyokun": {
         "active_dates": [
-            "2026-11-02"
+            "2026-11-03"
         ],
         "last_comment_date": "2026-11-02",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "336188154"
+            "336188154",
+            "336260042"
         ],
         "processed_projects": [
             "1398090634"
         ],
-        "processed_activities": [],
+        "processed_activities": [
+            "becomecurator-160229286"
+        ],
         "projects_today": 1,
         "last_project_date": "2026-11-01"
     },
