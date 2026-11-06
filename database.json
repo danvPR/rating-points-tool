@@ -7984,7 +7984,7 @@
         "active_dates": [
             "2026-11-05"
         ],
-        "last_comment_date": "2026-10-10",
+        "last_comment_date": "2026-10-11",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -46666,7 +46666,9 @@
             "336393392",
             "336385006",
             "336384949",
-            "336462351"
+            "336462351",
+            "336496397",
+            "336496310"
         ],
         "processed_projects": [
             "1369896163",
@@ -47358,16 +47360,22 @@
     "UraniumWolf": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-11-06"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1398812701"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-357007393"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-11-06"
     },
     "phanminhkhang1324": {
         "score": 100,
@@ -55283,7 +55291,7 @@
     },
     "baoduy1202": {
         "active_dates": [
-            "2026-10-27"
+            "2026-11-06"
         ],
         "last_comment_date": "2026-07-29",
         "total_deducted": 0,
@@ -55314,7 +55322,8 @@
             "1390599822",
             "1392888282",
             "1394114416",
-            "1396158978"
+            "1396158978",
+            "1409349781"
         ],
         "processed_activities": [
             "addprojecttostudio-341466197",
@@ -55352,10 +55361,11 @@
             "addprojecttostudio-354462271",
             "addprojecttostudio-354462204",
             "addprojecttostudio-354462151",
-            "addprojecttostudio-355382678"
+            "addprojecttostudio-355382678",
+            "addprojecttostudio-357017973"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-27"
+        "last_project_date": "2026-11-06"
     },
     "_chuoi14": {
         "active_dates": [
@@ -55525,7 +55535,7 @@
         "active_dates": [
             "2026-11-05"
         ],
-        "last_comment_date": "2026-10-09",
+        "last_comment_date": "2026-10-11",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -55707,7 +55717,9 @@
             "336283206",
             "336312723",
             "336451500",
-            "336451170"
+            "336451170",
+            "336499962",
+            "336499969"
         ],
         "processed_projects": [
             "1345850613",
@@ -85668,7 +85680,14 @@
             "author": "thinh1234231t",
             "content": "Tui ho&agrave;n to&agrave;n quay xe với DANV",
             "datetime_created": "2026-11-05T17:46:53.000Z",
-            "replies": {}
+            "replies": {
+                "336496310": {
+                    "id": "336496310",
+                    "author": "gaua7_2",
+                    "content": "hả",
+                    "datetime_created": "2026-11-05T22:34:51.000Z"
+                }
+            }
         },
         "336469349": {
             "id": "336469349",
@@ -85775,6 +85794,27 @@
             "author": "gaua7",
             "content": "Luật 4: Ch&uacute;ng ta rất &dstrok;&ocirc;ng &dstrok;ảo.",
             "datetime_created": "2026-11-05T11:33:51.000Z",
+            "replies": {}
+        },
+        "336499962": {
+            "id": "336499962",
+            "author": "bicoidev",
+            "content": "ch&ecirc;t r nay thi khtn m&agrave; t&ocirc;i bị yếu sinh l&yacute; :(",
+            "datetime_created": "2026-11-05T23:24:52.000Z",
+            "replies": {
+                "336499969": {
+                    "id": "336499969",
+                    "author": "bicoidev",
+                    "content": "+ ho&aacute;",
+                    "datetime_created": "2026-11-05T23:25:04.000Z"
+                }
+            }
+        },
+        "336496397": {
+            "id": "336496397",
+            "author": "gaua7_2",
+            "content": "Luật 5: Ch&uacute;ng ta kh&ocirc;ng tha thứ, ch&uacute;ng ta kh&ocirc;ng qu&ecirc;n.",
+            "datetime_created": "2026-11-05T22:36:00.000Z",
             "replies": {}
         }
     },
@@ -94577,7 +94617,7 @@
         "active_dates": [
             "2026-11-01"
         ],
-        "last_comment_date": "2026-10-10",
+        "last_comment_date": "2026-10-11",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
