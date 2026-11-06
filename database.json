@@ -10611,9 +10611,9 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-19"
+            "2026-11-06"
         ],
-        "last_comment_date": "2026-09-25",
+        "last_comment_date": "2026-11-06",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -10634,7 +10634,8 @@
             "333065244",
             "333148688",
             "333194708",
-            "333212393"
+            "333212393",
+            "336516502"
         ],
         "processed_projects": [
             "1331722411",
@@ -19381,7 +19382,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-08-19"
+            "2026-11-06"
         ],
         "last_comment_date": "2026-08-19",
         "total_deducted": 0,
@@ -19395,14 +19396,18 @@
             "1309969553",
             "1351999293",
             "1369069603",
-            "1368191277"
+            "1368191277",
+            "1196707360",
+            "1389898028"
         ],
         "processed_activities": [
             "addprojecttostudio-343929782",
-            "addprojecttostudio-344368621"
+            "addprojecttostudio-344368621",
+            "addprojecttostudio-357026977",
+            "addprojecttostudio-357026496"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-08-19"
+        "projects_today": 2,
+        "last_project_date": "2026-11-06"
     },
     "jokerdesu": {
         "score": 100,
@@ -85686,6 +85691,12 @@
                     "author": "gaua7_2",
                     "content": "hả",
                     "datetime_created": "2026-11-05T22:34:51.000Z"
+                },
+                "336516502": {
+                    "id": "336516502",
+                    "author": "FleirosAnimator",
+                    "content": "DANV vừa bị phốt",
+                    "datetime_created": "2026-11-06T03:23:12.000Z"
                 }
             }
         },
