@@ -18248,16 +18248,22 @@
     "TheGamingPidgeon27": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-11-07"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1410032818"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-357143868"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-11-07"
     },
     "IvanLitte": {
         "score": 100,
@@ -55773,7 +55779,8 @@
             "336499962",
             "336499969",
             "336531392",
-            "336544984"
+            "336544984",
+            "336576210"
         ],
         "processed_projects": [
             "1345850613",
@@ -58885,7 +58892,8 @@
     },
     "fguebyberg": {
         "active_dates": [
-            "2026-11-01"
+            "2026-11-01",
+            "2026-11-07"
         ],
         "last_comment_date": "",
         "total_deducted": 5,
@@ -59078,7 +59086,8 @@
             "addprojecttostudio-356193057",
             "addprojecttostudio-356235489",
             "addprojecttostudio-356234445",
-            "addprojecttostudio-356227632"
+            "addprojecttostudio-356227632",
+            "addprojecttostudio-357163850"
         ],
         "projects_today": 4,
         "last_project_date": "2026-11-01"
@@ -67359,7 +67368,7 @@
     },
     "goatvn": {
         "active_dates": [
-            "2026-09-28"
+            "2026-11-07"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -67368,7 +67377,8 @@
         "processed_comments": [],
         "processed_projects": [
             "1380447813",
-            "1380471126"
+            "1380471126",
+            "1399319099"
         ],
         "processed_activities": [
             "becomecurator-158601410",
@@ -67376,7 +67386,7 @@
             "addprojecttostudio-350506795"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-28"
+        "last_project_date": "2026-11-07"
     },
     "YOUR_animation": {
         "active_dates": [
@@ -85990,6 +86000,12 @@
                     "author": "gaua7_2",
                     "content": "hạn chế qc",
                     "datetime_created": "2026-11-06T15:33:43.000Z"
+                },
+                "336576210": {
+                    "id": "336576210",
+                    "author": "bicoidev",
+                    "content": "huh t&ocirc;i chỉ gửi link yt th&ocirc;i m&agrave; ;(",
+                    "datetime_created": "2026-11-06T23:25:15.000Z"
                 }
             }
         },
