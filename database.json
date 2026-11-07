@@ -52480,7 +52480,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-24"
+            "2026-11-07"
         ],
         "last_comment_date": "2026-10-11",
         "total_deducted": 0,
@@ -52520,7 +52520,8 @@
             "1390435520",
             "1316636605",
             "1392698375",
-            "1394164906"
+            "1394164906",
+            "1397655653"
         ],
         "processed_activities": [
             "addprojecttostudio-342039433",
@@ -52551,10 +52552,11 @@
             "addprojecttostudio-353358951",
             "addprojecttostudio-354759708",
             "addprojecttostudio-354787812",
-            "addprojecttostudio-354787808"
+            "addprojecttostudio-354787808",
+            "addprojecttostudio-357171802"
         ],
-        "projects_today": 3,
-        "last_project_date": "2026-10-24"
+        "projects_today": 1,
+        "last_project_date": "2026-11-07"
     },
     "Hanii_Nyx": {
         "score": 100,
@@ -60143,7 +60145,7 @@
     },
     "likethissubject_Art": {
         "active_dates": [
-            "2026-11-01"
+            "2026-11-07"
         ],
         "last_comment_date": "2026-10-20",
         "total_deducted": 0,
@@ -60221,7 +60223,8 @@
             "335153058",
             "336101622",
             "336104864",
-            "336115577"
+            "336115577",
+            "336582216"
         ],
         "processed_projects": [
             "1366288505",
@@ -85986,6 +85989,12 @@
                     "author": "gaua7_2",
                     "content": "&dstrok;&uacute;ng r...",
                     "datetime_created": "2026-11-06T15:33:32.000Z"
+                },
+                "336580803": {
+                    "id": "336580803",
+                    "author": "uN_kNowNn",
+                    "content": "c&oacute; g&igrave;",
+                    "datetime_created": "2026-11-07T02:21:29.000Z"
                 }
             }
         },
@@ -86036,6 +86045,13 @@
                     "datetime_created": "2026-11-06T12:00:49.000Z"
                 }
             }
+        },
+        "336582216": {
+            "id": "336582216",
+            "author": "likethissubject_Art",
+            "content": "meo meo meo, h&igrave;nh như nobody biết countryballs n&ecirc;n to&agrave;n phải n&oacute;i chuyện với nc ngo&agrave;i, nay hỏi ở &dstrok;&acirc;y xem c&oacute; ko :/ ( yehm, toi ko quang c&aacute;o, chi hoi th )",
+            "datetime_created": "2026-11-07T02:43:35.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -96730,7 +96746,7 @@
     },
     "uN_kNowNn": {
         "active_dates": [
-            "2026-11-05"
+            "2026-11-07"
         ],
         "last_comment_date": "2026-10-12",
         "total_deducted": 0,
@@ -96742,7 +96758,8 @@
             "334439114",
             "334441310",
             "334525235",
-            "334991255"
+            "334991255",
+            "336580803"
         ],
         "processed_projects": [
             "1392865208",
