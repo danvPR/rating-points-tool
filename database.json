@@ -13648,14 +13648,13 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-09"
+            "2026-11-11"
         ],
         "last_comment_date": "2026-10-14",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330922568",
             "330908974",
             "330884649",
             "330883546",
@@ -13904,7 +13903,8 @@
             "336722598",
             "336753494",
             "336795823",
-            "336794884"
+            "336794884",
+            "336881501"
         ],
         "processed_projects": [
             "1332031524",
@@ -56076,7 +56076,8 @@
             "336799398",
             "336799379",
             "336831887",
-            "336815405"
+            "336815405",
+            "336874981"
         ],
         "processed_projects": [
             "1345850613",
@@ -87118,7 +87119,20 @@
             "author": "TheFanOf62",
             "content": "https://scratch.mit.edu/projects/1438529104/",
             "datetime_created": "2026-11-10T16:44:01.000Z",
-            "replies": {}
+            "replies": {
+                "336874981": {
+                    "id": "336874981",
+                    "author": "bicoidev",
+                    "content": "Do not advertise in this studio",
+                    "datetime_created": "2026-11-10T23:33:20.000Z"
+                },
+                "336881501": {
+                    "id": "336881501",
+                    "author": "gaua7",
+                    "content": "Thg n&agrave;y sao cướp việc t",
+                    "datetime_created": "2026-11-11T01:29:15.000Z"
+                }
+            }
         }
     },
     "Thai_hung": {
