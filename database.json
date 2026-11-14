@@ -37289,7 +37289,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-12"
+            "2026-11-14"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -37324,7 +37324,9 @@
             "1376678000",
             "1381053403",
             "1388349818",
-            "1390846321"
+            "1390846321",
+            "1368119312",
+            "1374636560"
         ],
         "processed_activities": [
             "addprojecttostudio-341497689",
@@ -37353,10 +37355,12 @@
             "addprojecttostudio-349069725",
             "addprojecttostudio-349069248",
             "addprojecttostudio-351654475",
-            "addprojecttostudio-352939620"
+            "addprojecttostudio-352939620",
+            "addprojecttostudio-358463399",
+            "addprojecttostudio-358463035"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-10-12"
+        "projects_today": 2,
+        "last_project_date": "2026-11-14"
     },
     "Nyberstore": {
         "score": 100,
