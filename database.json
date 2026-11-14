@@ -7991,7 +7991,7 @@
         "active_dates": [
             "2026-11-09"
         ],
-        "last_comment_date": "2026-10-16",
+        "last_comment_date": "2026-10-17",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -10958,7 +10958,7 @@
         "active_dates": [
             "2026-11-13"
         ],
-        "last_comment_date": "2026-10-15",
+        "last_comment_date": "2026-10-17",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -13671,7 +13671,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330851169",
             "330849831",
             "330836610",
             "330851180",
@@ -13920,7 +13919,8 @@
             "337015577",
             "337015519",
             "337010856",
-            "337073454"
+            "337073454",
+            "337120305"
         ],
         "processed_projects": [
             "1332031524",
@@ -22772,7 +22772,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-25"
+            "2026-11-14"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -22780,16 +22780,18 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1367409490"
+            "1367409490",
+            "1440060612"
         ],
         "processed_activities": [
             "addprojecttostudio-342873804",
             "addprojecttostudio-349707821",
             "removeprojectstudio-84533886",
-            "addprojecttostudio-354998460"
+            "addprojecttostudio-354998460",
+            "addprojecttostudio-358326314"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-08-08"
+        "last_project_date": "2026-11-14"
     },
     "ntm2014": {
         "score": 100,
@@ -31315,7 +31317,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-12"
+            "2026-11-14"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -31376,7 +31378,8 @@
             "1438623356",
             "1439077741",
             "1439413330",
-            "1439581418"
+            "1439581418",
+            "1439889909"
         ],
         "processed_activities": [
             "addprojecttostudio-335552352",
@@ -31427,10 +31430,11 @@
             "addprojecttostudio-357777531",
             "addprojecttostudio-357931602",
             "addprojecttostudio-358038742",
-            "addprojecttostudio-358101139"
+            "addprojecttostudio-358101139",
+            "addprojecttostudio-358307072"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-11-12"
+        "projects_today": 1,
+        "last_project_date": "2026-11-14"
     },
     "EspeonSiamese123": {
         "score": 100,
@@ -51644,7 +51648,9 @@
             "2026-11-08",
             "2026-11-09",
             "2026-11-10",
-            "2026-11-11"
+            "2026-11-11",
+            "2026-11-13",
+            "2026-11-14"
         ],
         "last_comment_date": "",
         "total_deducted": 5,
@@ -51713,7 +51719,8 @@
             "1327421627",
             "1437707465",
             "1438459335",
-            "1438971665"
+            "1438971665",
+            "1284719624"
         ],
         "processed_activities": [
             "addprojecttostudio-335268024",
@@ -51781,10 +51788,11 @@
             "addprojecttostudio-357501433",
             "addprojecttostudio-357499542",
             "addprojecttostudio-357727017",
-            "addprojecttostudio-357905596"
+            "addprojecttostudio-357905596",
+            "addprojecttostudio-358311606"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-11"
+        "last_project_date": "2026-11-14"
     },
     "Luialf25": {
         "score": 100,
@@ -56022,7 +56030,7 @@
         "active_dates": [
             "2026-11-13"
         ],
-        "last_comment_date": "2026-10-15",
+        "last_comment_date": "2026-10-16",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -64114,7 +64122,7 @@
     },
     "Longhoang022": {
         "active_dates": [
-            "2026-11-13"
+            "2026-11-14"
         ],
         "last_comment_date": "2026-10-25",
         "total_deducted": 0,
@@ -64145,7 +64153,8 @@
             "336657091",
             "336749910",
             "337068072",
-            "337068033"
+            "337068033",
+            "337128206"
         ],
         "processed_projects": [
             "1367366239",
@@ -87591,6 +87600,20 @@
                     "datetime_created": "2026-11-13T15:06:14.000Z"
                 }
             }
+        },
+        "337128206": {
+            "id": "337128206",
+            "author": "Longhoang022",
+            "content": "c&oacute; c&aacute;ch n&agrave;o &dstrok;ể người vợ biến một người chồng th&agrave;nh triệu ph&uacute; ko?",
+            "datetime_created": "2026-11-14T01:47:51.000Z",
+            "replies": {}
+        },
+        "337120305": {
+            "id": "337120305",
+            "author": "gaua7",
+            "content": "Top 36 nhg thg ở trong DANV, Top 36: Mấy thg &dstrok;ợt tuyển mama dell thấy &dstrok;&acirc;u &dstrok;ến l&uacute;c b&ograve; &dstrok;ang bay tự nhi&ecirc;n &dstrok;&ograve;i l&agrave;m mama",
+            "datetime_created": "2026-11-13T23:46:38.000Z",
+            "replies": {}
         }
     },
     "Thai_hung": {
@@ -93782,7 +93805,7 @@
     },
     "tc-baoson": {
         "active_dates": [
-            "2026-10-04"
+            "2026-11-14"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -93794,15 +93817,17 @@
             "1378447886",
             "1380696052",
             "1382859966",
-            "1384937767"
+            "1384937767",
+            "1439849617"
         ],
         "processed_activities": [
             "addprojecttostudio-346409355",
             "addprojecttostudio-347786626",
-            "addprojecttostudio-348136247"
+            "addprojecttostudio-348136247",
+            "addprojecttostudio-358330328"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-04"
+        "last_project_date": "2026-11-14"
     },
     "hellocaucavancan": {
         "active_dates": [
