@@ -8005,20 +8005,13 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-19"
+            "2026-11-20"
         ],
         "last_comment_date": "2026-10-21",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330635386",
-            "330636661",
-            "330634832",
-            "330635078",
-            "330635364",
-            "330636672",
-            "330634777",
             "330634786",
             "330634740",
             "330635174",
@@ -8261,7 +8254,14 @@
             "337532590",
             "337548931",
             "337548960",
-            "337575243"
+            "337575243",
+            "337608817",
+            "337608938",
+            "337608830",
+            "337608858",
+            "337608876",
+            "337608882",
+            "337608768"
         ],
         "processed_projects": [
             "1322617821",
@@ -8292,10 +8292,6 @@
             "1442025441"
         ],
         "processed_activities": [
-            "removeprojectstudio-84799440",
-            "addprojecttostudio-351283035",
-            "removeprojectstudio-84799438",
-            "addprojecttostudio-351283029",
             "addprojecttostudio-351283027",
             "addprojecttostudio-351283026",
             "removeprojectstudio-84821085",
@@ -8391,7 +8387,11 @@
             "addprojecttostudio-359186199",
             "removeprojectstudio-86042703",
             "removeprojectstudio-86042702",
-            "addprojecttostudio-359186180"
+            "addprojecttostudio-359186180",
+            "removeprojectstudio-86062442",
+            "removeprojectstudio-86062437",
+            "removeprojectstudio-86062434",
+            "removeprojectstudio-86062428"
         ],
         "projects_today": 1,
         "last_project_date": "2026-11-19"
@@ -13742,7 +13742,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "331674547",
             "331747416",
             "331803300",
             "331802554",
@@ -13991,7 +13990,8 @@
             "337559530",
             "337558690",
             "337558751",
-            "337559503"
+            "337559503",
+            "337601893"
         ],
         "processed_projects": [
             "1332031524",
@@ -32876,7 +32876,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-09-07"
+            "2026-11-20"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -32884,13 +32884,15 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1378843443"
+            "1378843443",
+            "1442565181"
         ],
         "processed_activities": [
-            "addprojecttostudio-347240692"
+            "addprojecttostudio-347240692",
+            "addprojecttostudio-359308181"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-09-07"
+        "last_project_date": "2026-11-20"
     },
     "New_Stuff278": {
         "score": 100,
@@ -54184,15 +54186,13 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-19"
+            "2026-11-20"
         ],
         "last_comment_date": "2026-10-21",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "330003014",
-            "330021856",
             "330062003",
             "330065496",
             "330073350",
@@ -54440,7 +54440,9 @@
             "337244561",
             "337245400",
             "337315451",
-            "337574166"
+            "337574166",
+            "337607650",
+            "337607661"
         ],
         "processed_projects": [
             "1331738580",
@@ -88827,6 +88829,12 @@
                     "author": "gaua7",
                     "content": "Hạn chế qc",
                     "datetime_created": "2026-11-19T11:25:10.000Z"
+                },
+                "337608768": {
+                    "id": "337608768",
+                    "author": "cunken",
+                    "content": "holy moly 1 th&aacute;ng r mới quảng c&aacute;o m&agrave; hạn chế g&igrave; bro O_O",
+                    "datetime_created": "2026-11-20T02:13:08.000Z"
                 }
             }
         },
@@ -88893,6 +88901,12 @@
                     "author": "ptqan",
                     "content": ":))))",
                     "datetime_created": "2026-11-19T14:44:35.000Z"
+                },
+                "337608938": {
+                    "id": "337608938",
+                    "author": "cunken",
+                    "content": "hố le",
+                    "datetime_created": "2026-11-20T02:16:14.000Z"
                 }
             }
         },
@@ -88973,6 +88987,30 @@
                     "author": "IDKtoibigay",
                     "content": "Cảm ơn rất nhiều. C&ograve;n lời mời th&igrave; em ngh&itilde; m&igrave;nh chưa &dstrok;ủ khả n&abreve;ng &dstrok;ể l&agrave;m &dstrok;&acirc;u ạ.\n",
                     "datetime_created": "2026-11-19T12:20:44.000Z"
+                },
+                "337608830": {
+                    "id": "337608830",
+                    "author": "cunken",
+                    "content": "ok &dstrok;ể tui check nha",
+                    "datetime_created": "2026-11-20T02:14:06.000Z"
+                },
+                "337608858": {
+                    "id": "337608858",
+                    "author": "cunken",
+                    "content": "ok &dstrok;ể tui check nha",
+                    "datetime_created": "2026-11-20T02:14:41.000Z"
+                },
+                "337608876": {
+                    "id": "337608876",
+                    "author": "cunken",
+                    "content": "bro thoi nha ;-;",
+                    "datetime_created": "2026-11-20T02:15:02.000Z"
+                },
+                "337608882": {
+                    "id": "337608882",
+                    "author": "cunken",
+                    "content": "ok &dstrok;ể tui check nha",
+                    "datetime_created": "2026-11-20T02:15:08.000Z"
                 }
             }
         },
@@ -89096,6 +89134,30 @@
                     "author": "giabao0021",
                     "content": "Kh&ocirc;ng phải học &aacute; ?",
                     "datetime_created": "2026-11-19T14:45:07.000Z"
+                },
+                "337601893": {
+                    "id": "337601893",
+                    "author": "gaua7",
+                    "content": "&dstrok;o&aacute;n xem...",
+                    "datetime_created": "2026-11-19T23:40:27.000Z"
+                },
+                "337607650": {
+                    "id": "337607650",
+                    "author": "CanhThienNek",
+                    "content": "yep, cấp 2,3 20/11 &dstrok;c ngỉ",
+                    "datetime_created": "2026-11-20T01:46:10.000Z"
+                },
+                "337607661": {
+                    "id": "337607661",
+                    "author": "CanhThienNek",
+                    "content": "yep, cấp 2,3 20/11 &dstrok;c ngỉ",
+                    "datetime_created": "2026-11-20T01:46:27.000Z"
+                },
+                "337608817": {
+                    "id": "337608817",
+                    "author": "cunken",
+                    "content": "=))",
+                    "datetime_created": "2026-11-20T02:13:57.000Z"
                 }
             }
         }
