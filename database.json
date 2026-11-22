@@ -12670,15 +12670,16 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-16"
+            "2026-11-22"
         ],
-        "last_comment_date": "2026-09-21",
+        "last_comment_date": "2026-11-22",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
             "329017472",
-            "332947619"
+            "332947619",
+            "337710738"
         ],
         "processed_projects": [
             "1366497701",
@@ -26548,7 +26549,7 @@
         "active_dates": [
             "2026-11-21"
         ],
-        "last_comment_date": "2026-10-29",
+        "last_comment_date": "2026-10-24",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -26969,16 +26970,24 @@
     "hoangminhtam_vn00l": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
-        "last_comment_date": "",
+        "active_dates": [
+            "2026-11-22"
+        ],
+        "last_comment_date": "2026-11-22",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
-        "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_comments": [
+            "337711092"
+        ],
+        "processed_projects": [
+            "1443009695"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-359523312"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-11-22"
     },
     "BAITZIPPER": {
         "score": 100,
@@ -39060,7 +39069,7 @@
         "active_dates": [
             "2026-11-18"
         ],
-        "last_comment_date": "2026-10-21",
+        "last_comment_date": "2026-10-25",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -40244,7 +40253,7 @@
         "active_dates": [
             "2026-11-21"
         ],
-        "last_comment_date": "2026-10-29",
+        "last_comment_date": "2026-10-24",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -60041,7 +60050,7 @@
     },
     "minh13036": {
         "active_dates": [
-            "2026-11-21"
+            "2026-11-22"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -60066,7 +60075,8 @@
             "1438975555",
             "1440795349",
             "1441794506",
-            "1442785738"
+            "1442785738",
+            "1443012122"
         ],
         "processed_activities": [
             "becomecurator-158334944",
@@ -60087,10 +60097,11 @@
             "addprojecttostudio-357891285",
             "addprojecttostudio-358743348",
             "addprojecttostudio-359067147",
-            "addprojecttostudio-359390367"
+            "addprojecttostudio-359390367",
+            "addprojecttostudio-359525571"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-21"
+        "last_project_date": "2026-11-22"
     },
     "hiimnpc": {
         "active_dates": [
@@ -89368,6 +89379,12 @@
                     "author": "giabao0021",
                     "content": ":)",
                     "datetime_created": "2026-11-20T11:27:02.000Z"
+                },
+                "337710738": {
+                    "id": "337710738",
+                    "author": "khoikhtod",
+                    "content": "c&oacute; kỉ niệm phết :))",
+                    "datetime_created": "2026-11-22T02:43:49.000Z"
                 }
             }
         },
@@ -89705,6 +89722,20 @@
             "author": "gaua7",
             "content": "Ch&uacute;ng ta c&oacute; GTA6 trước gd 2.21",
             "datetime_created": "2026-11-21T23:31:45.000Z",
+            "replies": {}
+        },
+        "337711092": {
+            "id": "337711092",
+            "author": "hoangminhtam_vn00l",
+            "content": "v&agrave; yeah,t&ocirc;i bị c&acirc;m rồi",
+            "datetime_created": "2026-11-22T02:50:32.000Z",
+            "replies": {}
+        },
+        "337709517": {
+            "id": "337709517",
+            "author": "Hykara",
+            "content": "ch&uacute;ng ta c&oacute; thể c&oacute; scratch 4.0 trước khi DANV c&oacute; thumbnail mới :)))))))))",
+            "datetime_created": "2026-11-22T02:21:20.000Z",
             "replies": {}
         }
     },
@@ -101871,7 +101902,7 @@
         "active_dates": [
             "2026-11-05"
         ],
-        "last_comment_date": "2026-10-24",
+        "last_comment_date": "2026-11-04",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
@@ -103854,7 +103885,7 @@
     },
     "Hykara": {
         "active_dates": [
-            "2026-11-21"
+            "2026-11-22"
         ],
         "last_comment_date": "2026-11-18",
         "total_deducted": 0,
@@ -103869,7 +103900,8 @@
             "337492830",
             "337490149",
             "337555525",
-            "337646257"
+            "337646257",
+            "337709517"
         ],
         "processed_projects": [],
         "processed_activities": [
