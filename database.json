@@ -10285,7 +10285,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-10-26"
+            "2026-11-23"
         ],
         "last_comment_date": "2026-08-02",
         "total_deducted": 0,
@@ -10305,7 +10305,8 @@
             "1389777448",
             "1392223272",
             "1395238795",
-            "1164368557"
+            "1164368557",
+            "1442789104"
         ],
         "processed_activities": [
             "addprojecttostudio-335341192",
@@ -10317,10 +10318,11 @@
             "addprojecttostudio-350251374",
             "addprojecttostudio-353663851",
             "addprojecttostudio-355020872",
-            "addprojecttostudio-355126942"
+            "addprojecttostudio-355126942",
+            "addprojecttostudio-359686014"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-10-26"
+        "last_project_date": "2026-11-23"
     },
     "gbjilbgu": {
         "score": 100,
@@ -37030,7 +37032,7 @@
         "score": 90,
         "tier": "XS",
         "active_dates": [
-            "2026-11-19"
+            "2026-11-23"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -37071,7 +37073,8 @@
             "1393880551",
             "1436355121",
             "1442004896",
-            "1442005185"
+            "1442005185",
+            "1443247767"
         ],
         "processed_activities": [
             "addprojecttostudio-341667514",
@@ -37109,10 +37112,11 @@
             "addprojecttostudio-354269254",
             "addprojecttostudio-357410403",
             "addprojecttostudio-359145008",
-            "addprojecttostudio-359144927"
+            "addprojecttostudio-359144927",
+            "addprojecttostudio-359685933"
         ],
-        "projects_today": 2,
-        "last_project_date": "2026-11-19"
+        "projects_today": 1,
+        "last_project_date": "2026-11-23"
     },
     "ThatOneGuy2976": {
         "score": 100,
@@ -45410,7 +45414,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-14"
+            "2026-11-23"
         ],
         "last_comment_date": "2026-09-02",
         "total_deducted": 0,
@@ -45430,7 +45434,8 @@
             "1397872619",
             "1409345398",
             "1437759083",
-            "1439251761"
+            "1439251761",
+            "1442801781"
         ],
         "processed_activities": [
             "addprojecttostudio-342266049",
@@ -45448,10 +45453,11 @@
             "addprojecttostudio-357521515",
             "addprojecttostudio-357549322",
             "removeprojectstudio-85780723",
-            "addprojecttostudio-358413769"
+            "addprojecttostudio-358413769",
+            "addprojecttostudio-359690308"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-14"
+        "last_project_date": "2026-11-23"
     },
     "GameCoolVN2k13": {
         "score": 100,
@@ -57064,7 +57070,7 @@
     },
     "Le-Huy": {
         "active_dates": [
-            "2026-11-19"
+            "2026-11-23"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -57103,7 +57109,8 @@
             "addprojecttostudio-357253781",
             "addprojecttostudio-357251263",
             "addprojecttostudio-359071433",
-            "addprojecttostudio-359145733"
+            "addprojecttostudio-359145733",
+            "addprojecttostudio-359687374"
         ],
         "projects_today": 1,
         "last_project_date": "2026-11-19"
@@ -104365,5 +104372,21 @@
         "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-11-22"
+    },
+    "Intel-core-i5vpro": {
+        "active_dates": [
+            "2026-11-23"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1443244345"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-11-23"
     }
 }
