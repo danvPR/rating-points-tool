@@ -13766,14 +13766,13 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-21"
+            "2026-11-22"
         ],
         "last_comment_date": "2026-10-22",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "331995144",
             "332066265",
             "332079930",
             "332085558",
@@ -14022,7 +14021,8 @@
             "337674175",
             "337674755",
             "337674782",
-            "337698709"
+            "337698709",
+            "337773162"
         ],
         "processed_projects": [
             "1332031524",
@@ -34829,7 +34829,8 @@
             "2026-11-13",
             "2026-11-16",
             "2026-11-17",
-            "2026-11-19"
+            "2026-11-19",
+            "2026-11-23"
         ],
         "last_comment_date": "",
         "total_deducted": 5,
@@ -34837,7 +34838,6 @@
         "new_logs": [],
         "processed_comments": [],
         "processed_projects": [
-            "1380737273",
             "1381816313",
             "1381790605",
             "1381771188",
@@ -34936,10 +34936,10 @@
             "1439883813",
             "1439565943",
             "1441317638",
-            "1442469602"
+            "1442469602",
+            "1443181650"
         ],
         "processed_activities": [
-            "addprojecttostudio-350048363",
             "addprojecttostudio-350539042",
             "addprojecttostudio-350522706",
             "addprojecttostudio-350563828",
@@ -35038,10 +35038,11 @@
             "addprojecttostudio-358245640",
             "addprojecttostudio-358754575",
             "addprojecttostudio-358913649",
-            "addprojecttostudio-359267477"
+            "addprojecttostudio-359267477",
+            "addprojecttostudio-359673139"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-19"
+        "last_project_date": "2026-11-23"
     },
     "ravocsirex": {
         "score": 100,
@@ -36104,7 +36105,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-10"
+            "2026-11-23"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -36116,17 +36117,19 @@
             "1380877378",
             "1397027403",
             "1398789516",
-            "1438236330"
+            "1438236330",
+            "1292921769"
         ],
         "processed_activities": [
             "addprojecttostudio-347896916",
             "addprojecttostudio-348244354",
             "addprojecttostudio-355702208",
             "addprojecttostudio-356708507",
-            "addprojecttostudio-357664977"
+            "addprojecttostudio-357664977",
+            "addprojecttostudio-359667642"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-10"
+        "last_project_date": "2026-11-23"
     },
     "heidama123": {
         "score": 100,
@@ -89879,6 +89882,12 @@
                     "author": "anphuc3009",
                     "content": "nhờ @cunken?",
                     "datetime_created": "2026-11-22T13:05:34.000Z"
+                },
+                "337773162": {
+                    "id": "337773162",
+                    "author": "gaua7",
+                    "content": "c&oacute; c&aacute;i bồn cầu",
+                    "datetime_created": "2026-11-22T23:02:43.000Z"
                 }
             }
         }
