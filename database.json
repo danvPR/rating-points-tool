@@ -10806,7 +10806,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-22"
+            "2026-11-24"
         ],
         "last_comment_date": "2026-11-06",
         "total_deducted": 0,
@@ -10860,7 +10860,8 @@
             "337323826",
             "337562244",
             "337562446",
-            "337748963"
+            "337748963",
+            "337871231"
         ],
         "processed_projects": [
             "1350315548"
@@ -22701,7 +22702,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-23"
+            "2026-11-24"
         ],
         "last_comment_date": "2026-11-20",
         "total_deducted": 0,
@@ -22764,7 +22765,9 @@
             "addprojecttostudio-356061643",
             "addprojecttostudio-356445164",
             "addprojecttostudio-356607062",
-            "addprojecttostudio-357570605"
+            "addprojecttostudio-357570605",
+            "addprojecttostudio-359850229",
+            "addprojecttostudio-359849233"
         ],
         "projects_today": 1,
         "last_project_date": "2026-11-23"
@@ -59485,7 +59488,7 @@
     },
     "anphuc3009": {
         "active_dates": [
-            "2026-11-23"
+            "2026-11-24"
         ],
         "last_comment_date": "2026-11-08",
         "total_deducted": 0,
@@ -59526,7 +59529,8 @@
             "1442206496",
             "1436662399",
             "1442867559",
-            "1440823852"
+            "1440823852",
+            "1443111944"
         ],
         "processed_activities": [
             "becomecurator-158530737",
@@ -59553,10 +59557,11 @@
             "addprojecttostudio-359586660",
             "addprojecttostudio-359586659",
             "addprojecttostudio-359585310",
-            "addprojecttostudio-359749371"
+            "addprojecttostudio-359749371",
+            "addprojecttostudio-359848022"
         ],
-        "projects_today": 3,
-        "last_project_date": "2026-11-22"
+        "projects_today": 1,
+        "last_project_date": "2026-11-24"
     },
     "hung_7654jilo": {
         "active_dates": [
@@ -89987,6 +89992,12 @@
                     "author": "Giahung1101",
                     "content": "s stu n&agrave;y vẫn h&dstrok; hay v=))",
                     "datetime_created": "2026-11-23T11:30:59.000Z"
+                },
+                "337871231": {
+                    "id": "337871231",
+                    "author": "cas_fal",
+                    "content": "b&acirc;y h kh&aacute;c rồi hồi xưa vui hơn",
+                    "datetime_created": "2026-11-24T02:24:59.000Z"
                 }
             }
         },
@@ -90189,6 +90200,12 @@
                     "author": "ReallySopa",
                     "content": "Ch&uacute;c may mắn xanh nh&eacute;! <img src=\"/images/emoji/meow.png\" class=\"emoji\" alt=\"meow emoji\"> ☘️",
                     "datetime_created": "2026-11-23T14:35:40.000Z"
+                },
+                "337871201": {
+                    "id": "337871201",
+                    "author": "BanTinScratch_VN",
+                    "content": "bao giờ mới c&oacute; scratch 4.0 vậy",
+                    "datetime_created": "2026-11-24T02:24:42.000Z"
                 }
             }
         }
@@ -104732,5 +104749,37 @@
         "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-11-24"
+    },
+    "grid123456": {
+        "active_dates": [
+            "2026-11-24"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1443484063"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-11-24"
+    },
+    "BanTinScratch_VN": {
+        "active_dates": [
+            "2026-11-24"
+        ],
+        "last_comment_date": "2026-11-24",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "337871201"
+        ],
+        "processed_projects": [],
+        "processed_activities": [],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
