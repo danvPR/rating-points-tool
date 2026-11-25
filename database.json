@@ -18136,16 +18136,22 @@
     "creatorCHA": {
         "score": 100,
         "tier": "XS",
-        "active_dates": [],
+        "active_dates": [
+            "2026-11-25"
+        ],
         "last_comment_date": "",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [],
-        "processed_projects": [],
-        "processed_activities": [],
-        "projects_today": 0,
-        "last_project_date": ""
+        "processed_projects": [
+            "1441496412"
+        ],
+        "processed_activities": [
+            "addprojecttostudio-359992524"
+        ],
+        "projects_today": 1,
+        "last_project_date": "2026-11-25"
     },
     "ZzSays_Season1": {
         "score": 100,
@@ -37096,7 +37102,7 @@
         "score": 90,
         "tier": "XS",
         "active_dates": [
-            "2026-11-23"
+            "2026-11-25"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -37138,7 +37144,8 @@
             "1436355121",
             "1442004896",
             "1442005185",
-            "1443247767"
+            "1443247767",
+            "1444069846"
         ],
         "processed_activities": [
             "addprojecttostudio-341667514",
@@ -37177,10 +37184,11 @@
             "addprojecttostudio-357410403",
             "addprojecttostudio-359145008",
             "addprojecttostudio-359144927",
-            "addprojecttostudio-359685933"
+            "addprojecttostudio-359685933",
+            "addprojecttostudio-359988876"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-23"
+        "last_project_date": "2026-11-25"
     },
     "ThatOneGuy2976": {
         "score": 100,
@@ -49462,7 +49470,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-10"
+            "2026-11-25"
         ],
         "last_comment_date": "2026-09-04",
         "total_deducted": 0,
@@ -49492,7 +49500,8 @@
             "1383007590",
             "1383061967",
             "1387375375",
-            "1438171403"
+            "1438171403",
+            "1443689053"
         ],
         "processed_activities": [
             "addprojecttostudio-335365974",
@@ -49517,10 +49526,11 @@
             "addprojecttostudio-349155872",
             "addprojecttostudio-349197131",
             "addprojecttostudio-351115728",
-            "addprojecttostudio-357635101"
+            "addprojecttostudio-357635101",
+            "addprojecttostudio-359987411"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-10"
+        "last_project_date": "2026-11-25"
     },
     "Thaodieptinhoctre": {
         "score": 100,
@@ -65761,7 +65771,7 @@
     },
     "chris_on_scratch2": {
         "active_dates": [
-            "2026-11-05"
+            "2026-11-25"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -65771,7 +65781,8 @@
         "processed_projects": [
             "1379619113",
             "1381159014",
-            "1403518690"
+            "1403518690",
+            "1399375913"
         ],
         "processed_activities": [
             "becomecurator-158512576",
@@ -65784,10 +65795,11 @@
             "removeprojectstudio-85203389",
             "removeprojectstudio-85616582",
             "addprojecttostudio-356616588",
-            "addprojecttostudio-356860806"
+            "addprojecttostudio-356860806",
+            "addprojecttostudio-359987566"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-05"
+        "last_project_date": "2026-11-25"
     },
     "katuo2525": {
         "active_dates": [
