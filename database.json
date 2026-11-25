@@ -10660,7 +10660,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-24"
+            "2026-11-25"
         ],
         "last_comment_date": "2026-11-06",
         "total_deducted": 0,
@@ -10693,7 +10693,8 @@
             "337639670",
             "337640635",
             "337680186",
-            "337902567"
+            "337902567",
+            "337957569"
         ],
         "processed_projects": [
             "1331722411",
@@ -16300,7 +16301,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-10"
+            "2026-11-25"
         ],
         "last_comment_date": "2026-11-04",
         "total_deducted": 0,
@@ -16375,7 +16376,8 @@
             "336768935",
             "336798903",
             "336798803",
-            "336807008"
+            "336807008",
+            "337953567"
         ],
         "processed_projects": [
             "1365026227",
@@ -29976,7 +29978,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-17"
+            "2026-11-25"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -29997,7 +29999,8 @@
             "1390579662",
             "1397928700",
             "1433781811",
-            "1439405629"
+            "1439405629",
+            "1441568851"
         ],
         "processed_activities": [
             "addprojecttostudio-342305210",
@@ -30025,10 +30028,11 @@
             "addprojecttostudio-357550775",
             "addprojecttostudio-357886754",
             "removeprojectstudio-85838062",
-            "addprojecttostudio-358913588"
+            "addprojecttostudio-358913588",
+            "addprojecttostudio-360013082"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-17"
+        "last_project_date": "2026-11-25"
     },
     "truongcaovinhan": {
         "score": 100,
@@ -90366,6 +90370,20 @@
             "content": "heloo mn\n",
             "datetime_created": "2026-11-24T08:56:48.000Z",
             "replies": {}
+        },
+        "337953567": {
+            "id": "337953567",
+            "author": "miyo12345",
+            "content": "&dstrok;&acirc;y l&agrave; video mới nhất của DANV :0 DANV mới &dstrok;&abreve;ng g&igrave; n&egrave; anh em! https://www.youtube.com/watch?v=dQw4w9WgXcQ&amp;list=RDdQw4w9WgXcQ&amp;start_radio=1 g&otilde; c&aacute;i n&agrave;y l&ecirc;n google &aacute;",
+            "datetime_created": "2026-11-25T02:22:10.000Z",
+            "replies": {
+                "337957569": {
+                    "id": "337957569",
+                    "author": "FleirosAnimator",
+                    "content": "100% rick cuộn",
+                    "datetime_created": "2026-11-25T03:50:23.000Z"
+                }
+            }
         }
     },
     "Thai_hung": {
@@ -104551,7 +104569,7 @@
     },
     "haiteen": {
         "active_dates": [
-            "2026-11-23"
+            "2026-11-25"
         ],
         "last_comment_date": "2026-11-20",
         "total_deducted": 0,
@@ -104586,7 +104604,8 @@
         "processed_activities": [
             "addprojecttostudio-359063410",
             "becomecurator-160626583",
-            "addprojecttostudio-359167310"
+            "addprojecttostudio-359167310",
+            "addprojecttostudio-360020087"
         ],
         "projects_today": 1,
         "last_project_date": "2026-11-18"
@@ -105050,5 +105069,21 @@
         "processed_activities": [],
         "projects_today": 1,
         "last_project_date": "2026-11-24"
+    },
+    "chickensoup_3": {
+        "active_dates": [
+            "2026-11-25"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1442385293"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-11-25"
     }
 }
