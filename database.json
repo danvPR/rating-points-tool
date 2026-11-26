@@ -13789,12 +13789,11 @@
         "active_dates": [
             "2026-11-25"
         ],
-        "last_comment_date": "2026-10-25",
+        "last_comment_date": "2026-10-27",
         "total_deducted": 0,
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "332176133",
             "332176113",
             "332218346",
             "332221820",
@@ -14043,7 +14042,8 @@
             "337988403",
             "337987917",
             "337988197",
-            "337971288"
+            "337971288",
+            "338018691"
         ],
         "processed_projects": [
             "1332031524",
@@ -31580,7 +31580,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-24"
+            "2026-11-26"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -31647,7 +31647,8 @@
             "1440303290",
             "1440436996",
             "1440508326",
-            "1443913557"
+            "1443913557",
+            "1444423981"
         ],
         "processed_activities": [
             "addprojecttostudio-335552352",
@@ -31704,10 +31705,12 @@
             "addprojecttostudio-358526027",
             "addprojecttostudio-358631106",
             "addprojecttostudio-358627808",
-            "addprojecttostudio-359954606"
+            "addprojecttostudio-359954606",
+            "addprojecttostudio-360101949",
+            "addprojecttostudio-360089421"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-24"
+        "last_project_date": "2026-11-26"
     },
     "EspeonSiamese123": {
         "score": 100,
@@ -33572,7 +33575,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-25"
+            "2026-11-26"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -33584,16 +33587,18 @@
             "1382919988",
             "1442980663",
             "1443673643",
-            "1444384011"
+            "1444384011",
+            "1444400394"
         ],
         "processed_activities": [
             "addprojecttostudio-335278735",
             "addprojecttostudio-349076749",
             "addprojecttostudio-359503160",
-            "addprojecttostudio-360086029"
+            "addprojecttostudio-360086029",
+            "addprojecttostudio-360094045"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-25"
+        "last_project_date": "2026-11-26"
     },
     "abhaithebest": {
         "score": 100,
@@ -65809,7 +65814,7 @@
     },
     "chris_on_scratch2": {
         "active_dates": [
-            "2026-11-25"
+            "2026-11-26"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -65820,7 +65825,8 @@
             "1379619113",
             "1381159014",
             "1403518690",
-            "1399375913"
+            "1399375913",
+            "1442782275"
         ],
         "processed_activities": [
             "becomecurator-158512576",
@@ -65834,10 +65840,11 @@
             "removeprojectstudio-85616582",
             "addprojecttostudio-356616588",
             "addprojecttostudio-356860806",
-            "addprojecttostudio-359987566"
+            "addprojecttostudio-359987566",
+            "addprojecttostudio-360092068"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-25"
+        "last_project_date": "2026-11-26"
     },
     "katuo2525": {
         "active_dates": [
@@ -90485,6 +90492,12 @@
                     "author": "tomyesss",
                     "content": "ok thế bao giờ c&oacute;\n100000nawm nx &agrave;\n",
                     "datetime_created": "2026-11-25T13:43:00.000Z"
+                },
+                "338018691": {
+                    "id": "338018691",
+                    "author": "gaua7",
+                    "content": "Ai biết\n",
+                    "datetime_created": "2026-11-25T23:27:48.000Z"
                 }
             }
         },
@@ -90541,6 +90554,13 @@
             "author": "gaua7",
             "content": "Fact: @cunken l&agrave; femboi",
             "datetime_created": "2026-11-25T09:32:36.000Z",
+            "replies": {}
+        },
+        "338015789": {
+            "id": "338015789",
+            "author": "JackHammer25",
+            "content": "sorry it took me a year to join",
+            "datetime_created": "2026-11-25T22:29:45.000Z",
             "replies": {}
         }
     },
@@ -105280,5 +105300,23 @@
         ],
         "projects_today": 2,
         "last_project_date": "2026-11-25"
+    },
+    "JackHammer25": {
+        "active_dates": [
+            "2026-11-25"
+        ],
+        "last_comment_date": "2026-11-25",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [
+            "338015789"
+        ],
+        "processed_projects": [],
+        "processed_activities": [
+            "becomecurator-160786327"
+        ],
+        "projects_today": 0,
+        "last_project_date": ""
     }
 }
