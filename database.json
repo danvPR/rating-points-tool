@@ -11204,12 +11204,6 @@
             "1441151519"
         ],
         "processed_activities": [
-            "addprojecttostudio-359404939",
-            "removeprojectstudio-86080361",
-            "addprojecttostudio-359404873",
-            "removeprojectstudio-86080333",
-            "addprojecttostudio-359454794",
-            "removeprojectstudio-86089722",
             "addprojecttostudio-359454767",
             "removeprojectstudio-86089706",
             "addprojecttostudio-359454736",
@@ -11303,7 +11297,13 @@
             "removeprojectstudio-86212580",
             "addprojecttostudio-360188308",
             "removeprojectstudio-86212569",
-            "addprojecttostudio-360179511"
+            "addprojecttostudio-360179511",
+            "addprojecttostudio-360239673",
+            "removeprojectstudio-86220972",
+            "addprojecttostudio-360239585",
+            "removeprojectstudio-86220941",
+            "addprojecttostudio-360239415",
+            "removeprojectstudio-86220899"
         ],
         "projects_today": 1,
         "last_project_date": "2026-11-25"
@@ -31584,7 +31584,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-26"
+            "2026-11-27"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -31652,7 +31652,10 @@
             "1440436996",
             "1440508326",
             "1443913557",
-            "1444423981"
+            "1444423981",
+            "1210104757",
+            "1393763559",
+            "1444407439"
         ],
         "processed_activities": [
             "addprojecttostudio-335552352",
@@ -31711,10 +31714,13 @@
             "addprojecttostudio-358627808",
             "addprojecttostudio-359954606",
             "addprojecttostudio-360101949",
-            "addprojecttostudio-360089421"
+            "addprojecttostudio-360089421",
+            "addprojecttostudio-360245173",
+            "addprojecttostudio-360241140",
+            "addprojecttostudio-360237969"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-11-26"
+        "projects_today": 3,
+        "last_project_date": "2026-11-27"
     },
     "EspeonSiamese123": {
         "score": 100,
@@ -34287,7 +34293,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-25"
+            "2026-11-27"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -34337,7 +34343,9 @@
             "1439884179",
             "1438165524",
             "1442002079",
-            "1444355766"
+            "1444355766",
+            "1444560475",
+            "1444841254"
         ],
         "processed_activities": [
             "removeprojectstudio-84001528",
@@ -34393,10 +34401,12 @@
             "addprojecttostudio-358939693",
             "addprojecttostudio-358987252",
             "addprojecttostudio-359150597",
-            "addprojecttostudio-360086544"
+            "addprojecttostudio-360086544",
+            "addprojecttostudio-360277035",
+            "addprojecttostudio-360253259"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-11-25"
+        "projects_today": 2,
+        "last_project_date": "2026-11-27"
     },
     "sky_vn": {
         "score": 100,
@@ -52145,7 +52155,9 @@
             "2026-11-19",
             "2026-11-22",
             "2026-11-24",
-            "2026-11-25"
+            "2026-11-25",
+            "2026-11-26",
+            "2026-11-27"
         ],
         "last_comment_date": "",
         "total_deducted": 5,
@@ -52224,7 +52236,9 @@
             "1442404692",
             "1443143349",
             "1443184025",
-            "1444377638"
+            "1444377638",
+            "1444909890",
+            "1311281822"
         ],
         "processed_activities": [
             "addprojecttostudio-335268024",
@@ -52303,10 +52317,12 @@
             "addprojecttostudio-359255211",
             "addprojecttostudio-359620785",
             "addprojecttostudio-359938241",
-            "addprojecttostudio-360085866"
+            "addprojecttostudio-360085866",
+            "addprojecttostudio-360272022",
+            "addprojecttostudio-360255704"
         ],
-        "projects_today": 1,
-        "last_project_date": "2026-11-25"
+        "projects_today": 2,
+        "last_project_date": "2026-11-27"
     },
     "Luialf25": {
         "score": 100,
@@ -56792,7 +56808,8 @@
             "337820853",
             "337821524",
             "337968337",
-            "338049527"
+            "338049527",
+            "338068056"
         ],
         "processed_projects": [
             "1345850613",
@@ -90631,7 +90648,14 @@
             "author": "CanhThienNek",
             "content": "T&igrave;nh trạng của c&aacute;c lớp hiện h: 1. farm aura, 2. Speedrun rubik, 3. B&oacute;p squishy, 4.G&otilde; b&agrave;n ph&iacute;m ( v&agrave; t&ocirc;i ko trong c&aacute;i n&agrave;o hết, &dstrok;ơn giản v&igrave; t&ocirc;i ko &dstrok;ủ ngầu &dstrok;ể farm aura, ko bt chs rubik v&agrave; ba c&aacute;i squishy b&agrave;n ph&iacute;m j ấy l&agrave; chả c&oacute; thg con trai n&agrave;o chs )",
             "datetime_created": "2026-11-26T11:02:09.000Z",
-            "replies": {}
+            "replies": {
+                "338068056": {
+                    "id": "338068056",
+                    "author": "bicoidev",
+                    "content": "lớp t c&ograve;n c&oacute; 2 t&igrave;nh trạng nx l&agrave; &dstrok;&aacute;nh b&agrave;i vs chs cờ vua :&apos;)",
+                    "datetime_created": "2026-11-26T16:04:50.000Z"
+                }
+            }
         },
         "338049527": {
             "id": "338049527",
@@ -97806,7 +97830,7 @@
     },
     "linhnhi14": {
         "active_dates": [
-            "2026-11-23"
+            "2026-11-27"
         ],
         "last_comment_date": "2026-10-23",
         "total_deducted": 0,
@@ -97847,7 +97871,8 @@
             "1440343017",
             "1440354146",
             "1440352527",
-            "1443423761"
+            "1443423761",
+            "1444826062"
         ],
         "processed_activities": [
             "addprojecttostudio-347335855",
@@ -97874,10 +97899,11 @@
             "addprojecttostudio-358557339",
             "addprojecttostudio-358542133",
             "addprojecttostudio-358535134",
-            "addprojecttostudio-359748080"
+            "addprojecttostudio-359748080",
+            "addprojecttostudio-360235075"
         ],
         "projects_today": 1,
-        "last_project_date": "2026-11-23"
+        "last_project_date": "2026-11-27"
     },
     "maruku422": {
         "active_dates": [
