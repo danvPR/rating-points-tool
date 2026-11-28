@@ -13803,10 +13803,6 @@
         "new_comments": [],
         "new_logs": [],
         "processed_comments": [
-            "332243102",
-            "332242887",
-            "332243209",
-            "332243338",
             "332242829",
             "332287836",
             "332514510",
@@ -14052,7 +14048,11 @@
             "338018691",
             "338121189",
             "338121080",
-            "338121094"
+            "338121094",
+            "338155192",
+            "338155180",
+            "338155147",
+            "338155246"
         ],
         "processed_projects": [
             "1332031524",
@@ -18231,7 +18231,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-22"
+            "2026-11-27"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -18265,7 +18265,8 @@
             "addprojecttostudio-357262169",
             "addprojecttostudio-357932169",
             "addprojecttostudio-359618065",
-            "addprojecttostudio-359617178"
+            "addprojecttostudio-359617178",
+            "addprojecttostudio-360423253"
         ],
         "projects_today": 1,
         "last_project_date": "2026-11-07"
@@ -49418,7 +49419,7 @@
         "score": 100,
         "tier": "XS",
         "active_dates": [
-            "2026-11-23"
+            "2026-11-27"
         ],
         "last_comment_date": "",
         "total_deducted": 0,
@@ -49442,7 +49443,8 @@
             "addprojecttostudio-355377413",
             "addprojecttostudio-355917976",
             "addprojecttostudio-358869876",
-            "addprojecttostudio-359802030"
+            "addprojecttostudio-359802030",
+            "addprojecttostudio-360439077"
         ],
         "projects_today": 1,
         "last_project_date": "2026-11-17"
@@ -90674,6 +90676,12 @@
                     "author": "cunken",
                     "content": "m&agrave;y stop ;-;",
                     "datetime_created": "2026-11-27T13:15:47.000Z"
+                },
+                "338155246": {
+                    "id": "338155246",
+                    "author": "gaua7",
+                    "content": "why",
+                    "datetime_created": "2026-11-27T23:35:25.000Z"
                 }
             }
         },
@@ -90877,6 +90885,18 @@
                     "author": "ScratcherGame_010_",
                     "content": "c&oacute; j bn add gi&ugrave;m mik dự &aacute;n n&agrave;y nha: https://scratch.mit.edu/projects/1444965954/",
                     "datetime_created": "2026-11-27T13:28:23.000Z"
+                },
+                "338155147": {
+                    "id": "338155147",
+                    "author": "gaua7",
+                    "content": "lần sau muốn add dự &aacute;n th&igrave; phải ghi r&otilde; nh&eacute;",
+                    "datetime_created": "2026-11-27T23:34:01.000Z"
+                },
+                "338155253": {
+                    "id": "338155253",
+                    "author": "ScratcherGame_010_",
+                    "content": "Cảm ơn bn. ",
+                    "datetime_created": "2026-11-27T23:35:29.000Z"
                 }
             }
         },
@@ -90927,7 +90947,14 @@
             "author": "fish_exe_",
             "content": "cho mik v&agrave;o &dstrok;c ko ",
             "datetime_created": "2026-11-27T14:42:25.000Z",
-            "replies": {}
+            "replies": {
+                "338155192": {
+                    "id": "338155192",
+                    "author": "gaua7",
+                    "content": "Ch&agrave;o mừng &dstrok;ến với StudioDANV! Bạn h&atilde;y tu&acirc;n thủ theo quy &dstrok;ịnh của Studio! https://scratch.mit.edu/projects/1380976637/",
+                    "datetime_created": "2026-11-27T23:34:35.000Z"
+                }
+            }
         },
         "338129036": {
             "id": "338129036",
@@ -90953,6 +90980,12 @@
                     "author": "gaua7",
                     "content": "Ch&agrave;o mừng &dstrok;ến với StudioDANV! Bạn h&atilde;y tu&acirc;n thủ theo quy &dstrok;ịnh của Studio! https://scratch.mit.edu/projects/1380976637/",
                     "datetime_created": "2026-11-27T12:29:43.000Z"
+                },
+                "338155180": {
+                    "id": "338155180",
+                    "author": "gaua7",
+                    "content": "Ch&agrave;o mừng &dstrok;ến với StudioDANV! Bạn h&atilde;y tu&acirc;n thủ theo quy &dstrok;ịnh của Studio! https://scratch.mit.edu/projects/1380976637/",
+                    "datetime_created": "2026-11-27T23:34:24.000Z"
                 }
             }
         }
@@ -105776,7 +105809,8 @@
             "338094003",
             "338122004",
             "338124913",
-            "338125778"
+            "338125778",
+            "338155253"
         ],
         "processed_projects": [
             "1444965954",
@@ -105819,5 +105853,37 @@
         "processed_activities": [],
         "projects_today": 0,
         "last_project_date": ""
+    },
+    "gameidge": {
+        "active_dates": [
+            "2026-11-28"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1444187175"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-11-28"
+    },
+    "MrDuckydoo": {
+        "active_dates": [
+            "2026-11-28"
+        ],
+        "last_comment_date": "",
+        "total_deducted": 0,
+        "new_comments": [],
+        "new_logs": [],
+        "processed_comments": [],
+        "processed_projects": [
+            "1443890785"
+        ],
+        "processed_activities": [],
+        "projects_today": 1,
+        "last_project_date": "2026-11-28"
     }
 }
